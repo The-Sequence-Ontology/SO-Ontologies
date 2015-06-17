@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1322783996066 "http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:Ontology1322783996066="http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#about -->
+
+    <owl:ObjectProperty rdf:about="#about"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#completely_created_from_complete_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#completely_created_from_complete_template_sequence">
+        <rdfs:comment
+            >e.g.:
+DNA -&gt; DNA
+DNA codon -&gt; RNA codon
+RNA sequence for immature peptide region -&gt; immature peptide region
+DNA sequence for immature peptide region -&gt; RNA sequence for immature peptide region</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="#created_from_template_sequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#completely_created_from_part_of_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#completely_created_from_part_of_template_sequence">
+        <rdfs:comment
+            >e.g., transcript -&gt; peptide; transcript -&gt; EST</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="#created_from_template_sequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#created_from_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#created_from_template_sequence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#denotes -->
+
+    <owl:ObjectProperty rdf:about="#denotes">
+        <rdfs:subPropertyOf rdf:resource="#about"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#directly_created_from_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#directly_created_from_template_sequence">
+        <rdfs:subPropertyOf rdf:resource="#created_from_template_sequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#indirectly_created_from_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#indirectly_created_from_template_sequence">
+        <rdfs:subPropertyOf rdf:resource="#created_from_template_sequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#part_of -->
+
+    <owl:ObjectProperty rdf:about="#part_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#partly_created_from_complete_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#partly_created_from_complete_template_sequence">
+        <rdfs:comment
+            >e.g., gene -&gt; plasmid; promoter -&gt; fusion gene</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="#created_from_template_sequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#partly_created_from_part_of_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#partly_created_from_part_of_template_sequence">
+        <rdfs:comment
+            >e.g., fusion transcript -&gt; fusion peptide</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="#created_from_template_sequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#proper_part_of -->
+
+    <owl:ObjectProperty rdf:about="#proper_part_of">
+        <rdfs:subPropertyOf rdf:resource="#part_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#transcribed_from_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#transcribed_from_template_sequence">
+        <rdfs:subPropertyOf rdf:resource="#directly_created_from_template_sequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#translated_from_template_sequence -->
+
+    <owl:ObjectProperty rdf:about="#translated_from_template_sequence">
+        <rdfs:subPropertyOf rdf:resource="#directly_created_from_template_sequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#DNA_molecule -->
+
+    <owl:Class rdf:about="#DNA_molecule">
+        <rdfs:subClassOf rdf:resource="#DNA_sequence"/>
+        <rdfs:subClassOf rdf:resource="#nucleic_acid_molecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#DNA_sequence -->
+
+    <owl:Class rdf:about="#DNA_sequence">
+        <rdfs:subClassOf rdf:resource="#nucleic_acid_sequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#DNA_subsequence -->
+
+    <owl:Class rdf:about="#DNA_subsequence">
+        <rdfs:subClassOf rdf:resource="#DNA_sequence"/>
+        <rdfs:subClassOf rdf:resource="#nucleic_acid_subsequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#DNA_subsequence_for_immature_peptide_region -->
+
+    <owl:Class rdf:about="#DNA_subsequence_for_immature_peptide_region">
+        <rdfs:subClassOf rdf:resource="#DNA_subsequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#DNA_subsequence_for_primary_transcript_region -->
+
+    <owl:Class rdf:about="#DNA_subsequence_for_primary_transcript_region">
+        <rdfs:subClassOf rdf:resource="#DNA_subsequence_for_transcript_region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#DNA_subsequence_for_transcript_region -->
+
+    <owl:Class rdf:about="#DNA_subsequence_for_transcript_region">
+        <rdfs:subClassOf rdf:resource="#DNA_subsequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#ICE_informational_biomacromolecular_sequence -->
+
+    <owl:Class rdf:about="#ICE_informational_biomacromolecular_sequence">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#information_content_entity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#denotes"/>
+                        <owl:someValuesFrom rdf:resource="#informational_biomacromolecular_sequence"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="#information_content_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#RNA_molecule -->
+
+    <owl:Class rdf:about="#RNA_molecule">
+        <rdfs:subClassOf rdf:resource="#RNA_sequence"/>
+        <rdfs:subClassOf rdf:resource="#nucleic_acid_molecule"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#DNA_molecule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#RNA_sequence -->
+
+    <owl:Class rdf:about="#RNA_sequence">
+        <rdfs:subClassOf rdf:resource="#nucleic_acid_sequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#DNA_sequence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#RNA_subsequence -->
+
+    <owl:Class rdf:about="#RNA_subsequence">
+        <rdfs:subClassOf rdf:resource="#RNA_sequence"/>
+        <rdfs:subClassOf rdf:resource="#nucleic_acid_subsequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#DNA_subsequence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#RNA_subsequence_for_immature_peptide_region -->
+
+    <owl:Class rdf:about="#RNA_subsequence_for_immature_peptide_region">
+        <rdfs:subClassOf rdf:resource="#RNA_subsequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#DNA_subsequence_for_immature_peptide_region"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#immature_peptide_region -->
+
+    <owl:Class rdf:about="#immature_peptide_region">
+        <rdfs:subClassOf rdf:resource="#peptide_subsequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#RNA_subsequence_for_immature_peptide_region"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#information_content_entity -->
+
+    <owl:Class rdf:about="#information_content_entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#informational_biomacromolecular_sequence -->
+
+    <owl:Class rdf:about="#informational_biomacromolecular_sequence">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#informational_biomacromolecular_subsequence -->
+
+    <owl:Class rdf:about="#informational_biomacromolecular_subsequence">
+        <rdfs:subClassOf rdf:resource="#informational_biomacromolecular_sequence"/>
+        <owl:disjointWith rdf:resource="#informational_biomacromolecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#informational_biomacromolecule -->
+
+    <owl:Class rdf:about="#informational_biomacromolecule">
+        <rdfs:subClassOf rdf:resource="#informational_biomacromolecular_sequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#nucleic_acid_molecule -->
+
+    <owl:Class rdf:about="#nucleic_acid_molecule">
+        <rdfs:subClassOf rdf:resource="#informational_biomacromolecule"/>
+        <rdfs:subClassOf rdf:resource="#nucleic_acid_sequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#nucleic_acid_sequence -->
+
+    <owl:Class rdf:about="#nucleic_acid_sequence">
+        <rdfs:subClassOf rdf:resource="#informational_biomacromolecular_sequence"/>
+        <owl:disjointWith rdf:resource="#peptide_sequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#nucleic_acid_subsequence -->
+
+    <owl:Class rdf:about="#nucleic_acid_subsequence">
+        <rdfs:subClassOf rdf:resource="#informational_biomacromolecular_subsequence"/>
+        <rdfs:subClassOf rdf:resource="#nucleic_acid_sequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#peptide_molecule -->
+
+    <owl:Class rdf:about="#peptide_molecule">
+        <rdfs:subClassOf rdf:resource="#informational_biomacromolecule"/>
+        <rdfs:subClassOf rdf:resource="#peptide_sequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#RNA_molecule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#peptide_sequence -->
+
+    <owl:Class rdf:about="#peptide_sequence">
+        <rdfs:subClassOf rdf:resource="#informational_biomacromolecular_sequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#RNA_sequence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#peptide_subsequence -->
+
+    <owl:Class rdf:about="#peptide_subsequence">
+        <rdfs:subClassOf rdf:resource="#informational_biomacromolecular_subsequence"/>
+        <rdfs:subClassOf rdf:resource="#peptide_sequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#RNA_subsequence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#primary_transcript_region -->
+
+    <owl:Class rdf:about="#primary_transcript_region">
+        <rdfs:subClassOf rdf:resource="#transcript_region"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#DNA_subsequence_for_primary_transcript_region"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/11/Ontology1322783996066.owl#transcript_region -->
+
+    <owl:Class rdf:about="#transcript_region">
+        <rdfs:subClassOf rdf:resource="#RNA_subsequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#created_from_template_sequence"/>
+                <owl:someValuesFrom rdf:resource="#DNA_subsequence_for_transcript_region"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+
