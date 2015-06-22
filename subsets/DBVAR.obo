@@ -17,10 +17,11 @@ ontology: so-xp/subsets/DBVAR
 id: SO:0000199
 name: translocation
 namespace: sequence
-def: "A region of nucleotide sequence that has translocated to a new position." [SO:ke]
+def: "A region of nucleotide sequence that has translocated to a new position. The observed adjacency of two previously separated regions." [NCBI:th, SO:ke]
 subset: DBVAR
 synonym: "transchr" RELATED [http://www.ncbi.nlm.nih.gov/dbvar/]
 synonym: "translocated sequence" EXACT []
+is_a: SO:0001785 ! structural_alteration
 
 [Term]
 id: SO:0000667
@@ -73,9 +74,12 @@ creation_date: 2011-02-28T02:01:05Z
 id: SO:0001784
 name: complex_structural_alteration
 namespace: sequence
-def: "A structural sequence alteration or rearrangement encompassing one or more genome fragments." [NCBI:th, SO:ke]
+alt_id: SO:1000146
+def: "A structural sequence alteration or rearrangement encompassing one or more genome fragments, with 4 or more breakpoints." [FB:reference_manual, NCBI:th, SO:ke]
 subset: DBVAR
 synonym: "complex" RELATED dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+synonym: "complex chromosomal mutation" EXACT []
+synonym: "complex_chromosomal_mutation" EXACT []
 is_a: SO:0001785 ! structural_alteration
 created_by: kareneilbeck
 creation_date: 2011-03-23T03:21:19Z

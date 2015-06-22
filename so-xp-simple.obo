@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:05:2015 13:11
+date: 22:06:2015 10:18
 saved-by: kareneilbeck
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -881,7 +881,6 @@ subset: SOFA
 synonym: "located sequence feature" RELATED []
 synonym: "located_sequence_feature" EXACT []
 synonym: "sequence feature" EXACT []
-disjoint_from: SO:0000240 ! chromosome_variation
 disjoint_from: SO:0000400 ! sequence_attribute
 
 [Term]
@@ -1661,11 +1660,11 @@ is_a: SO:0000147 ! exon
 [Term]
 id: SO:0000199
 name: translocation
-def: "A region of nucleotide sequence that has translocated to a new position." [SO:ke]
+def: "A region of nucleotide sequence that has translocated to a new position. The observed adjacency of two previously separated regions." [NCBI:th, SO:ke]
 subset: DBVAR
 synonym: "transchr" RELATED [http://www.ncbi.nlm.nih.gov/dbvar/]
 synonym: "translocated sequence" EXACT []
-is_a: SO:0001059 ! sequence_alteration
+is_a: SO:0001785 ! structural_alteration
 
 [Term]
 id: SO:0000200
@@ -2625,7 +2624,7 @@ is_a: SO:0000122 ! RNA_sequence_secondary_structure
 [Term]
 id: SO:0000314
 name: direct_repeat
-def: "A repeat where the same sequence is repeated in the same direction. Example: GCTGA-----GCTGA." [SO:ke]
+def: "A repeat where the same sequence is repeated in the same direction. Example: GCTGA-followed by-GCTGA." [SO:ke]
 subset: SOFA
 synonym: "direct repeat" EXACT []
 xref: http://en.wikipedia.org/wiki/Direct_repeat "wiki"
@@ -5091,7 +5090,7 @@ is_a: SO:0000655 ! ncRNA
 [Term]
 id: SO:0000603
 name: group_II_intron
-def: "Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi, plants and protists, and also in mRNA in bacteria. They are large self-splicing ribozymes and have 6 structural domains (usually designated dI to dVI). A subset of group II introns also encode essential splicing proteins in intronic ORFs. The length of these introns can therefore be up to 3kb. Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing with two transesterification steps. The 2' hydroxyl of a bulged adenosine in domain VI attacks the 5' splice site, followed by nucleophilic attack on the 3' splice site by the 3' OH of the upstream exon. Protein machinery is required for splicing in vivo, and long range intron-intron and intron-exon interactions are important for splice site positioning. Group II introns are further sub-classified into groups IIA and IIB which differ in splice site consensus, distance of bulged A from 3' splice site, some tertiary interactions, and intronic ORF phylogeny." [http://www.sanger.ac.uk/Software/Rfam/browse/index.shtml]
+def: "Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi, plants and protists, and also in mRNA in bacteria. They are large self-splicing ribozymes and have 6 structural domains (usually designated dI to dVI). A subset of group II introns also encode essential splicing proteins in intronic ORFs. The length of these introns can therefore be up to 3kb. Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing with two transesterification steps. The 2' hydroxyl of a bulged adenosine in domain VI attacks the 5' splice site, followed by nucleophilic attack on the 3' splice site by the 3' OH of the upstream exon. Protein machinery is required for splicing in vivo, and long range intron to intron and intron-exon interactions are important for splice site positioning. Group II introns are further sub-classified into groups IIA and IIB which differ in splice site consensus, distance of bulged A from 3' splice site, some tertiary interactions, and intronic ORF phylogeny." [http://www.sanger.ac.uk/Software/Rfam/browse/index.shtml]
 comment: GO:0000373.
 subset: SOFA
 synonym: "group II intron" EXACT []
@@ -10286,7 +10285,7 @@ relationship: has_quality SO:0001223 ! silenced_by_histone_deacetylation
 id: SO:0001228
 name: dihydrouridine
 def: "A modified RNA base in which the 5,6-dihydrouracil is bound to the ribose ring." [RSC:cb]
-synonym: "D" EXACT RNAMOD []
+synonym: " D" EXACT RNAMOD []
 xref: http://en.wikipedia.org/wiki/Dihydrouridine "wiki"
 xref: RNAMOD:051
 is_a: SO:0001277 ! modified_uridine
@@ -10296,7 +10295,7 @@ id: SO:0001229
 name: pseudouridine
 def: "A modified RNA base in which the 5- position of the uracil is bound to the ribose ring instead of the 4- position." [RSC:cb]
 comment: The free molecule is CHEBI:17802.
-synonym: "Y" EXACT RNAMOD []
+synonym: " Y" EXACT RNAMOD []
 xref: http://en.wikipedia.org/wiki/Pseudouridine "wiki"
 xref: RNAMOD:050
 is_a: SO:0001277 ! modified_uridine
@@ -11038,7 +11037,7 @@ is_a: SO:0001276 ! modified_guanosine
 id: SO:0001317
 name: queuosine
 def: "Queuosine is a modified 7-deazoguanosine." [http://library.med.utah.edu/RNAmods/]
-synonym: "Q" EXACT RNAMOD []
+synonym: " Q" EXACT RNAMOD []
 xref: http://en.wikipedia.org/wiki/Queuosine "wiki"
 xref: RNAMOD:043
 is_a: SO:0001316 ! seven_deazaguanosine
@@ -15386,10 +15385,14 @@ creation_date: 2011-03-17T10:59:20Z
 [Term]
 id: SO:0001784
 name: complex_structural_alteration
-def: "A structural sequence alteration or rearrangement encompassing one or more genome fragments." [NCBI:th, SO:ke]
+alt_id: SO:1000146
+def: "A structural sequence alteration or rearrangement encompassing one or more genome fragments, with 4 or more breakpoints." [FB:reference_manual, NCBI:th, SO:ke]
 subset: DBVAR
 synonym: "complex" RELATED dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+synonym: "complex chromosomal mutation" EXACT []
+synonym: "complex_chromosomal_mutation" EXACT []
 is_a: SO:0001785 ! structural_alteration
+is_a: SO:1000183 ! chromosome_structure_variation
 created_by: kareneilbeck
 creation_date: 2011-03-23T03:21:19Z
 
@@ -16266,10 +16269,10 @@ creation_date: 2012-01-17T03:14:02Z
 
 [Term]
 id: SO:0001872
-name: rearrangement_breakpoint
+name: rearrangement_region
 def: "A region of a chromosome, where the chromosome has undergone a large structural rearrangement that altered the genome organization. There is no longer synteny to the reference genome." [NCBI:th, PMID:18564416]
 comment: NCBI definition: An orphan rearrangement between chromosomal location observed in isolation.
-synonym: "rearrangement breakpoint" EXACT []
+synonym: "rearrangement region" EXACT []
 is_a: SO:0001411 ! biological_region
 is_a: SO:0001785 ! structural_alteration
 created_by: kareneilbeck
@@ -16280,7 +16283,7 @@ id: SO:0001873
 name: interchromosomal_breakpoint
 def: "A rearrangement breakpoint between two different chromosomes." [NCBI:th]
 synonym: "interchromosomal breakpoint" EXACT []
-is_a: SO:0001872 ! rearrangement_breakpoint
+is_a: SO:0001021 ! chromosome_breakpoint
 created_by: kareneilbeck
 creation_date: 2012-02-03T04:43:45Z
 
@@ -16289,7 +16292,7 @@ id: SO:0001874
 name: intrachromosomal_breakpoint
 def: "A rearrangement breakpoint within the same chromosome." [NCBI:th]
 synonym: "intrachromosomal breakpoint" EXACT []
-is_a: SO:0001872 ! rearrangement_breakpoint
+is_a: SO:0001021 ! chromosome_breakpoint
 created_by: kareneilbeck
 creation_date: 2012-02-03T04:44:53Z
 
@@ -17791,7 +17794,7 @@ creation_date: 2014-07-11T13:20:08Z
 id: SO:0002025
 name: cis_acting_homologous_chromosome_pairing_region
 def: "A genome region where chromosome pairing occurs preferentially during homologous chromosome pairing during early meiotic prophase of Meiosis I." [PMID:22582262, PMID:23117617, PMID:24173580, PomBase:vw]
-comment: comment: An example of this is the Sme2 locus in fission yeast S. pombe, where is coincident with an ribonuclear complex termed the "Mei2 dot". This term was Requested by Val Wood, PomBase.
+comment: Comment: An example of this is the Sme2 locus in fission yeast S. pombe, where is coincident with an ribonuclear complex termed the "Mei2 dot". This term was Requested by Val Wood, PomBase.
 synonym: "cis-acting homologous chromosome pairing region" EXACT []
 is_a: SO:0000713 ! DNA_motif
 created_by: kareneilbeck
@@ -18038,6 +18041,7 @@ creation_date: 2015-05-14T10:17:11Z
 [Term]
 id: SO:0002050
 name: constitutive_promoter
+def: "A promoter that allows for continual transcription of gene." [SO:ke]
 synonym: "constitutive promoter" EXACT []
 is_a: SO:0000167 ! promoter
 created_by: kareneilbeck
@@ -18130,6 +18134,57 @@ synonym: "recombination enhancer" EXACT []
 is_a: SO:0001681 ! recombination_regulatory_region
 created_by: kareneilbeck
 creation_date: 2015-05-14T13:08:58Z
+
+[Term]
+id: SO:0002060
+name: interchomosomal_translocation
+def: "A translocation where the regions involved are from different chromosomes." [NCBI:th]
+is_a: SO:1000044 ! chromosomal_translocation
+created_by: kareneilbeck
+creation_date: 2015-06-18T11:10:30Z
+
+[Term]
+id: SO:0002061
+name: intrachomosomal_translocation
+def: "A translocation where the regions involved are from the same chromosome." [NCBI:th]
+is_a: SO:1000044 ! chromosomal_translocation
+created_by: kareneilbeck
+creation_date: 2015-06-18T11:10:51Z
+
+[Term]
+id: SO:0002062
+name: complex_chromosomal_rearrangement
+def: "A contiguous cluster of translocations, usually the result of a single catastrophic event such as chromothripsis or chromoanasynthesis." [NCBI:th]
+synonym: "complex chromosomal rearrangement" EXACT []
+is_a: SO:0001784 ! complex_structural_alteration
+created_by: kareneilbeck
+creation_date: 2015-06-18T11:24:55Z
+
+[Term]
+id: SO:0002063
+name: alu_insertion
+def: "An insertion of sequence from the Alu family of mobile elements." [NCBI:th]
+synonym: "alu insertion" EXACT []
+is_a: SO:0001837 ! mobile_element_insertion
+created_by: kareneilbeck
+creation_date: 2015-06-18T11:30:36Z
+
+[Term]
+id: SO:0002064
+name: LINE1_insertion
+def: "An insertion from the Line1 family of mobile elements." [NCBI:th]
+synonym: "line1 insertion" RELATED []
+is_a: SO:0001837 ! mobile_element_insertion
+created_by: kareneilbeck
+creation_date: 2015-06-18T11:34:44Z
+
+[Term]
+id: SO:0002065
+name: SVA_insertion
+def: "An insertion of sequence from the SVA family of mobile elements." [NCBI:th]
+is_a: SO:0001837 ! mobile_element_insertion
+created_by: kareneilbeck
+creation_date: 2015-06-18T11:36:12Z
 
 [Term]
 id: SO:0005836
@@ -18756,8 +18811,8 @@ synonym: "(Drosophila)T" RELATED []
 synonym: "(fungi)T" RELATED []
 synonym: "chromosomal translocation" EXACT []
 xref: http://en.wikipedia.org/wiki/Chromosomal_translocation "wiki"
+is_a: SO:0000199 ! translocation
 is_a: SO:1000031 ! interchromosomal_mutation
-relationship: has_part SO:0000199 ! translocation
 
 [Term]
 id: SO:1000045
@@ -19573,13 +19628,6 @@ is_a: SO:1000144 ! free_duplication
 relationship: has_quality SO:0001516 ! free
 
 [Term]
-id: SO:1000146
-name: complex_chromosomal_mutation
-def: "A chromosome structure variant with 4 or more breakpoints." [FB:reference_manual, SO:ke]
-synonym: "complex chromosomal mutation" EXACT []
-is_a: SO:1000183 ! chromosome_structure_variation
-
-[Term]
 id: SO:1000147
 name: deficient_translocation
 def: "A chromosomal deletion whereby a translocation occurs in which one of the four broken ends loses a segment before re-joining." [FB:reference_manual]
@@ -19589,7 +19637,6 @@ synonym: "deficient translocation" EXACT []
 is_a: SO:1000029 ! chromosomal_deletion
 is_a: SO:1000044 ! chromosomal_translocation
 relationship: has_part SO:0000159 ! deletion
-relationship: has_part SO:0000199 ! translocation
 
 [Term]
 id: SO:1000148
@@ -19600,7 +19647,6 @@ synonym: "(Drosophila)T" RELATED []
 synonym: "inversion cum translocation" EXACT []
 is_a: SO:1000030 ! chromosomal_inversion
 is_a: SO:1000044 ! chromosomal_translocation
-relationship: has_part SO:0000199 ! translocation
 relationship: has_part SO:1000036 ! inversion
 
 [Term]
@@ -19617,7 +19663,7 @@ id: SO:1000150
 name: cyclic_translocation
 def: "A chromosomal translocation whereby three breaks occurred in three different chromosomes. The centric segment resulting from the first break listed is joined to the acentric segment resulting from the second, rather than the third." [FB:reference_manual]
 synonym: "cyclic translocation" EXACT []
-is_a: SO:1000044 ! chromosomal_translocation
+is_a: SO:0002060 ! interchomosomal_translocation
 
 [Term]
 id: SO:1000151
@@ -19682,7 +19728,6 @@ name: inverted_intrachromosomal_transposition
 def: "An intrachromosomal transposition whereby the segment between the first two breaks listed is removed and inserted at the third break; the insertion is in cytologically inverted orientation with respect to its flanking segments." [FB:reference_manual]
 synonym: "(Drosophila)iTp" RELATED []
 synonym: "inverted intrachromosomal transposition" EXACT []
-is_a: SO:1000041 ! intrachromosomal_transposition
 is_a: SO:1000148 ! inversion_cum_translocation
 relationship: has_part SO:1000036 ! inversion
 
@@ -19724,8 +19769,8 @@ is_a: SO:1000041 ! intrachromosomal_transposition
 
 [Term]
 id: SO:1000170
-name: uncharacterised_chromosomal_mutation
-synonym: "uncharacterised chromosomal mutation" EXACT []
+name: uncharacterized_chromosomal_mutation
+synonym: "uncharacterized chromosomal mutation" EXACT []
 is_a: SO:1000183 ! chromosome_structure_variation
 
 [Term]
@@ -19751,9 +19796,9 @@ is_a: SO:1000035 ! duplication
 
 [Term]
 id: SO:1000175
-name: partially_characterised_chromosomal_mutation
-synonym: "partially characterised chromosomal mutation" EXACT []
-is_a: SO:1000170 ! uncharacterised_chromosomal_mutation
+name: partially_characterized_chromosomal_mutation
+synonym: "partially characterized chromosomal mutation" EXACT []
+is_a: SO:1000170 ! uncharacterized_chromosomal_mutation
 
 [Term]
 id: SO:1000180

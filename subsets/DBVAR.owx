@@ -272,6 +272,10 @@
         <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0000199"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0001785"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0001784"/>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0001785"/>
     </SubClassOf>
@@ -361,11 +365,15 @@
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCBI:th</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000199</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region of nucleotide sequence that has translocated to a new position.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region of nucleotide sequence that has translocated to a new position. The observed adjacency of two previously separated regions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -655,6 +663,10 @@
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FB:reference_manual</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCBI:th</Literal>
         </Annotation>
         <Annotation>
@@ -663,7 +675,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001784</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A structural sequence alteration or rearrangement encompassing one or more genome fragments.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A structural sequence alteration or rearrangement encompassing one or more genome fragments, with 4 or more breakpoints.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -674,6 +686,21 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001784</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2011-03-23T03:21:19Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001784</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:1000146</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001784</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">complex chromosomal mutation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001784</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">complex_chromosomal_mutation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -898,7 +925,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#remark"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo.owl</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2015-05-14</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2015-06-22</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

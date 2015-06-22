@@ -7590,7 +7590,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#remark"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo.owl</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2015-05-14</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2015-06-22</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
