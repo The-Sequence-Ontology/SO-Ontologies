@@ -1,5 +1,6 @@
 format-version: 1.2
-date: 04:09:2015 13:56
+data-version: so-xp/releases/2015-11-24/so-xp.owl
+date: 24:11:2015 15:58
 saved-by: kareneilbeck
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -2371,7 +2372,6 @@ synonym: "stRNA" EXACT []
 xref: http://en.wikipedia.org/wiki/MiRNA "wiki"
 xref: http://en.wikipedia.org/wiki/StRNA "wiki"
 is_a: SO:0000370 ! small_regulatory_ncRNA
-is_a: SO:0000655 ! ncRNA
 relationship: part_of SO:0001244 ! pre_miRNA
 
 [Term]
@@ -8972,6 +8972,7 @@ def: "A sequence_variant is a non exact copy of a sequence_feature or genome exh
 synonym: "ANNOVAR:unknown" RELATED VAR [http://www.openbioinformatics.org/annovar/annovar_download.html]
 synonym: "sequence variant" EXACT []
 synonym: "VAAST:sequence_variant" EXACT VAR []
+is_a: SO:0002072 ! sequence_comparison
 
 [Term]
 id: SO:0001061
@@ -13138,6 +13139,7 @@ synonym: "variant collection" RELATED []
 is_a: SO:0001260 ! sequence_collection
 intersection_of: SO:0001260 ! sequence_collection
 intersection_of: has_part SO:0001059 ! sequence_alteration
+relationship: has_part SO:0001059 ! sequence_alteration
 created_by: kareneilbeck
 creation_date: 2010-03-03T02:13:28Z
 
@@ -14365,7 +14367,7 @@ name: 500B_downstream_variant
 def: "A sequence variant located within a half KB of the end of a gene." [SO:ke]
 synonym: "500B downstream variant" EXACT []
 synonym: "near-gene-3" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
-is_a: SO:0001633 ! 5KB_downstream_variant
+is_a: SO:0001632 ! downstream_gene_variant
 created_by: kareneilbeck
 creation_date: 2010-03-24T09:50:42Z
 
@@ -14386,7 +14388,7 @@ name: 2KB_upstream_variant
 def: "A sequence variant located within 2KB 5' of a gene." [SO:ke]
 synonym: "2KB upstream variant" EXACT []
 synonym: "near-gene-5" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
-is_a: SO:0001635 ! 5KB_upstream_variant
+is_a: SO:0001631 ! upstream_gene_variant
 created_by: kareneilbeck
 creation_date: 2010-03-24T09:51:22Z
 
@@ -14905,6 +14907,7 @@ creation_date: 2010-10-29T12:37:52Z
 [Term]
 id: SO:0001691
 name: blunt_end_restriction_enzyme_cleavage_site
+def: "A restriction enzyme recognition site that, when cleaved, results in no overhangs." [SO:ke]
 synonym: "blunt end restriction enzyme cleavage site" EXACT []
 is_a: SO:0001687 ! restriction_enzyme_recognition_site
 created_by: kareneilbeck
@@ -18637,6 +18640,132 @@ created_by: kareneilbeck
 creation_date: 2015-09-04T13:47:16Z
 
 [Term]
+id: SO:0002071
+name: CDS_supported_by_peptide_spectrum_match
+def: "A CDS that is supported by proteomics data." [SO:ke]
+is_a: SO:1001251 ! CDS_supported_by_sequence_similarity_data
+created_by: kareneilbeck
+creation_date: 2015-10-12T13:25:02Z
+
+[Term]
+id: SO:0002072
+name: sequence_comparison
+created_by: kareneilbeck
+creation_date: 2015-11-23T14:14:32Z
+
+[Term]
+id: SO:0002073
+name: no_variation
+def: "No_variation is a position or feature within a sequence, when compared to a reference  sequence, that does not display any variation." [SO:ke]
+comment: This term is requested by the ClinVar data model group for use in the allele registry and such.
+is_a: SO:0002072 ! sequence_comparison
+created_by: kareneilbeck
+creation_date: 2015-11-23T14:15:08Z
+
+[Term]
+id: SO:0002074
+name: intergenic_1kb_variant
+def: "A variant that falls in an intergenic region that is 1 kb or less between 2 genes." [SO:ke]
+comment: This term is added to map to the Annovar annotation 'upstream,downstream' .
+is_a: SO:0001628 ! intergenic_variant
+created_by: kareneilbeck
+creation_date: 2015-11-23T14:24:16Z
+
+[Term]
+id: SO:0002075
+name: incomplete_transcript_variant
+def: "A sequence variant that intersects an incompletely annotated transcript." [SO:ke]
+comment: This term is to map to the ANNOVAR term 'ncRNA' http://annovar.openbioinformatics.org/en/latest/user-guide/gene/ . The description in the documentation (11/23/15) 'variant overlaps a transcript without coding annotation in the gene definition'. and this is further clarified in the document: ncRNA above refers to RNA without coding annotation. It does not mean that this is a RNA that will never be translated; it merely means that the user-selected gene annotation system was not able to give a coding sequence annotation. It could still code protein products and may have such annotations in future versions of gene annotation or in another gene annotation system. For example, BC039000 is regarded as ncRNA by ANNOVAR when using UCSC Known Gene annotation, but it is regarded as a protein-coding gene by ANNOVAR when using ENSEMBL annotation.  \n\nIt is further clarified in the comments section as: ncRNA does NOT mean conventional non-coding RNA. It means a RNA without complete coding sequence, and it can be a coding RNA that is annotated incorrectly by RefSeq or other gene definition systems.
+synonym: "ANNOVAR:ncRNA" RELATED VAR []
+synonym: "incomplete transcript variant" EXACT []
+xref: http://annovar.openbioinformatics.org/en/latest/user-guide/gene/
+is_a: SO:0001576 ! transcript_variant
+created_by: kareneilbeck
+creation_date: 2015-11-23T14:43:51Z
+
+[Term]
+id: SO:0002076
+name: incomplete_transcript_3UTR_variant
+def: "A sequence variant that intersects the 3' UTR of an incompletely annotated transcript." [SO:ke]
+synonym: "ANNOVAR:ncRNA_UTR3" EXACT VAR []
+synonym: "incomplete transcript 3UTR variant" RELATED []
+xref: http://annovar.openbioinformatics.org/en/latest/user-guide/gene/
+is_a: SO:0002075 ! incomplete_transcript_variant
+created_by: kareneilbeck
+creation_date: 2015-11-23T14:45:52Z
+
+[Term]
+id: SO:0002077
+name: incomplete_transcript_5UTR_variant
+def: "A sequence variant that intersects the 5' UTR of an incompletely annotated transcript." [SO:ke]
+synonym: "ANNOVAR:ncRNA_5UTR" EXACT []
+synonym: "incomplete transcript 5UTR variant" EXACT []
+xref: http://annovar.openbioinformatics.org/en/latest/user-guide/gene/
+is_a: SO:0002075 ! incomplete_transcript_variant
+created_by: kareneilbeck
+creation_date: 2015-11-24T12:39:17Z
+
+[Term]
+id: SO:0002078
+name: incomplete_transcript_intronic_variant
+def: "A sequence variant that intersects the intron of an incompletely annotated transcript." [SO:ke]
+synonym: "ANNOVAR:ncRNA_intronic" EXACT VAR []
+synonym: "incomplete transcript intronic variant" EXACT []
+is_a: SO:0002075 ! incomplete_transcript_variant
+created_by: kareneilbeck
+creation_date: 2015-11-24T12:51:45Z
+
+[Term]
+id: SO:0002079
+name: incomplete_transcript_splice_region_variant
+def: "A sequence variant that intersects the splice region of an incompletely annotated transcript." [SO:ke]
+synonym: "ANNOVAR:ncRNA_splicing" EXACT VAR []
+synonym: "incomplete transcript splice region variant" EXACT []
+is_a: SO:0002075 ! incomplete_transcript_variant
+created_by: kareneilbeck
+creation_date: 2015-11-24T12:52:06Z
+
+[Term]
+id: SO:0002080
+name: incomplete_transcript_exonic_variant
+def: "A sequence variant that intersects the exon of an incompletely annotated transcript." [SO:ke]
+synonym: "ANNOVAR:ncRNA_exonic" EXACT VAR []
+synonym: "incomplete transcript exonic variant" EXACT []
+is_a: SO:0002075 ! incomplete_transcript_variant
+created_by: kareneilbeck
+creation_date: 2015-11-24T12:52:10Z
+
+[Term]
+id: SO:0002081
+name: incomplete_transcript_CDS
+def: "A sequence variant that intersects the coding regions of an incompletely annotated transcript." [SO:ke]
+synonym: "Seattleseq:coding-notMod3" EXACT VAR []
+synonym: "Seattleseq:coding-unknown" EXACT VAR []
+is_a: SO:0002075 ! incomplete_transcript_variant
+created_by: kareneilbeck
+creation_date: 2015-11-24T15:32:27Z
+
+[Term]
+id: SO:0002082
+name: incomplete_transcript_coding_splice_variant
+def: "A sequence variant that intersects the coding sequence near a splice region of an incompletely annotated transcript." [SO:ke]
+synonym: "incomplete transcript coding splice variant" EXACT []
+synonym: "Seattleseq:coding-notMod3-near-splice" EXACT VAR []
+synonym: "Seattleseq:coding-unknown-near-splice" EXACT VAR []
+is_a: SO:0002079 ! incomplete_transcript_splice_region_variant
+created_by: kareneilbeck
+creation_date: 2015-11-24T15:51:06Z
+
+[Term]
+id: SO:0002083
+name: 2KB_downstream_variant
+def: "A sequence variant located within 2KB 3' of a gene." [SO:ke]
+synonym: "Seattleseq:near-gene-3" EXACT VAR []
+is_a: SO:0001632 ! downstream_gene_variant
+created_by: kareneilbeck
+creation_date: 2015-11-24T15:55:49Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
@@ -19248,6 +19377,7 @@ is_a: SO:1000038 ! intrachromosomal_duplication
 intersection_of: SO:1000028 ! intrachromosomal_mutation
 intersection_of: has_part SO:0000199 ! translocation
 intersection_of: has_part SO:1000035 ! duplication
+relationship: has_part SO:0000199 ! translocation
 relationship: has_part SO:1000035 ! duplication
 
 [Term]

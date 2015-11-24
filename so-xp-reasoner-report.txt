@@ -1,3 +1,4 @@
-NEW, TRANSLATED	SubClassOf(SO:0001507 "variant_collection" ObjectSomeValuesFrom(has_part "has_part" SO:0001059 "sequence_alteration"))
-NEW, TRANSLATED	SubClassOf(SO:1000041 "intrachromosomal_transposition" ObjectSomeValuesFrom(has_part "has_part" SO:0000199 "translocation"))
-REDUNDANT	SubClassOf(SO:0000276 "miRNA" SO:0000655 "ncRNA")
+NEW, TRANSLATED	SubClassOf(SO:0001507 'variant_collection' ObjectSomeValuesFrom(has_part 'has_part' SO:0001059 'sequence_alteration'))
+NEW, TRANSLATED	SubClassOf(SO:1000041 'intrachromosomal_transposition' ObjectSomeValuesFrom(has_part 'has_part' SO:0000199 'translocation'))
+POTENTIAL_REDUNDANT	SO:0001268 'snRNA_gene' has_quality 'has_quality' SO:0001263 'ncRNA_gene' is also a simple SubClassOf.
+REDUNDANT	SubClassOf(SO:0000276 'miRNA' SO:0000655 'ncRNA')

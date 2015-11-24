@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://purl.obolibrary.org/obo/so-xp/subsets/DBVAR.owl"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     ontologyIRI="http://purl.obolibrary.org/obo/so-xp/subsets/DBVAR.owl">
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/so-xp/subsets/DBVAR.owl"
+     versionIRI="http://purl.obolibrary.org/obo/so-xp/2015-11-24/subsets/DBVAR.owl">
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
@@ -255,9 +256,6 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#remark"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
@@ -923,11 +921,6 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tandem_duplication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#remark"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo.owl</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2015-06-22</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#AAMOD</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amino acid modification</Literal>
@@ -1037,7 +1030,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&#39; and 3&#39; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&apos; and 3&apos; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1360,7 +1353,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&#39; boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&apos; boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -1399,7 +1392,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&#39; or C terminal boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&apos; or C terminal boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -1438,7 +1431,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&#39; and Y part of X but not X&#39;.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&apos; and Y part of X but not X&apos;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -1744,7 +1737,7 @@ For example a variant transcript may gain a stop codon not present in the refere
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&#39; and Y part of X&#39; but not X.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&apos; and Y part of X&apos; but not X.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -2192,7 +2185,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&#39; boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&apos; boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -2231,7 +2224,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&#39; or N-terminal boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&apos; or N-terminal boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -2476,7 +2469,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#variant_of</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A&#39; is a variant (mutation) of A = definition every instance of A&#39; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&#39; to some instance of A.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -2620,5 +2613,5 @@ For example a variant transcript may have lost a stop codon present in the refer
 
 
 
-<!-- Generated by the OWL API (version 0.2.0-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 0.2.2-SNAPSHOT) http://owlapi.sourceforge.net -->
 

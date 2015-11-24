@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://purl.obolibrary.org/obo/so-xp/subsets/SOFA.owl"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     ontologyIRI="http://purl.obolibrary.org/obo/so-xp/subsets/SOFA.owl">
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/so-xp/subsets/SOFA.owl"
+     versionIRI="http://purl.obolibrary.org/obo/so-xp/2015-11-24/subsets/SOFA.owl">
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
@@ -978,9 +979,6 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#remark"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
@@ -3074,7 +3072,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000104</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The term &#39;protein&#39; was merged with &#39;polypeptide&#39;. Although &#39;protein&#39; was a sequence_attribute and therefore meant to describe the quality rather than an actual feature, it was being used erroneously. It is replaced by &#39;peptidyl&#39; as the polymer attribute.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The term &apos;protein&apos; was merged with &apos;polypeptide&apos;. Although &apos;protein&apos; was a sequence_attribute and therefore meant to describe the quality rather than an actual feature, it was being used erroneously. It is replaced by &apos;peptidyl&apos; as the polymer attribute.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3567,7 +3565,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000148</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">One or more contigs that have been ordered and oriented using end-read information. Contains gaps that are filled with N&#39;s.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">One or more contigs that have been ordered and oriented using end-read information. Contains gaps that are filled with N&apos;s.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -3601,7 +3599,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000149</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A contiguous sequence derived from sequence assembly. Has no gaps, but may contain N&#39;s from unavailable bases.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A contiguous sequence derived from sequence assembly. Has no gaps, but may contain N&apos;s from unavailable bases.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -3887,12 +3885,12 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000163</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intronic 2 bp region bordering the exon, at the 5&#39; edge of the intron. A splice_site that is downstream_adjacent_to exon and starts intron.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intronic 2 bp region bordering the exon, at the 5&apos; edge of the intron. A splice_site that is downstream_adjacent_to exon and starts intron.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000163</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5&#39; splice site</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5&apos; splice site</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -3949,7 +3947,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000164</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intronic 2 bp region bordering the exon, at the 3&#39; edge of the intron. A splice_site that is upstream_adjacent_to exon and finishes intron.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intronic 2 bp region bordering the exon, at the 3&apos; edge of the intron. A splice_site that is upstream_adjacent_to exon and finishes intron.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -3974,7 +3972,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000164</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">3&#39; splice site</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">3&apos; splice site</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -4466,7 +4464,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000195</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An exon whereby at least one base is part of a codon (here, &#39;codon&#39; is inclusive of the stop_codon).</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An exon whereby at least one base is part of a codon (here, &apos;codon&apos; is inclusive of the stop_codon).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -4602,12 +4600,12 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000200</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The 5&#39; most coding exon.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The 5&apos; most coding exon.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000200</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5&#39; coding exon</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5&apos; coding exon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -4675,7 +4673,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000204</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region at the 5&#39; end of a mature transcript (preceding the initiation codon) that is not translated into a protein.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region at the 5&apos; end of a mature transcript (preceding the initiation codon) that is not translated into a protein.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -4684,12 +4682,12 @@
         </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000204</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/5&#39;_UTR</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/5&apos;_UTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000204</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5&#39; UTR</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5&apos; UTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -4728,7 +4726,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000205</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region at the 3&#39; end of a mature transcript (following the stop codon) that is not translated into a protein.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region at the 3&apos; end of a mature transcript (following the stop codon) that is not translated into a protein.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -4815,7 +4813,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000233</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5&#39; and/or the 3&#39; ends, other than addition of bases. In bacteria functional mRNAs are usually not modified.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5&apos; and/or the 3&apos; ends, other than addition of bases. In bacteria functional mRNAs are usually not modified.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -5083,7 +5081,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000253</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&#39; end, to which the tRNA&#39;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &#39;wobble&#39; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&apos; end, to which the tRNA&apos;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &apos;wobble&apos; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -5566,7 +5564,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000307</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Regions of a few hundred to a few thousand bases in vertebrate genomes that are relatively GC and CpG rich; they are typically unmethylated and often found near the 5&#39; ends of genes.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Regions of a few hundred to a few thousand bases in vertebrate genomes that are relatively GC and CpG rich; they are typically unmethylated and often found near the 5&apos; ends of genes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -6772,7 +6770,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000380</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A small catalytic RNA motif that catalyzes self-cleavage reaction. Its name comes from its secondary structure which resembles a carpenter&#39;s hammer. The hammerhead ribozyme is involved in the replication of some viroid and some satellite RNAs.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A small catalytic RNA motif that catalyzes self-cleavage reaction. Its name comes from its secondary structure which resembles a carpenter&apos;s hammer. The hammerhead ribozyme is involved in the replication of some viroid and some satellite RNAs.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -6926,7 +6924,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000391</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U1 is a small nuclear RNA (snRNA) component of the spliceosome (involved in pre-mRNA splicing). Its 5&#39; end forms complementary base pairs with the 5&#39; splice junction, thus defining the 5&#39; donor site of an intron. There are significant differences in sequence and secondary structure between metazoan and yeast U1 snRNAs, the latter being much longer (568 nucleotides as compared to 164 nucleotides in human). Nevertheless, secondary structure predictions suggest that all U1 snRNAs share a &#39;common core&#39; consisting of helices I, II, the proximal region of III, and IV.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U1 is a small nuclear RNA (snRNA) component of the spliceosome (involved in pre-mRNA splicing). Its 5&apos; end forms complementary base pairs with the 5&apos; splice junction, thus defining the 5&apos; donor site of an intron. There are significant differences in sequence and secondary structure between metazoan and yeast U1 snRNAs, the latter being much longer (568 nucleotides as compared to 164 nucleotides in human). Nevertheless, secondary structure predictions suggest that all U1 snRNAs share a &apos;common core&apos; consisting of helices I, II, the proximal region of III, and IV.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -6996,7 +6994,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000392</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U2 is a small nuclear RNA (snRNA) component of the spliceosome (involved in pre-mRNA splicing). Complementary binding between U2 snRNA (in an area lying towards the 5&#39; end but 3&#39; to hairpin I) and the branchpoint sequence (BPS) of the intron results in the bulging out of an unpaired adenine, on the BPS, which initiates a nucleophilic attack at the intronic 5&#39; splice site, thus starting the first of two transesterification reactions that mediate splicing.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U2 is a small nuclear RNA (snRNA) component of the spliceosome (involved in pre-mRNA splicing). Complementary binding between U2 snRNA (in an area lying towards the 5&apos; end but 3&apos; to hairpin I) and the branchpoint sequence (BPS) of the intron results in the bulging out of an unpaired adenine, on the BPS, which initiates a nucleophilic attack at the intronic 5&apos; splice site, thus starting the first of two transesterification reactions that mediate splicing.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -7197,7 +7195,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000395</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U5 RNA is a component of both types of known spliceosome. The precise function of this molecule is unknown, though it is known that the 5&#39; loop is required for splice site selection and p220 binding, and that both the 3&#39; stem-loop and the Sm site are important for Sm protein binding and cap methylation.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U5 RNA is a component of both types of known spliceosome. The precise function of this molecule is unknown, though it is known that the 5&apos; loop is required for splice site selection and p220 binding, and that both the 3&apos; stem-loop and the Sm site are important for Sm protein binding and cap methylation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -7267,7 +7265,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000396</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U6 snRNA is a component of the spliceosome which is involved in splicing pre-mRNA. The putative secondary structure consensus base pairing is confined to a short 5&#39; stem loop, but U6 snRNA is thought to form extensive base-pair interactions with U4 snRNA.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U6 snRNA is a component of the spliceosome which is involved in splicing pre-mRNA. The putative secondary structure consensus base pairing is confined to a short 5&apos; stem loop, but U6 snRNA is thought to form extensive base-pair interactions with U4 snRNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -7393,7 +7391,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000398</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U11 snRNA plays a role in splicing of the minor U12-dependent class of eukaryotic nuclear introns, similar to U1 snRNA in the major class spliceosome it base pairs to the conserved 5&#39; splice site sequence.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">U11 snRNA plays a role in splicing of the minor U12-dependent class of eukaryotic nuclear introns, similar to U1 snRNA in the major class spliceosome it base pairs to the conserved 5&apos; splice site sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -8455,7 +8453,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000484</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The sequence of the 3&#39; exon that is not coding.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The sequence of the 3&apos; exon that is not coding.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -8494,7 +8492,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000486</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The sequence of the 5&#39; exon preceding the start codon.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The sequence of the 5&apos; exon preceding the start codon.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -8533,7 +8531,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000499</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A continuous piece of sequence similar to the &#39;virtual contig&#39; concept of the Ensembl database.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A continuous piece of sequence similar to the &apos;virtual contig&apos; concept of the Ensembl database.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -8587,7 +8585,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000502</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This concept cam about as a direct result of the SO meeting August 2004.nThe exact nature of the relationship between transcribed_region and gene is still up for discussion. We are going with &#39;associated_with&#39; for the time being.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This concept cam about as a direct result of the SO meeting August 2004.nThe exact nature of the relationship between transcribed_region and gene is still up for discussion. We are going with &apos;associated_with&apos; for the time being.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8747,7 +8745,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000581</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A structure consisting of a 7-methylguanosine in 5&#39;-5&#39; triphosphate linkage with the first nucleotide of an mRNA. It is added post-transcriptionally, and is not encoded in the DNA.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A structure consisting of a 7-methylguanosine in 5&apos;-5&apos; triphosphate linkage with the first nucleotide of an mRNA. It is added post-transcriptionally, and is not encoded in the DNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -8911,7 +8909,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000593</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Most box C/D snoRNAs also contain long (&gt;10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C&#39; and D&#39;, are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D&#39;.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Most box C/D snoRNAs also contain long (&gt;10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C&apos; and D&apos;, are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D&apos;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -8955,7 +8953,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000602</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A short 3&#39;-uridylated RNA that can form a duplex (except for its post-transcriptionally added oligo_U tail (SO:0000609)) with a stretch of mature edited mRNA.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A short 3&apos;-uridylated RNA that can form a duplex (except for its post-transcriptionally added oligo_U tail (SO:0000609)) with a stretch of mature edited mRNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -9003,7 +9001,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000603</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi, plants and protists, and also in mRNA in bacteria. They are large self-splicing ribozymes and have 6 structural domains (usually designated dI to dVI). A subset of group II introns also encode essential splicing proteins in intronic ORFs. The length of these introns can therefore be up to 3kb. Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing with two transesterification steps. The 2&#39; hydroxyl of a bulged adenosine in domain VI attacks the 5&#39; splice site, followed by nucleophilic attack on the 3&#39; splice site by the 3&#39; OH of the upstream exon. Protein machinery is required for splicing in vivo, and long range intron to intron and intron-exon interactions are important for splice site positioning. Group II introns are further sub-classified into groups IIA and IIB which differ in splice site consensus, distance of bulged A from 3&#39; splice site, some tertiary interactions, and intronic ORF phylogeny.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi, plants and protists, and also in mRNA in bacteria. They are large self-splicing ribozymes and have 6 structural domains (usually designated dI to dVI). A subset of group II introns also encode essential splicing proteins in intronic ORFs. The length of these introns can therefore be up to 3kb. Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing with two transesterification steps. The 2&apos; hydroxyl of a bulged adenosine in domain VI attacks the 5&apos; splice site, followed by nucleophilic attack on the 3&apos; splice site by the 3&apos; OH of the upstream exon. Protein machinery is required for splicing in vivo, and long range intron to intron and intron-exon interactions are important for splice site positioning. Group II introns are further sub-classified into groups IIA and IIB which differ in splice site consensus, distance of bulged A from 3&apos; splice site, some tertiary interactions, and intronic ORF phylogeny.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -9099,7 +9097,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000610</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sequence of about 100 nucleotides of A added to the 3&#39; end of most eukaryotic mRNAs.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sequence of about 100 nucleotides of A added to the 3&apos; end of most eukaryotic mRNAs.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -9133,7 +9131,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000611</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A pyrimidine rich sequence near the 3&#39; end of an intron to which the 5&#39;end becomes covalently bound during nuclear splicing. The resulting structure resembles a lariat.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A pyrimidine rich sequence near the 3&apos; end of an intron to which the 5&apos;end becomes covalently bound during nuclear splicing. The resulting structure resembles a lariat.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -9340,7 +9338,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000627</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A transcriptional cis regulatory region that when located between a CM and a gene&#39;s promoter prevents the CRM from modulating that genes expression.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A transcriptional cis regulatory region that when located between a CM and a gene&apos;s promoter prevents the CRM from modulating that genes expression.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -10302,7 +10300,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000696</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A short oligonucleotide sequence, of length on the order of 10&#39;s of bases; either single or double stranded.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A short oligonucleotide sequence, of length on the order of 10&apos;s of bases; either single or double stranded.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -10611,7 +10609,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000706</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The 3&#39; splice site of the acceptor primary transcript.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The 3&apos; splice site of the acceptor primary transcript.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -10626,7 +10624,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000706</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">3&#39; trans splice site</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">3&apos; trans splice site</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
@@ -10915,7 +10913,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000727</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A regulatory region where transcription factor binding sites clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundred kb upstream of the basal promoter, in the coding sequence, within introns, or in the downstream 3&#39;UTR sequences, as well as on different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A regulatory region where transcription factor binding sites clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundred kb upstream of the basal promoter, in the coding sequence, within introns, or in the downstream 3&apos;UTR sequences, as well as on different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -10964,7 +10962,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000730</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A gap in the sequence of known length. The unknown bases are filled in with N&#39;s.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A gap in the sequence of known length. The unknown bases are filled in with N&apos;s.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -12615,7 +12613,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001647</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A kind of ribosome entry site, specific to Eukaryotic organisms that overlaps part of both 5&#39; UTR and CDS sequence.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A kind of ribosome entry site, specific to Eukaryotic organisms that overlaps part of both 5&apos; UTR and CDS sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -13274,11 +13272,6 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">databank_entry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#remark"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo.owl</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2015-06-22</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#AAMOD</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amino acid modification</Literal>
@@ -13388,7 +13381,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&#39; and 3&#39; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&apos; and 3&apos; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -13711,7 +13704,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&#39; boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&apos; boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -13750,7 +13743,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&#39; or C terminal boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&apos; or C terminal boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -13789,7 +13782,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&#39; and Y part of X but not X&#39;.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&apos; and Y part of X but not X&apos;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -14095,7 +14088,7 @@ For example a variant transcript may gain a stop codon not present in the refere
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&#39; and Y part of X&#39; but not X.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&apos; and Y part of X&apos; but not X.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -14543,7 +14536,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&#39; boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&apos; boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -14582,7 +14575,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&#39; or N-terminal boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&apos; or N-terminal boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -14827,7 +14820,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#variant_of</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A&#39; is a variant (mutation) of A = definition every instance of A&#39; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&#39; to some instance of A.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -14971,5 +14964,5 @@ For example a variant transcript may have lost a stop codon present in the refer
 
 
 
-<!-- Generated by the OWL API (version 0.2.0-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 0.2.2-SNAPSHOT) http://owlapi.sourceforge.net -->
 

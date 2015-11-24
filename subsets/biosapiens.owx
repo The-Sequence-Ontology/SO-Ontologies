@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://purl.obolibrary.org/obo/so-xp/subsets/biosapiens.owl"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     ontologyIRI="http://purl.obolibrary.org/obo/so-xp/subsets/biosapiens.owl">
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/so-xp/subsets/biosapiens.owl"
+     versionIRI="http://purl.obolibrary.org/obo/so-xp/2015-11-24/subsets/biosapiens.owl">
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
@@ -591,9 +592,6 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#remark"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
@@ -4484,7 +4482,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001112</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A peptide region which hydrogen bonded to another region of peptide running in the oposite direction (one running N-terminal to C-terminal and one running C-terminal to N-terminal). Hydrogen bonding occurs between every other C=O from one strand to every other N-H on the adjacent strand. In this case, if two atoms C-alpha (i) and C-alpha (j) are adjacent in two hydrogen-bonded beta strands, then they form two mutual backbone hydrogen bonds to each other&#39;s flanking peptide groups; this is known as a close pair of hydrogen bonds. The peptide backbone dihedral angles (phi, psi) are about (-140 degrees, 135 degrees) in antiparallel sheets.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A peptide region which hydrogen bonded to another region of peptide running in the oposite direction (one running N-terminal to C-terminal and one running C-terminal to N-terminal). Hydrogen bonding occurs between every other C=O from one strand to every other N-H on the adjacent strand. In this case, if two atoms C-alpha (i) and C-alpha (j) are adjacent in two hydrogen-bonded beta strands, then they form two mutual backbone hydrogen bonds to each other&apos;s flanking peptide groups; this is known as a close pair of hydrogen bonds. The peptide backbone dihedral angles (phi, psi) are about (-140 degrees, 135 degrees) in antiparallel sheets.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
@@ -5635,12 +5633,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001134</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type I&#39; beta turn</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type I&apos; beta turn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001134</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type I&#39; turn</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type I&apos; turn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -5693,12 +5691,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001135</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type II&#39; beta turn</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type II&apos; beta turn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001135</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type II&#39; turn</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type II&apos; turn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -7175,7 +7173,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0100012</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Irregular, unstructured regions of a protein&#39;s backbone, as distinct from the regular region (namely alpha helix and beta strand - characterised by specific patterns of main-chain hydrogen bonds).</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Irregular, unstructured regions of a protein&apos;s backbone, as distinct from the regular region (namely alpha helix and beta strand - characterised by specific patterns of main-chain hydrogen bonds).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -7588,11 +7586,6 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">polypeptide_conserved_region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#remark"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo.owl</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2015-06-22</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#AAMOD</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amino acid modification</Literal>
@@ -7702,7 +7695,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&#39; and 3&#39; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&apos; and 3&apos; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -8025,7 +8018,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&#39; boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&apos; boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -8064,7 +8057,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&#39; or C terminal boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&apos; or C terminal boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -8103,7 +8096,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&#39; and Y part of X but not X&#39;.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&apos; and Y part of X but not X&apos;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -8409,7 +8402,7 @@ For example a variant transcript may gain a stop codon not present in the refere
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&#39; and Y part of X&#39; but not X.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&apos; and Y part of X&apos; but not X.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -8857,7 +8850,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&#39; boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&apos; boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -8896,7 +8889,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&#39; or N-terminal boundary.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&apos; or N-terminal boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -9141,7 +9134,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#variant_of</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A&#39; is a variant (mutation) of A = definition every instance of A&#39; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&#39; to some instance of A.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -9285,5 +9278,5 @@ For example a variant transcript may have lost a stop codon present in the refer
 
 
 
-<!-- Generated by the OWL API (version 0.2.0-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 0.2.2-SNAPSHOT) http://owlapi.sourceforge.net -->
 

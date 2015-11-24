@@ -2,15 +2,15 @@ format-version: 1.2
 subsetdef: biosapiens "biosapiens protein feature ontology"
 subsetdef: DBVAR "database of genomic structural variation"
 subsetdef: SOFA "SO feature annotation"
-synonymtypedef: aa1 "amino acid 1 letter code" 
-synonymtypedef: aa3 "amino acid 3 letter code" 
-synonymtypedef: AAMOD "amino acid modification" 
-synonymtypedef: BS "biosapiens" 
-synonymtypedef: dbsnp "dbsnp variant terms" 
-synonymtypedef: dbvar "DBVAR" 
-synonymtypedef: ebi_variants "ensembl variant terms" 
+synonymtypedef: aa1 "amino acid 1 letter code"
+synonymtypedef: aa3 "amino acid 3 letter code"
+synonymtypedef: AAMOD "amino acid modification"
+synonymtypedef: BS "biosapiens"
+synonymtypedef: dbsnp "dbsnp variant terms"
+synonymtypedef: dbvar "DBVAR"
+synonymtypedef: ebi_variants "ensembl variant terms"
 synonymtypedef: RNAMOD "RNA modification" EXACT
-synonymtypedef: VAR "variant annotation term" 
+synonymtypedef: VAR "variant annotation term"
 ontology: so-xp/subsets/SOFA
 
 [Term]
@@ -323,7 +323,7 @@ name: clone
 namespace: sequence
 def: "A piece of DNA that has been inserted in a vector so that it can be propagated in a host bacterium or some other organism." [SO:ke]
 subset: SOFA
-xref: http:http://en.wikipedia.org/wiki/Clone_(genetics) "wiki"
+xref: http:http\://en.wikipedia.org/wiki/Clone_(genetics) "wiki"
 is_a: SO:0000695 ! reagent
 
 [Term]
