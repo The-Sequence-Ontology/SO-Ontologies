@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/so-xp/subsets/SOFA.owl"
-     versionIRI="http://purl.obolibrary.org/obo/so-xp/2015-11-24/subsets/SOFA.owl">
+     versionIRI="http://purl.obolibrary.org/obo/so-xp/so-xp.owl/subsets/SOFA.owl">
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
@@ -2107,8 +2107,36 @@
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000462"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0000777"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/SO_0000673"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0000777"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/SO_0000336"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000778"/>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000462"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0000778"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/SO_0000673"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0000778"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/SO_0000336"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000830"/>
@@ -2395,10 +2423,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/SO_2000061"/>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000695"/>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/SO_0000001"/>
-        <Class IRI="http://purl.obolibrary.org/obo/SO_0000699"/>
-    </DisjointClasses>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature"/>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature"/>
@@ -8299,6 +8323,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000464</IRI>
         <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000464</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Does not have to be part of a pseudogene.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
