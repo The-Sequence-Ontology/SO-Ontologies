@@ -5349,9 +5349,13 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Microsatellite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9651/</Literal>
+        </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000289</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">VNTR</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">STR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -9445,6 +9449,15 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000643</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Minisatellite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9655/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000643</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">VNTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>

@@ -717,7 +717,7 @@ def: "A repeat_region containing repeat_units of 2 to 10 bp repeated in tandem."
 subset: SOFA
 synonym: "microsatellite locus" EXACT []
 synonym: "microsatellite marker" EXACT []
-synonym: "VNTR" EXACT []
+synonym: "STR" EXACT [http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9651/]
 xref: http://en.wikipedia.org/wiki/Microsatellite "wiki"
 is_a: SO:0000005 ! satellite_DNA
 
@@ -1696,6 +1696,7 @@ name: minisatellite
 namespace: sequence
 def: "A repeat region containing tandemly repeated sequences having a unit length of 10 to 40 bp." [http://www.informatics.jax.org/silver/glossary.shtml]
 subset: SOFA
+synonym: "VNTR" EXACT [http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9655/]
 xref: http://en.wikipedia.org/wiki/Minisatellite "wiki"
 is_a: SO:0000005 ! satellite_DNA
 

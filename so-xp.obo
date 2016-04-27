@@ -1,7 +1,7 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 07:03:2016 13:02
-saved-by: kareneilbeck
+date: 26:04:2016 15:44
+saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
 subsetdef: DBVAR "database of genomic structural variation"
@@ -2506,7 +2506,7 @@ def: "A repeat_region containing repeat_units of 2 to 10 bp repeated in tandem."
 subset: SOFA
 synonym: "microsatellite locus" EXACT []
 synonym: "microsatellite marker" EXACT []
-synonym: "VNTR" EXACT []
+synonym: "STR" EXACT [http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9651/]
 xref: http://en.wikipedia.org/wiki/Microsatellite "wiki"
 is_a: SO:0000005 ! satellite_DNA
 
@@ -5535,6 +5535,7 @@ id: SO:0000643
 name: minisatellite
 def: "A repeat region containing tandemly repeated sequences having a unit length of 10 to 40 bp." [http://www.informatics.jax.org/silver/glossary.shtml]
 subset: SOFA
+synonym: "VNTR" EXACT [http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9655/]
 xref: http://en.wikipedia.org/wiki/Minisatellite "wiki"
 is_a: SO:0000005 ! satellite_DNA
 
