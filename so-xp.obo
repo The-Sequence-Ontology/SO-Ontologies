@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 17:05:2016 13:40
+date: 19:05:2016 13:55
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -19115,6 +19115,17 @@ synonym: "non allelic homologous recombination region" EXACT []
 is_a: SO:0000339 ! recombination_hotspot
 created_by: nicole
 creation_date: 2016-05-17T13:34:12Z
+
+[Term]
+id: SO:0002095
+name: scaRNA
+def: "A ncRNA, specific to the Cajal body, that has been demonstrated to function as a guide RNA in the site-specific synthesis of 2'-O-ribose-methylated nucleotides and pseudouridines in the RNA polymerase II-transcribed U1, U2, U4 and U5 spliceosomal small nuclear RNAs (snRNAs)." []
+synonym: "small Cajal body specific RNA" EXACT []
+synonym: "small Cajal body-specific RNA" EXACT []
+xref: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC126017/
+is_a: SO:0000655 ! ncRNA
+created_by: nicole
+creation_date: 2016-05-19T13:42:45Z
 
 [Term]
 id: SO:0005836
