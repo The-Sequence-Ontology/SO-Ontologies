@@ -1,7 +1,7 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 19:05:2016 13:55
-saved-by: nicole
+date: 18:07:2016 14:34
+saved-by: kareneilbeck
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
 subsetdef: DBVAR "database of genomic structural variation"
@@ -384,7 +384,7 @@ is_obsolete: true
 [Term]
 id: SO:0000043
 name: processed_pseudogene
-def: "A pseudogene where by an mRNA was retrotransposed. The mRNA sequence is transcribed back into the genome, lacking introns and promoters, but often including a polyA tail." [SO:xp]
+def: "A pseudogene created via retrotranposition of the mRNA of a functional protein-coding parent gene followed by accumulation of deleterious mutations lacking introns and promoters, often including a polyA tail." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
 comment: Please not the synonym R psi M uses the spelled out form of the greek letter.
 synonym: "processed pseudogene" EXACT []
 synonym: "pseudogene by reverse transcription" RELATED []
@@ -1731,9 +1731,11 @@ is_a: SO:0000189 ! non_LTR_retrotransposon
 [Term]
 id: SO:0000207
 name: simple_sequence_length_variation
+def: "SSLP are a kind of sequence alteration where the number of repeated sequences in intergenic regions may differ." [SO:ke]
 synonym: "simple sequence length polymorphism" RELATED []
 synonym: "simple sequence length variation" EXACT []
 synonym: "SSLP" RELATED []
+xref: http://en.wikipedia.org/wiki/Simple_sequence_length_polymorphism "WIKI"
 is_a: SO:0000248 ! sequence_length_variation
 
 [Term]
@@ -2036,8 +2038,9 @@ is_obsolete: true
 [Term]
 id: SO:0000248
 name: sequence_length_variation
+def: "A kind of kind of sequence alteration where the copies of a region present varies across a population." [SO:ke]
 synonym: "sequence length variation" EXACT []
-is_a: SO:1000002 ! substitution
+is_a: SO:0001059 ! sequence_alteration
 
 [Term]
 id: SO:0000249
@@ -8318,7 +8321,7 @@ synonym: "CNV" EXACT []
 synonym: "copy number polymorphism" EXACT []
 synonym: "copy number variation" EXACT []
 xref: http://en.wikipedia.org/wiki/Copy_number_variation "wiki"
-is_a: SO:0001059 ! sequence_alteration
+is_a: SO:0000248 ! sequence_length_variation
 
 [Term]
 id: SO:0001020
@@ -15335,7 +15338,7 @@ creation_date: 2011-03-09T09:58:04Z
 [Term]
 id: SO:0001759
 name: unitary_pseudogene
-def: "A pseudogene, deactivated from original state by mutation, fixed in a population." [http://en.wikipedia.org/wiki/Pseudogene, SO:ke]
+def: "A pseudogene, deactivated from original state by mutation, fixed in a population,where the ortholog in a reference species such as mouse remains functional." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, http://en.wikipedia.org/wiki/Pseudogene, SO:ke]
 comment: This is different from a non processed pseudogene because the gene was not duplicated. An example is the L-gulono-lactone oxidase pseudogene in primates.
 synonym: "disabled gene" RELATED []
 synonym: "unitary pseudogene" RELATED []
@@ -15346,8 +15349,10 @@ creation_date: 2011-03-09T10:04:04Z
 [Term]
 id: SO:0001760
 name: non_processed_pseudogene
-def: "A pseudogene that arose from a means other than retrotransposition." [SO:ke]
+def: "A pseudogene that arose from a means other than retrotransposition. A pseudogene created via genomic duplication of a functional protein-coding parent gene followed by accumulation of deleterious mutations." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, SO:ke]
 synonym: "non processed pseudogene" RELATED []
+synonym: "unprocessed pseudogene" EXACT []
+synonym: "unprocessed_pseudogene" EXACT []
 is_a: SO:0000336 ! pseudogene
 created_by: kareneilbeck
 creation_date: 2011-03-09T10:54:47Z
@@ -16165,8 +16170,8 @@ creation_date: 2011-10-07T03:42:05Z
 [Term]
 id: SO:0001841
 name: polymorphic_pseudogene
-def: "Pseudogene owing to a SNP/DIP but in other individuals/haplotypes/strains the gene is translated." [JAX:hd]
-comment: This terms is used by Ensembl and Vega.
+def: "A pseudogene in the reference genome, though known to be intact in the genomes of other individuals of the same species. The annotation process has confirmed that the pseudogenisation event is not a genomic sequencing error." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, JAX:hd]
+comment: This terms is used by Ensembl and Vega. Pseudogene owing to a SNP/DIP but in other individuals/haplotypes/strains the gene is translated.
 synonym: "polymorphic psuedogene" EXACT []
 is_a: SO:0000336 ! pseudogene
 created_by: kareneilbeck
@@ -18719,6 +18724,229 @@ xref: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC126017/
 is_a: SO:0000655 ! ncRNA
 created_by: nicole
 creation_date: 2016-05-19T13:42:45Z
+
+[Term]
+id: SO:0002096
+name: short_tandem_repeat_variation
+def: "A kind of sequence variant whereby a tandem repeat is expanded or contracted with regard to a reference." [SO:ke]
+synonym: "str variation" RELATED []
+is_a: SO:0000248 ! sequence_length_variation
+created_by: kareneilbeck
+creation_date: 2016-07-14T16:04:40Z
+
+[Term]
+id: SO:0002097
+name: vertebrate_immune_system_pseudogene
+def: "A pseudogene derived from a vertebrate immune system gene." [SO:ke]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "vertebrate immune system pseudogene" EXACT []
+is_a: SO:0000336 ! pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-15T16:00:22Z
+
+[Term]
+id: SO:0002098
+name: immunoglobulin_pseudogene
+def: "A pseudogene derived from an immunoglobulin gene." [SO:ke]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "immunoglobulin pseudogene" EXACT []
+is_a: SO:0002097 ! vertebrate_immune_system_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-15T16:01:47Z
+
+[Term]
+id: SO:0002099
+name: T_cell_receptor_pseudogene
+def: "A pseudogene derived from a T-cell receptor gene." [SO:ke]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+is_a: SO:0002097 ! vertebrate_immune_system_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-15T16:02:18Z
+
+[Term]
+id: SO:0002100
+name: IG_C_pseudogene
+def: "A pseudogenic constant region of an immunoglobulin gene which closely resembles a known functional Imunoglobulin constant gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "IG C pseudogene" EXACT []
+is_a: SO:0002098 ! immunoglobulin_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-15T16:05:08Z
+
+[Term]
+id: SO:0002101
+name: IG_J_pseudogene
+def: "A pseudogenic joining region which closely resembles a known functional imunoglobulin joining gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon that rearranges at the DNA level and codes the joining region of the variable domain of an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "IG J pseudogene" EXACT []
+is_a: SO:0002098 ! immunoglobulin_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-15T16:05:34Z
+
+[Term]
+id: SO:0002102
+name: IG_V_pseudogene
+def: "A pseudogenic variable region which closely resembles a known functional imunoglobulin variable gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon that rearranges at the DNA level and codes the variable region of  an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "IG V pseudogene" EXACT []
+is_a: SO:0002098 ! immunoglobulin_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-15T16:05:56Z
+
+[Term]
+id: SO:0002103
+name: TR_V_pseudogene
+def: "A pseudogenic variable region which closely resembles a known functional T receptor variable gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon that rearranges at the DNA level and codes the variable region of  an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "TR V pseudogene" EXACT []
+is_a: SO:0002099 ! T_cell_receptor_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-15T16:06:29Z
+
+[Term]
+id: SO:0002104
+name: TR_J_pseudogene
+def: "A pseudogenic joining region which closely resembles a known functional T receptor (TR) joining gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon that rearranges at the DNA level and codes the joining region of the variable domain of an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "TR J pseudogene" EXACT []
+is_a: SO:0002099 ! T_cell_receptor_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-15T16:06:51Z
+
+[Term]
+id: SO:0002105
+name: translated_processed_pseudogene
+def: "A processed pseudogene where there is evidence, (mass spec data) suggesting that it is also translated." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "translated processed pseudogene" EXACT []
+is_a: SO:0000043 ! processed_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-18T12:31:53Z
+
+[Term]
+id: SO:0002106
+name: translated_unprocessed_pseudogene
+def: "A non-processed pseudogene where there is evidence, (mass spec data) suggesting that it is also translated." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "translated unprocessed pseudogene" EXACT []
+is_a: SO:0001760 ! non_processed_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-18T12:34:42Z
+
+[Term]
+id: SO:0002107
+name: transcribed_unprocessed_pseudogene
+def: "A unprocessed pseudogene supported by locus-specific evidence of transcription." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "transcribed unprocessed pseudogene" EXACT []
+is_a: SO:0001760 ! non_processed_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-18T12:41:53Z
+
+[Term]
+id: SO:0002108
+name: transcribed_unitary_pseudogene
+def: "A unitary pseudogene overlapped by locus-specific evidence of transcription." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "transcribed unitary pseudogene" EXACT []
+is_a: SO:0001759 ! unitary_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-18T12:44:26Z
+
+[Term]
+id: SO:0002109
+name: transcribed_processed_pseudogene
+def: "A processed_pseudogene overlapped by locus-specific evidence of transcription." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "transcribed processed pseudogene" EXACT []
+is_a: SO:0000043 ! processed_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-18T12:45:48Z
+
+[Term]
+id: SO:0002110
+name: polymorphic_pseudogene_with_retained_intron
+def: "A polymorphic  pseudogene in the reference genome, containing a retained intron,  known to be intact in the genomes of other individuals of the same species. The annotation process has confirmed that the pseudogenisation event is not a genomic sequencing error." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "polymorphic pseudogene with retained intron" EXACT []
+is_a: SO:0001841 ! polymorphic_pseudogene
+created_by: kareneilbeck
+creation_date: 2016-07-18T12:47:33Z
+
+[Term]
+id: SO:0002111
+name: pseudogene_processed_transcript
+def: "A processed_transcript supported by EST and/or mRNA evidence that aligns unambiguously to a pseudogene locus (i.e. alignment to the pseudogene locus clearly better than alignment to parent locus)." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "pseudogene processed transcript" EXACT []
+is_a: SO:0001503 ! processed_transcript
+created_by: kareneilbeck
+creation_date: 2016-07-18T14:07:00Z
+
+[Term]
+id: SO:0002112
+name: coding_transcript_with_retained_intron
+def: "A protein coding transcript containing a retained intron." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "mRNA with retained intron" RELATED []
+is_a: SO:0000120 ! protein_coding_primary_transcript
+created_by: kareneilbeck
+creation_date: 2016-07-18T14:09:49Z
+
+[Term]
+id: SO:0002113
+name: lnRNA_with_retained_intron
+def: "A lncRNA transcript containing a retained intron." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "lncRNA with retained intron" EXACT []
+is_a: SO:0002035 ! lncRNA_primary_transcript
+created_by: kareneilbeck
+creation_date: 2016-07-18T14:13:07Z
+
+[Term]
+id: SO:0002114
+name: NMD_transcript
+def: "A protein coding transcript that contains a CDS but has one or more splice junctions >50bp downstream of stop codon, making it susceptable to nonsense mediated decay." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "NMD transcript" EXACT []
+is_a: SO:0000120 ! protein_coding_primary_transcript
+created_by: kareneilbeck
+creation_date: 2016-07-18T14:16:13Z
+
+[Term]
+id: SO:0002115
+name: pseudogenic_transcript_with_retained_intron
+def: "A transcript supported by EST and/or mRNA evidence that aligns unambiguously to the pseudogene locus; has retained intronic sequence compared to a reference transcript sequence." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+is_a: SO:0000185 ! primary_transcript
+created_by: kareneilbeck
+creation_date: 2016-07-18T14:19:04Z
+
+[Term]
+id: SO:0002116
+name: polymorphic_pseudogene_processed_transcript
+def: "A processed transcript that does not contain a CDS that fullfills annotation criteria and not necessarily functionally non-coding." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "polymorphic pseudogene processed transcript" EXACT []
+is_a: SO:0002111 ! pseudogene_processed_transcript
+created_by: kareneilbeck
+creation_date: 2016-07-18T14:23:59Z
+
+[Term]
+id: SO:0002117
+name: <new term>
+is_obsolete: true
+created_by: kareneilbeck
+creation_date: 2016-07-18T14:27:21Z
+
+[Term]
+id: SO:0002118
+name: NMD_polymorphic_pseudogene_transcript
+def: "A polymorphic pseudogene transcript that contains a CDS but has one or more splice junctions >50bp downstream of stop codon. Premature stop codon is not introduced, directly or indirectly, as a result of the variation i.e. must be present in both protein_coding and pseudogenic alleles." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
+synonym: "NMD polymorphic pseudogene transcript" EXACT []
+is_a: SO:0002114 ! NMD_transcript
+created_by: kareneilbeck
+creation_date: 2016-07-18T14:28:02Z
 
 [Term]
 id: SO:0005836
