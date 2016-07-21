@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 18:07:2016 14:34
+date: 21:07:2016 12:29
 saved-by: kareneilbeck
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -8966,7 +8966,7 @@ synonym: "partially_characterised_change_in_DNA_sequence" NARROW []
 synonym: "sequence alteration" EXACT []
 synonym: "sequence variation" RELATED []
 synonym: "uncharacterised_change_in_nucleotide_sequence" NARROW []
-is_a: SO:0000110 ! sequence_feature
+is_a: SO:0002072 ! sequence_comparison
 
 [Term]
 id: SO:0001060
@@ -8976,7 +8976,6 @@ synonym: "ANNOVAR:unknown" RELATED VAR [http://www.openbioinformatics.org/annova
 synonym: "Jannovar:sequence_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "sequence variant" EXACT []
 synonym: "VAAST:sequence_variant" EXACT VAR []
-is_a: SO:0002072 ! sequence_comparison
 
 [Term]
 id: SO:0001061
@@ -18892,14 +18891,15 @@ creation_date: 2015-10-12T13:25:02Z
 [Term]
 id: SO:0002072
 name: sequence_comparison
+is_a: SO:0000110 ! sequence_feature
 created_by: kareneilbeck
 creation_date: 2015-11-23T14:14:32Z
 
 [Term]
 id: SO:0002073
-name: no_variation
-def: "No_variation is a position or feature within a sequence, when compared to a reference  sequence, that does not display any variation." [SO:ke]
-comment: This term is requested by the ClinVar data model group for use in the allele registry and such.
+name: no_sequence_alteration
+def: "A position or feature within a sequence that is identical to the comparable position or feature of a specified reference sequence." [SO:ke]
+comment: This term is requested by the ClinVar data model group for use in the allele registry and such. A sequence at a defined location that is defined to match the reference assembly.
 is_a: SO:0002072 ! sequence_comparison
 created_by: kareneilbeck
 creation_date: 2015-11-23T14:15:08Z
@@ -19354,6 +19354,16 @@ synonym: "NMD polymorphic pseudogene transcript" EXACT []
 is_a: SO:0002114 ! NMD_transcript
 created_by: kareneilbeck
 creation_date: 2016-07-18T14:28:02Z
+
+[Term]
+id: SO:0002119
+name: allelic_frequency
+def: "A physical quality which inheres to the allele by virtue of the number instances of the allele within a population. This is the relative frequency of the allele at a given locus in a population." [SO:ke]
+comment: Requested by HL7 clinical genomics group.
+xref: WIKI:https\://en.wikipedia.org/wiki/Allele_frequency
+is_a: SO:0001763 ! variant_frequency
+created_by: kareneilbeck
+creation_date: 2016-07-21T11:58:55Z
 
 [Term]
 id: SO:0005836
