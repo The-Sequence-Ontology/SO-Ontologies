@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 21:07:2016 12:29
+date: 14:09:2016 12:40
 saved-by: kareneilbeck
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -19124,7 +19124,7 @@ creation_date: 2016-05-17T13:34:12Z
 [Term]
 id: SO:0002095
 name: scaRNA
-def: "A ncRNA, specific to the Cajal body, that has been demonstrated to function as a guide RNA in the site-specific synthesis of 2'-O-ribose-methylated nucleotides and pseudouridines in the RNA polymerase II-transcribed U1, U2, U4 and U5 spliceosomal small nuclear RNAs (snRNAs)." []
+def: "A ncRNA, specific to the Cajal body, that has been demonstrated to function as a guide RNA in the site-specific synthesis of 2'-O-ribose-methylated nucleotides and pseudouridines in the RNA polymerase II-transcribed U1, U2, U4 and U5 spliceosomal small nuclear RNAs (snRNAs)." [PMC:126017, SO:nrs]
 synonym: "small Cajal body specific RNA" EXACT []
 synonym: "small Cajal body-specific RNA" EXACT []
 xref: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC126017/
@@ -19253,7 +19253,7 @@ creation_date: 2016-07-18T12:41:53Z
 [Term]
 id: SO:0002108
 name: transcribed_unitary_pseudogene
-def: "A unitary pseudogene overlapped by locus-specific evidence of transcription." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+def: "A species specific unprocessed pseudogene without a parent gene, as it has an active orthologue in another species." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
 comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
 synonym: "transcribed unitary pseudogene" EXACT []
 is_a: SO:0001759 ! unitary_pseudogene
@@ -19302,10 +19302,11 @@ creation_date: 2016-07-18T14:09:49Z
 
 [Term]
 id: SO:0002113
-name: lnRNA_with_retained_intron
+name: lncRNA_with_retained_intron
 def: "A lncRNA transcript containing a retained intron." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
 comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
 synonym: "lncRNA with retained intron" EXACT []
+synonym: "lncRNA_retained_intron" EXACT []
 is_a: SO:0002035 ! lncRNA_primary_transcript
 created_by: kareneilbeck
 creation_date: 2016-07-18T14:13:07Z
@@ -19313,9 +19314,10 @@ creation_date: 2016-07-18T14:13:07Z
 [Term]
 id: SO:0002114
 name: NMD_transcript
-def: "A protein coding transcript that contains a CDS but has one or more splice junctions >50bp downstream of stop codon, making it susceptable to nonsense mediated decay." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+def: "A protein coding transcript that contains a CDS but has one or more splice junctions >50bp downstream of stop codon, making it susceptible to nonsense mediated decay." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
 comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
 synonym: "NMD transcript" EXACT []
+synonym: "nonsense mediated decay transcript" EXACT []
 is_a: SO:0000120 ! protein_coding_primary_transcript
 created_by: kareneilbeck
 creation_date: 2016-07-18T14:16:13Z
@@ -19324,6 +19326,8 @@ creation_date: 2016-07-18T14:16:13Z
 id: SO:0002115
 name: pseudogenic_transcript_with_retained_intron
 def: "A transcript supported by EST and/or mRNA evidence that aligns unambiguously to the pseudogene locus; has retained intronic sequence compared to a reference transcript sequence." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes.
+synonym: "pseudogene retained intron" EXACT []
 is_a: SO:0000185 ! primary_transcript
 created_by: kareneilbeck
 creation_date: 2016-07-18T14:19:04Z
@@ -19351,6 +19355,7 @@ name: NMD_polymorphic_pseudogene_transcript
 def: "A polymorphic pseudogene transcript that contains a CDS but has one or more splice junctions >50bp downstream of stop codon. Premature stop codon is not introduced, directly or indirectly, as a result of the variation i.e. must be present in both protein_coding and pseudogenic alleles." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
 comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
 synonym: "NMD polymorphic pseudogene transcript" EXACT []
+synonym: "nonsense_mediated_decay_polymorphic_pseudogene" EXACT []
 is_a: SO:0002114 ! NMD_transcript
 created_by: kareneilbeck
 creation_date: 2016-07-18T14:28:02Z
@@ -19364,6 +19369,216 @@ xref: WIKI:https\://en.wikipedia.org/wiki/Allele_frequency
 is_a: SO:0001763 ! variant_frequency
 created_by: kareneilbeck
 creation_date: 2016-07-21T11:58:55Z
+
+[Term]
+id: SO:0002120
+name: 3_prime_overlapping_ncrna
+def: "Transcript where ditag (digital gene expression profiling)and/or published experimental data strongly supports the existence of short non-coding transcripts transcribed from the 3'UTR." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes.
+synonym: "3'_overlapping_ncrna" EXACT []
+synonym: "3prime_overlapping_ncRNA" EXACT []
+synonym: "three prime overlapping noncoding rna" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: nicole
+creation_date: 2016-08-23T15:48:21Z
+
+[Term]
+id: SO:0002121
+name: vertebrate_immune_system_gene
+def: "The configuration of the  IG and TR variable (V), diversity (D) and joining (J) germline genes before DNA rearrangements  (with or without constant (C) genes in undefined configuration. (germline, non rearranged regions of the IG DNA loci)." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "immune_gene" EXACT []
+is_a: SO:0000704 ! gene
+created_by: nicole
+creation_date: 2016-08-23T15:54:51Z
+
+[Term]
+id: SO:0002122
+name: immunoglobulin_gene
+def: "A germline immunoglobulin  gene." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "All_IG_genes" EXACT []
+synonym: "IG_genes" EXACT []
+is_a: SO:0002121 ! vertebrate_immune_system_gene
+created_by: nicole
+creation_date: 2016-08-23T15:56:09Z
+
+[Term]
+id: SO:0002123
+name: IG_C_gene
+def: "A constant (C) gene, a gene that codes the constant region of an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "IGC_gene" EXACT []
+synonym: "immunoglobulin_C_gene" EXACT []
+synonym: "Immunoglobulin_Constant_germline_Gene" EXACT []
+is_a: SO:0002122 ! immunoglobulin_gene
+created_by: nicole
+creation_date: 2016-08-23T15:57:29Z
+
+[Term]
+id: SO:0002124
+name: IG_D_gene
+def: "A gene that rearranges at the DNA level and codes the diversity region of the variable domain of an immunoglobuin (IG) gene." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "IGD_gene" EXACT []
+synonym: "immunoglobulin_D_gene" EXACT []
+synonym: "Immunoglobulin_Diversity_ gene" EXACT []
+is_a: SO:0002122 ! immunoglobulin_gene
+created_by: nicole
+creation_date: 2016-08-23T15:59:10Z
+
+[Term]
+id: SO:0002125
+name: IG_J_gene
+def: "A joining gene that rearranges at the DNA level and codes the joining region of the variable domain of an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "IG_joining_gene" EXACT []
+synonym: "immunoglobulin_J_gene" EXACT []
+synonym: "Immunoglobulin_Joining_Gene" EXACT []
+is_a: SO:0002122 ! immunoglobulin_gene
+created_by: nicole
+creation_date: 2016-08-23T16:00:36Z
+
+[Term]
+id: SO:0002126
+name: IG_V_gene
+def: "A variable gene that rearranges at the DNA level and codes the variable region of the variable domain of an Immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "IG_variable_gene" EXACT []
+synonym: "IGV_gene" EXACT []
+synonym: "Immunoglobulin_variable_gene" EXACT []
+is_a: SO:0002122 ! immunoglobulin_gene
+created_by: nicole
+creation_date: 2016-08-23T16:02:09Z
+
+[Term]
+id: SO:0002127
+name: lncRNA_gene
+def: "A gene that encodes a long non-coding RNA." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes.
+synonym: "lnc RNA gene" EXACT []
+synonym: "lnc_RNA_gene" EXACT []
+synonym: "long_non_coding_RNA_gene" EXACT []
+is_a: SO:0001263 ! ncRNA_gene
+created_by: nicole
+creation_date: 2016-08-23T16:03:33Z
+
+[Term]
+id: SO:0002128
+name: mt_rRNA
+def: "Mitochondrial ribosomal RNA." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+synonym: "mitochondrial_rRNA" EXACT []
+synonym: "Mt_rRNA" EXACT []
+is_a: SO:0000252 ! rRNA
+created_by: nicole
+creation_date: 2016-08-23T16:08:59Z
+
+[Term]
+id: SO:0002129
+name: mt_tRNA
+def: "Mitochondrial transfer RNA." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+synonym: "mitochondrial_tRNA" EXACT []
+synonym: "Mt_tRNA" EXACT []
+is_a: SO:0000253 ! tRNA
+created_by: nicole
+creation_date: 2016-08-23T16:10:17Z
+
+[Term]
+id: SO:0002130
+name: NSD_transcript
+def: "A transcript that contains a CDS but has no stop codon before the polyA site is reached." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+synonym: "non_stop_decay_transcript" EXACT []
+is_a: SO:0000234 ! mRNA
+created_by: nicole
+creation_date: 2016-08-23T16:11:34Z
+
+[Term]
+id: SO:0002131
+name: sense_intronic_ncRNA
+def: "A non-coding transcript found within an intron of a coding or non-coding gene, with no overlap of exonic sequence." [GENECODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+synonym: "sense_intronic" EXACT []
+synonym: "sense_intronic_non-coding_RNA" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: nicole
+creation_date: 2016-08-23T16:15:02Z
+
+[Term]
+id: SO:0002132
+name: sense_overlap_ncRNA
+def: "A non-coding transcript that contains a protein coding gene within its intronic sequence on the same strand, with no overlap of exonic sequence." [GENECODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+synonym: "sense_overlapping" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: nicole
+creation_date: 2016-08-23T16:16:13Z
+
+[Term]
+id: SO:0002133
+name: T_cell_receptor_gene
+def: "A T-cell receptor germline gene." []
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "TR_gene" EXACT []
+is_a: SO:0002121 ! vertebrate_immune_system_gene
+created_by: nicole
+creation_date: 2016-08-23T16:17:12Z
+
+[Term]
+id: SO:0002134
+name: TR_C_Gene
+def: "A constant (C) gene, a gene that codes the constant region of a T-cell receptor chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "T_cell_receptor_C_gene" EXACT []
+is_a: SO:0002133 ! T_cell_receptor_gene
+created_by: nicole
+creation_date: 2016-08-23T16:19:20Z
+
+[Term]
+id: SO:0002135
+name: TR_D_Gene
+def: "A gene that rearranges at the DNA level and codes the diversity region of the variable domain of aT-cell receptor gene." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "T_cell_receptor_D_gene" EXACT []
+is_a: SO:0002133 ! T_cell_receptor_gene
+created_by: nicole
+creation_date: 2016-08-23T16:20:06Z
+
+[Term]
+id: SO:0002136
+name: TR_J_Gene
+def: "A joining gene that rearranges at the DNA level and codes the joining region of the variable domain of aT-cell receptor chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "T_cell_receptor_J_gene" EXACT []
+is_a: SO:0002133 ! T_cell_receptor_gene
+created_by: nicole
+creation_date: 2016-08-23T16:20:36Z
+
+[Term]
+id: SO:0002137
+name: TR_V_Gene
+def: "A variable gene that rearranges at the DNA level and codes the variable region of the variable domain of aT-cell receptor chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
+synonym: "T_cell_receptor_V_gene" EXACT []
+is_a: SO:0002133 ! T_cell_receptor_gene
+created_by: nicole
+creation_date: 2016-08-23T16:21:04Z
+
+[Term]
+id: SO:0002138
+name: predicted_transcript
+def: "A transcript feature that has been predicted but is not yet validated." [SO:ke]
+synonym: "predicted transcript" EXACT []
+is_a: SO:0000673 ! transcript
+created_by: nicole
+creation_date: 2016-08-23T16:27:38Z
+
+[Term]
+id: SO:0002139
+name: unconfirmed_transcript
+def: "This is used for non-spliced EST clusters that have polyA features. This category has been specifically created for the ENCODE project to highlight regions that could indicate the presence of protein coding genes that require experimental validation, either by 5' RACE or RT-PCR to extend the transcripts, or by confirming expression of the putatively-encoded peptide with specific antibodies." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+synonym: "TEC" EXACT []
+synonym: "to_be_experimentally_confirmed_transcript" EXACT []
+is_a: SO:0002138 ! predicted_transcript
+created_by: nicole
+creation_date: 2016-08-23T16:28:07Z
 
 [Term]
 id: SO:0005836
