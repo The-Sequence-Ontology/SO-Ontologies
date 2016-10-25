@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 15:09:2016 16:01
+date: 25:10:2016 14:46
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -14794,9 +14794,9 @@ creation_date: 2010-03-31T10:23:27Z
 [Term]
 id: SO:0001703
 name: H3K9_acetylation_site
-def: "A kind of histone modification site, whereby the 9th residue (a lysine), from the start of the H3 histone protein is acylated." [http://en.wikipedia.org/wiki/Histone]
+def: "A kind of histone modification site, whereby the 9th residue (a lysine), from the start of the H3 histone protein is acetylated." [http://en.wikipedia.org/wiki/Histone]
 synonym: "H3K9 acetylation site" EXACT []
-synonym: "H3K9Ac" RELATED []
+synonym: "H3K9ac" EXACT []
 is_a: SO:0001973 ! histone_3_acetylation_site
 created_by: kareneilbeck
 creation_date: 2010-03-31T10:25:05Z
@@ -14804,9 +14804,9 @@ creation_date: 2010-03-31T10:25:05Z
 [Term]
 id: SO:0001704
 name: H3K14_acetylation_site
-def: "A kind of histone modification site, whereby the 14th residue (a lysine), from the start of the H3 histone protein is acylated." [http://en.wikipedia.org/wiki/Histone]
+def: "A kind of histone modification site, whereby the 14th residue (a lysine), from the start of the H3 histone protein is acetylated." [http://en.wikipedia.org/wiki/Histone]
 synonym: "H3K14 acetylation site" EXACT []
-synonym: "H3K14Ac" RELATED []
+synonym: "H3K14ac" EXACT []
 is_a: SO:0001973 ! histone_3_acetylation_site
 created_by: kareneilbeck
 creation_date: 2010-03-31T10:25:53Z
@@ -14941,19 +14941,19 @@ creation_date: 2010-04-13T10:13:28Z
 [Term]
 id: SO:0001718
 name: H3K18_acetylation_site
-def: "A kind of histone modification site, whereby the 14th residue (a lysine), from the start of the H3 histone protein is acylated." [SO:ke]
+def: "A kind of histone modification site, whereby the 18th residue (a lysine), from the start of the H3 histone protein is acetylated." [SO:ke]
 synonym: "H3K18 acetylation site" EXACT []
-synonym: "H3K18Ac" RELATED []
+synonym: "H3K18ac" EXACT []
 is_a: SO:0001973 ! histone_3_acetylation_site
 created_by: kareneilbeck
 creation_date: 2010-04-13T10:39:35Z
 
 [Term]
 id: SO:0001719
-name: H3K23_acylation_site
-def: "A kind of histone modification, whereby the 23rd residue (a lysine), from the start of the H3 histone protein is acylated." [SO:ke]
-synonym: "H3K23 acylation site" RELATED []
-synonym: "H3K23Ac" RELATED []
+name: H3K23_acetylation_site
+def: "A kind of histone modification, whereby the 23rd residue (a lysine), from the start of the H3 histone protein is acetylated." [SO:ke]
+synonym: "H3K23 acetylation site" EXACT []
+synonym: "H3K23ac" EXACT []
 is_a: SO:0001973 ! histone_3_acetylation_site
 created_by: kareneilbeck
 creation_date: 2010-04-13T10:42:45Z
@@ -14975,7 +14975,7 @@ name: H3K27_acylation_site
 def: "A kind of histone modification site, whereby the 27th residue (a lysine), from the start of the H3 histone protein is acylated." [SO:ke]
 synonym: "H3K27 acylation site" EXACT []
 synonym: "H3K27Ac" RELATED []
-is_a: SO:0001973 ! histone_3_acetylation_site
+is_obsolete: true
 created_by: kareneilbeck
 creation_date: 2010-04-13T10:44:09Z
 
@@ -15051,31 +15051,31 @@ creation_date: 2010-04-13T11:08:19Z
 
 [Term]
 id: SO:0001729
-name: H4K16_acylation_site
-def: "A kind of histone modification site, whereby the 16th residue (a lysine), from the start of the H4 histone protein is acylated." [SO:ke]
-synonym: "H4K16 acylation_site" RELATED []
-synonym: "H4K16Ac" RELATED []
-is_a: SO:0001972 ! histone_4_acylation_site
+name: H4K16_acetylation_site
+def: "A kind of histone modification site, whereby the 16th residue (a lysine), from the start of the H4 histone protein is acetylated." [SO:ke]
+synonym: "H4K16 acetylation site" EXACT []
+synonym: "H4K16ac" EXACT []
+is_a: SO:0001972 ! histone_4_acetylation_site
 created_by: kareneilbeck
 creation_date: 2010-04-13T11:09:41Z
 
 [Term]
 id: SO:0001730
-name: H4K5_acylation_site
-def: "A kind of histone modification site, whereby the 5th residue (a lysine), from the start of the H4 histone protein is acylated." [SO:ke]
-synonym: "H4K5 acylation site" RELATED []
-synonym: "H4K5Ac" RELATED []
-is_a: SO:0001972 ! histone_4_acylation_site
+name: H4K5_acetylation_site
+def: "A kind of histone modification site, whereby the 5th residue (a lysine), from the start of the H4 histone protein is acetylated." [SO:ke]
+synonym: "H4K5 acetylation site" EXACT []
+synonym: "H4K5ac" EXACT []
+is_a: SO:0001972 ! histone_4_acetylation_site
 created_by: kareneilbeck
 creation_date: 2010-04-13T11:13:00Z
 
 [Term]
 id: SO:0001731
-name: H4K8_acylation_site
-def: "A kind of histone modification site, whereby the 8th residue (a lysine), from the start of the H4 histone protein is acylated." [SO:KE]
-synonym: "H4K8 acylation site" RELATED []
-synonym: "H4K8Ac" RELATED []
-is_a: SO:0001972 ! histone_4_acylation_site
+name: H4K8_acetylation_site
+def: "A kind of histone modification site, whereby the 8th residue (a lysine), from the start of the H4 histone protein is acetylated." [SO:KE]
+synonym: "H4K8 acetylation site" EXACT []
+synonym: "H4K8ac" EXACT []
+is_a: SO:0001972 ! histone_4_acetylation_site
 created_by: kareneilbeck
 creation_date: 2010-04-13T11:14:24Z
 
@@ -17151,7 +17151,7 @@ creation_date: 2013-03-06T10:13:48Z
 [Term]
 id: SO:0001936
 name: H3K36_acetylation_site
-def: "A kind of histone modification site, whereby the 36th residue (a lysine), from the start of the H3 histone protein is acylated." [EBI:nj]
+def: "A kind of histone modification site, whereby the 36th residue (a lysine), from the start of the H3 histone protein is acetylated." [EBI:nj]
 synonym: "H3K36 acetylation site" EXACT []
 synonym: "H3K36ac" EXACT []
 is_a: SO:0001973 ! histone_3_acetylation_site
@@ -17161,10 +17161,10 @@ creation_date: 2013-03-06T10:16:55Z
 [Term]
 id: SO:0001937
 name: H2BK12_acetylation_site
-def: "A kind of histone modification site, whereby the 12th residue (a lysine), from the start of the H2B protein is methylated." [EBI:nj]
+def: "A kind of histone modification site, whereby the 12th residue (a lysine), from the start of the H2B protein is acetylated." [EBI:nj]
 synonym: "H2BK12 acetylation site" EXACT []
-synonym: "H2BK12ac" RELATED []
-is_a: SO:0001702 ! histone_acetylation_site
+synonym: "H2BK12ac" EXACT []
+is_a: SO:0002143 ! histone_2B_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:19:13Z
 
@@ -17174,7 +17174,7 @@ name: H2AK5_acetylation_site
 def: "A kind of histone modification site, whereby the 5th residue (a lysine), from the start of the H2A histone protein is acetylated." [EBI:nj]
 synonym: "H2AK5 acetylation site" EXACT []
 synonym: "H2AK5ac" EXACT []
-is_a: SO:0001702 ! histone_acetylation_site
+is_a: SO:0002142 ! histone_2A_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:20:57Z
 
@@ -17184,17 +17184,17 @@ name: H4K12_acetylation_site
 def: "A kind of histone modification site, whereby the 12th residue (a lysine), from the start of the H4 histone protein is acetylated." [EBI:nj]
 synonym: "H4K12 acetylation site" EXACT []
 synonym: "H4K12ac" EXACT []
-is_a: SO:0001972 ! histone_4_acylation_site
+is_a: SO:0001972 ! histone_4_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:26:15Z
 
 [Term]
 id: SO:0001940
 name: H2BK120_acetylation_site
-def: "A kind of histone modification site, whereby the 120th residue (a lysine), from the start of the H2B histone protein is acetylated." [EBI:nj]
+def: "A kind of histone modification site, whereby the 120th residue (a lysine), from the start of the H2B histone protein is acetylated." [EBI:nj, http://dx.doi.org/10.4161/epi.6.5.15623]
 synonym: "H2BK120 acetylation site" EXACT []
 synonym: "H2BK120ac" EXACT []
-is_a: SO:0001702 ! histone_acetylation_site
+is_a: SO:0002143 ! histone_2B_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:28:38Z
 
@@ -17203,7 +17203,8 @@ id: SO:0001941
 name: H4K91_acetylation_site
 def: "A kind of histone modification site, whereby the 91st residue (a lysine), from the start of the H4 histone protein is acetylated." [EBI:nj]
 synonym: "H4K91 acetylation site" EXACT []
-is_a: SO:0001972 ! histone_4_acylation_site
+synonym: "H4K91ac" EXACT []
+is_a: SO:0001972 ! histone_4_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:41:04Z
 
@@ -17211,18 +17212,18 @@ creation_date: 2013-03-06T10:41:04Z
 id: SO:0001942
 name: H2BK20_acetylation_site
 def: "A kind of histone modification site, whereby the 20th residue (a lysine), from the start of the H2B histone protein is acetylated." [EBI:nj]
-synonym: "H2BK20 acetylation site" RELATED []
+synonym: "H2BK20 acetylation site" EXACT []
 synonym: "H2BK20ac" EXACT []
-is_a: SO:0001702 ! histone_acetylation_site
+is_a: SO:0002143 ! histone_2B_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:44:31Z
 
 [Term]
 id: SO:0001943
-name: H3K4ac_acetylation_site
+name: H3K4_acetylation_site
 def: "A kind of histone modification site, whereby the 4th residue (a lysine), from the start of the H3 histone protein is acetylated." [EBI:nj]
+synonym: "H3K4 acetylation site" EXACT []
 synonym: "H3K4ac" EXACT []
-synonym: "H3K4ac acetylation site" EXACT []
 is_a: SO:0001973 ! histone_3_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:46:32Z
@@ -17233,7 +17234,7 @@ name: H2AK9_acetylation_site
 def: "A kind of histone modification site, whereby the 9th residue (a lysine), from the start of the H2A histone protein is acetylated." [EBI:nj]
 synonym: "H2AK9 acetylation site" EXACT []
 synonym: "H2AK9ac" EXACT []
-is_a: SO:0001702 ! histone_acetylation_site
+is_a: SO:0002142 ! histone_2A_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:48:11Z
 
@@ -17253,7 +17254,7 @@ name: H2BK15_acetylation_site
 def: "A kind of histone modification site, whereby the 15th residue (a lysine), from the start of the H2B histone protein is acetylated." [EBI:nj]
 synonym: "H2BK15 acetylation site" EXACT []
 synonym: "H2BK15ac" EXACT []
-is_a: SO:0001702 ! histone_acetylation_site
+is_a: SO:0002143 ! histone_2B_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-03-06T10:53:23Z
 
@@ -17504,9 +17505,10 @@ creation_date: 2013-07-29T04:41:53Z
 
 [Term]
 id: SO:0001972
-name: histone_4_acylation_site
-def: "A histone 4 modification where the modification is the acylation of the residue." [EBI:nj, SO:ke]
+name: histone_4_acetylation_site
+def: "A histone 4 modification where the modification is the acetylation of the residue." [EBI:nj, ISBN:0815341059, SO:ke]
 synonym: "H4ac" EXACT []
+synonym: "histone 4 acetylation site" EXACT []
 is_a: SO:0001702 ! histone_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-07-30T10:43:04Z
@@ -17514,8 +17516,9 @@ creation_date: 2013-07-30T10:43:04Z
 [Term]
 id: SO:0001973
 name: histone_3_acetylation_site
-def: "A histone 3 modification where the modification is the acylation of the residue." [EBI:nj, SO:ke]
+def: "A histone 3 modification where the modification is the acetylation of the residue." [EBI:nj, ISBN:0815341059, SO:ke]
 synonym: "H3ac" EXACT []
+synonym: "histone 3 acetylation site" EXACT []
 is_a: SO:0001702 ! histone_acetylation_site
 created_by: kareneilbeck
 creation_date: 2013-07-30T10:46:42Z
@@ -18277,6 +18280,7 @@ name: H3K27_acetylation_site
 def: "A kind of histone modification site, whereby the 27th residue (a lysine), from the start of the H3 histone protein is acetylated." [SO:rs]
 comment: Requested by: Sagar Jain, Richard Scheuermann.
 synonym: "H3K27 acetylation site" EXACT []
+synonym: "H3K27ac" EXACT []
 is_a: SO:0001973 ! histone_3_acetylation_site
 created_by: kareneilbeck
 creation_date: 2015-05-14T10:17:11Z
@@ -19194,6 +19198,92 @@ synonym: "late replication origin" EXACT []
 is_a: SO:0000296 ! origin_of_replication
 created_by: nicole
 creation_date: 2016-09-15T15:56:07Z
+
+[Term]
+id: SO:0002142
+name: histone_2A_acetylation_site
+def: "A histone 2A modification where the modification is the acetylation of the residue." [ISBN:0815341059]
+synonym: "H2Aac" EXACT []
+synonym: "histone 2A acetylation site" EXACT []
+is_a: SO:0001702 ! histone_acetylation_site
+created_by: nicole
+creation_date: 2016-10-25T12:03:46Z
+
+[Term]
+id: SO:0002143
+name: histone_2B_acetylation_site
+def: "A histone 2B modification where the modification is the acetylation of the residue." [ISBN:0815341059]
+synonym: "H2Bac" EXACT []
+synonym: "histone 2B acetylation site" EXACT []
+is_a: SO:0001702 ! histone_acetylation_site
+created_by: nicole
+creation_date: 2016-10-25T12:04:04Z
+
+[Term]
+id: SO:0002144
+name: histone_2AZ_acetylation_site
+def: "A histone 2AZ modification where the modification is the acetylation of the residue." [PMID:19385636, PMID:24316985, PMID:27087541]
+synonym: "H2A.Zac" EXACT []
+synonym: "H2AZac" EXACT []
+synonym: "histone 2AZ acetylation site" EXACT []
+is_a: SO:0002142 ! histone_2A_acetylation_site
+created_by: nicole
+creation_date: 2016-10-25T14:11:49Z
+
+[Term]
+id: SO:0002145
+name: H2AZK4_acetylation_site
+def: "A kind of histone modification site, whereby the 4th residue (a lysine), from the start of the H2AZ histone protein is acetylated." [PMID:19385636, PMID:24316985, PMID:27087541]
+synonym: "H2A.ZK4ac" EXACT []
+synonym: "H2AZK4 acetylation site" EXACT []
+synonym: "H2AZK4ac" EXACT []
+is_a: SO:0002144 ! histone_2AZ_acetylation_site
+created_by: nicole
+creation_date: 2016-10-25T14:19:43Z
+
+[Term]
+id: SO:0002146
+name: H2AZK7_acetylation_site
+def: "A kind of histone modification site, whereby the 7th residue (a lysine), from the start of the H2AZ histone protein is acetylated." [PMID:19385636, PMID:24316985, PMID:27087541]
+synonym: "H2A.ZK7ac" EXACT []
+synonym: "H2AZK7 acetylation site" EXACT []
+synonym: "H2AZK7ac" EXACT []
+is_a: SO:0002144 ! histone_2AZ_acetylation_site
+created_by: nicole
+creation_date: 2016-10-25T14:23:11Z
+
+[Term]
+id: SO:0002147
+name: H2AZK11_acetylation_site
+def: "A kind of histone modification site, whereby the 11th residue (a lysine), from the start of the H2AZ histone protein is acetylated." [PMID:19385636, PMID:24316985, PMID:27087541]
+synonym: "H2A.ZK11ac" EXACT []
+synonym: "H2AZK11 acetylation site" EXACT []
+synonym: "H2AZK11ac" EXACT []
+is_a: SO:0002144 ! histone_2AZ_acetylation_site
+created_by: nicole
+creation_date: 2016-10-25T14:23:31Z
+
+[Term]
+id: SO:0002148
+name: H2AZK13_acetylation_site
+def: "A kind of histone modification site, whereby the 13th residue (a lysine), from the start of the H2AZ histone protein is acetylated." [PMID:19385636, PMID:24316985, PMID:27087541]
+synonym: "H2A.ZK13ac" EXACT []
+synonym: "H2AZK13 acetylation site" EXACT []
+synonym: "H2AZK13ac" EXACT []
+is_a: SO:0002144 ! histone_2AZ_acetylation_site
+created_by: nicole
+creation_date: 2016-10-25T14:23:50Z
+
+[Term]
+id: SO:0002149
+name: H2AZK15_acetylation_site
+def: "A kind of histone modification site, whereby the 15th residue (a lysine), from the start of the H2AZ histone protein is acetylated." [PMID:19385636, PMID:24316985, PMID:27087541]
+synonym: "H2A.ZK15ac" EXACT []
+synonym: "H2AZK15 acetylation site" EXACT []
+synonym: "H2AZK15ac" EXACT []
+is_a: SO:0002144 ! histone_2AZ_acetylation_site
+created_by: nicole
+creation_date: 2016-10-25T14:24:08Z
 
 [Term]
 id: SO:0005836
