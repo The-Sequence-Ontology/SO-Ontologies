@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 25:10:2016 14:46
+date: 26:10:2016 09:47
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -18466,7 +18466,9 @@ creation_date: 2014-07-14T11:53:21Z
 id: SO:0002027
 name: uORF
 def: "A short open reading frame that is found in the 5' untranslated region of an mRNA and plays a role in translational regulation." [PMID:12890013, PMID:16153175, POMBASE:mah]
+synonym: "regulatory uORF" EXACT []
 synonym: "upstream ORF" EXACT []
+xref: PMID:26684391
 is_a: SO:0000236 ! ORF
 created_by: kareneilbeck
 creation_date: 2014-07-14T11:59:23Z
@@ -19691,6 +19693,24 @@ synonym: "H2AZK15ac" EXACT []
 is_a: SO:0002144 ! histone_2AZ_acetylation_site
 created_by: nicole
 creation_date: 2016-10-25T14:24:08Z
+
+[Term]
+id: SO:0002150
+name: AUG_initiated_uORF
+def: "A uORF beginning with the canonical start codon AUG." [PMID:26684391, PMID:27313038]
+synonym: "AUG initiated uORF" EXACT []
+is_a: SO:0002027 ! uORF
+created_by: nicole
+creation_date: 2016-10-26T09:37:11Z
+
+[Term]
+id: SO:0002151
+name: non_AUG_initiated_uORF
+def: "A uORF beginning with a codon other than AUG." [PMID:26684391, PMID:27313038]
+synonym: "non AUG initiated uORF" EXACT []
+is_a: SO:0002027 ! uORF
+created_by: nicole
+creation_date: 2016-10-26T09:37:45Z
 
 [Term]
 id: SO:0005836
