@@ -6517,10 +6517,6 @@
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
-        <Annotation>
-            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.everythingbio.com/glos/definition.php?word=codon</Literal>
-        </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000360</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A set of (usually) three nucleotide bases in a DNA or RNA sequence, which together code for a unique amino acid or the termination of translation and are contained within the CDS.</Literal>

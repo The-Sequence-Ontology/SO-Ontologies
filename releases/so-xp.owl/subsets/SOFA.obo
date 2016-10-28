@@ -1011,7 +1011,7 @@ is_a: SO:0001248 ! assembly
 id: SO:0000360
 name: codon
 namespace: sequence
-def: "A set of (usually) three nucleotide bases in a DNA or RNA sequence, which together code for a unique amino acid or the termination of translation and are contained within the CDS." [http://www.everythingbio.com/glos/definition.php?word=codon, SO:ke]
+def: "A set of (usually) three nucleotide bases in a DNA or RNA sequence, which together code for a unique amino acid or the termination of translation and are contained within the CDS." [SO:ke]
 subset: SOFA
 xref: http://en.wikipedia.org/wiki/Codon "wiki"
 is_a: SO:0000851 ! CDS_region
