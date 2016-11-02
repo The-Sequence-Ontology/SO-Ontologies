@@ -16,7 +16,7 @@ synonymtypedef: ebi_variants "ensembl variant terms"
 synonymtypedef: RNAMOD "RNA modification" EXACT
 synonymtypedef: VAR "variant annotation term"
 default-namespace: sequence
-ontology: so-xp.obo
+ontology: so
 
 [Term]
 id: SO:0000000
