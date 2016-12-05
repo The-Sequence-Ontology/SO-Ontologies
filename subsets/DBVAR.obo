@@ -11,7 +11,7 @@ synonymtypedef: dbvar "DBVAR"
 synonymtypedef: ebi_variants "ensembl variant terms"
 synonymtypedef: RNAMOD "RNA modification" EXACT
 synonymtypedef: VAR "variant annotation term"
-ontology: so-xp/subsets/DBVAR
+ontology: so/subsets/DBVAR
 
 [Term]
 id: SO:0000199

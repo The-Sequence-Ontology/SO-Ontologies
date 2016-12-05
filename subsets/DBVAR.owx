@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://purl.obolibrary.org/obo/so-xp/subsets/DBVAR.owl"
+     xml:base="http://purl.obolibrary.org/obo/so/subsets/DBVAR.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://purl.obolibrary.org/obo/so-xp/subsets/DBVAR.owl"
-     versionIRI="http://purl.obolibrary.org/obo/so-xp/so-xp.owl/subsets/DBVAR.owl">
+     ontologyIRI="http://purl.obolibrary.org/obo/so/subsets/DBVAR.owl"
+     versionIRI="http://purl.obolibrary.org/obo/so/so-xp.owl/subsets/DBVAR.owl">
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
@@ -42,154 +42,154 @@
         <Class IRI="http://purl.obolibrary.org/obo/SO_1000173"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#adjacent_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#adjacent_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#associated_with"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#associated_with"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#complete_evidence_for_feature"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#connects_on"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#connects_on"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#contained_by"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#contained_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#contains"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#contains"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#derives_from"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#derives_from"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#disconnected_from"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#disconnected_from"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#edited_from"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#edited_from"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#edited_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#edited_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#evidence_for_feature"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#exemplar_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#exemplar_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#finished_by"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#finished_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#finishes"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#finishes"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#gained"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#gained"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#genome_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#genome_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#guided_by"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#guided_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#guides"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#guides"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#has_integral_part"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#has_origin"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#has_origin"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#has_part"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#has_part"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#has_quality"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#has_quality"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#homologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#homologous_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#integral_part_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#is_consecutive_sequence_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#lost"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#lost"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#maximally_overlaps"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#maximally_overlaps"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#member_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#member_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#non_functional_homolog_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#orthologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#orthologous_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#overlaps"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#overlaps"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#paralogous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#paralogous_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#part_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#part_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#partial_evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#partial_evidence_for_feature"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#position_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#position_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#processed_from"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#processed_from"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#processed_into"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#processed_into"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#recombined_from"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#recombined_from"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#recombined_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#recombined_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#sequence_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#sequence_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#similar_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#similar_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#started_by"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#started_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#starts"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#starts"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_from"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#trans_spliced_from"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#trans_spliced_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#transcribed_from"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#transcribed_from"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#transcribed_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#transcribed_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#translates_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#translates_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#translation_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#translation_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#variant_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#variant_of"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -282,73 +282,73 @@
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000667"/>
     </SubClassOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#complete_evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#evidence_for_feature"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#has_part"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#has_integral_part"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#has_part"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#homologous_to"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#similar_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#homologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#similar_to"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#part_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#integral_part_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#part_of"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#member_of"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#part_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#member_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#part_of"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#homologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#non_functional_homolog_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#homologous_to"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#orthologous_to"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#homologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#orthologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#homologous_to"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#paralogous_to"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#homologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#paralogous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#homologous_to"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#partial_evidence_for_feature"/>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#partial_evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#evidence_for_feature"/>
     </SubObjectPropertyOf>
     <SymmetricObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#homologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#homologous_to"/>
     </SymmetricObjectProperty>
     <SymmetricObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#orthologous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#orthologous_to"/>
     </SymmetricObjectProperty>
     <SymmetricObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#paralogous_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#paralogous_to"/>
     </SymmetricObjectProperty>
     <SymmetricObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#similar_to"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#similar_to"/>
     </SymmetricObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#complete_evidence_for_feature"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#contained_by"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#contained_by"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#contains"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#contains"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#derives_from"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#derives_from"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#evidence_for_feature"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#member_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#member_of"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#part_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/so#part_of"/>
     </TransitiveObjectProperty>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -400,7 +400,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000199</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -437,7 +437,7 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-            <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbvar</IRI>
+            <IRI>http://purl.obolibrary.org/obo/so#dbvar</IRI>
         </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000667</IRI>
@@ -466,12 +466,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000667</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000667</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -514,7 +514,7 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-            <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbvar</IRI>
+            <IRI>http://purl.obolibrary.org/obo/so#dbvar</IRI>
         </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001742</IRI>
@@ -528,7 +528,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001742</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -571,7 +571,7 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-            <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbvar</IRI>
+            <IRI>http://purl.obolibrary.org/obo/so#dbvar</IRI>
         </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001743</IRI>
@@ -585,7 +585,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001743</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -627,7 +627,7 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-            <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbvar</IRI>
+            <IRI>http://purl.obolibrary.org/obo/so#dbvar</IRI>
         </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001744</IRI>
@@ -651,7 +651,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001744</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -712,7 +712,7 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-            <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbvar</IRI>
+            <IRI>http://purl.obolibrary.org/obo/so#dbvar</IRI>
         </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001784</IRI>
@@ -726,7 +726,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001784</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -761,7 +761,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001785</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -810,7 +810,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001786</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -842,7 +842,7 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-            <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbvar</IRI>
+            <IRI>http://purl.obolibrary.org/obo/so#dbvar</IRI>
         </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_1000036</IRI>
@@ -861,12 +861,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_1000036</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_1000036</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -899,7 +899,7 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-            <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbvar</IRI>
+            <IRI>http://purl.obolibrary.org/obo/so#dbvar</IRI>
         </Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_1000173</IRI>
@@ -913,7 +913,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <IRI>http://purl.obolibrary.org/obo/SO_1000173</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -922,47 +922,47 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#AAMOD</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#AAMOD</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amino acid modification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#BS</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#BS</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">biosapiens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#DBVAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#DBVAR</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">database of genomic structural variation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasScope"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#RNAMOD</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#RNAMOD</IRI>
         <IRI>http://www.geneontology.org/formats/oboInOwl#hasExactSynonym</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#RNAMOD</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#RNAMOD</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RNA modification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO feature annotation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#VAR</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#VAR</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">variant annotation term</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#aa1</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#aa1</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amino acid 1 letter code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#aa3</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#aa3</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amino acid 3 letter code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -975,52 +975,52 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#adjacent_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#adjacent_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A geometric operator, specified in Egenhofer 1989. Two features meet if they share a junction on the sequence. X adjacent_to Y iff X and Y share a boundary but do not overlap.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#adjacent_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#adjacent_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#adjacent_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#adjacent_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">adjacent_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#adjacent_to</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#adjacent_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#adjacent_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#adjacent_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">adjacent_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#associated_with</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#associated_with</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#associated_with</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#associated_with</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">associated_with</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#associated_with</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#associated_with</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This relationship is vague and up for discussion.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#associated_with</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#associated_with</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">associated_with</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#biosapiens</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#biosapiens</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">biosapiens protein feature ontology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1029,27 +1029,27 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#complete_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&apos; and 3&apos; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#complete_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#complete_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">complete_evidence_for_feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#complete_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">If A is a feature with multiple regions such as a multi exon transcript, the supporting EST evidence is complete if each of the regions is supported by an equivalent region in B. Also there must be no extra regions in B that are not represented in A. This relationship was requested by jeltje on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#complete_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#complete_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">complete_evidence_for_feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1058,37 +1058,37 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#connects_on</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#connects_on</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X connects_on Y, Z, R iff whenever Z is on a R, X is adjacent to a Y and adjacent to a Z.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#connects_on</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#connects_on</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#connects_on</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#connects_on</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:38:51Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#connects_on</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#connects_on</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#connects_on</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#connects_on</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">connects_on</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#connects_on</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#connects_on</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: A splice_junction connects_on exon, exon, mature_transcript.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#connects_on</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#connects_on</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">connects_on</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1097,37 +1097,37 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contained_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contained_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X contained_by Y iff X starts after start of Y and X ends before end of Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contained_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contained_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contained_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contained_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:26:16Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contained_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contained_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contained_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contained_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">contained_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contained_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contained_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The inverse is contains. Example: intein contained_by immature_peptide_region.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contained_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contained_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">contained_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1136,67 +1136,67 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contains</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contains</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The inverse of contained_by.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contains</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contains</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contains</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contains</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:32:15Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contains</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contains</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contains</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contains</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">contains</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contains</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contains</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: pre_miRNA contains miRNA_loop.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#contains</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#contains</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">contains</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbsnp</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#dbsnp</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">dbsnp variant terms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#dbvar</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#dbvar</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DBVAR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#derives_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#derives_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#derives_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#derives_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">derives_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#derives_from</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#derives_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#derives_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#derives_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">derives_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1205,87 +1205,87 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#disconnected_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#disconnected_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is disconnected_from Y iff it is not the case that X overlaps Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#disconnected_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#disconnected_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#disconnected_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#disconnected_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:42:10Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#disconnected_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#disconnected_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#disconnected_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#disconnected_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disconnected_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#disconnected_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#disconnected_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disconnected_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#ebi_variants</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#ebi_variants</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ensembl variant terms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:19:45Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">edited_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">edited_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:19:11Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">edited_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#edited_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#edited_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">edited_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1294,27 +1294,27 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is evidence_for_feature A, if an instance of B supports the existence of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">evidence_for_feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This relationship was requested by nlw on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">evidence_for_feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1323,27 +1323,27 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#exemplar_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#exemplar_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is exemplar of Y if X is the best evidence for Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#exemplar_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#exemplar_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#exemplar_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#exemplar_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">exemplar_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#exemplar_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#exemplar_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tracker id: 2594157.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#exemplar_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#exemplar_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">exemplar_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1352,37 +1352,37 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finished_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&apos; boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finished_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finished_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:45:45Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finished_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finished_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">finished_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finished_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example CDS finished_by stop_codon.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finished_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finished_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">finished_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1391,37 +1391,37 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finishes</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&apos; or C terminal boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finishes</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finishes</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T02:17:53Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finishes</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finishes</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">finishes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finishes</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: stop_codon finishes CDS.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#finishes</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#finishes</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">finishes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1430,103 +1430,103 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#gained</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&apos; and Y part of X but not X&apos;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#gained</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#gained</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2011-06-28T12:51:10Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#gained</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#gained</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gained</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#gained</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A relation with which to annotate the changes in a variant sequence with respect to a reference.
 For example a variant transcript may gain a stop codon not present in the reference sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#gained</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#gained</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gained</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#genome_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#genome_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#genome_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#genome_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">genome_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#genome_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#genome_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">genome_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guided_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guided_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guided_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guided_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:27:04Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guided_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guided_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guided_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guided_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">guided_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guided_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guided_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">guided_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guides</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guides</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guides</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guides</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:27:24Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guides</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guides</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guides</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guides</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">guides</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#guides</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#guides</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">guides</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1535,52 +1535,52 @@ For example a variant transcript may gain a stop codon not present in the refere
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_integral_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X has_integral_part Y if and only if: X has_part Y and Y part_of X.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_integral_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_integral_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:01:46Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_integral_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_integral_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_integral_part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_integral_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: mRNA has_integral_part CDS.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_integral_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_integral_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_integral_part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_origin</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_origin</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_origin</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_origin</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_origin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_origin</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_origin</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_origin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1589,67 +1589,67 @@ For example a variant transcript may gain a stop codon not present in the refere
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inverse of part_of.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: operon has_part gene.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_part</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_part</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_quality</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_quality</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_quality</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_quality</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_quality</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_quality</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The relationship between a feature and an attribute.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#has_quality</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#has_quality</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#homologous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#homologous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#homologous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#homologous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">homologous_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#homologous_to</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#homologous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#homologous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#homologous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">homologous_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1658,37 +1658,37 @@ For example a variant transcript may gain a stop codon not present in the refere
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#integral_part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X integral_part_of Y if and only if: X part_of Y and Y has_part X.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#integral_part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#integral_part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:03:28Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#integral_part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#integral_part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">integral_part_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#integral_part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: exon integral_part_of transcript.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#integral_part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#integral_part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">integral_part_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1697,37 +1697,37 @@ For example a variant transcript may gain a stop codon not present in the refere
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#is_consecutive_sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">R is_consecutive_sequence_of R iff every instance of R is equivalent to a collection of instances of U:u1, u2, un, such that no pair of ux uy is overlapping and for all ux, it is adjacent to ux-1 and ux+1, with the exception of the initial and terminal u1,and un (which may be identical).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#is_consecutive_sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#is_consecutive_sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T02:19:48Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#is_consecutive_sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#is_consecutive_sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">is_consecutive_sequence_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#is_consecutive_sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: region is consecutive_sequence of base.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#is_consecutive_sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">is_consecutive_sequence_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1736,38 +1736,38 @@ For example a variant transcript may gain a stop codon not present in the refere
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#lost</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&apos; and Y part of X&apos; but not X.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#lost</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#lost</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2011-06-28T12:53:16Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#lost</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#lost</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">lost</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#lost</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A relation with which to annotate the changes in a variant sequence with respect to a reference.
 For example a variant transcript may have lost a stop codon present in the reference sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#lost</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#lost</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">lost</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1776,62 +1776,62 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#maximally_overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#maximally_overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A maximally_overlaps X iff all parts of A (including A itself) overlap both A and Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#maximally_overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#maximally_overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#maximally_overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#maximally_overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:34:48Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#maximally_overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#maximally_overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#maximally_overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#maximally_overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">maximally_overlaps</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#maximally_overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#maximally_overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: non_coding_region_of_exon maximally_overlaps the intersections of exon and UTR.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#maximally_overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#maximally_overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">maximally_overlaps</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#member_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#member_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#member_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#member_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">member_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#member_of</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#member_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#member_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#member_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A subtype of part_of. Inverse is collection_of. Winston, M, Chaffin, R, Herrmann: A taxonomy of part-whole relations. Cognitive Science 1987, 11:417-444.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#member_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#member_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">member_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1840,47 +1840,47 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#non_functional_homolog_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A relationship between a pseudogenic feature and its functional ancestor.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#non_functional_homolog_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#non_functional_homolog_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">non_functional_homolog_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#non_functional_homolog_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#non_functional_homolog_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#non_functional_homolog_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">non_functional_homolog_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#orthologous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#orthologous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#orthologous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#orthologous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">orthologous_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#orthologous_to</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#orthologous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#orthologous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#orthologous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">orthologous_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1889,57 +1889,57 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X overlaps Y iff there exists some Z such that Z contained_by X and Z contained_by Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:33:15Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">overlaps</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: coding_exon overlaps CDS.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#overlaps</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#overlaps</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">overlaps</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#paralogous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#paralogous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#paralogous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#paralogous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">paralogous_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#paralogous_to</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#paralogous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#paralogous_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#paralogous_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">paralogous_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1948,32 +1948,32 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X part_of Y if X is a subregion of Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">part_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#part_of</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: amino_acid part_of polypeptide.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#part_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#part_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">part_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1982,37 +1982,37 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ke</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#partial_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#partial_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">B is partial_evidence_for_feature A if the extent of B supports part_of but not all of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#partial_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#partial_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#partial_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#partial_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">partial_evidence_for_feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#partial_evidence_for_feature</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#partial_evidence_for_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">partial_evidence_for_feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#position_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#position_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#position_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#position_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">position_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#position_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#position_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">position_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2021,37 +2021,37 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inverse of processed_into.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:14:00Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">processed_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: miRNA processed_from miRNA_primary_transcript.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">processed_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2060,122 +2060,122 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_into</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_into</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is processed_into Y if a region X is modified to create Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_into</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_into</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_into</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_into</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:15:02Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_into</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_into</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_into</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_into</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">processed_into</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_into</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_into</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: miRNA_primary_transcript processed into miRNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#processed_into</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#processed_into</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">processed_into</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:21:03Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">recombined_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">recombined_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:20:07Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">recombined_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#recombined_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#recombined_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">recombined_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#sequence_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#sequence_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#similar_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#similar_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#similar_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#similar_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">similar_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#similar_to</IRI>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#SOFA</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#similar_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#SOFA</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#similar_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#similar_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">similar_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2184,37 +2184,37 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#started_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&apos; boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#started_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#started_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:43:55Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#started_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#started_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">started_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#started_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: CDS started_by start_codon.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#started_by</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#started_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">started_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2223,87 +2223,87 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#starts</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&apos; or N-terminal boundary.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#starts</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#starts</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:47:53Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#starts</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#starts</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">starts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#starts</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: start_codon starts CDS.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#starts</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#starts</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">starts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:22:14Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">trans_spliced_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">trans_spliced_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:22:00Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">trans_spliced_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#trans_spliced_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#trans_spliced_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">trans_spliced_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2312,37 +2312,37 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is transcribed_from Y if X is synthesized from template Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:05:39Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">transcribed_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: primary_transcript transcribed_from gene.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_from</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_from</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">transcribed_from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2351,37 +2351,37 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inverse of transcribed_from.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:08:24Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">transcribed_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: gene transcribed_to primary_transcript.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#transcribed_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#transcribed_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">transcribed_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2390,37 +2390,37 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translates_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translates_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inverse of translation _of.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translates_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translates_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translates_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translates_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:11:53Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translates_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translates_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translates_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translates_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">translates_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translates_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translates_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: codon translates_to amino_acid.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translates_to</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translates_to</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">translates_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2429,37 +2429,37 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translation_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translation_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">X is translation of Y if Y is translated by ribosome to create X.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translation_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translation_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translation_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translation_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:09:59Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translation_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translation_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translation_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translation_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">translation_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translation_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translation_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Example: Polypeptide translation_of CDS.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#translation_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#translation_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">translation_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2468,27 +2468,27 @@ For example a variant transcript may have lost a stop codon present in the refer
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:immuno_workshop</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#variant_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#variant_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#variant_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#variant_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#variant_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#variant_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">variant_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#variant_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#variant_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/so-xp.obo#variant_of</IRI>
+        <IRI>http://purl.obolibrary.org/obo/so#variant_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">variant_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2562,51 +2562,51 @@ For example a variant transcript may have lost a stop codon present in the refer
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">in_subset</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#AAMOD"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#AAMOD"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#BS"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#BS"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#DBVAR"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#DBVAR"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#RNAMOD"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#RNAMOD"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#SOFA"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#SOFA"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#VAR"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#VAR"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#aa1"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#aa1"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#aa3"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#aa3"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#biosapiens"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#biosapiens"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#dbsnp"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#dbsnp"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#dbvar"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#dbvar"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so-xp.obo#ebi_variants"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/so#ebi_variants"/>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </SubAnnotationPropertyOf>
 </Ontology>

@@ -11,7 +11,7 @@ synonymtypedef: dbvar "DBVAR"
 synonymtypedef: ebi_variants "ensembl variant terms"
 synonymtypedef: RNAMOD "RNA modification" EXACT
 synonymtypedef: VAR "variant annotation term"
-ontology: so-xp/subsets/SOFA
+ontology: so/subsets/SOFA
 
 [Term]
 id: SO:0000000
@@ -612,7 +612,9 @@ def: "Messenger RNA is the intermediate molecule between DNA and protein. It inc
 comment: An mRNA does not contain introns as it is a processed_transcript. The equivalent kind of primary_transcript is protein_coding_primary_transcript (SO:0000120) which may contain introns. This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
 subset: SOFA
 synonym: "messenger RNA" EXACT []
+synonym: "protein_coding_transcript" EXACT []
 xref: http://en.wikipedia.org/wiki/MRNA "wiki"
+xref: http://www.gencodegenes.org/gencode_biotypes.html "GENCODE"
 is_a: SO:0000233 ! mature_transcript
 
 [Term]
@@ -1786,8 +1788,10 @@ namespace: sequence
 def: "An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product." [SO:ke]
 comment: A ncRNA is a processed_transcript, so it may not contain parts such as transcribed_spacer_regions that are removed in the act of processing. For the corresponding primary_transcripts, please see term SO:0000483 nc_primary_transcript.
 subset: SOFA
+synonym: "known_ncrna" EXACT []
 synonym: "noncoding RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/NcRNA "wiki"
+xref: http://www.gencodegenes.org/gencode_biotypes.html "GENCODE"
 is_a: SO:0000233 ! mature_transcript
 
 [Term]
