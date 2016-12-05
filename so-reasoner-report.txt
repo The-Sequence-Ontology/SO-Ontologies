@@ -1,0 +1,1 @@
+POTENTIAL_REDUNDANT	SO:0001268 'snRNA_gene' has_quality 'has_quality' SO:0001263 'ncRNA_gene' is also a simple SubClassOf.
