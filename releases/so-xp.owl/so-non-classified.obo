@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 17:11:2016 11:34
+date: 15:12:2016 09:56
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -19802,6 +19802,15 @@ def: "A gene cassette array containing H- mating type specific information." [PM
 is_a: SO:0001984 ! silent_mating_type_cassette_array
 created_by: nicole
 creation_date: 2016-11-17T11:02:27Z
+
+[Term]
+id: SO:0002159
+name: SHP_box
+def: "A conserved Cdc48/p97 interaction motif with strict consensus sequence F[PI]GKG[TK][RK]LG[GT] and relaxed consensus sequence FXGKGX[RK]LG." [PMID:17083136, PMID:27655872]
+synonym: "SHP box" EXACT []
+is_a: SO:0100017 ! polypeptide_conserved_motif
+created_by: nicole
+creation_date: 2016-12-15T09:48:38Z
 
 [Term]
 id: SO:0005836
