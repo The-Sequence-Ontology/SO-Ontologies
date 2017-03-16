@@ -6118,6 +6118,16 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000334</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">conserved non-coding element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000334</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">conserved non-coding sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000334</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">nc conserved region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
