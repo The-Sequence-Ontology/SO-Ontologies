@@ -5382,6 +5382,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">microsatellite marker</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000289</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">short tandem repeat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000289</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
