@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 27:04:2017 10:34
+date: 08:05:2017 13:58
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -16049,6 +16049,8 @@ creation_date: 2011-06-28T04:04:32Z
 id: SO:0001828
 name: genomic_DNA_read
 def: "A sequencer read of a genomic DNA substrate." [SO:ke]
+synonym: "gDNA read" EXACT []
+synonym: "gDNA_read" EXACT []
 synonym: "genomic DNA read" EXACT []
 is_a: SO:0000150 ! read
 created_by: kareneilbeck
