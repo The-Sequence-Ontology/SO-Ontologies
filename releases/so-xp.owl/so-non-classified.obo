@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 08:05:2017 13:58
+date: 17:05:2017 15:27
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -19857,6 +19857,16 @@ synonym: "str contraction" EXACT []
 is_a: SO:0002161 ! short_tandem_repeat_change
 created_by: nicole
 creation_date: 2017-04-26T12:52:33Z
+
+[Term]
+id: SO:0002164
+name: H2BK5_acetylation_site
+def: "A kind of histone modification site, whereby the 5th residue (a lysine), from the start of the H2B histone protein is acetylated." [http://www.actrec.gov.in/histome/ptm_sp.php?ptm_sp=H2BK5ac, PMID:18552846]
+synonym: "H2BK5 acetylation site" EXACT []
+synonym: "H2BK5ac" EXACT []
+is_a: SO:0002143 ! histone_2B_acetylation_site
+created_by: nicole
+creation_date: 2017-05-17T15:22:58Z
 
 [Term]
 id: SO:0005836
