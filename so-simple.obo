@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 02:06:2017 13:31
+date: 22:06:2017 11:17
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -19469,6 +19469,25 @@ synonym: "trinucleotide repeat expansion" EXACT []
 is_a: SO:0002162 ! short_tandem_repeat_expansion
 created_by: nicole
 creation_date: 2017-06-02T10:43:42Z
+
+[Term]
+id: SO:0002166
+name: ref_miRNA
+def: "A ref_miRNA (RefSeq-miRNA) sequence is assigned at the creation of a new mature miRNA entry in a database. The ref_miRNA sequence designation remains unchanged even if a different isomiR is later shown to be expressed at a higher level. A ref_miRNA can be produced by one or multiple pre-miRNA." [PMID:26453491]
+synonym: "ref miRNA" EXACT []
+synonym: "RefSeq miRNA" EXACT []
+synonym: "RefSeq-miRNA" EXACT []
+is_a: SO:0000276 ! miRNA
+created_by: nicole
+creation_date: 2017-06-22T11:05:49Z
+
+[Term]
+id: SO:0002167
+name: isomiR
+def: "IsomiRs are all the bona fide variants of a mature product. IsomiRs should be connected to the ref_miRNA it is most likely to be the variant of. Some isomiRs can be variations of one or multiple ref_miRNA." [PMID:26453491]
+is_a: SO:0000276 ! miRNA
+created_by: nicole
+creation_date: 2017-06-22T11:09:42Z
 
 [Term]
 id: SO:0005836
