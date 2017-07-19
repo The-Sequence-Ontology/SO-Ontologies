@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 22:06:2017 11:17
+date: 18:07:2017 14:21
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -19488,6 +19488,20 @@ def: "IsomiRs are all the bona fide variants of a mature product. IsomiRs should
 is_a: SO:0000276 ! miRNA
 created_by: nicole
 creation_date: 2017-06-22T11:09:42Z
+
+[Term]
+id: SO:0002168
+name: RNA_thermometer
+def: "An RNA_thermometer is a cis element in the 5' end of an mRNA that can change its secondary structure in response to temperature and coordinate temperature-dependent gene expression." [PMID:22421878]
+synonym: "RNA thermometer" EXACT []
+synonym: "RNA thermoregulator" EXACT []
+synonym: "RNAT" EXACT []
+synonym: "thermoregulator" EXACT []
+xref: https://en.wikipedia.org/wiki/RNA_thermometer "wiki"
+is_a: SO:0000836 ! mRNA_region
+relationship: part_of SO:0000234 ! mRNA
+created_by: nicole
+creation_date: 2017-07-17T10:07:45Z
 
 [Term]
 id: SO:0005836
