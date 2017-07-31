@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 18:07:2017 14:21
+date: 31:07:2017 13:49
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -19502,6 +19502,24 @@ is_a: SO:0000836 ! mRNA_region
 relationship: part_of SO:0000234 ! mRNA
 created_by: nicole
 creation_date: 2017-07-17T10:07:45Z
+
+[Term]
+id: SO:0002169
+name: splice_polypyrimidine_tract_variant
+def: "A sequence variant that falls in the polypyrimidine tract at 3' end of intron between 17 and 3 bases from the end (acceptor -3 to acceptor -17)." []
+synonym: "splice polypyrimidine tract variant" EXACT []
+is_a: SO:0001568 ! splicing_variant
+created_by: nicole
+creation_date: 2017-07-31T13:40:13Z
+
+[Term]
+id: SO:0002170
+name: splice_donor_region_variant
+def: "A sequence variant that falls in the region between the 3rd and 6th base after splice junction (5' end of intron)." []
+synonym: "splice donor region variant" EXACT []
+is_a: SO:0001630 ! splice_region_variant
+created_by: nicole
+creation_date: 2017-07-31T13:48:32Z
 
 [Term]
 id: SO:0005836
