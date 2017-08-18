@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 01:08:2017 13:31
+date: 18:08:2017 15:37
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -19937,6 +19937,78 @@ synonym: "telomeric D loop" EXACT []
 is_a: SO:0000296 ! origin_of_replication
 created_by: nicole
 creation_date: 2017-08-01T13:12:11Z
+
+[Term]
+id: SO:0002172
+name: sequence_alteration_artifact
+def: "A sequence_alteration where the source of the alteration is due to an artifact in the base-calling or assembly process." []
+synonym: "sequence alteration artifact" EXACT []
+is_a: SO:0000413 ! sequence_difference
+created_by: nicole
+creation_date: 2017-08-18T13:43:26Z
+
+[Term]
+id: SO:0002173
+name: indel_artifact
+def: "An indel that is the result of base-calling or assembly error." []
+synonym: "indel artifact" EXACT []
+is_a: SO:0002172 ! sequence_alteration_artifact
+created_by: nicole
+creation_date: 2017-08-18T15:16:20Z
+
+[Term]
+id: SO:0002174
+name: deletion_artifact
+def: "A deletion that is the result of base-calling or assembly error." []
+synonym: "deletion artifact" EXACT []
+is_a: SO:0002172 ! sequence_alteration_artifact
+created_by: nicole
+creation_date: 2017-08-18T15:17:11Z
+
+[Term]
+id: SO:0002175
+name: insertion_artifact
+def: "An insertion that is the result of base-calling or assembly error." []
+synonym: "insertion artifact" EXACT []
+is_a: SO:0002172 ! sequence_alteration_artifact
+created_by: nicole
+creation_date: 2017-08-18T15:17:42Z
+
+[Term]
+id: SO:0002176
+name: substitution_artifact
+def: "A substitution that is the result of base-calling or assembly error." []
+synonym: "substitution artifact" EXACT []
+is_a: SO:0002172 ! sequence_alteration_artifact
+created_by: nicole
+creation_date: 2017-08-18T15:18:12Z
+
+[Term]
+id: SO:0002177
+name: duplication_artifact
+def: "A duplication that is the result of base-calling or assembly error." []
+synonym: "duplication artifact" EXACT []
+is_a: SO:0002175 ! insertion_artifact
+created_by: nicole
+creation_date: 2017-08-18T15:26:00Z
+
+[Term]
+id: SO:0002178
+name: SNV_artifact
+def: "An SNV that is the result of base-calling or assembly error." []
+synonym: "SNV artifact" EXACT []
+is_a: SO:0002176 ! substitution_artifact
+created_by: nicole
+creation_date: 2017-08-18T15:26:49Z
+
+[Term]
+id: SO:0002179
+name: MNV_artifact
+def: "An MNV that is the result of base-calling or assembly error." []
+synonym: "MNV artifact" EXACT []
+is_a: SO:0002176 ! substitution_artifact
+created_by: nicole
+creation_date: 2017-08-18T15:27:21Z
 
 [Term]
 id: SO:0005836
