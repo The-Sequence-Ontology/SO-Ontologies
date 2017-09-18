@@ -1043,7 +1043,7 @@ is_a: SO:0000366 ! insertion_site
 id: SO:0000370
 name: small_regulatory_ncRNA
 namespace: sequence
-def: "A non-coding RNA, usually with a specific secondary structure, that acts to regulate gene expression." [SO:ma]
+def: "A non-coding RNA less than 200 nucleotides long, usually with a specific secondary structure, that acts to regulate gene expression. These include short ncRNAs such as piRNA, miRNA and siRNAs (among others)." [PMID:28541282, PomBase:al, SO:ma]
 subset: SOFA
 synonym: "small regulatory ncRNA" EXACT []
 is_a: SO:0000655 ! ncRNA
@@ -1733,7 +1733,7 @@ def: "A small RNA molecule that is the product of a longer exogenous or endogeno
 subset: SOFA
 synonym: "small interfering RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/SiRNA "wiki"
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0000370 ! small_regulatory_ncRNA
 
 [Term]
 id: SO:0000650

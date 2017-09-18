@@ -1903,7 +1903,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000646"/>
-        <Class IRI="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0000370"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000650"/>
@@ -6650,11 +6650,19 @@
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:28541282</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PomBase:al</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:ma</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000370</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A non-coding RNA, usually with a specific secondary structure, that acts to regulate gene expression.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A non-coding RNA less than 200 nucleotides long, usually with a specific secondary structure, that acts to regulate gene expression. These include short ncRNAs such as piRNA, miRNA and siRNAs (among others).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
