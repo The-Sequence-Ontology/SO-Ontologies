@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 18:09:2017 15:08
+date: 22:09:2017 11:30
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -13061,7 +13061,7 @@ creation_date: 2010-03-22T11:47:07Z
 [Term]
 id: SO:0001541
 name: decreased_transcript_level_variant
-def: "A sequence variant that increases the level of mature, spliced and processed RNA with respect to a reference sequence." [SO:ke]
+def: "A sequence variant that decreases the level of mature, spliced and processed RNA with respect to a reference sequence." [SO:ke]
 synonym: "decreased transcript level" EXACT []
 is_a: SO:0001540 ! level_of_transcript_variant
 created_by: kareneilbeck
