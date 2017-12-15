@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 20:11:2017 12:00
+date: 15:12:2017 11:11
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -20081,6 +20081,16 @@ synonym: "HERV insertion" EXACT []
 is_a: SO:0001837 ! mobile_element_insertion
 created_by: nicole
 creation_date: 2017-11-20T11:52:51Z
+
+[Term]
+id: SO:0002188
+name: functional_gene_region
+def: "A gene_member_region that encodes sequence that directly contributes to the molecular function of its gene or gene product." [Clingen:mb]
+comment: A functional_gene_region is a sequence feature that resides within a gene. But it is typically the corresponding region of translated/transcribed sequence in a gene product, that performs the molecular function qualifying it as a functional_gene_region. Here, a functional_gene_region must contribute directly to the molecular function of the gene product - regions that code for purely structural elements in a gene product that connect such directly functional elements together are not considered functional_gene_regions. Examples of regions considered 'functional' include those encoding enzymatic activity, binding activity, regions required for localization or membrane association, channel-forming regions, and signal peptides or other elements critical for processing of a gene product. In addition, regions that function at the genomic/DNA level are also included - e.g. regions of sequence known to be critical for binding transcription or splicing factors.
+synonym: "functional gene region" EXACT []
+is_a: SO:0000831 ! gene_member_region
+created_by: nicole
+creation_date: 2017-12-15T11:08:43Z
 
 [Term]
 id: SO:0005836
