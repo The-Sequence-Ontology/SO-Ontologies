@@ -22,7 +22,9 @@ def: "A biological_region of sequence that, in the molecule, interacts selective
 comment: See GO:0005488 : binding.
 subset: biosapiens
 subset: SOFA
+synonym: "binding site" EXACT []
 synonym: "binding_or_interaction_site" EXACT []
+synonym: "INSDC_feature:misc_binding" EXACT []
 synonym: "site" RELATED []
 xref: http://en.wikipedia.org/wiki/Binding_site "wiki"
 
@@ -52,6 +54,7 @@ def: "The signal_peptide is a short region of the peptide located at the N-termi
 comment: Old def before biosapiens:The sequence for an N-terminal domain of a secreted protein; this domain is involved in attaching nascent polypeptide to the membrane leader sequence.
 subset: biosapiens
 subset: SOFA
+synonym: "INSDC_feature:sig_peptide" EXACT []
 synonym: "signal" RELATED [uniprot:feature_type]
 synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
@@ -69,6 +72,7 @@ comment: This term mature peptide, merged with the biosapiens term mature protei
 subset: biosapiens
 subset: SOFA
 synonym: "chain" RELATED [uniprot:feature_type]
+synonym: "INSDC_feature:mat_peptide" EXACT []
 synonym: "mature peptide" RELATED []
 synonym: "mature protein region" EXACT []
 is_a: SO:0000839 ! polypeptide_region
@@ -95,6 +99,7 @@ def: "The transit_peptide is a short region at the N-terminus of the peptide tha
 comment: Added to bring SO inline with the EMBL, DDBJ, GenBank feature table. Old definition before biosapiens: The coding sequence for an N-terminal domain of a nuclear-encoded organellar protein. This domain is involved in post translational import of the protein into the organelle.
 subset: biosapiens
 subset: SOFA
+synonym: "INSDC_feature:transit_peptide" EXACT []
 synonym: "signal" RELATED []
 synonym: "transit" RELATED [uniprot:feature_type]
 synonym: "transit peptide" EXACT []
@@ -146,6 +151,7 @@ alt_id: BS:00077
 def: "Part of a peptide chain which is cleaved off during the formation of the mature protein." [EBIBS:GAR]
 comment: Range.
 subset: biosapiens
+synonym: "INSDC_feature:propeptide" EXACT []
 synonym: "propep" RELATED [uniprot:feature_type]
 xref: http://en.wikipedia.org/wiki/Propeptide "wiki"
 is_a: SO:0100011 ! cleaved_peptide_region
@@ -418,6 +424,7 @@ namespace: sequence
 alt_id: BS:00181
 def: "Describes the positions in a sequence where the authors are unsure about the sequence assignment." [EBIBS:GAR, UniProt:curation_manual]
 subset: biosapiens
+synonym: "INSDC_feature:unsure" EXACT []
 synonym: "unsure" EXACT [uniprot:feature_type]
 is_a: SO:0001082 ! polypeptide_sequencing_information
 

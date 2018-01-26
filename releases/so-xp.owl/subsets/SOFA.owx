@@ -2596,6 +2596,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The many tandem repeats (identical or related) of a short basic repeating unit; many have a base composition or other property different from the genome average that allows them to be separated from the bulk (main band) genomic DNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000005</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -2603,6 +2608,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000005</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Satellite_DNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000005</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:satellite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -2729,6 +2739,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000013</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A small non coding RNA sequence, present in the cytoplasm.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000013</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000013</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:scRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -3158,6 +3178,21 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000110</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000110</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_note:other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000110</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_note:sequence_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000110</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">located_sequence_feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -3395,6 +3430,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Region in mRNA where ribosome assembles.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000139</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000139</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:ribosome_binding_site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000139</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ribosome entry site</Literal>
@@ -3429,6 +3474,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A sequence segment located within the five prime end of an mRNA that causes premature termination of translation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000140</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -3436,6 +3486,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000140</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Attenuator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000140</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:attenuator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -3472,6 +3527,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000141</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -3479,6 +3539,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000141</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Terminator_(genetics)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000141</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:terminator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -3556,6 +3621,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000147</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Exon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000147</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:exon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -4028,6 +4098,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A cis-acting sequence that increases the utilization of (some) eukaryotic promoters, and can function in either orientation and in any location (upstream or downstream) relative to the promoter.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000165</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -4035,6 +4110,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000165</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Enhancer_(genetics)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000165</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:enhancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -4071,6 +4151,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000167</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -4078,6 +4163,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000167</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Promoter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000167</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:promoter</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -4160,6 +4250,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000178</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Operon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000178</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:operon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -4324,6 +4419,16 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000185</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:precursor_RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000185</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:prim_transcript</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000185</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">precursor RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -4402,6 +4507,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000188</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Intron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000188</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:intron</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -4716,6 +4826,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000204</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:5&apos;UTR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000204</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">five prime UTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -4760,6 +4875,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000205</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Three_prime_untranslated_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000205</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:3&apos;UTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -4904,6 +5024,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000234</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.gencodegenes.org/gencode_biotypes.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000234</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:mRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5070,6 +5195,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000252</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5077,6 +5207,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000252</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/RRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000252</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:rRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5122,6 +5257,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&apos; end, to which the tRNA&apos;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &apos;wobble&apos; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000253</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5129,6 +5269,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000253</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/TRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000253</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:tRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -5183,6 +5328,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A small nuclear RNA molecule involved in pre-mRNA splicing and processing.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000274</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5190,6 +5340,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000274</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SnRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000274</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:snRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5231,6 +5386,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000275</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5238,6 +5398,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000275</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SnoRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000275</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:snoRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5283,6 +5448,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:0000649</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000276</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5299,6 +5469,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000276</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/StRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000276</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:miRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5354,6 +5529,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A repeat_region containing repeat_units of 2 to 10 bp repeated in tandem.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000289</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5361,6 +5541,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000289</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Microsatellite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000289</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:microsatellite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -5416,6 +5601,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The sequence is complementarily repeated on the opposite strand. It is a palindrome, and it may, or may not be hyphenated. Examples: GCTGATCAGC, or GCTGA-----TCAGC.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000294</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5423,6 +5613,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000294</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Inverted_repeat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000294</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:inverted</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5457,11 +5652,15 @@
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCBI:cf</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000296</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The origin of replication; starting site for duplication of a nucleic acid molecule to give two identical copies.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -5471,6 +5670,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000296</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Origin_of_replication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000296</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:rep_origin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5539,6 +5743,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000305</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A modified nucleotide, i.e. a nucleotide other than A, T, C. G.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:modified_base</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5662,6 +5871,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A repeat where the same sequence is repeated in the same direction. Example: GCTGA-followed by-GCTGA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000314</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5669,6 +5883,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000314</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Direct_repeat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000314</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:direct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5703,6 +5922,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000315</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The first base where RNA polymerase begins to synthesize the RNA transcript.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000315</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000315</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_note:transcription_start_site</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5742,6 +5971,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000316</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A contiguous sequence which begins with, and includes, a start codon and ends with, and includes, a stop codon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000316</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:CDS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -5976,6 +6210,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Region of sequence similarity by descent from a common ancestor.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000330</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -5983,6 +6222,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000330</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Conserved_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000330</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_note:conserved_region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -6017,6 +6261,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000331</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Short (typically a few hundred base pairs) DNA sequence that has a single occurrence in a genome and whose location and base sequence are known.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000331</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:STS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -6170,6 +6419,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000336</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:gene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -6177,6 +6431,16 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000336</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Pseudogene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000336</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:pseudo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000336</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:unknown</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -6738,6 +7002,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An RNA with catalytic activity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000374</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -6745,6 +7014,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000374</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Ribozyme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000374</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:ribozyme</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -6834,6 +7108,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A small catalytic RNA motif that catalyzes self-cleavage reaction. Its name comes from its secondary structure which resembles a carpenter&apos;s hammer. The hammerhead ribozyme is involved in the replication of some viroid and some satellite RNAs.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000380</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -6841,6 +7120,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000380</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Hammerhead_ribozyme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000380</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:hammerhead_ribozyme</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -6877,6 +7161,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The RNA molecule essential for the catalytic activity of RNase MRP, an enzymatically active ribonucleoprotein with two distinct roles in eukaryotes. In mitochondria it plays a direct role in the initiation of mitochondrial DNA replication. In the nucleus it is involved in precursor rRNA processing, where it cleaves the internal transcribed spacer 1 between 18S and 5.8S rRNAs.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000385</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000385</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:RNase_MRP_RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000385</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RNase MRP RNA</Literal>
@@ -6909,6 +7203,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000386</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The RNA component of Ribonuclease P (RNase P), a ubiquitous endoribonuclease, found in archaea, bacteria and eukarya as well as chloroplasts and mitochondria. Its best characterized activity is the generation of mature 5 prime ends of tRNAs by cleaving the 5 prime leader elements of precursor-tRNAs. Cellular RNase Ps are ribonucleoproteins. RNA from bacterial RNase Ps retains its catalytic activity in the absence of the protein subunit, i.e. it is a ribozyme. Isolated eukaryotic and archaeal RNase P RNA has not been shown to retain its catalytic function, but is still essential for the catalytic activity of the holoenzyme. Although the archaeal and eukaryotic holoenzymes have a much greater protein content than the bacterial ones, the RNA cores from all the three lineages are homologous. Helices corresponding to P1, P2, P3, P4, and P10/11 are common to all cellular RNase P RNAs. Yet, there is considerable sequence variation, particularly among the eukaryotic RNAs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000386</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000386</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:RNase_P_RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -6945,6 +7249,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The RNA component of telomerase, a reverse transcriptase that synthesizes telomeric DNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000390</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -6952,6 +7261,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000390</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Telomerase_RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000390</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:telomerase_RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -7658,6 +7972,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A family of RNAs are found as part of the enigmatic vault ribonucleoprotein complex. The complex consists of a major vault protein (MVP), two minor vault proteins (VPARP and TEP1), and several small untranslated RNA molecules. It has been suggested that the vault complex is involved in drug resistance.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -7665,6 +7984,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000404</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Vault_RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:vault_RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -7701,6 +8025,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Y RNAs are components of the Ro ribonucleoprotein particle (Ro RNP), in association with Ro60 and La proteins. The Y RNAs and Ro60 and La proteins are well conserved, but the function of the Ro RNP is not known. In humans the RNA component can be one of four small RNAs: hY1, hY3, hY4 and hY5. These small RNAs are predicted to fold into a conserved secondary structure containing three stem structures. The largest of the four, hY1, contains an additional hairpin.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000405</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -7708,6 +8037,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000405</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Y_RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000405</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:Y_RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -7817,6 +8151,16 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000409</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_binding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000409</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">binding site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000409</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">binding_or_interaction_site</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -7862,6 +8206,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000410</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A binding site that, in the molecule, interacts selectively and non-covalently with polypeptide molecules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000410</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:protein_bind</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -7948,6 +8297,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000413</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_difference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000413</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence difference</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -7992,6 +8346,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000418</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Signal_peptide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000418</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:sig_peptide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -8063,6 +8422,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000419</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BS:00149</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000419</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:mat_peptide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -8265,6 +8629,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A 17-28-nt, small interfering RNA derived from transcripts of repetitive elements.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000454</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -8272,6 +8641,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000454</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/RasiRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000454</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:rasiRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -8673,6 +9047,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The recognition sequence necessary for endonuclease cleavage of an RNA transcript that is followed by polyadenylation; consensus=AATAAA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000551</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000551</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:polyA_signal_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000551</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">poly(A) signal</Literal>
@@ -8720,6 +9104,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000553</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:0001430</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000553</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:polyA_site</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -8783,6 +9172,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000577</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Centromere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000577</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:centromere</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -8900,6 +9294,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A self spliced intron.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000588</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000588</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:autocatalytically_spliced_intron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000588</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">autocatalytically spliced intron</Literal>
@@ -8932,6 +9336,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000590</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The signal recognition particle (SRP) is a universally conserved ribonucleoprotein. It is involved in the co-translational targeting of proteins to membranes. The eukaryotic SRP consists of a 300-nucleotide 7S RNA and six proteins: SRPs 72, 68, 54, 19, 14, and 9. Archaeal SRP consists of a 7S RNA and homologues of the eukaryotic SRP19 and SRP54 proteins. In most eubacteria, the SRP consists of a 4.5S RNA and the Ffh protein (a homologue of the eukaryotic SRP54 protein). Eukaryotic and archaeal 7S RNAs have very similar secondary structures, with eight helical elements. These fold into the Alu and S domains, separated by a long linker region. Eubacterial SRP is generally a simpler structure, with the M domain of Ffh bound to a region of the 4.5S RNA that corresponds to helix 8 of the eukaryotic and archaeal SRP S domain. Some Gram-positive bacteria (e.g. Bacillus subtilis), however, have a larger SRP RNA that also has an Alu domain. The Alu domain is thought to mediate the peptide chain elongation retardation function of the SRP. The universally conserved helix which interacts with the SRP54/Ffh M domain mediates signal sequence recognition. In eukaryotes and archaea, the SRP19-helix 6 complex is thought to be involved in SRP assembly and stabilizes helix 8 for SRP54 binding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000590</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000590</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:SRP_RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -9022,6 +9436,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A short 3&apos;-uridylated RNA that can form a duplex (except for its post-transcriptionally added oligo_U tail (SO:0000609)) with a stretch of mature edited mRNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000602</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -9029,6 +9448,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000602</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Guide_RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000602</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:guide_RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -9332,6 +9756,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000624</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:telomere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000624</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">telomeric DNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -9369,6 +9798,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A regulatory region which upon binding of transcription factors, suppress the transcription of the gene or genes they control.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000625</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -9376,6 +9810,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000625</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Silencer_(DNA)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000625</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:silencer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -9400,11 +9839,24 @@
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCBI:cf</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PMID:12154228</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:regcreative</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000627</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A transcriptional cis regulatory region that when located between a CM and a gene&apos;s promoter prevents the CRM from modulating that genes expression.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A regulatory region that 1) when located between a CM and a gene&apos;s promoter prevents the CRM from modulating that genes expression and 2) acts as a chromatin boundary element or barrier that can block the encroachment of condensed chromatin from an adjacent region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000627</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -9414,6 +9866,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000627</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Insulator_(genetics)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000627</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:insulator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -9475,6 +9932,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A repeat region containing tandemly repeated sequences having a unit length of 10 to 40 bp.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000643</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -9482,6 +9944,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000643</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Minisatellite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000643</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:minisatellite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -9522,6 +9989,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Antisense RNA is RNA that is transcribed from the coding, rather than the template, strand of DNA. It is therefore complementary to mRNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000644</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -9529,6 +10001,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000644</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Antisense_RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000644</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:antisense_RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -9599,6 +10076,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000646</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -9606,6 +10088,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000646</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SiRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000646</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:siRNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -9862,6 +10349,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000655</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -9924,6 +10416,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region of sequence containing one or more repeat units.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000657</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000657</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000657</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">repeat region</Literal>
@@ -9958,6 +10460,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A repeat that is located at dispersed sites in the genome.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000658</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -9965,6 +10472,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000658</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Interspersed_repeat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000658</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:dispersed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -10148,6 +10660,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000673</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An RNA synthesized on a DNA or RNA template by an RNA polymerase.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000673</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_RNA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -10619,6 +11136,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Gene</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000704</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:gene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000704</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
@@ -10653,6 +11175,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Two or more adjacent copies of a region (of length greater than 1).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000705</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -10665,6 +11192,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000705</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.sci.sdsu.edu/~smaloy/Glossary/T.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000705</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:tandem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -10743,6 +11275,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000714</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region of nucleotide sequence corresponding to a known motif.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000714</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000714</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_note:nucleotide_motif</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -10906,6 +11448,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000724</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:oriT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000724</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">origin of transfer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -10941,6 +11488,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000725</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BS:00055</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000725</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:transit_peptide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -11054,6 +11606,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A gap in the sequence of known length. The unknown bases are filled in with N&apos;s.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000730</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:gap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000730</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:assembly_gap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000730</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>
@@ -11142,6 +11704,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A non functional descendant of an rRNA.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000777</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:rRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000777</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:pseudo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000777</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pseudogenic rRNA</Literal>
@@ -11179,6 +11751,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000778</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A non functional descendent of a tRNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000778</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:tRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000778</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:pseudo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -11936,6 +12518,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001037</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:mobile_element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001037</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MGE</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -12009,6 +12596,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001055</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A regulatory_region that modulates the transcription of a gene or genes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001055</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001055</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:transcriptional_cis_regulatory_region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -12092,6 +12689,21 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001059</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SO:1000007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001059</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001059</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:variation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001059</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_note:sequence_alteration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -12470,6 +13082,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001411</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region defined by its disposition to be involved in a biological process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001411</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_misc_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001411</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_note:biological_region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -13001,6 +13623,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A region of sequence that is involved in the control of a biological process.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0005836</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wiki</Literal>
@@ -13008,6 +13635,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0005836</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Regulatory_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0005836</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:other</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>

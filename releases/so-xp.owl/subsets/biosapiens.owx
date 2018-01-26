@@ -1270,6 +1270,16 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000409</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:misc_binding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000409</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">binding site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000409</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">binding_or_interaction_site</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1418,6 +1428,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000418</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:sig_peptide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000418</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">signal peptide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1485,6 +1500,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000419</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BS:00149</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000419</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:mat_peptide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -1601,6 +1621,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000725</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BS:00055</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000725</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:transit_peptide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -1842,6 +1867,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001062</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Propeptide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001062</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:propeptide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -3133,6 +3163,11 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0001086</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BS:00181</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0001086</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:unsure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
