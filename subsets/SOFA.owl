@@ -1233,16 +1233,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Satellite_DNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000005"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The many tandem repeats (identical or related) of a short basic repeating unit; many have a base composition or other property different from the genome average that allows them to be separated from the bulk (main band) genomic DNA.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000005"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Satellite_DNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000005"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -1284,13 +1284,13 @@ For example a variant transcript may have lost a stop codon present in the refer
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000149"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001790"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000149"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of a pair of sequencing reads in which the two members of the pair are related by originating at either end of a clone insert.</obo:IAO_0000115>
@@ -1414,16 +1414,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A regulatory element of an operon to which activators or repressors bind thereby effecting translation of genes in that operon.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000057"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Operator_(biology)#Operator</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000057"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A regulatory element of an operon to which activators or repressors bind thereby effecting translation of genes in that operon.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000057"/>
     </owl:Axiom>
     
 
@@ -1543,16 +1543,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Polypeptide</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000104"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence of amino acids linked by peptide bonds which may lack appreciable tertiary structure and may not be liable to irreversible denaturation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000104"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Polypeptide</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -1618,16 +1618,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An oligo to which new deoxyribonucleotides can be added by DNA polymerase.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000112"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Primer_(molecular_biology)</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000112"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An oligo to which new deoxyribonucleotides can be added by DNA polymerase.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000112"/>
     </owl:Axiom>
     
 
@@ -1748,16 +1748,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence segment located within the five prime end of an mRNA that causes premature termination of translation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:as</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000140"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Attenuator</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000140"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence segment located within the five prime end of an mRNA that causes premature termination of translation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:as</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000140"/>
     </owl:Axiom>
     
 
@@ -1783,16 +1783,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Terminator_(genetics)</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000141"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000141"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Terminator_(genetics)</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000141"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -1831,16 +1831,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of the transcript sequence within a gene which is not removed from the primary RNA transcript by RNA splicing.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000147"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Exon</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000147"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of the transcript sequence within a gene which is not removed from the primary RNA transcript by RNA splicing.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000147"/>
     </owl:Axiom>
     
 
@@ -1890,16 +1890,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Contig</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000149"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A contiguous sequence derived from sequence assembly. Has no gaps, but may contain N&apos;s from unavailable bases.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ls</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000149"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Contig</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000149"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -1941,16 +1941,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http:http://en.wikipedia.org/wiki/Clone_(genetics)</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000151"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A piece of DNA that has been inserted in a vector so that it can be propagated in a host bacterium or some other organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000151"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http:http://en.wikipedia.org/wiki/Clone_(genetics)</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000151"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -1973,10 +1973,10 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Nucleotide_deletion</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The point at which one or more contiguous nucleotides were excised.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000159"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deletion</rdfs:label>
@@ -1985,10 +1985,10 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The point at which one or more contiguous nucleotides were excised.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Nucleotide_deletion</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000159"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -2191,16 +2191,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of contiguous genes transcribed as a single (polycistronic) mRNA from a single regulatory region.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000178"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Operon</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000178"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of contiguous genes transcribed as a single (polycistronic) mRNA from a single regulatory region.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000178"/>
     </owl:Axiom>
     
 
@@ -2290,16 +2290,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transcript that in its initial state requires modification to be functional.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Primary_transcript</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transcript that in its initial state requires modification to be functional.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
     </owl:Axiom>
     
 
@@ -2529,16 +2529,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region at the 5&apos; end of a mature transcript (preceding the initiation codon) that is not translated into a protein.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000204"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/5&apos;_UTR</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000204"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region at the 5&apos; end of a mature transcript (preceding the initiation codon) that is not translated into a protein.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000204"/>
     </owl:Axiom>
     
 
@@ -2644,10 +2644,10 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/MRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000234"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENCODE</rdfs:label>
@@ -2656,10 +2656,10 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/MRNA</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000234"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -2750,17 +2750,17 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/RRNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000252"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000252"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/RRNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000252"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -2825,18 +2825,18 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SnRNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000274"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small nuclear RNA molecule involved in pre-mRNA splicing and processing.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11733745</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:ems</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000274"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SnRNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000274"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -2862,16 +2862,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:kgc</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000275"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SnoRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000275"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:kgc</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000275"/>
     </owl:Axiom>
     
 
@@ -2902,13 +2902,6 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11081512</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12592000</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000276"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/MiRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000276"/>
@@ -2919,6 +2912,13 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/StRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000276"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11081512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12592000</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000276"/>
     </owl:Axiom>
     
 
@@ -2941,6 +2941,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STR</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9651/</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000289"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Microsatellite</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000289"/>
@@ -2952,12 +2958,6 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.informatics.jax.org/silver/glossary.shtml</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000289"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STR</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9651/</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000289"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     
 
@@ -3013,17 +3013,17 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Origin_of_replication</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000296"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI:cf</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000296"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Origin_of_replication</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000296"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -3206,16 +3206,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Start_codon</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000318"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First codon to be translated by a ribosome.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000318"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Start_codon</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000318"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -3233,16 +3233,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In mRNA, a set of three nucleotides that indicates the end of information for protein synthesis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000319"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Stop_codon</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000319"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In mRNA, a set of three nucleotides that indicates the end of information for protein synthesis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000319"/>
     </owl:Axiom>
     
 
@@ -3494,16 +3494,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000340"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Chromosome</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000340"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000340"/>
     </owl:Axiom>
     
 
@@ -3683,16 +3683,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Codon</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000360"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A set of (usually) three nucleotide bases in a DNA or RNA sequence, which together code for a unique amino acid or the termination of translation and are contained within the CDS.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000360"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Codon</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000360"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -3853,16 +3853,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Hammerhead_ribozyme</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000380"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small catalytic RNA motif that catalyzes self-cleavage reaction. Its name comes from its secondary structure which resembles a carpenter&apos;s hammer. The hammerhead ribozyme is involved in the replication of some viroid and some satellite RNAs.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2436805</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000380"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Hammerhead_ribozyme</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000380"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -3926,16 +3926,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The RNA component of telomerase, a reverse transcriptase that synthesizes telomeric DNA.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00025</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000390"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Telomerase_RNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000390"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The RNA component of telomerase, a reverse transcriptase that synthesizes telomeric DNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00025</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000390"/>
     </owl:Axiom>
     
 
@@ -3956,18 +3956,6 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U1 small nuclear RNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000391"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/U1_snRNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000391"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U1 is a small nuclear RNA (snRNA) component of the spliceosome (involved in pre-mRNA splicing). Its 5&apos; end forms complementary base pairs with the 5&apos; splice junction, thus defining the 5&apos; donor site of an intron. There are significant differences in sequence and secondary structure between metazoan and yeast U1 snRNAs, the latter being much longer (568 nucleotides as compared to 164 nucleotides in human). Nevertheless, secondary structure predictions suggest that all U1 snRNAs share a &apos;common core&apos; consisting of helices I, II, the proximal region of III, and IV.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00003</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -3982,6 +3970,18 @@ For example a variant transcript may have lost a stop codon present in the refer
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U1</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/U1_snRNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U1 small nuclear RNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000391"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
@@ -4005,6 +4005,12 @@ For example a variant transcript may have lost a stop codon present in the refer
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:CB</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U2 small nuclear RNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000392"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:CB</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U2</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000392"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -4020,12 +4026,6 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00004</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000392"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:CB</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U2 small nuclear RNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000392"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
@@ -4053,21 +4053,15 @@ For example a variant transcript may have lost a stop codon present in the refer
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U4 small nuclear RNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000393"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U4</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000393"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U4</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/U4_snRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000393"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U4 small nuclear RNA (U4 snRNA) is a component of the major U2-dependent spliceosome. It forms a duplex with U6, and with each splicing round, it is displaced from U6 (and the spliceosome) in an ATP-dependent manner, allowing U6 to refold and create the active site for splicing catalysis. A recycling process involving protein Prp24 re-anneals U4 and U6.</owl:annotatedTarget>
@@ -4076,10 +4070,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000393"/>
     </owl:Axiom>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/U4_snRNA</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U4 small nuclear RNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000393"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U4</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000393"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     
 
@@ -4099,18 +4099,6 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An snRNA required for the splicing of the minor U12-dependent class of eukaryotic nuclear introns. It forms a base paired complex with U6atac_snRNA (SO:0000397).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:=12409455</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000394"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U4atac</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U4atac</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000394"/>
@@ -4121,6 +4109,18 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U4atac small nuclear RNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000394"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U4atac</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000394"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An snRNA required for the splicing of the minor U12-dependent class of eukaryotic nuclear introns. It forms a base paired complex with U6atac_snRNA (SO:0000397).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:=12409455</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000394"/>
     </owl:Axiom>
     
 
@@ -4141,22 +4141,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U5</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000395"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/U5_snRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000395"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U5 RNA is a component of both types of known spliceosome. The precise function of this molecule is unknown, though it is known that the 5&apos; loop is required for splice site selection and p220 binding, and that both the 3&apos; stem-loop and the Sm site are important for Sm protein binding and cap methylation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00020</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000395"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U5</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000395"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
@@ -4166,9 +4160,15 @@ For example a variant transcript may have lost a stop codon present in the refer
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U5</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U5</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000395"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U5 RNA is a component of both types of known spliceosome. The precise function of this molecule is unknown, though it is known that the 5&apos; loop is required for splice site selection and p220 binding, and that both the 3&apos; stem-loop and the Sm site are important for Sm protein binding and cap methylation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00020</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000395"/>
     </owl:Axiom>
     
 
@@ -4188,6 +4188,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U6</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/U6_snRNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000396"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U6</owl:annotatedTarget>
@@ -4211,12 +4217,6 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00015</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000396"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/U6_snRNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000396"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -4242,7 +4242,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U6atac small nuclear RNA</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U6atac snRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000397"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
@@ -4254,7 +4254,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U6atac snRNA</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U6atac small nuclear RNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000397"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
@@ -4277,10 +4277,10 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9622129</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U11 snRNA plays a role in splicing of the minor U12-dependent class of eukaryotic nuclear introns, similar to U1 snRNA in the major class spliceosome it base pairs to the conserved 5&apos; splice site sequence.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U11</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000398"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
@@ -4290,21 +4290,21 @@ For example a variant transcript may have lost a stop codon present in the refer
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U11 small nuclear RNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000398"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U11</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000398"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U11</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U11 small nuclear RNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000398"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9622129</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U11 snRNA plays a role in splicing of the minor U12-dependent class of eukaryotic nuclear introns, similar to U1 snRNA in the major class spliceosome it base pairs to the conserved 5&apos; splice site sequence.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000398"/>
     </owl:Axiom>
     
 
@@ -4332,18 +4332,6 @@ For example a variant transcript may have lost a stop codon present in the refer
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U12 small nuclear RNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000399"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The U12 small nuclear (snRNA), together with U4atac/U6atac, U5, and U11 snRNAs and associated proteins, forms a spliceosome that cleaves a divergent class of low-abundance pre-mRNA introns.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00007</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000399"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small nuclear RNA U12</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000399"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -4353,6 +4341,18 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snRNA U12</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000399"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U12 small nuclear RNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000399"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The U12 small nuclear (snRNA), together with U4atac/U6atac, U5, and U11 snRNAs and associated proteins, forms a spliceosome that cleaves a divergent class of low-abundance pre-mRNA introns.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00007</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000399"/>
     </owl:Axiom>
     
 
@@ -4427,16 +4427,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Y_RNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000405"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y RNAs are components of the Ro ribonucleoprotein particle (Ro RNP), in association with Ro60 and La proteins. The Y RNAs and Ro60 and La proteins are well conserved, but the function of the Ro RNP is not known. In humans the RNA component can be one of four small RNAs: hY1, hY3, hY4 and hY5. These small RNAs are predicted to fold into a conserved secondary structure containing three stem structures. The largest of the four, hY1, contains an additional hairpin.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00019</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000405"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Y_RNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000405"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -4539,16 +4539,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Restriction_fragment</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000412"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of polynucleotide sequence produced by digestion with a restriction endonuclease.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000412"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Restriction_fragment</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000412"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -4599,6 +4599,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#biosapiens"/>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:feature_type</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
@@ -4609,12 +4615,6 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Signal_peptide</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
     </owl:Axiom>
     
 
@@ -4742,16 +4742,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 17-28-nt, small interfering RNA derived from transcripts of repetitive elements.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.developmentalcell.com/content/article/abstract?uid=PIIS1534580703002284</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000454"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/RasiRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000454"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 17-28-nt, small interfering RNA derived from transcripts of repetitive elements.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.developmentalcell.com/content/article/abstract?uid=PIIS1534580703002284</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000454"/>
     </owl:Axiom>
     
 
@@ -5022,13 +5022,13 @@ For example a variant transcript may have lost a stop codon present in the refer
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000205"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000205"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:polyA_site</oboInOwl:hasExactSynonym>
@@ -5119,16 +5119,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group I catalytic introns are large self-splicing ribozymes. They catalyze their own excision from mRNA, tRNA and rRNA precursors in a wide range of organisms. The core secondary structure consists of 9 paired regions (P1-P9). These fold to essentially two domains, the P4-P6 domain (formed from the stacking of P5, P4, P6 and P6a helices) and the P3-P9 domain (formed from the P8, P3, P7 and P9 helices). Group I catalytic introns often have long ORFs inserted in loop regions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00028</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000587"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Group_I_intron</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000587"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group I catalytic introns are large self-splicing ribozymes. They catalyze their own excision from mRNA, tRNA and rRNA precursors in a wide range of organisms. The core secondary structure consists of 9 paired regions (P1-P9). These fold to essentially two domains, the P4-P6 domain (formed from the stacking of P5, P4, P6 and P6a helices) and the P3-P9 domain (formed from the P8, P3, P7 and P9 helices). Group I catalytic introns often have long ORFs inserted in loop regions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00028</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000587"/>
     </owl:Axiom>
     
 
@@ -5223,16 +5223,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Guide_RNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000602"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A short 3&apos;-uridylated RNA that can form a duplex (except for its post-transcriptionally added oligo_U tail (SO:0000609)) with a stretch of mature edited mRNA.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.rna.ucla.edu/index.html</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000602"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Guide_RNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000602"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -5460,18 +5460,18 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Insulator_(genetics)</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000627"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A regulatory region that 1) when located between a CM and a gene&apos;s promoter prevents the CRM from modulating that genes expression and 2) acts as a chromatin boundary element or barrier that can block the encroachment of condensed chromatin from an adjacent region.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI:cf</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12154228</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:regcreative</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000627"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Insulator_(genetics)</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000627"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -5504,6 +5504,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A repeat region containing tandemly repeated sequences having a unit length of 10 to 40 bp.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.informatics.jax.org/silver/glossary.shtml</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000643"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Minisatellite</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000643"/>
@@ -5514,12 +5520,6 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/books/NBK21126/def-item/A9655/</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000643"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A repeat region containing tandemly repeated sequences having a unit length of 10 to 40 bp.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.informatics.jax.org/silver/glossary.shtml</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000643"/>
     </owl:Axiom>
     
 
@@ -5594,16 +5594,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12592000</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000646"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SiRNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000646"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12592000</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000646"/>
     </owl:Axiom>
     
 
@@ -5728,16 +5728,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/28S_ribosomal_RNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000653"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A component of the large ribosomal subunit.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000653"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/28S_ribosomal_RNA</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000653"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -5759,6 +5759,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENCODE</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.gencodegenes.org/gencode_biotypes.html</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -5767,12 +5773,6 @@ For example a variant transcript may have lost a stop codon present in the refer
     <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/NcRNA</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENCODE</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.gencodegenes.org/gencode_biotypes.html</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
@@ -5930,16 +5930,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An RNA synthesized on a DNA or RNA template by an RNA polymerase.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/RNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An RNA synthesized on a DNA or RNA template by an RNA polymerase.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
     </owl:Axiom>
     
 
@@ -6334,16 +6334,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleic acid sequence that when read as sequential triplets, has the potential of encoding a sequential string of amino acids. It need not contain the start or stop codon.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SGD:rb</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000717"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Reading_frame</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000717"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleic acid sequence that when read as sequential triplets, has the potential of encoding a sequential string of amino acids. It need not contain the start or stop codon.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SGD:rb</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000717"/>
     </owl:Axiom>
     
 
@@ -6414,16 +6414,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#biosapiens"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000725"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transit</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:feature_type</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000725"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000725"/>
     </owl:Axiom>
     
 
@@ -6814,10 +6814,11 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#biosapiens"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">site</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:feature_type</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological sequence region that can be assigned to a specific subsequence of a polypeptide.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:GAR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000839"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</owl:annotatedTarget>
@@ -6826,11 +6827,10 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological sequence region that can be assigned to a specific subsequence of a polypeptide.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:GAR</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">site</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:feature_type</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000839"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -6949,16 +6949,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large polynucleotide in Bacteria and Archaea, which functions as the small subunit of the ribosome.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001000"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/16S_ribosomal_RNA</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001000"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large polynucleotide in Bacteria and Archaea, which functions as the small subunit of the ribosome.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001000"/>
     </owl:Axiom>
     
 
@@ -7025,16 +7025,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A variation that increases or decreases the copy number of a given region.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001019"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Copy_number_variation</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001019"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A variation that increases or decreases the copy number of a given region.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001019"/>
     </owl:Axiom>
     
 
@@ -7265,16 +7265,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Nucleobase</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001236"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A base is a sequence feature that corresponds to a single unit of a nucleotide polymer.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001236"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Nucleobase</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001236"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -7291,16 +7291,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of the genome of known length that is composed by ordering and aligning two or more different regions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001248"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Genome_assembly#Genome_assembly</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001248"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of the genome of known length that is composed by ordering and aligning two or more different regions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001248"/>
     </owl:Axiom>
     
 
@@ -7492,16 +7492,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A kind of ribosome entry site, specific to Eukaryotic organisms that overlaps part of both 5&apos; UTR and CDS sequence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001647"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia</rdfs:label>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Kozak_consensus_sequence</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001647"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A kind of ribosome entry site, specific to Eukaryotic organisms that overlaps part of both 5&apos; UTR and CDS sequence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001647"/>
     </owl:Axiom>
     
 
@@ -7565,16 +7565,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Sequence_motif</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001683"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence motif is a nucleotide or amino-acid sequence pattern that may have biological significance.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Sequence_motif</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001683"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Sequence_motif</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001683"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -7714,16 +7714,16 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substitution</rdfs:label>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loinc:LA6690-7</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_1000002"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence alteration where the length of the change in the variant is the same as that of the reference.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_1000002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substitution</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loinc:LA6690-7</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_1000002"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     
 
@@ -7790,11 +7790,10 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/dbvar/</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inversion</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuous nucleotide sequence is inverted in the same position.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_1000036"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/so#dbvar"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inversion</rdfs:label>
@@ -7803,10 +7802,11 @@ For example a variant transcript may have lost a stop codon present in the refer
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuous nucleotide sequence is inverted in the same position.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/dbvar/</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inversion</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_1000036"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/so#dbvar"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     
 
