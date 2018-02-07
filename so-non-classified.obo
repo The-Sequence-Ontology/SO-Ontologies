@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 06:02:2018 12:38
+date: 07:02:2018 12:02
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -20510,6 +20510,16 @@ synonym: "UNAAAC motif" EXACT []
 is_a: SO:0001979 ! RNA_stability_element
 created_by: nicole
 creation_date: 2018-02-06T12:23:24Z
+
+[Term]
+id: SO:0002208
+name: long_terminal_repeat_transcript
+def: "An RNA that is transcribed from a long terminal repeat." [PMID:24256266, PomBase:mh]
+synonym: "long terminal repeat transcript" EXACT []
+synonym: "LTR transcript" EXACT []
+is_a: SO:0000673 ! transcript
+created_by: nicole
+creation_date: 2018-02-07T11:51:45Z
 
 [Term]
 id: SO:0005836
