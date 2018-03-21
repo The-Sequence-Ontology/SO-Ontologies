@@ -2145,6 +2145,7 @@ name: ultracontig
 namespace: sequence
 def: "An ordered and oriented set of scaffolds based on somewhat weaker sets of inferential evidence such as one set of mate pair reads together with supporting evidence from ESTs or location of markers from SNP or microsatellite maps, or cytogenetic localization of contained markers." [FB:WG]
 subset: SOFA
+synonym: "pseudochromosome" EXACT []
 synonym: "superscaffold" RELATED []
 is_a: SO:0000353 ! sequence_assembly
 

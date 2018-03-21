@@ -11403,6 +11403,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An ordered and oriented set of scaffolds based on somewhat weaker sets of inferential evidence such as one set of mate pair reads together with supporting evidence from ESTs or location of markers from SNP or microsatellite maps, or cytogenetic localization of contained markers.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/SO_0000719</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pseudochromosome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000719</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sequence</Literal>

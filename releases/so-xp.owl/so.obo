@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 07:02:2018 12:02
+date: 21:03:2018 13:12
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -6339,6 +6339,7 @@ id: SO:0000719
 name: ultracontig
 def: "An ordered and oriented set of scaffolds based on somewhat weaker sets of inferential evidence such as one set of mate pair reads together with supporting evidence from ESTs or location of markers from SNP or microsatellite maps, or cytogenetic localization of contained markers." [FB:WG]
 subset: SOFA
+synonym: "pseudochromosome" EXACT []
 synonym: "superscaffold" RELATED []
 is_a: SO:0001876 ! partial_genomic_sequence_assembly
 
@@ -8536,7 +8537,9 @@ is_a: SO:0000655 ! ncRNA
 [Term]
 id: SO:0000991
 name: genomic_DNA
+def: "DNA located in the genome and able to be transmitted to the offspring." [BCS:etrwz]
 comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
+synonym: "gDNA" EXACT []
 synonym: "genomic DNA" EXACT []
 is_a: SO:0000352 ! DNA
 
@@ -20520,6 +20523,33 @@ synonym: "LTR transcript" EXACT []
 is_a: SO:0000673 ! transcript
 created_by: nicole
 creation_date: 2018-02-07T11:51:45Z
+
+[Term]
+id: SO:0002209
+name: genomic_DNA_contig
+def: "A contig composed of genomic DNA derived sequences." [BCS:etrwz]
+comment: Requested by Bayer Crop Science, March 2018
+synonym: "gDNA contig" EXACT []
+synonym: "gDNA_contig" EXACT []
+synonym: "genomic DNA contig" EXACT []
+is_a: SO:0000149 ! contig
+created_by: nicole
+creation_date: 2018-03-21T12:25:14Z
+
+[Term]
+id: SO:0002210
+name: presence_absence_variation
+def: "A variation qualifying the presence of a sequence in a genome which is entirely missing in another genome." [BCS:bbean, PMID:19956538, PMID:25881062]
+comment: Requested by Bayer Crop Science, March 2018
+synonym: "PAV" EXACT []
+synonym: "presence absence variation" EXACT []
+synonym: "presence-absence variation" EXACT []
+synonym: "presence-absence_variation" EXACT []
+synonym: "presence/absence variation" EXACT []
+synonym: "presence/absence_variation" EXACT []
+is_a: SO:0001019 ! copy_number_variation
+created_by: nicole
+creation_date: 2018-03-21T12:59:14Z
 
 [Term]
 id: SO:0005836
