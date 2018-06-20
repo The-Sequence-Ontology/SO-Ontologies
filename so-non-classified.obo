@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 13:06:2018 10:37
+date: 20:06:2018 10:09
 saved-by: nicole
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -20593,6 +20593,15 @@ synonym: "redundant inserted stop gained" EXACT []
 is_a: SO:0001992 ! nonsynonymous_variant
 created_by: nicole
 creation_date: 2018-06-13T09:53:31Z
+
+[Term]
+id: SO:0002215
+name: Zas1_recognition_motif
+def: "A DNA motif to which the S. pombe Zas1 protein binds. The consensus sequence is 5'-(Y)CCCCAY-3'." [PMID:29735745, PomBase:vw]
+synonym: "Zas1 recognition motif" EXACT []
+is_a: SO:0000713 ! DNA_motif
+created_by: nicole
+creation_date: 2018-06-20T10:05:17Z
 
 [Term]
 id: SO:0005836
