@@ -1,7 +1,7 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 13:09:2018 10:54
-saved-by: nicole
+date: 24:02:2019 19:17
+saved-by: nicoleruiz
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
 subsetdef: DBVAR "database of genomic structural variation"
@@ -20615,6 +20615,17 @@ created_by: nicole
 creation_date: 2018-09-12T12:26:50Z
 
 [Term]
+id: SO:0002217
+name: unspecified_indel
+def: "A sequence alteration which includes an insertion or a deletion. This describes a sequence length change when the direction of the change is unspecified or when such changes are pooled into one category." [ZFIN:st]
+comment: This term is used when there is a change that is either an insertion or a deletion but it is unknown which event occurred.
+synonym: "insertion or deletion" EXACT []
+synonym: "unspecified indel" EXACT []
+is_a: SO:0001059 ! sequence_alteration
+created_by: nicoleruiz
+creation_date: 2019-02-24T18:26:05Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
@@ -21155,9 +21166,11 @@ relationship: has_quality SO:0001511 ! interchromosomal
 
 [Term]
 id: SO:1000032
-name: indel
-def: "A sequence alteration which included an insertion and a deletion, affecting 2 or more bases." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html, http:http\://www.hgvs.org/mutnomen/recs-DNA.html#indel]
-comment: Indels can have a different number of bases than the corresponding reference sequence.
+name: delins
+def: "A sequence alteration which included an insertion and a deletion, affecting 2 or more bases." [http://varnomen.hgvs.org/recommendations/DNA/variant/delins/]
+comment: Indels can have a different number of bases than the corresponding reference sequence. The term name was changed from indel to delins on 2/24/2019 to align with the HGVS nomenclature term for a deletion-insertion. Indel was causing confusion in the annotation community (github issue 445). The HGVS nomenclature definition of deletion-insertion (delins) is a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion.
+synonym: "deletion-insertion" EXACT []
+synonym: "indel" EXACT []
 xref: http://en.wikipedia.org/wiki/Indel "wiki"
 xref: loinc:LA9659-9 "Insertion and Deletion"
 is_a: SO:0001059 ! sequence_alteration
