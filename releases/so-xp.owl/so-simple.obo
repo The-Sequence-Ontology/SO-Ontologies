@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 01:03:2019 10:32
+date: 10:06:2019 14:31
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -13219,7 +13219,7 @@ id: SO:0001538
 name: transcript_function_variant
 def: "A sequence variant which alters the functioning of a transcript with respect to a reference sequence." [SO:ke]
 synonym: "transcript function variant" EXACT []
-is_a: SO:0002218 ! function_modified_variant
+is_a: SO:0002218 ! functionally_abnormal
 created_by: kareneilbeck
 creation_date: 2010-03-22T11:32:58Z
 
@@ -13228,7 +13228,7 @@ id: SO:0001539
 name: translational_product_function_variant
 def: "A sequence variant that affects the functioning of a translational product with respect to a reference sequence." [SO:ke]
 synonym: "translational product variant" EXACT []
-is_a: SO:0002218 ! function_modified_variant
+is_a: SO:0002218 ! functionally_abnormal
 created_by: kareneilbeck
 creation_date: 2010-03-22T11:46:15Z
 
@@ -15660,7 +15660,7 @@ id: SO:0001773
 name: lethal_variant
 def: "A sequence variant where the mutated gene product does not allow for one or more basic functions necessary for survival." []
 synonym: "lethal variant" EXACT []
-is_a: SO:0002218 ! function_modified_variant
+is_a: SO:0002218 ! functionally_abnormal
 created_by: kareneilbeck
 creation_date: 2011-03-15T04:06:22Z
 
@@ -15770,7 +15770,7 @@ def: "A functional variant whereby the sequence alteration causes a loss of func
 subset: DBVAR
 synonym: "LOH" EXACT []
 synonym: "loss of heterozygosity" EXACT []
-is_a: SO:0002218 ! function_modified_variant
+is_a: SO:0002218 ! functionally_abnormal
 created_by: kareneilbeck
 creation_date: 2011-03-25T02:32:58Z
 
@@ -18519,7 +18519,7 @@ def: "A variant where the mutated gene product adversely affects the other (wild
 comment: Requested by Deanna Church.
 synonym: "dominant negative" EXACT []
 synonym: "dominant negative variant" EXACT []
-is_a: SO:0002218 ! function_modified_variant
+is_a: SO:0002218 ! functionally_abnormal
 created_by: kareneilbeck
 creation_date: 2015-05-14T11:16:28Z
 
@@ -18528,7 +18528,7 @@ id: SO:0002053
 name: gain_of_function_variant
 def: "A sequence variant whereby new or enhanced function is conferred on the gene product." [SO:ke]
 synonym: "gain of function variant" EXACT []
-is_a: SO:0002218 ! function_modified_variant
+is_a: SO:0002218 ! functionally_abnormal
 created_by: kareneilbeck
 creation_date: 2015-05-14T11:20:47Z
 
@@ -18537,7 +18537,7 @@ id: SO:0002054
 name: loss_of_function_variant
 def: "A sequence variant whereby the gene product has diminished or abolished function." [SO:ke]
 synonym: "loss of function variant" EXACT []
-is_a: SO:0002218 ! function_modified_variant
+is_a: SO:0002218 ! functionally_abnormal
 created_by: kareneilbeck
 creation_date: 2015-05-14T11:21:29Z
 
@@ -18546,7 +18546,7 @@ id: SO:0002055
 name: null_mutation
 def: "A variant whereby the gene product is not functional or the gene product is not produced." [SO:ke]
 synonym: "null mutation" EXACT []
-is_a: SO:0002218 ! function_modified_variant
+is_a: SO:0002218 ! functionally_abnormal
 created_by: kareneilbeck
 creation_date: 2015-05-14T11:21:57Z
 
@@ -20225,20 +20225,24 @@ creation_date: 2019-02-24T18:26:05Z
 
 [Term]
 id: SO:0002218
-name: function_modified_variant
+name: functionally_abnormal
 def: "A sequence variant in which the function of a gene product is altered with respect to a reference." []
 comment: Added after request from Lea Starita, lea.starita@gmail.com from the NCBI Feb 2019.
 synonym: "function modified variant" EXACT []
+synonym: "function_modified_variant" RELATED []
+synonym: "functionally abnormal" RELATED []
 is_a: SO:0001536 ! functional_effect_variant
 created_by: david
 creation_date: 2019-03-01T10:21:26Z
 
 [Term]
 id: SO:0002219
-name: function_retained_variant
+name: functionally_normal
 def: "A sequence variant in which the function of a gene product is retained with respect to a reference." []
 comment: Added after request from Lea Starita, lea.starita@gmail.com from the NCBI Feb 2019.
 synonym: "function retained variant" EXACT []
+synonym: "function_retained_variant" RELATED []
+synonym: "functionally normal" RELATED []
 is_a: SO:0001536 ! functional_effect_variant
 created_by: david
 creation_date: 2019-03-01T10:28:12Z
@@ -20249,6 +20253,7 @@ name: function_uncertain_variant
 def: "A sequence variant in which the function of a gene product is unknown with respect to a reference." []
 comment: Added after request from Lea Starita, lea.starita@gmail.com from the NCBI Feb 2019.
 synonym: "function uncertain variant" EXACT []
+synonym: "function_uncertain_variant" EXACT []
 is_a: SO:0001536 ! functional_effect_variant
 created_by: david
 creation_date: 2019-03-01T10:29:01Z
