@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 31:07:2019 12:18
+date: 31:07:2019 14:54
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -178,7 +178,7 @@ relationship: part_of SO:0001669 ! RNApol_II_core_promoter
 [Term]
 id: SO:0000017
 name: PSE_motif
-def: "A sequence element characteristic of the promoters of snRNA genes transcribed by RNA polymerase II or by RNA polymerase III. Located between -45 and -60 relative to the TSS. The human PSE_motif consensus sequence is TCACCNTNA(C|G)TNAAAAG(T|G)." [PMID:12651739]
+def: "A sequence element characteristic of the promoters of snRNA genes transcribed by RNA polymerase II or by RNA polymerase III. Located between -45 and -60 relative to the TSS. The human PSE_motif consensus sequence is TCACCNTNA(C|G)TNAAAAG(T|G). The basal transcription factor, snRNA-activating protein complex (SNAPc), binds the PSE_motif and is required for the transcription of both RNA polymerase II and III transcribed small-nuclear RNA genes." [PMID:11390411, PMID:12621023, PMID:12651739, PMID:23166507, PMID:8339931]
 synonym: "proximal sequence element" EXACT []
 synonym: "PSE motif" EXACT []
 is_a: SO:0000713 ! DNA_motif
@@ -14884,8 +14884,7 @@ name: retinoic_acid_responsive_element
 def: "A transcription factor binding site of variable direct repeats of the sequence PuGGTCA spaced by five nucleotides (DR5) found in the promoters of retinoic acid-responsive genes, to which retinoic acid receptors bind." [PMID:11327309, PMID:19917671]
 synonym: "RARE" EXACT []
 synonym: "retinoic acid responsive element" EXACT []
-is_a: SO:0000713 ! DNA_motif
-relationship: part_of SO:0000167 ! promoter
+is_a: SO:0000235 ! TF_binding_site
 created_by: kareneilbeck
 creation_date: 2010-08-03T10:46:12Z
 
@@ -16790,9 +16789,13 @@ creation_date: 2011-10-07T03:54:52Z
 [Term]
 id: SO:0001843
 name: CRE
-def: "A promoter element with consensus sequence TGACGTCA; bound by the ATF/CREB family of transcription factors." [PMID:11483355, PMID:11483993]
+alt_id: SO:0001900
+def: "MERGED DEFINITION:\nTARGET DEFINITION: A promoter element with consensus sequence TGACGTCA; bound by the ATF/CREB family of transcription factors.\n--------------------\nSOURCE DEFINITION: A promoter element that contains a core sequence TGACGT, bound by a protein complex that regulates transcription of genes encoding PKA pathway components." [PMID:11483355, PMID:11483993, PMID:15448137]
 synonym: "ATF/CRE site" EXACT [PMID:11483993]
 synonym: "cyclic AMP response element" EXACT []
+synonym: "M26 binding site" EXACT []
+synonym: "m26 site" EXACT []
+synonym: "M26_binding_site" EXACT []
 is_a: SO:0001659 ! promoter_element
 created_by: kareneilbeck
 creation_date: 2011-10-07T03:58:48Z
@@ -17379,15 +17382,6 @@ is_a: SO:0001797 ! centromeric_repeat
 relationship: part_of SO:0001799 ! regional_centromere_outer_repeat_region
 created_by: kareneilbeck
 creation_date: 2012-04-06T11:50:07Z
-
-[Term]
-id: SO:0001900
-name: M26_binding_site
-def: "A promoter element that contains a core sequence TGACGT, bound by a protein complex that regulates transcription of genes encoding PKA pathway components." [PMID:15448137]
-synonym: "m26 site" EXACT []
-is_a: SO:0000713 ! DNA_motif
-created_by: kareneilbeck
-creation_date: 2012-04-06T12:02:10Z
 
 [Term]
 id: SO:0001901
@@ -20668,6 +20662,24 @@ synonym: "function_uncertain_variant" EXACT []
 is_a: SO:0001536 ! functional_effect_variant
 created_by: david
 creation_date: 2019-03-01T10:29:01Z
+
+[Term]
+id: SO:0002221
+name: eukaryotic_promoter
+def: "A regulatory_region including the Transcription Start Site (TSS) of a gene and serving as a platform for Pre-Initiation Complex (PIC) assembly, enabling transcription of a gene under certain conditions." []
+synonym: "Eukaryotic promoter" EXACT []
+is_a: SO:0000167 ! promoter
+created_by: david
+creation_date: 2019-07-31T14:01:20Z
+
+[Term]
+id: SO:0002222
+name: prokaryotic_promoter
+def: "A regulatory_region including the Transcription Start Site (TSS) of a gene. This is the region is recognized and bound by the RNA polymerase(RNAP)-holoenzyme, enabling transcription of a gene under certain conditions." []
+synonym: "Prokaryotic promoter" EXACT []
+is_a: SO:0000167 ! promoter
+created_by: david
+creation_date: 2019-07-31T14:02:26Z
 
 [Term]
 id: SO:0005836
