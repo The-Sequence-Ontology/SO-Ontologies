@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 10:06:2019 14:31
+date: 31:07:2019 12:18
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -147,7 +147,7 @@ synonym: "DMp2" RELATED []
 synonym: "initiator" EXACT []
 synonym: "initiator motif" EXACT []
 synonym: "INR motif" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0001669 ! RNApol_II_core_promoter
 
 [Term]
@@ -158,7 +158,7 @@ comment: Binds TAF6, TAF9.
 synonym: "CRWMGCGWKCGCTTS" NARROW []
 synonym: "downstream core promoter element" EXACT []
 synonym: "DPE motif" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0001669 ! RNApol_II_core_promoter
 
 [Term]
@@ -172,7 +172,7 @@ synonym: "BREu" RELATED []
 synonym: "BREu motif" EXACT []
 synonym: "TFIIB recognition element" RELATED []
 synonym: "transcription factor B-recognition element" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0001669 ! RNApol_II_core_promoter
 
 [Term]
@@ -1473,7 +1473,7 @@ synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:TATA_box" EXACT []
 synonym: "TATA box" EXACT []
 xref: http://en.wikipedia.org/wiki/TATA_box "wiki"
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 
 [Term]
 id: SO:0000175
@@ -1488,8 +1488,8 @@ synonym: "Pribnow Schaller box" EXACT []
 synonym: "Pribnow-Schaller box" EXACT []
 xref: http://en.wikipedia.org/wiki/Pribnow_box "wiki"
 is_a: SO:0000713 ! DNA_motif
-relationship: part_of SO:0001671 ! bacterial_RNApol_promoter_sigma_70
-relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf
+relationship: part_of SO:0001671 ! bacterial_RNApol_promoter_sigma_70_element
+relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf_element
 
 [Term]
 id: SO:0000176
@@ -1500,8 +1500,8 @@ synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:minus_35_signal" EXACT []
 synonym: "minus 35 signal" EXACT []
 is_a: SO:0000713 ! DNA_motif
-relationship: part_of SO:0001671 ! bacterial_RNApol_promoter_sigma_70
-relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf
+relationship: part_of SO:0001671 ! bacterial_RNApol_promoter_sigma_70_element
+relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf_element
 
 [Term]
 id: SO:0000177
@@ -5303,8 +5303,8 @@ id: SO:0000613
 name: bacterial_RNApol_promoter
 def: "A DNA sequence to which bacterial RNA polymerase binds, to begin transcription." [SO:ke]
 synonym: "bacterial RNApol promoter" EXACT []
-is_a: SO:0000752 ! gene_group_regulatory_region
 is_a: SO:0001203 ! RNA_polymerase_promoter
+is_a: SO:0001659 ! promoter_element
 
 [Term]
 id: SO:0000614
@@ -5349,7 +5349,7 @@ def: "A variably distant linear promoter region recognized by TFIIIC, with conse
 comment: Binds TFIIIC.
 synonym: "A-box" EXACT []
 xref: http://en.wikipedia.org/wiki/A-box "wiki"
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 
 [Term]
 id: SO:0000620
@@ -5357,7 +5357,7 @@ name: B_box
 def: "A variably distant linear promoter region recognized by TFIIIC, with consensus sequence AGGTTCCAnnCC." [SO:ke]
 comment: Binds TFIIIC.
 synonym: "B-box" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0000618 ! RNApol_III_promoter_type_2
 
 [Term]
@@ -5371,7 +5371,7 @@ id: SO:0000622
 name: C_box
 def: "An RNA polymerase III type 1 promoter with consensus sequence CAnnCCn." [SO:ke]
 synonym: "C-box" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0000617 ! RNApol_III_promoter_type_1
 
 [Term]
@@ -9909,7 +9909,7 @@ def: "A sequence element characteristic of some RNA polymerase II promoters, usu
 synonym: "CSARCSSAACGS" NARROW []
 synonym: "motif ten element" EXACT []
 synonym: "motif_ten_element" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0001669 ! RNApol_II_core_promoter
 
 [Term]
@@ -14562,6 +14562,7 @@ creation_date: 2010-08-26T09:36:16Z
 [Term]
 id: SO:0001659
 name: promoter_element
+def: "An element that can exist within the promoter region of a gene." []
 synonym: "promoter element" EXACT []
 is_a: SO:0000713 ! DNA_motif
 relationship: overlaps SO:0000235 ! TF_binding_site
@@ -14570,7 +14571,9 @@ creation_date: 2010-10-01T11:48:32Z
 
 [Term]
 id: SO:0001660
-name: core_promoter_element
+name: core_eukaryotic_promoter_element
+def: "An element that only exists within the promoter region of a gene." []
+synonym: "core eukaryotic promoter element" EXACT []
 synonym: "core promoter element" EXACT []
 synonym: "general transcription factor binding site" RELATED []
 is_a: SO:0001659 ! promoter_element
@@ -14603,7 +14606,7 @@ name: BREd_motif
 def: "A core TRNA polymerase II promoter element with consensus (G/A)T(T/G/A)(T/A)(G/T)(T/G)(T/G)." [PMID:16858867]
 synonym: "BREd" EXACT []
 synonym: "BREd motif" RELATED []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0001669 ! RNApol_II_core_promoter
 created_by: kareneilbeck
 creation_date: 2010-10-01T02:49:55Z
@@ -14613,7 +14616,7 @@ id: SO:0001664
 name: DCE
 def: "A discontinuous core element of RNA polymerase II transcribed genes, situated downstream of the TSS. It is composed of three sub elements: SI, SII and SIII." [PMID:16858867]
 synonym: "downstream core element" RELATED []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0001669 ! RNApol_II_core_promoter
 created_by: kareneilbeck
 creation_date: 2010-10-01T02:56:41Z
@@ -14677,7 +14680,8 @@ creation_date: 2010-10-01T03:21:08Z
 
 [Term]
 id: SO:0001671
-name: bacterial_RNApol_promoter_sigma_70
+name: bacterial_RNApol_promoter_sigma_70_element
+def: "A DNA sequence to which bacterial RNA polymerase sigma 70 binds, to begin transcription." []
 synonym: "bacterial RNA polymerase promoter sigma 70" EXACT []
 is_a: SO:0000613 ! bacterial_RNApol_promoter
 created_by: kareneilbeck
@@ -14685,7 +14689,9 @@ creation_date: 2010-10-06T01:41:34Z
 
 [Term]
 id: SO:0001672
-name: bacterial_RNApol_promoter_sigma54
+name: bacterial_RNApol_promoter_sigma54_element
+def: "A DNA sequence to which bacterial RNA polymerase sigma 54 binds, to begin transcription." []
+synonym: "<new synonym>" RELATED []
 synonym: "bacterial RNA polymerase promoter sigma54" EXACT []
 is_a: SO:0000613 ! bacterial_RNApol_promoter
 created_by: kareneilbeck
@@ -14697,7 +14703,7 @@ name: minus_12_signal
 def: "A conserved region about 12-bp upstream of the start point of bacterial transcription units, involved with sigma factor 54." [PMID:18331472]
 synonym: "minus 12 signal" EXACT []
 is_a: SO:0000713 ! DNA_motif
-relationship: part_of SO:0001672 ! bacterial_RNApol_promoter_sigma54
+relationship: part_of SO:0001672 ! bacterial_RNApol_promoter_sigma54_element
 created_by: kareneilbeck
 creation_date: 2010-10-06T01:44:57Z
 
@@ -14707,7 +14713,7 @@ name: minus_24_signal
 def: "A conserved region about 12-bp upstream of the start point of bacterial transcription units, involved with sigma factor 54." [PMID:18331472]
 synonym: "minus 24 signal" RELATED []
 is_a: SO:0000713 ! DNA_motif
-relationship: part_of SO:0001672 ! bacterial_RNApol_promoter_sigma54
+relationship: part_of SO:0001672 ! bacterial_RNApol_promoter_sigma54_element
 created_by: kareneilbeck
 creation_date: 2010-10-06T01:45:24Z
 
@@ -14739,7 +14745,7 @@ name: intermediate_element
 def: "A core promoter region of RNA polymerase III type 1 promoters." [PMID:12381659]
 synonym: "IE" EXACT []
 synonym: "intermediate element" RELATED []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 relationship: part_of SO:0000617 ! RNApol_III_promoter_type_1
 created_by: kareneilbeck
 creation_date: 2010-10-06T05:52:03Z
@@ -16369,7 +16375,7 @@ name: GATA_box
 def: "A GATA transcription factor element containing the consensus sequence WGATAR (in which W indicates A/T and R indicates A/G)." [PMID:8321208]
 synonym: "GATA box" EXACT []
 synonym: "GATA element" RELATED []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 created_by: kareneilbeck
 creation_date: 2011-10-07T03:42:05Z
 
@@ -16444,7 +16450,7 @@ name: homol_D_box
 def: "A core promoter element that has the consensus sequence CAGTCACA (or its inverted form TGTGACTG), and plays the role of a TATA box in promoters that do not contain a canonical TATA sequence." [PMID:21673110, PMID:7501449, PMID:8458332]
 synonym: "homoID" EXACT []
 synonym: "homol D box" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 created_by: kareneilbeck
 creation_date: 2011-10-07T04:24:14Z
 
@@ -16991,7 +16997,7 @@ id: SO:0001901
 name: AACCCT_box
 def: "A conserved 17-bp sequence (5'-ATCA(C/A)AACCCTAACCCT-3') commonly present upstream of the start site of histone transcription units functioning as a transcription factor binding site." [PMID:17452352, PMID:4092687]
 synonym: "AACCCT box" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 created_by: kareneilbeck
 creation_date: 2012-04-06T12:05:24Z
 
@@ -17104,7 +17110,7 @@ creation_date: 2012-04-13T11:27:52Z
 
 [Term]
 id: SO:0001913
-name: bacterial_RNApol_promoter_sigma_ecf
+name: bacterial_RNApol_promoter_sigma_ecf_element
 def: "A bacterial promoter with sigma ecf factor binding dependency. This is a type of bacterial promoters that requires a sigma ECF factor to bind to identified -10 and -35 sequence regions in order to mediate binding of the RNA polymerase to the promoter region as part of transcription initiation." [Invitrogen:kc]
 comment: Requested by Kevin Clancy - invitrogen -May 2012.
 synonym: "bacterial RNApol promoter sigma ecf " EXACT []
@@ -17584,7 +17590,7 @@ name: TCT_motif
 def: "A cis-regulatory element, conserved sequence YYC+1TTTYY, and spans -2 to +6 relative to +1 TSS. It is present in most ribosomal protein genes in Drosophila and mammals but not in the yeast Saccharomyces cerevisiae. Resembles the initiator (TCAKTY in Drosophila) but functionally distinct from initiator." [PMID:20801935, SO:myl]
 synonym: "polypyrimidine initiator" EXACT []
 synonym: "TCT element" EXACT []
-is_a: SO:0001660 ! core_promoter_element
+is_a: SO:0001660 ! core_eukaryotic_promoter_element
 created_by: kareneilbeck
 creation_date: 2013-05-17T04:38:48Z
 
