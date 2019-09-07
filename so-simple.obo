@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: so-xp/releases/2015-11-24/so-xp.owl
-date: 31:07:2019 14:54
+date: 06:09:2019 19:11
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -20275,6 +20275,16 @@ synonym: "Prokaryotic promoter" EXACT []
 is_a: SO:0000167 ! promoter
 created_by: david
 creation_date: 2019-07-31T14:02:26Z
+
+[Term]
+id: SO:0002223
+name: intert_DNA_spacer
+def: "Sequences that decrease regulatory interactions between a promoter, its 5' context and/or the translational unit(s) it regulated. Spacers can affect both translation and transcription." [PMID:20843779, PMID:24933158, PMID:27034378, PMID:28422998]
+synonym: "Inert DNA Spacer" RELATED []
+xref: BioRXiv:https\://doi.org/10.1101/584664 "https://www.biorxiv.org/content/10.1101/584664v1"
+is_a: SO:0005836 ! regulatory_region
+created_by: david
+creation_date: 2019-09-06T19:05:52Z
 
 [Term]
 id: SO:0005836
