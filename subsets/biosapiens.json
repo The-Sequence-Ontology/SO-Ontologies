@@ -1,0 +1,4936 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001133",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of four consecutive residues that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth. It is characterized by the dihedral angles of the second and third residues, which are the basis for sub-categorization.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00212"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001132",
+      "meta" : {
+        "definition" : {
+          "val" : "Right handed type I (dihedral angles):- Residue(i): -140 degrees < chi (1) -120 degrees < -20 degrees, -90 degrees < psi +120 degrees < +40 degrees. Residue(i+1): -140 degrees < phi < -20 degrees, -90 degrees < psi < +40 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "asx_turn_ir",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "asx turn type right handed type one",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00207"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "asx_turn_right_handed_type_one"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001135",
+      "meta" : {
+        "definition" : {
+          "val" : "Left handed type II: A motif of four consecutive residues that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth. It is characterized by the dihedral angles: Residue(i+1): -140 degrees > phi > -20 degrees, +80 degrees > psi > +180 degrees. Residue(i+2): +20 degrees > phi > +140 degrees, -40 degrees > psi > +90 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn left handed type two",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type II' beta turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta_turn_iil",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type II' turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00213"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_left_handed_type_two"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001134",
+      "meta" : {
+        "definition" : {
+          "val" : "Left handed type I:A motif of four consecutive residues that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth. It is characterized by the dihedral angles:- Residue(i+1): -140 degrees > phi > -20 degrees, -90 degrees > psi > +40 degrees. Residue(i+2): -140 degrees > phi > -20 degrees, -90 degrees > psi > +40 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "type I' turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta_turn_il",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn left handed type one",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type I' beta turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00215"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_left_handed_type_one"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001131",
+      "meta" : {
+        "definition" : {
+          "val" : "Right handed type II (dihedral angles):- Residue(i): -140 degrees < chi (1) -120 degrees < -20 degrees, +80 degrees < psi +120 degrees < +180 degrees. Residue(i+1): +20 degrees < phi < +140 degrees, -40 degrees < psi < +90 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "asx turn right handed type two",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "asx_turn_iir",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00205"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "asx_turn_right_handed_type_two"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001130",
+      "meta" : {
+        "definition" : {
+          "val" : "Left handed type II (dihedral angles):- Residue(i): -140 degrees < chi (1) -120 degrees < -20 degrees, +80 degrees < psi +120 degrees < +180 degrees. Residue(i+1): +20 degrees < phi < +140 degrees, -40 degrees < psi < +90 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "asx_turn_iil",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "asx turn left handed type two",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00204"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "asx_turn_left_handed_type_two"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#position_of",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "position_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#variant_of",
+      "meta" : {
+        "definition" : {
+          "val" : "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A.",
+          "xrefs" : [ "SO:immuno_workshop" ]
+        },
+        "comments" : [ "Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "variant_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000839",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological sequence region that can be assigned to a specific subsequence of a polypeptide.",
+          "xrefs" : [ "SO:GAR", "SO:ke" ]
+        },
+        "comments" : [ "Added to allow the polypeptide regions to have is_a paths back to the root." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA", "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasNarrowSynonym",
+          "val" : "region",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "positional",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "site",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "region or site annotation",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "positional polypeptide feature",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00124"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00331"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001129",
+      "meta" : {
+        "definition" : {
+          "val" : "Left handed type I (dihedral angles):- Residue(i): -140 degrees < chi (1) -120 degrees < -20 degrees, -90 degrees < psi +120 degrees < +40 degrees. Residue(i+1): -140 degrees < phi < -20 degrees, -90 degrees < psi < +40 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "asx_turn_il",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "asx turn left handed type one",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00206"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "asx_turn_left_handed_type_one"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001126",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of five consecutive residues and two hydrogen bonds in which: residue(i) is Serine (S) or Threonine (T), the side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2) or (i+3) , the main-chain CO group of residue(i) is H-bonded to the main-chain NH of residue(i+3) or (i+4).",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "st motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "serine/threonine motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "st_motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00229"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "serine_threonine_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001125",
+      "meta" : {
+        "definition" : {
+          "val" : "Common Type: A motif of six consecutive residues that contains two H-bonds in which: the main-chain CO of residue(i) is H-bonded to the main-chain NH of residue(i+5) the main-chain CO of residue(i+1) is H-bonded to the main-chain NH of residue(i+4).",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "schellmann loop six",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "six-residue schellmann loop",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00227"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "schellmann_loop_six"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001128",
+      "meta" : {
+        "definition" : {
+          "val" : "A reversal in the direction of the backbone of a protein that is stabilized by hydrogen bond between backbone NH and CO groups, involving no more than 4 amino acid residues.",
+          "xrefs" : [ "EBIBS:GAR", "uniprot:feature_type" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00148"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_turn_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001127",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of four or five consecutive residues and one H-bond in which: residue(i) is Serine (S) or Threonine (T), the side-chain OH of residue(i) is H-bonded to the main-chain CO of residue(i3) or (i4), Phi angles of residues(i1), (i2) and (i3) are negative.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "serine threonine staple motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "st_staple",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00230"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "serine_threonine_staple_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001122",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of two consecutive residues with dihedral angles: Residue(i): -140 degrees < phi < -20 degrees, -90 degrees < psi < +40 degrees. Residue(i+1): +20 degrees < phi < +140 degrees, -40 degrees < psi < +90 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nest_rl",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide nest right left motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nest_right_left",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00225"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_nest_right_left_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001121",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of two consecutive residues with dihedral angles: Residue(i): +20 degrees < phi < +140 degrees, -40 degrees < psi < +90 degrees. Residue(i+1): -140 degrees < phi < -20 degrees, -90 degrees < psi < +40 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide nest left right motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nest_lr",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nest_left_right",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00224"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_nest_left_right_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#contained_by",
+      "meta" : {
+        "definition" : {
+          "val" : "X contained_by Y iff X starts after start of Y and X ends before end of Y.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "The inverse is contains. Example: intein contained_by immature_peptide_region." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:26:16Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "contained_by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001124",
+      "meta" : {
+        "definition" : {
+          "val" : "Wild type: A motif of seven consecutive residues that contains two H-bonds in which: the main-chain CO of residue(i) is H-bonded to the main-chain NH of residue(i+6), the main-chain CO of residue(i+1) is H-bonded to the main-chain NH of residue(i+5).",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "schellmann loop seven",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "seven-residue schellmann loop",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00228"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "schellmann_loop_seven"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001123",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of six or seven consecutive residues that contains two H-bonds.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "paperclip loop",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "schellmann loop",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "paperclip",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00226"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "schellmann_loop"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001120",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of two consecutive residues with dihedral angles. Nest should not have Proline as any residue. Nests frequently occur as parts of other motifs such as Schellman loops.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nest_motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nest",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "polypeptide nest motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00223"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_nest_motif"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#consider",
+      "type" : "PROPERTY",
+      "lbl" : "consider"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#adjacent_to",
+      "meta" : {
+        "definition" : {
+          "val" : "A geometric operator, specified in Egenhofer 1989. Two features meet if they share a junction on the sequence. X adjacent_to Y iff X and Y share a boundary but do not overlap.",
+          "xrefs" : [ "PMID:20226267", "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "adjacent_to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001119",
+      "meta" : {
+        "definition" : {
+          "val" : "The 3-10 helix has 3 residues per turn with a translation of 2.0 angstroms (=0.2 nm) along the helical axis. The N-H group of an amino acid forms a hydrogen bond with the C=O group of the amino acid three residues earlier.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/310_helix"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "310 helix",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "3-10 helix",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "3(10) helix",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "three ten helix",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:0000340"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "three_ten_helix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001118",
+      "meta" : {
+        "definition" : {
+          "val" : "The pi helix has 4.1 residues per turn and a translation of 1.15  (=0.115 nm) along the helical axis. The N-H group of an amino acid forms a hydrogen bond with the C=O group of the amino acid five residues earlier.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Pi_helix"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "pi helix",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00153"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pi_helix"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001115",
+      "meta" : {
+        "definition" : {
+          "val" : "A left handed helix is a region of peptide where the coiled conformation turns in an anticlockwise, left handed screw.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "left handed helix",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "helix-l",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00222"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "left_handed_peptide_helix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001114",
+      "meta" : {
+        "definition" : {
+          "val" : "A helix is a secondary_structure conformation where the peptide backbone forms a coil.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "helix",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00152"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "peptide_helix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001117",
+      "meta" : {
+        "definition" : {
+          "val" : "The helix has 3.6 residues per turn which corresponds to a translation of 1.5 angstroms (= 0.15 nm) along the helical axis. Every backbone N-H group donates a hydrogen bond to the backbone C=O group of the amino acid four residues earlier.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Alpha_helix"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "a-helix",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "helix",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00040"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "alpha_helix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#processed_into",
+      "meta" : {
+        "definition" : {
+          "val" : "X is processed_into Y if a region X is modified to create Y.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: miRNA_primary_transcript processed into miRNA." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T12:15:02Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "processed_into"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001116",
+      "meta" : {
+        "definition" : {
+          "val" : "A right handed helix is a region of peptide where the coiled conformation turns in a clockwise, right handed screw.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "right handed helix",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "helix",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:0000339"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "right_handed_peptide_helix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001155",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of four consecutive peptide residues that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth and is characterized by the dihedral angles: Residue(i+1): phi ~ -60 degrees, psi ~ -30 degrees. Residue(i+2): phi ~ -120 degrees, psi ~ 120 degrees.",
+          "xrefs" : [ "PMID:2371257", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIII turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn type eight",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIII beta turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_type_eight"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001154",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of four consecutive peptide residues, of which the i+2 residue is proline, and that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth and is characterized by the dihedral angles: Residue(i+1): phi ~ -120 degrees, psi ~ 120 degrees. Residue(i+2): phi ~ -60 degrees, psi ~ 0 degrees.",
+          "xrefs" : [ "PMID:2371257", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn type six b",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIb turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIb beta turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_type_six_b"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001151",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of four consecutive peptide residues, of which the i+2 residue is proline, and that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth and is characterized by the dihedral angles: Residue(i+1): phi ~ -60 degrees, psi ~ 120 degrees. Residue(i+2): phi ~ -90 degrees, psi ~ 0 degrees.",
+          "xrefs" : [ "PMID:2371257", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIa beta turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn type six a",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIa turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_type_six_a"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001150",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of four consecutive peptide resides of type VIa or type VIb and where the i+2 residue is cis-proline.",
+          "xrefs" : [ "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "type VI beta turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type VI turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cis-proline loop",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn type six",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_type_six"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001153",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIa2 turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn type six a two",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIa2 beta turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_type_six_a_two"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001152",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn type six a one",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIa1 turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type VIa1 beta turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_type_six_a_one"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#trans_spliced_from",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T02:22:14Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "trans_spliced_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#overlaps",
+      "meta" : {
+        "definition" : {
+          "val" : "X overlaps Y iff there exists some Z such that Z contained_by X and Z contained_by Y.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example: coding_exon overlaps CDS." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:33:15Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "overlaps"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#has_origin",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_origin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#lost",
+      "meta" : {
+        "definition" : {
+          "val" : "X lost Y if X is a variant_of X' and Y part of X' but not X.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "comments" : [ "A relation with which to annotate the changes in a variant sequence with respect to a reference.\nFor example a variant transcript may have lost a stop codon present in the reference sequence." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-06-28T12:53:16Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "lost"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001148",
+      "meta" : {
+        "definition" : {
+          "val" : "Site which has been experimentally altered.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mutagenesis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mutated_site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mutagen",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00036"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mutated_variant_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001147",
+      "meta" : {
+        "definition" : {
+          "val" : "Describes the natural sequence variants due to polymorphisms, disease-associated mutations, RNA editing and variations between strains, isolates or cultivars.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "natural_variant",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "variant",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "sequence variation",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00071"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "natural_variant_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#dbsnp",
+      "lbl" : "dbsnp variant terms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#finished_by",
+      "meta" : {
+        "definition" : {
+          "val" : "Xy is finished_by Y if Y part of X, and X and Y share a 3' boundary.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example CDS finished_by stop_codon." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:45:45Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "finished_by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001149",
+      "meta" : {
+        "definition" : {
+          "val" : "Description of sequence variants produced by alternative splicing, alternative promoter usage, alternative initiation and ribosomal frameshifting.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "var_seq",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "varsplic",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "alternative_sequence",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "isoform",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "sequence variation",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "SO:0001065"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00073"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "alternate_sequence_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001144",
+      "meta" : {
+        "definition" : {
+          "val" : "The peptide twists in an clockwise, right handed manner. The dihedral angles for this turn are: Residue(i): -140 degrees < chi(1) -120 degrees < -20 degrees, -90 degrees psi +120 degrees < +40 degrees, residue(i+1): -140 degrees < phi < -20 degrees, -90 < psi < +40 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "st_turn_ir",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "st turn right handed type one",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00235"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "st_turn_right_handed_type_one"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001143",
+      "meta" : {
+        "definition" : {
+          "val" : "The peptide twists in an anticlockwise, left handed manner. The dihedral angles for this turn are: Residue(i): -140 degrees < chi(1) -120 degrees < -20 degrees, +80 degrees psi +120 degrees < +180 degrees, residue(i+1): +20 degrees < phi < +140 degrees, -40 < psi < +90 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "st_turn_iil",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "st turn left handed type two",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00232"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "st_turn_left_handed_type_two"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001146",
+      "meta" : {
+        "definition" : {
+          "val" : "A site of sequence variation (alteration). Alternative sequence due to naturally occurring events such as polymorphisms and alternative splicing or experimental methods such as site directed mutagenesis.",
+          "xrefs" : [ "EBIBS:GAR", "SO:ke" ]
+        },
+        "comments" : [ "For example, was a substitution natural or mutated as part of an experiment? This term is added to merge the biosapiens term sequence_variations." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sequence_variations",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00336"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_variation_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001145",
+      "meta" : {
+        "definition" : {
+          "val" : "The peptide twists in an clockwise, right handed manner. The dihedral angles for this turn are: Residue(i): -140 degrees < chi(1) -120 degrees < -20 degrees, +80 degrees psi +120 degrees < +180 degrees, residue(i+1): +20 degrees < phi < +140 degrees, -40 < psi < +90 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "st_turn_iir",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "st turn right handed type two",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00233"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "st_turn_right_handed_type_two"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "type" : "PROPERTY",
+      "lbl" : "term replaced by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001140",
+      "meta" : {
+        "definition" : {
+          "val" : "Gamma turns, defined for 3 residues i, i+1, i+2 if a hydrogen bond exists between residues i and i+2 and the phi and psi angles of residue i+1 fall within 40 degrees: phi(i+1)=-79.0 - psi(i+1)=69.0.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "gamma turn inverse",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00221"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gamma_turn_inverse"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001142",
+      "meta" : {
+        "definition" : {
+          "val" : "The peptide twists in an anticlockwise, left handed manner. The dihedral angles for this turn are: Residue(i): -140 degrees < chi(1) -120 degrees < -20 degrees, -90 degrees psi +120 degrees < +40 degrees, residue(i+1): -140 degrees < phi < -20 degrees, -90 < psi < +40 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "st turn left handed type one",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "st_turn_il",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00234"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "st_turn_left_handed_type_one"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001141",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of three consecutive residues and one H-bond in which: residue(i) is Serine (S) or Threonine (T), the side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2).",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "st_turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "serine/threonine turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00231"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "serine_threonine_turn"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#sequence_of",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "sequence_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000725",
+      "meta" : {
+        "definition" : {
+          "val" : "The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle).",
+          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+        },
+        "comments" : [ "Added to bring SO inline with the EMBL, DDBJ, GenBank feature table. Old definition before biosapiens: The coding sequence for an N-terminal domain of a nuclear-encoded organellar protein. This domain is involved in post translational import of the protein into the organelle." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA", "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "signal",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "INSDC_feature:transit_peptide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "transit",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "transit peptide",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00055"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transit_peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001137",
+      "meta" : {
+        "definition" : {
+          "val" : "Right handed type II:A motif of four consecutive residues that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth. It is characterized by the dihedral angles: Residue(i+1): -140 degrees < phi < -20 degrees, +80 degrees < psi < +180 degrees. Residue(i+2): +20 degrees < phi < +140 degrees, -40 degrees < psi < +90 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta_turn_iir",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type II turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn right handed type two",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type II beta turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00214"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_right_handed_type_two"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001136",
+      "meta" : {
+        "definition" : {
+          "val" : "Right handed type I:A motif of four consecutive residues that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth. It is characterized by the dihedral angles: Residue(i+1): -140 degrees < phi < -20 degrees, -90 degrees < psi < +40 degrees. Residue(i+2): -140 degrees < phi < -20 degrees, -90 degrees < psi < +40 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "type I beta turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "type I turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta turn right handed type one",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "beta_turn_ir",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00216"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_turn_right_handed_type_one"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "lbl" : "has_alternative_id"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001139",
+      "meta" : {
+        "definition" : {
+          "val" : "Gamma turns, defined for 3 residues i, i+1, i+2 if a hydrogen bond exists between residues i and i+2 and the phi and psi angles of residue i+1 fall within 40 degrees: phi(i+1)=75.0 - psi(i+1)=-64.0.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "classic gamma turn",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "gamma turn classic",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00220"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gamma_turn_classic"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001138",
+      "meta" : {
+        "definition" : {
+          "val" : "Gamma turns, defined for 3 residues i,( i+1),( i+2) if a hydrogen bond exists between residues i and i+2 and the phi and psi angles of residue i+1 fall within 40 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "gamma turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00219"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gamma_turn"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#has_integral_part",
+      "meta" : {
+        "definition" : {
+          "val" : "X has_integral_part Y if and only if: X has_part Y and Y part_of X.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: mRNA has_integral_part CDS." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T12:01:46Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_integral_part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#translates_to",
+      "meta" : {
+        "definition" : {
+          "val" : "Inverse of translation _of.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: codon translates_to amino_acid." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T12:11:53Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "translates_to"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
+      "type" : "PROPERTY",
+      "lbl" : "has_synonym_type"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
+      "type" : "PROPERTY",
+      "lbl" : "synonym_type_property"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#guided_by",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T02:27:04Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "guided_by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#VAR",
+      "lbl" : "variant annotation term"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#similar_to",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "similar_to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#finishes",
+      "meta" : {
+        "definition" : {
+          "val" : "X finishes Y if X is part_of Y and X and Y share a 3' or C terminal boundary.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example: stop_codon finishes CDS." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T02:17:53Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "finishes"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#guides",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T02:27:24Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "guides"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#contains",
+      "meta" : {
+        "definition" : {
+          "val" : "The inverse of contained_by.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example: pre_miRNA contains miRNA_loop." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:32:15Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "contains"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001078",
+      "meta" : {
+        "definition" : {
+          "val" : "A region of peptide with secondary structure has hydrogen bonding along the peptide chain that causes a defined conformation of the chain.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Biosapien term was secondary_structure." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Secondary_structure"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "2nary structure",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "secondary structure",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide secondary structure",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "secondary_structure",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "secondary structure region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00003"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_secondary_structure"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001077",
+      "meta" : {
+        "definition" : {
+          "val" : "Polypeptide region traversing the lipid bilayer.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curator_manual" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "transmem",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "transmembrane polypeptide region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "transmembrane",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00158"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transmembrane_polypeptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001079",
+      "meta" : {
+        "definition" : {
+          "val" : "Motif is a three-dimensional structural element within the chain, which appears also in a variety of other molecules. Unlike a domain, a motif does not need to form a stable globular unit.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Structural_motif"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "polypeptide structural motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "structural_motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:0000338"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_structural_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001074",
+      "meta" : {
+        "definition" : {
+          "val" : "Polypeptide region that is localized outside of a lipid bilayer and outside of the cytoplasm.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "comments" : [ "This could be inside an organelle within the cell." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "non_cytoplasm_location",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "non cytoplasmic polypeptide region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "outside",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00144"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "non_cytoplasmic_polypeptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001073",
+      "meta" : {
+        "definition" : {
+          "val" : "Polypeptide region that is localized inside the cytoplasm.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cytoplasmic polypeptide region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cytoplasm_location",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "inside",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00145"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cytoplasmic_polypeptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001076",
+      "meta" : {
+        "definition" : {
+          "val" : "Polypeptide region localized within the lipid bilayer where both ends traverse the same membrane.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "membrane peptide loop",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "membrane_loop",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00155"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "membrane_peptide_loop"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001075",
+      "meta" : {
+        "definition" : {
+          "val" : "Polypeptide region present in the lipid bilayer.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "intramembrane",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "intramembrane polypeptide region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00156"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intramembrane_polypeptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001070",
+      "meta" : {
+        "definition" : {
+          "val" : "Region of polypeptide with a given structural property.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide structural region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "structural_region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00337"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_structural_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001072",
+      "meta" : {
+        "definition" : {
+          "val" : "Polypeptide region that is localized outside of a lipid bilayer.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "extramembrane_region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "topo_dom",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "extramembrane polypeptide region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "extramembrane",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00154"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "extramembrane_polypeptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#evidence_for_feature",
+      "meta" : {
+        "definition" : {
+          "val" : "B is evidence_for_feature A, if an instance of B supports the existence of A.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "comments" : [ "This relationship was requested by nlw on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "evidence_for_feature"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001071",
+      "meta" : {
+        "definition" : {
+          "val" : "Arrangement of the polypeptide with respect to the lipid bilayer.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "membrane structure",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00128"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "membrane_structure"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#part_of",
+      "meta" : {
+        "definition" : {
+          "val" : "X part_of Y if X is a subregion of Y.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: amino_acid part_of polypeptide." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#started_by",
+      "meta" : {
+        "definition" : {
+          "val" : "X is strted_by Y if Y is part_of X and X and Y share a 5' boundary.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example: CDS started_by start_codon." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:43:55Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "started_by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#gained",
+      "meta" : {
+        "definition" : {
+          "val" : "X gained Y if X is a variant_of X' and Y part of X but not X'.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "comments" : [ "A relation with which to annotate the changes in a variant sequence with respect to a reference.\nFor example a variant transcript may gain a stop codon not present in the reference sequence." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-06-28T12:51:10Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "gained"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#derives_from",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "derives_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000419",
+      "meta" : {
+        "definition" : {
+          "val" : "The polypeptide sequence that remains when the cleaved peptide regions have been cleaved from the immature peptide.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb", "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+        },
+        "comments" : [ "This term mature peptide, merged with the biosapiens term mature protein region and took that to be the new name. Old def: The coding sequence for the mature or final peptide or protein product following post-translational modification." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens", "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "chain",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "INSDC_feature:mat_peptide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mature protein region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mature peptide",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00149"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mature_protein_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000418",
+      "meta" : {
+        "definition" : {
+          "val" : "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.",
+          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+        },
+        "comments" : [ "Old def before biosapiens:The sequence for an N-terminal domain of a secreted protein; this domain is involved in attaching nascent polypeptide to the membrane leader sequence." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA", "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Signal_peptide"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "signal peptide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "signal peptide coding sequence",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "signal",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "INSDC_feature:sig_peptide",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00159"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "signal_peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#member_of",
+      "meta" : {
+        "comments" : [ "A subtype of part_of. Inverse is collection_of. Winston, M, Chaffin, R, Herrmann: A taxonomy of part-whole relations. Cognitive Science 1987, 11:417-444." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "member_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000417",
+      "meta" : {
+        "definition" : {
+          "val" : "A structurally or functionally defined protein region. In proteins with multiple domains, the combination of the domains determines the function of the protein. A region which has been shown to recur throughout evolution.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range. Old definition from before biosapiens: A region of a single polypeptide chain that folds into an independent unit and exhibits biological activity. A polypeptide chain may have multiple domains." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide domain",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide_structural_domain",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "structural domain",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "domain",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00012"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "SO:0001069"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00134"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_domain"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#edited_to",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T02:19:11Z"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "edited_to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001067",
+      "meta" : {
+        "definition" : {
+          "val" : "A sequence motif is a short (up to 20 amino acids) region of biological interest. Such motifs, although they are too short to constitute functional domains, share sequence similarities and are conserved in different proteins. They display a common function (protein-binding, subcellular location etc.).",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "motif",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00032"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001066",
+      "meta" : {
+        "definition" : {
+          "val" : "Polypeptide region that is rich in a particular amino acid or homopolymeric and greater than three residues in length.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "compositional bias",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "compositionally biased",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "compositionally_biased_region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "compbias",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "compositionally biased region of peptide",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00068"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "compositionally_biased_region_of_peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001068",
+      "meta" : {
+        "definition" : {
+          "val" : "A polypeptide_repeat is a single copy of an internal sequence repetition.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "repeat",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide repeat",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00070"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_repeat"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001063",
+      "meta" : {
+        "definition" : {
+          "val" : "An immature_peptide_region is the extent of the peptide after it has been translated and before any processing occurs.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens", "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "immature peptide region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00129"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immature_peptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001062",
+      "meta" : {
+        "definition" : {
+          "val" : "Part of a peptide chain which is cleaved off during the formation of the mature protein.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Propeptide"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "INSDC_feature:propeptide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "propep",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00077"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "propeptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#RNAMOD",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+          "val" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+        } ]
+      },
+      "lbl" : "RNA modification"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001064",
+      "meta" : {
+        "definition" : {
+          "val" : "Active peptides are proteins which are biologically active, released from a precursor molecule.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Hormones, neuropeptides, antimicrobial peptides, are active peptides. They are typically short (<40 amino acids) in length." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Peptide"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "peptide",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "active peptide",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00076"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "active_peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001061",
+      "meta" : {
+        "definition" : {
+          "val" : "The propeptide_cleavage_site is the arginine/lysine boundary on a propeptide where cleavage occurs.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "propeptide cleavage site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00063"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "propeptide_cleavage_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#dbvar",
+      "lbl" : "DBVAR"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000409",
+      "meta" : {
+        "definition" : {
+          "val" : "A biological_region of sequence that, in the molecule, interacts selectively and non-covalently with other molecules. A region on the surface of a molecule that may interact with another molecule. When applied to polypeptides: Amino acids involved in binding or interactions. It can also apply to an amino acid bond which is represented by the positions of the two flanking amino acids.",
+          "xrefs" : [ "EBIBS:GAR", "SO:ke" ]
+        },
+        "comments" : [ "See GO:0005488 : binding." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens", "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Binding_site"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "binding_or_interaction_site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "INSDC_feature:misc_binding",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "binding site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "binding_site"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+      "type" : "PROPERTY",
+      "lbl" : "has_scope"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#translation_of",
+      "meta" : {
+        "definition" : {
+          "val" : "X is translation of Y if Y is translated by ribosome to create X.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: Polypeptide translation_of CDS." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T12:09:59Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "translation_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001099",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with manganese ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide manganese ion contact site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Mn_contact_site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00140"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_manganese_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001096",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with copper ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Cu_contact_site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide copper ion contact site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00146"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_copper_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001095",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with cobalt ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide cobalt ion contact site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Co_contact_site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00136"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_cobalt_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001098",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with magnesium ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Mg_contact_site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide magnesium ion contact site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00187"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_magnesium_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001097",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with iron ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide iron ion contact site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Fe_contact_site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00137"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_iron_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001092",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with metal ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Residue is part of a binding site for a metal ion." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "metal_binding",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00027"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_metal_contact"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001091",
+      "meta" : {
+        "definition" : {
+          "val" : "Binding site for any chemical group (co-enzyme, prosthetic group, etc.).",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "binding",
+          "xrefs" : [ "uniprot:curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "binding site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "non covalent binding site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00029"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ],
+        "deprecated" : true
+      },
+      "type" : "CLASS",
+      "lbl" : "non_covalent_binding_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001094",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with calcium ions.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Residue involved in contact with calcium." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Ca_contact_site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ca_bind",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide calcium ion contact site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ca bind",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00186"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_calcium_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001093",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the protein molecule, interacts selectively and non-covalently with polypeptide residues.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:Curation_manual" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Protein_protein_interaction"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "protein protein contact site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "protein protein contact",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "protein_protein_interaction",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00131"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "protein_protein_contact"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001090",
+      "meta" : {
+        "definition" : {
+          "val" : "Binding involving a covalent bond.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "covalent binding site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00246"
+        } ],
+        "deprecated" : true
+      },
+      "type" : "CLASS",
+      "lbl" : "covalent_binding_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#transcribed_from",
+      "meta" : {
+        "definition" : {
+          "val" : "X is transcribed_from Y if X is synthesized from template Y.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: primary_transcript transcribed_from gene." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T12:05:39Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "transcribed_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#integral_part_of",
+      "meta" : {
+        "definition" : {
+          "val" : "X integral_part_of Y if and only if: X part_of Y and Y has_part X.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: exon integral_part_of transcript." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T12:03:28Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "integral_part_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#orthologous_to",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "orthologous_to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#BS",
+      "lbl" : "biosapiens"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001089",
+      "meta" : {
+        "definition" : {
+          "val" : "A region where a transformation occurs in a protein after it has been synthesized. This which may regulate, stabilize, crosslink or introduce new chemical functionalities in the protein.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Post_translational_modification"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "post_translational_modification",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "modified residue",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mod_res",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00052"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "post_translationally_modified_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001088",
+      "meta" : {
+        "definition" : {
+          "val" : "The covalent bond between sulfur atoms that binds two peptide chains or different parts of one peptide chain and is a structural determinant in many protein molecules.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "2 discreet & joined." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "disulphide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "disulfid",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "disulfide bond",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "disulfide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "disulphide bond",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00028"
+        } ],
+        "deprecated" : true
+      },
+      "type" : "CLASS",
+      "lbl" : "disulfide_bond"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001085",
+      "meta" : {
+        "definition" : {
+          "val" : "Different sources report differing sequences.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "conflict",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00069"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sequence_conflict"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#transcribed_to",
+      "meta" : {
+        "definition" : {
+          "val" : "Inverse of transcribed_from.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: gene transcribed_to primary_transcript." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T12:08:24Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "transcribed_to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001084",
+      "meta" : {
+        "definition" : {
+          "val" : "The residue at an extremity of the sequence is not the terminal residue.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "non_ter",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "non terminal",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00072"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "non_terminal_residue"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001087",
+      "meta" : {
+        "definition" : {
+          "val" : "Posttranslationally formed amino acid bonds.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cross link",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "crosslink",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00178"
+        } ],
+        "deprecated" : true
+      },
+      "type" : "CLASS",
+      "lbl" : "cross_link"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001086",
+      "meta" : {
+        "definition" : {
+          "val" : "Describes the positions in a sequence where the authors are unsure about the sequence assignment.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "INSDC_feature:unsure",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "unsure",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00181"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sequence_uncertainty"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001081",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif comprising two helices separated by a turn.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "helix-turn-helix",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HTH",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "helix turn helix",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00147"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "helix_turn_helix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#non_functional_homolog_of",
+      "meta" : {
+        "definition" : {
+          "val" : "A relationship between a pseudogenic feature and its functional ancestor.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "non_functional_homolog_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001080",
+      "meta" : {
+        "definition" : {
+          "val" : "A coiled coil is a structural motif in proteins, in which alpha-helices are coiled together like the strands of a rope.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Coiled_coil"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "coiled",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "coiled coil",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00041"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "coiled_coil"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001083",
+      "meta" : {
+        "definition" : {
+          "val" : "Indicates that two consecutive residues in a fragment sequence are not consecutive in the full-length protein and that there are a number of unsequenced residues between them.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "non consecutive",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "non_cons",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00182"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "non_adjacent_residues"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001082",
+      "meta" : {
+        "definition" : {
+          "val" : "Incompatibility in the sequence due to some experimental problem.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sequencing_information",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00125"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_sequencing_information"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#has_part",
+      "meta" : {
+        "definition" : {
+          "val" : "Inverse of part_of.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: operon has_part gene." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_part"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_narrow_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#exemplar_of",
+      "meta" : {
+        "definition" : {
+          "val" : "X is exemplar of Y if X is the best evidence for Y.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "comments" : [ "Tracker id: 2594157." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "exemplar_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#starts",
+      "meta" : {
+        "definition" : {
+          "val" : "X starts Y if X is part of Y, and A and Y share a 5' or N-terminal boundary.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example: start_codon starts CDS." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:47:53Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "starts"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#edited_from",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T02:19:45Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "edited_from"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_format_version"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000691",
+      "meta" : {
+        "definition" : {
+          "val" : "The initiator methionine that has been cleaved from a mature polypeptide sequence.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "initiator methionine",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "init_met",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cleaved initiator methionine",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00067"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cleaved_initiator_methionine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100020",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with DNA.",
+          "xrefs" : [ "EBIBS:GAR", "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "DNA_bind",
+          "xrefs" : [ "uniprot:feature" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide DNA contact",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_DNA_contact"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100021",
+      "meta" : {
+        "definition" : {
+          "val" : "A subsection of sequence with biological interest that is conserved in different proteins. They may or may not have functional or structural significance within the proteins in which they are found.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide conserved region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_conserved_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100017",
+      "meta" : {
+        "definition" : {
+          "val" : "A conserved motif is a short (up to 20 amino acids) region of biological interest that is conserved in different proteins. They may or may not have functional or structural significance within the proteins in which they are found.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_conserved_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100018",
+      "meta" : {
+        "definition" : {
+          "val" : "A polypeptide binding motif is a short (up to 20 amino acids) polypeptide region of biological interest that contains one or more amino acids experimentally shown to bind to a ligand.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide binding motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "binding",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_binding_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100015",
+      "meta" : {
+        "definition" : {
+          "val" : "The more polar, carboxy-terminal region of the signal peptide (approx 3-7 aa).",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "C-region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "c_terminal_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100016",
+      "meta" : {
+        "definition" : {
+          "val" : "The central, hydrophobic region of the signal peptide (approx 7-15 aa).",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "central_hydrophobic_region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "central hydrophobic region of signal peptide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "H-region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "central_hydrophobic_region_of_signal_peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100019",
+      "meta" : {
+        "definition" : {
+          "val" : "A polypeptide catalytic motif is a short (up to 20 amino acids) polypeptide region that contains one or more active site residues.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "catalytic_motif",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide catalytic motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_catalytic_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#genome_of",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "genome_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100010",
+      "meta" : {
+        "definition" : {
+          "val" : "An experimental region wherean analysis has been run and not produced any annotation.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "no output",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "no_output"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100013",
+      "meta" : {
+        "definition" : {
+          "val" : "Hydrophobic regions are regions with a low affinity for water.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hydrophobicity",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hydrophobic region of peptide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrophobic_region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hydropathic",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hydrophobic_region_of_peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100014",
+      "meta" : {
+        "definition" : {
+          "val" : "The amino-terminal positively-charged region of a signal peptide (approx 1-5 aa).",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "N-region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "n_terminal_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100011",
+      "meta" : {
+        "definition" : {
+          "val" : "The cleaved_peptide_region is the region of a peptide sequence that is cleaved during maturation.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA", "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cleaved peptide region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cleaved_peptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100012",
+      "meta" : {
+        "definition" : {
+          "val" : "Irregular, unstructured regions of a protein's backbone, as distinct from the regular region (namely alpha helix and beta strand - characterised by specific patterns of main-chain hydrogen bonds).",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "random coil",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "coil",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "peptide coil",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "peptide_coil"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100006",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of 3 consecutive residues with dihedral angles as follows: res i: phi -90 bounds -120 to -60, res i: psi -10 bounds -50 to 30, res i+1: phi -75 bounds -100 to -50, res i+1: psi 140 bounds 110 to 170. An extra restriction of the length of the O to O distance would be useful, that it be less than 5 Angstrom. More precisely these two oxygens are the main chain carbonyl oxygen atoms of residues i-1 and i+1.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "catmat-3r",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "catmat_right_handed_three"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100007",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of 4 consecutive residues with dihedral angles as follows: res i: phi -90 bounds -120 to -60, res i: psi -10 bounds -50 to 30, res i+1: phi -90 bounds -120 to -60, res i+1: psi -10 bounds -50 to 30, res i+2: phi -75 bounds -100 to -50, res i+2: psi 140 bounds 110 to 170. The extra restriction of the length of the O to O distance is similar, that it be less than 5 Angstrom. In this case these two Oxygen atoms are the main chain carbonyl oxygen atoms of residues i-1 and i+2.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "catmat-4r",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "catmat_right_handed_four"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100004",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of 3 consecutive residues with dihedral angles as follows: res i: phi -90 bounds -120 to -60, res i: psi -10 bounds -50 to 30, res i+1: phi -75 bounds -100 to -50, res i+1: psi 140 bounds 110 to 170. An extra restriction of the length of the O to O distance would be useful, that it be less than 5 Angstrom. More precisely these two oxygens are the main chain carbonyl oxygen atoms of residues i-1 and i+1.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "catmat-3l",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "catmat_left_handed_three"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100005",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of 4 consecutive residues with dihedral angles as follows: res i: phi -90 bounds -120 to -60, res i psi -10 bounds -50 to 30, res i+1: phi -90 bounds -120 to -60, res i+1: psi -10 bounds -50 to 30, res i+2: phi -75 bounds -100 to -50, res i+2: psi 140 bounds 110 to 170.  The extra restriction of the length of the O to O distance is similar, that it be less than 5 Angstrom. In this case these two Oxygen atoms are the main chain carbonyl oxygen atoms of residues i-1 and i+2.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "catmat-4l",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "catmat_left_handed_four"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "type" : "PROPERTY",
+      "lbl" : "in_subset"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100008",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of five consecutive residues and two H-bonds in which: H-bond between CO of residue(i) and NH of residue(i+4), H-bond between CO of residue(i) and NH of residue(i+3),Phi angles of residues(i+1), (i+2) and (i+3) are negative.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "alpha beta motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "alpha_beta_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100009",
+      "meta" : {
+        "definition" : {
+          "val" : "A peptide that acts as a signal for both membrane translocation and lipid attachment in prokaryotes.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "lipoprotein signal peptide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "prokaryotic membrane lipoprotein lipid attachment site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lipoprotein_signal_peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000912",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of three consecutive residues and one H-bond in which: residue(i) is Aspartate or Asparagine (Asx), the side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2).",
+          "xrefs" : [ "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "asx turn",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00203"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "asx_turn"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#connects_on",
+      "meta" : {
+        "definition" : {
+          "val" : "X connects_on Y, Z, R iff whenever Z is on a R, X is adjacent to a Y and adjacent to a Z.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example: A splice_junction connects_on exon, exon, mature_transcript." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:38:51Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "connects_on"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#partial_evidence_for_feature",
+      "meta" : {
+        "definition" : {
+          "val" : "B is partial_evidence_for_feature A if the extent of B supports part_of but not all of A.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "partial_evidence_for_feature"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#paralogous_to",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "paralogous_to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#aa3",
+      "lbl" : "amino acid 3 letter code"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#has_quality",
+      "meta" : {
+        "comments" : [ "The relationship between a feature and an attribute." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100002",
+      "meta" : {
+        "definition" : {
+          "val" : "A region that is involved a contact with another molecule.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "molecular contact region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "molecular_contact_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100003",
+      "meta" : {
+        "definition" : {
+          "val" : "A region of polypeptide chain with high conformational flexibility.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "disordered region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "intrinsically unstructured polypeptide region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intrinsically_unstructured_polypeptide_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#aa1",
+      "lbl" : "amino acid 1 letter code"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0100001",
+      "meta" : {
+        "definition" : {
+          "val" : "A region of a peptide that is involved in a biochemical function.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "biochemical_region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "biochemical region of peptide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "biochemical motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "biochemical_region_of_peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#trans_spliced_to",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T02:22:00Z"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "trans_spliced_to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#complete_evidence_for_feature",
+      "meta" : {
+        "definition" : {
+          "val" : "B is complete_evidence_for_feature A if the extent (5' and 3' boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "comments" : [ "If A is a feature with multiple regions such as a multi exon transcript, the supporting EST evidence is complete if each of the regions is supported by an equivalent region in B. Also there must be no extra regions in B that are not represented in A. This relationship was requested by jeltje on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "complete_evidence_for_feature"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_broad_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#ebi_variants",
+      "lbl" : "ensembl variant terms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#maximally_overlaps",
+      "meta" : {
+        "definition" : {
+          "val" : "A maximally_overlaps X iff all parts of A (including A itself) overlap both A and Y.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example: non_coding_region_of_exon maximally_overlaps the intersections of exon and UTR." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:34:48Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "maximally_overlaps"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001111",
+      "meta" : {
+        "definition" : {
+          "val" : "A beta strand describes a single length of polypeptide chain that forms part of a beta sheet. A single continuous stretch of amino acids adopting an extended conformation of hydrogen bonds between the N-O and the C=O of another part of the peptide. This forms a secondary protein structure in which two or more extended polypeptide regions are hydrogen-bonded to one another in a planar array.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Beta_sheet"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "strand",
+          "xrefs" : [ "uniprot:feature_type" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00042"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_strand"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001110",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of three residues within a beta-sheet consisting of two H-bonds in which: the main-chain NH of residue(i) is H-bonded to the main-chain CO of residue(i+5), the main-chain CO of residue i is H-bonded to the main-chain NH of residue(i+4), these loops have an RL nest at residues i+3 and i+4.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta bulge loop six",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00211"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_bulge_loop_six"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001113",
+      "meta" : {
+        "definition" : {
+          "val" : "A peptide region which hydrogen bonded to another region of peptide running in the oposite direction (both running N-terminal to C-terminal). This orientation is slightly less stable because it introduces nonplanarity in the inter-strand hydrogen bonding pattern. Hydrogen bonding occurs between every other C=O from one strand to every other N-H on the adjacent strand. In this case, if two atoms C-alpha (i)and C-alpha (j) are adjacent in two hydrogen-bonded beta strands, then they do not hydrogen bond to each other; rather, one residue forms hydrogen bonds to the residues that flank the other (but not vice versa). For example, residue i may form hydrogen bonds to residues j - 1 and j + 1; this is known as a wide pair of hydrogen bonds. By contrast, residue j may hydrogen-bond to different residues altogether, or to none at all. The dihedral angles (phi, psi) are about (-120 degrees, 115 degrees) in parallel sheets.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "parallel beta strand",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00151"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "parallel_beta_strand"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001112",
+      "meta" : {
+        "definition" : {
+          "val" : "A peptide region which hydrogen bonded to another region of peptide running in the oposite direction (one running N-terminal to C-terminal and one running C-terminal to N-terminal). Hydrogen bonding occurs between every other C=O from one strand to every other N-H on the adjacent strand. In this case, if two atoms C-alpha (i) and C-alpha (j) are adjacent in two hydrogen-bonded beta strands, then they form two mutual backbone hydrogen bonds to each other's flanking peptide groups; this is known as a close pair of hydrogen bonds. The peptide backbone dihedral angles (phi, psi) are about (-140 degrees, 135 degrees) in antiparallel sheets.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Range." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "antiparallel beta strand",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:0000341"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antiparallel_beta_strand"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#recombined_to",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T02:20:07Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "recombined_to"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#disconnected_from",
+      "meta" : {
+        "definition" : {
+          "val" : "X is disconnected_from Y iff it is not the case that X overlaps Y.",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T01:42:10Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "disconnected_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#recombined_from",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T02:21:03Z"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "recombined_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001108",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of three residues within a beta-sheet consisting of two H-bonds. Beta bulge loops often occur at the loop ends of beta-hairpins.",
+          "xrefs" : [ "EBIBS:GAR", "Http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta bulge loop",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00209"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_bulge_loop"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#homologous_to",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "homologous_to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001107",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of three residues within a beta-sheet in which the main chains of two consecutive residues are H-bonded to that of the third, and in which the dihedral angles are as follows: Residue(i): -140 degrees < phi(l) -20 degrees , -90 degrees < psi(l) < 40 degrees. Residue (i+1): -180 degrees < phi < -25 degrees or +120 degrees < phi < +180 degrees, +40 degrees < psi < +180 degrees or -180 degrees < psi < -120 degrees.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Beta_bulge"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta bulge",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00208"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_bulge"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001109",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of three residues within a beta-sheet consisting of two H-bonds in which: the main-chain NH of residue(i) is H-bonded to the main-chain CO of residue(i+4), the main-chain CO of residue i is H-bonded to the main-chain NH of residue(i+3), these loops have an RL nest at residues i+2 and i+3.",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "beta bulge loop five",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00210"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "beta_bulge_loop_five"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001104",
+      "meta" : {
+        "definition" : {
+          "val" : "Amino acid involved in the activity of an enzyme.",
+          "xrefs" : [ "EBIBS:GAR", "UniProt:curation_manual" ]
+        },
+        "comments" : [ "Discrete." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "catalytic residue",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "act_site",
+          "xrefs" : [ "uniprot:feature_type" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "active site residue",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00026"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "catalytic_residue"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001103",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with zinc ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide zinc ion contact site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Zn_contact_site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00185"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_zinc_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001106",
+      "meta" : {
+        "definition" : {
+          "val" : "A motif of five consecutive residues and two H-bonds in which: Residue(i) is Aspartate or Asparagine (Asx), side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2) or (i+3), main-chain CO of residue(i) is H-bonded to the main-chain NH of residue(i+3) or (i+4).",
+          "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "asx motif",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00202"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "asx_motif"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001105",
+      "meta" : {
+        "definition" : {
+          "val" : "Residues which interact with a ligand.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "protein-ligand interaction",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide ligand contact",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00157"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_ligand_contact"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001100",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with molybdenum ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide molybdenum ion contact site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Mo_contact_site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00141"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_molybdenum_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001102",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with tungsten ions.",
+          "xrefs" : [ "EBIBS:GAR", "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "W_contact_site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide tungsten ion contact site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00143"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_tungsten_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001101",
+      "meta" : {
+        "definition" : {
+          "val" : "A binding site that, in the polypeptide molecule, interacts selectively and non-covalently with nickel ions.",
+          "xrefs" : [ "EBIBS:GAR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "polypeptide nickel ion contact site",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Ni_contact_site",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00142"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "polypeptide_nickel_ion_contact_site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#processed_from",
+      "meta" : {
+        "definition" : {
+          "val" : "Inverse of processed_into.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "comments" : [ "Example: miRNA processed_from miRNA_primary_transcript." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-08-19T12:14:00Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "processed_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#associated_with",
+      "meta" : {
+        "comments" : [ "This relationship is vague and up for discussion." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "associated_with"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#AAMOD",
+      "lbl" : "amino acid modification"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+      "type" : "PROPERTY",
+      "lbl" : "subset_property"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of",
+      "meta" : {
+        "definition" : {
+          "val" : "R is_consecutive_sequence_of R iff every instance of R is equivalent to a collection of instances of U:u1, u2, un, such that no pair of ux uy is overlapping and for all ux, it is adjacent to ux-1 and ux+1, with the exception of the initial and terminal u1,and un (which may be identical).",
+          "xrefs" : [ "PMID:20226267" ]
+        },
+        "comments" : [ "Example: region is consecutive_sequence of base." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-14T02:19:48Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "is_consecutive_sequence_of"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001107",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#orthologous_to",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#homologous_to"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001101",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001063",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001133",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001071",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001092",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000417",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001131",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000912"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001152",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001151"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001095",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001124",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001123"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001144",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001141"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001120",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001112",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001111"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001075",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001116"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001137",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001133"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001149",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001125",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001123"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001145",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001141"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100016",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000418"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#non_functional_homolog_of",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#homologous_to"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001104",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001109",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000417",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000725",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001133"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001093",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000409"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001102",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001110",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001061",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#partial_evidence_for_feature",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#evidence_for_feature"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001072",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001108",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001132",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000912"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001076",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001075"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001121",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001120"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001153",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001151"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001096",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001084",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001155",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001133"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001138",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001113",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001111"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001118",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001116"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001126",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100015",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000418"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000419",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001081",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000912",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000419",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001062",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001072",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001073",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001103",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#homologous_to",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#similar_to"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#complete_evidence_for_feature",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#evidence_for_feature"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001142",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001141"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001085",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001081",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001077",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001075"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#paralogous_to",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#homologous_to"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001122",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001120"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001134",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001133"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001097",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001139",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001138"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001115",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001114"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#integral_part_of",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#part_of"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001119",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001116"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001123",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#has_integral_part",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#has_part"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000409"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001129",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000912"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100014",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000418"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001114",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000409"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001127",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001089",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100011",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001106",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001130",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000912"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so#member_of",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so#part_of"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001151",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001075",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000419"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001074",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001133"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001146",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001147",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001098",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001143",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001141"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001093",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001086",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001116",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001114"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001081",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001114"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001111",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001136",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001133"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001148",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001099",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001068",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001079",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000691",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001092",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000409"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0100011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001128",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001100",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001141",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001140",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001138"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/so/subsets/biosapiens.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
