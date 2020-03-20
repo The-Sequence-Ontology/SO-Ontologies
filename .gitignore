@@ -1,2 +1,8 @@
 .DS_store
 Logs
+extensions
+staging
+releases
+*.owx
+subsets/*.owx
+
