@@ -22,11 +22,9 @@ A successful build will update the following files:
 + so-simple.json
 + so-simple.obo
 + so-simple.owl
-+ so-simple.owx
 + so.json
 + so.obo
 + so.owl
-+ so.owx
 + All files in the subsets folder
 
 A successful build process will print many lines to the screen, and the final lines should look something like:
@@ -65,3 +63,7 @@ The log files for the make process are stored in the "Logs" folder. This folder 
 ## Legacy Files
 
 Some of the files that have been stored on the Sequence Ontology's GitHub repository have not been updated for some time. This includes the files that contain cross product information. While these files have not been updated with the newest information for Sequence Ontology, these files may still be of use to some individuals. These files have moved to the Legacy folder for convenience.
+
+## License
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
