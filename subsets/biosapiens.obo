@@ -1189,6 +1189,7 @@ is_a: SO:0001150 ! beta_turn_type_six
 id: SO:0001152
 name: beta_turn_type_six_a_one
 namespace: sequence
+def: "A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -60 degrees, psi-2 = 120 degrees, phi-3 = -90 degrees, psi-3 = 0 degrees." [PMID:27428516]
 subset: biosapiens
 synonym: "beta turn type six a one" EXACT []
 synonym: "type VIa1 beta turn" EXACT []
@@ -1199,6 +1200,7 @@ is_a: SO:0001151 ! beta_turn_type_six_a
 id: SO:0001153
 name: beta_turn_type_six_a_two
 namespace: sequence
+def: "A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -120 degrees, psi-2 = 120 degrees, phi-3 = -60 degrees, psi-3 = 0 degrees." [PMID:27428516]
 subset: biosapiens
 synonym: "beta turn type six a two" EXACT []
 synonym: "type VIa2 beta turn" EXACT []

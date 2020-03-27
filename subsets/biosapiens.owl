@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/so/subsets/biosapiens.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/so-xp.owl/subsets/biosapiens.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/so.owl/subsets/biosapiens.owl"/>
     </owl:Ontology>
     
 
@@ -3927,6 +3927,7 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001151"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -60 degrees, psi-2 = 120 degrees, phi-3 = -90 degrees, psi-3 = 0 degrees.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta turn type six a one</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type VIa1 beta turn</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type VIa1 turn</oboInOwl:hasExactSynonym>
@@ -3935,6 +3936,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#biosapiens"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta_turn_type_six_a_one</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001152"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -60 degrees, psi-2 = 120 degrees, phi-3 = -90 degrees, psi-3 = 0 degrees.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27428516</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3942,6 +3949,7 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001151"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -120 degrees, psi-2 = 120 degrees, phi-3 = -60 degrees, psi-3 = 0 degrees.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta turn type six a two</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type VIa2 beta turn</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type VIa2 turn</oboInOwl:hasExactSynonym>
@@ -3950,6 +3958,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#biosapiens"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta_turn_type_six_a_two</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -120 degrees, psi-2 = 120 degrees, phi-3 = -60 degrees, psi-3 = 0 degrees.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27428516</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 

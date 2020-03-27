@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: so-xp/releases/2015-11-24/so-xp.owl
+data-version: so.owl
 date: 30:10:2019 11:24
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
@@ -57,6 +57,7 @@ is_a: SO:0000002 ! sequence_secondary_structure
 [Term]
 id: SO:0000004
 name: interior_coding_exon
+def: "A coding exon that is not the most 3-prime or the most 5-prime in a given transcript." []
 subset: SOFA
 synonym: "interior coding exon" EXACT []
 is_a: SO:0000195 ! coding_exon
@@ -107,12 +108,14 @@ is_obsolete: true
 [Term]
 id: SO:0000010
 name: protein_coding
+def: "A gene which, when transcribed, can be translated into a protein." []
 synonym: "protein-coding" EXACT []
 is_a: SO:0000401 ! gene_attribute
 
 [Term]
 id: SO:0000011
 name: non_protein_coding
+def: "A gene which can be transcribed, but will not be translated into a protein." []
 synonym: "non protein-coding" EXACT []
 is_a: SO:0000401 ! gene_attribute
 
@@ -258,6 +261,7 @@ is_a: SO:0000026 ! RNA_junction_loop
 [Term]
 id: SO:0000028
 name: base_pair
+def: "Two bases paired opposite each other by hydrogen bonds creating a secondary structure." []
 synonym: "base pair" EXACT []
 xref: http://en.wikipedia.org/wiki/Base_pair "wiki"
 is_a: SO:0000002 ! sequence_secondary_structure
@@ -519,6 +523,7 @@ is_a: SO:0001654 ! nucleotide_to_protein_binding_site
 [Term]
 id: SO:0000060
 name: compound_chromosome_arm
+def: "One arm of a compound chromosome." []
 comment: FLAG - this term is should probably be a part of rather than an is_a.
 synonym: "compound chromosome arm" EXACT []
 is_a: SO:1000042 ! compound_chromosome
@@ -659,6 +664,7 @@ relationship: has_quality SO:0000879 ! dicistronic
 [Term]
 id: SO:0000080
 name: operon_member
+def: "A gene that is a member of an operon, which is a set of genes transcribed together as a unit." []
 synonym: "operon member" EXACT []
 is_a: SO:0000081 ! gene_array_member
 
@@ -676,12 +682,14 @@ is_obsolete: true
 [Term]
 id: SO:0000083
 name: macronuclear_sequence
+def: "DNA belonging to the macronuclei of ciliates." []
 synonym: "macronuclear sequence" EXACT []
 is_a: SO:0000736 ! organelle_sequence
 
 [Term]
 id: SO:0000084
 name: micronuclear_sequence
+def: "DNA belonging to the micronuclei of a cell." []
 synonym: "micronuclear sequence" EXACT []
 is_a: SO:0000736 ! organelle_sequence
 
@@ -865,6 +873,7 @@ is_obsolete: true
 [Term]
 id: SO:0000107
 name: sequencing_primer
+def: "A single stranded oligo used for polymerase chain reaction." []
 synonym: "sequencing primer" EXACT []
 is_a: SO:0000112 ! primer
 
@@ -1623,6 +1632,7 @@ is_a: SO:0000180 ! retrotransposon
 [Term]
 id: SO:0000190
 name: five_prime_intron
+def: "An intron that is the most 5-prime in a given transcript." []
 synonym: "5' intron" EXACT []
 synonym: "5' intron sequence" EXACT []
 synonym: "five prime intron" EXACT []
@@ -1631,12 +1641,14 @@ is_a: SO:0000188 ! intron
 [Term]
 id: SO:0000191
 name: interior_intron
+def: "An intron that is not the most 3-prime or the most 5-prime in a given transcript." []
 synonym: "interior intron" EXACT []
 is_a: SO:0000188 ! intron
 
 [Term]
 id: SO:0000192
 name: three_prime_intron
+def: "An intron that is the most 3-prime in a given transcript." []
 synonym: "3' intron" EXACT []
 synonym: "3' intron sequence" RELATED []
 synonym: "three prime intron" EXACT []
@@ -2005,6 +2017,7 @@ is_a: SO:0000717 ! reading_frame
 [Term]
 id: SO:0000237
 name: transcript_attribute
+def: "An attribute describing a transcript." []
 synonym: "transcript attribute" EXACT []
 is_a: SO:0000733 ! feature_attribute
 
@@ -2028,6 +2041,7 @@ is_a: SO:0001412 ! topologically_defined_region
 [Term]
 id: SO:0000240
 name: chromosome_variation
+def: "A deviation in chromosome structure or number." []
 synonym: "chromosome variation" EXACT []
 is_a: SO:0001507 ! variant_collection
 relationship: part_of SO:0001524 ! chromosomally_aberrant_genome
@@ -2501,6 +2515,7 @@ is_a: SO:0000005 ! satellite_DNA
 [Term]
 id: SO:0000290
 name: dinucleotide_repeat_microsatellite_feature
+def: "A region of a repeating dinucleotide sequence (two bases)." []
 synonym: "dinucleotide repeat microsatellite" EXACT []
 synonym: "dinucleotide repeat microsatellite feature" EXACT []
 synonym: "dinucleotide repeat microsatellite locus" EXACT []
@@ -2510,6 +2525,7 @@ is_a: SO:0000289 ! microsatellite
 [Term]
 id: SO:0000291
 name: trinucleotide_repeat_microsatellite_feature
+def: "A region of a repeating trinucleotide sequence (three bases)." []
 synonym: "dinucleotide repeat microsatellite marker" RELATED []
 synonym: "rinucleotide repeat microsatellite" EXACT []
 synonym: "trinucleotide repeat microsatellite feature" EXACT []
@@ -2577,6 +2593,7 @@ is_a: SO:0000296 ! origin_of_replication
 [Term]
 id: SO:0000298
 name: recombination_feature
+def: "A feature where there has been exchange of genetic material in the event of mitosis or meiosis" []
 synonym: "INSDC_feature:misc_recomb" BROAD []
 synonym: "INSDC_qualifier:other" EXACT []
 synonym: "recombination feature" EXACT []
@@ -2585,18 +2602,21 @@ is_a: SO:0001411 ! biological_region
 [Term]
 id: SO:0000299
 name: specific_recombination_site
+def: "A location where recombination or occurs during mitosis or meiosis." []
 synonym: "specific recombination site" EXACT []
 is_a: SO:0000669 ! sequence_rearrangement_feature
 
 [Term]
 id: SO:0000300
 name: recombination_feature_of_rearranged_gene
+def: "A location where a gene is rearranged due to recombination during mitosis or meiosis." []
 synonym: "recombination feature of rearranged gene" EXACT []
 is_a: SO:0000299 ! specific_recombination_site
 
 [Term]
 id: SO:0000301
 name: vertebrate_immune_system_gene_recombination_feature
+def: "A feature where recombination has occurred for the purpose of generating a diversity in the immune system." []
 synonym: "vertebrate immune system gene recombination feature" EXACT []
 is_a: SO:0000300 ! recombination_feature_of_rearranged_gene
 
@@ -2770,6 +2790,7 @@ relationship: has_quality SO:0000868 ! plus_1_frameshift
 [Term]
 id: SO:0000322
 name: nuclease_hypersensitive_site
+def: "A region of nucleotide sequence targeted by a nuclease enzyme that is found cleaved more than would be expected by chance." []
 synonym: "nuclease hypersensitive site" EXACT []
 is_a: SO:0000684 ! nuclease_sensitive_site
 
@@ -2818,6 +2839,7 @@ is_a: SO:0000851 ! CDS_region
 [Term]
 id: SO:0000328
 name: microarray_oligo
+def: "A DNA sequence used experimentally to detect the presence or absence of a complementary nucleic acid." []
 synonym: "microarray oligo" EXACT []
 synonym: "microarray oligonucleotide" EXACT []
 is_a: SO:0000051 ! probe
@@ -2944,6 +2966,7 @@ is_a: SO:0000830 ! chromosome_part
 [Term]
 id: SO:0000342
 name: site_specific_recombination_target_region
+def: "A region specifically recognised by a recombinase where recombination can occur during mitosis or meiosis." []
 synonym: "site specific recombination target region" EXACT []
 is_a: SO:0000299 ! specific_recombination_site
 
@@ -2976,6 +2999,7 @@ relationship: derives_from SO:0000234 ! mRNA
 [Term]
 id: SO:0000346
 name: loxP_site
+def: "Cre-Recombination target sequence." []
 synonym: "Cre-recombination target region" RELATED []
 synonym: "loxP site" EXACT []
 is_a: SO:0000947 ! resolution_site
@@ -3245,12 +3269,14 @@ relationship: has_quality SO:0001186 ! ribozymic
 [Term]
 id: SO:0000381
 name: group_IIA_intron
+def: "A group II intron that recognizes IBS1/EBS1 and IBS2/EBS2 for the 5-prime exon and gamma/gamma-prime for the 3-prime exon." [PMID:20463000]
 synonym: "group IIA intron" EXACT []
 is_a: SO:0000603 ! group_II_intron
 
 [Term]
 id: SO:0000382
 name: group_IIB_intron
+def: "A group II intron that recognizes IBS1/EBS1 and IBS2/EBS2 for the 5-prime exon and IBS3/EBS3 for the 3-prime exon." [PMID:20463000]
 synonym: "group IIB intron" EXACT []
 is_a: SO:0000603 ! group_II_intron
 
@@ -3438,6 +3464,7 @@ synonym: "sequence attribute" EXACT []
 [Term]
 id: SO:0000401
 name: gene_attribute
+def: "An attribute describing a gene." []
 synonym: "gene attribute" EXACT []
 is_a: SO:0000733 ! feature_attribute
 
@@ -3630,6 +3657,7 @@ relationship: part_of SO:0001063 ! immature_peptide_region
 [Term]
 id: SO:0000420
 name: five_prime_terminal_inverted_repeat
+def: "An inverted repeat (SO:0000294) occurring at the 5-prime termini of a DNA transposon." []
 synonym: "5' TIR" EXACT []
 synonym: "five prime terminal inverted repeat" EXACT []
 is_a: SO:0000481 ! terminal_inverted_repeat
@@ -3637,6 +3665,7 @@ is_a: SO:0000481 ! terminal_inverted_repeat
 [Term]
 id: SO:0000421
 name: three_prime_terminal_inverted_repeat
+def: "An inverted repeat (SO:0000294) occurring at the 3-prime termini of a DNA transposon." []
 synonym: "3' TIR" EXACT []
 synonym: "three prime terminal inverted repeat" EXACT []
 is_a: SO:0000481 ! terminal_inverted_repeat
@@ -3644,6 +3673,7 @@ is_a: SO:0000481 ! terminal_inverted_repeat
 [Term]
 id: SO:0000422
 name: U5_LTR_region
+def: "The U5 segment of the long terminal repeats." []
 synonym: "U5 long terminal repeat region" EXACT []
 synonym: "U5 LTR region" EXACT []
 is_a: SO:0000848 ! LTR_component
@@ -3651,6 +3681,7 @@ is_a: SO:0000848 ! LTR_component
 [Term]
 id: SO:0000423
 name: R_LTR_region
+def: "The R segment of the long terminal repeats." []
 synonym: "R long terminal repeat region" EXACT []
 synonym: "R LTR region" EXACT []
 is_a: SO:0000848 ! LTR_component
@@ -3658,6 +3689,7 @@ is_a: SO:0000848 ! LTR_component
 [Term]
 id: SO:0000424
 name: U3_LTR_region
+def: "The U3 segment of the long terminal repeats." []
 synonym: "U3 long terminal repeat region" EXACT []
 synonym: "U3 LTR region" EXACT []
 is_a: SO:0000848 ! LTR_component
@@ -3665,6 +3697,7 @@ is_a: SO:0000848 ! LTR_component
 [Term]
 id: SO:0000425
 name: five_prime_LTR
+def: "The long terminal repeat found at the five-prime end of the sequence to be inserted into the host genome." []
 synonym: "5' long terminal repeat" EXACT []
 synonym: "5' LTR" EXACT []
 synonym: "five prime LTR" EXACT []
@@ -3673,6 +3706,7 @@ is_a: SO:0000286 ! long_terminal_repeat
 [Term]
 id: SO:0000426
 name: three_prime_LTR
+def: "The long terminal repeat found at the three-prime end of the sequence to be inserted into the host genome." []
 synonym: "3' long terminal repeat" EXACT []
 synonym: "3' LTR" EXACT []
 synonym: "three prime LTR" EXACT []
@@ -3681,6 +3715,7 @@ is_a: SO:0000286 ! long_terminal_repeat
 [Term]
 id: SO:0000427
 name: R_five_prime_LTR_region
+def: "The R segment of the three-prime long terminal repeat." []
 synonym: "R 5' long term repeat region" EXACT []
 synonym: "R five prime LTR region" EXACT []
 is_a: SO:0000423 ! R_LTR_region
@@ -3689,6 +3724,7 @@ is_a: SO:0000850 ! five_prime_LTR_component
 [Term]
 id: SO:0000428
 name: U5_five_prime_LTR_region
+def: "The U5 segment of the three-prime long terminal repeat." []
 synonym: "U5 5' long terminal repeat region" EXACT []
 synonym: "U5 five prime LTR region" EXACT []
 is_a: SO:0000422 ! U5_LTR_region
@@ -3697,6 +3733,7 @@ is_a: SO:0000850 ! five_prime_LTR_component
 [Term]
 id: SO:0000429
 name: U3_five_prime_LTR_region
+def: "The U3 segment of the three-prime long terminal repeat." []
 synonym: "U3 5' long term repeat region" EXACT []
 synonym: "U3 five prime LTR region" EXACT []
 is_a: SO:0000424 ! U3_LTR_region
@@ -3705,6 +3742,7 @@ is_a: SO:0000850 ! five_prime_LTR_component
 [Term]
 id: SO:0000430
 name: R_three_prime_LTR_region
+def: "The R segment of the three-prime long terminal repeat." []
 synonym: "R 3' long terminal repeat region" EXACT []
 synonym: "R three prime LTR region" EXACT []
 is_a: SO:0000849 ! three_prime_LTR_component
@@ -3712,6 +3750,7 @@ is_a: SO:0000849 ! three_prime_LTR_component
 [Term]
 id: SO:0000431
 name: U3_three_prime_LTR_region
+def: "The U3 segment of the three-prime long terminal repeat." []
 synonym: "U3 3' long terminal repeat region" EXACT []
 synonym: "U3 three prime LTR region" EXACT []
 is_a: SO:0000849 ! three_prime_LTR_component
@@ -3719,6 +3758,7 @@ is_a: SO:0000849 ! three_prime_LTR_component
 [Term]
 id: SO:0000432
 name: U5_three_prime_LTR_region
+def: "The U5 segment of the three-prime long terminal repeat." []
 synonym: "U5 3' long terminal repeat region" EXACT []
 synonym: "U5 three prime LTR region" EXACT []
 is_a: SO:0000849 ! three_prime_LTR_component
@@ -3772,6 +3812,7 @@ is_obsolete: true
 [Term]
 id: SO:0000439
 name: inverted_ring_chromosome
+def: "A ring chromosome is a chromosome whose arms have fused together to form a ring in an inverted fashion, often with the loss of the ends of the chromosome." []
 synonym: "inverted ring chromosome" EXACT []
 is_a: SO:1000030 ! chromosomal_inversion
 is_a: SO:1000045 ! ring_chromosome
@@ -3944,6 +3985,7 @@ relationship: transcribed_to SO:0000479 ! trans_spliced_transcript
 [Term]
 id: SO:0000460
 name: vertebrate_immunoglobulin_T_cell_receptor_segment
+def: "Germline genomic DNA with the sequence for a V, D, C, or J portion of an immunoglobulin/T-cell receptor." []
 comment: I am using the term segment instead of gene here to avoid confusion with the region 'gene'.
 synonym: "vertebrate immunoglobulin T cell receptor segment" EXACT []
 synonym: "vertebrate_immunoglobulin/T-cell receptor gene" EXACT []
@@ -4127,6 +4169,7 @@ relationship: part_of SO:0000208 ! terminal_inverted_repeat_element
 [Term]
 id: SO:0000482
 name: vertebrate_immunoglobulin_T_cell_receptor_gene_cluster
+def: "Genomic DNA of immunoglobulin/T-cell receptor gene in germline configuration." []
 synonym: "vertebrate immunoglobulin T cell receptor gene cluster" EXACT []
 synonym: "vertebrate_immunoglobulin/T-cell receptor gene cluster" EXACT []
 is_a: SO:0000301 ! vertebrate_immune_system_gene_recombination_feature
@@ -4225,6 +4268,7 @@ relationship: has_part SO:0000576 ! VJ_gene_segment
 [Term]
 id: SO:0000492
 name: D_gene_recombination_feature
+def: "Recombination signal including D-heptamer, D-spacer and D-nonamer in 5' of D-region of a D-gene or D-sequence." []
 synonym: "D gene recombination feature" EXACT []
 is_a: SO:0000939 ! vertebrate_immune_system_gene_recombination_signal_feature
 
@@ -4744,6 +4788,7 @@ relationship: part_of SO:1001268 ! recoding_stimulatory_region
 [Term]
 id: SO:0000546
 name: designed_sequence
+def: "An oligonucleotide sequence that was designed by an experimenter that may or may not correspond with any natural sequence." []
 synonym: "designed sequence" EXACT []
 is_a: SO:0000351 ! synthetic_sequence
 
@@ -4886,12 +4931,14 @@ is_a: SO:0000939 ! vertebrate_immune_system_gene_recombination_signal_feature
 [Term]
 id: SO:0000562
 name: nonamer_of_recombination_feature_of_vertebrate_immune_system_gene
+def: "Nine nucleotide recombination site, part of V-gene, D-gene or J-gene recombination feature of an immunoglobulin or T-cell receptor gene." []
 synonym: "nonamer of recombination feature of vertebrate immune system gene" EXACT []
 is_a: SO:0000939 ! vertebrate_immune_system_gene_recombination_signal_feature
 
 [Term]
 id: SO:0000563
 name: vertebrate_immune_system_gene_recombination_spacer
+def: "A 12 or 23 nucleotide spacer between two regions of an immunoglobulin/T-cell receptor gene that may be rearranged by recombinase." []
 synonym: "vertebrate immune system gene recombination spacer" EXACT []
 is_a: SO:0000301 ! vertebrate_immune_system_gene_recombination_feature
 
@@ -4966,6 +5013,7 @@ is_a: SO:0000492 ! D_gene_recombination_feature
 [Term]
 id: SO:0000571
 name: miRNA_encoding
+def: "A region that can be transcribed into a microRNA (miRNA)." []
 synonym: "miRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -4980,6 +5028,7 @@ is_a: SO:0000936 ! vertebrate_immunoglobulin_T_cell_receptor_rearranged_segment
 [Term]
 id: SO:0000573
 name: rRNA_encoding
+def: "A region that can be transcribed into a  ribosomal RNA (rRNA)." []
 synonym: "rRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -4994,6 +5043,7 @@ is_a: SO:0000936 ! vertebrate_immunoglobulin_T_cell_receptor_rearranged_segment
 [Term]
 id: SO:0000575
 name: scRNA_encoding
+def: "A region that can be transcribed into a small cytoplasmic RNA (scRNA)." []
 synonym: "scRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -5017,6 +5067,7 @@ is_a: SO:0000628 ! chromosomal_structural_element
 [Term]
 id: SO:0000578
 name: snoRNA_encoding
+def: "A region that can be transcribed into a small nucleolar RNA (snoRNA)." []
 synonym: "snoRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -5070,6 +5121,7 @@ is_a: SO:0000370 ! small_regulatory_ncRNA
 [Term]
 id: SO:0000585
 name: C_D_box_snoRNA_encoding
+def: "snoRNA that is associated with guiding methylation of nucleotides. It contains two short conserved sequence motifs: C (RUGAUGA) near the 5-prime end and D (CUGA) near the 3-prime end." []
 synonym: "C/D box snoRNA encoding" EXACT []
 is_a: SO:0000578 ! snoRNA_encoding
 
@@ -5259,6 +5311,7 @@ is_a: SO:0000579 ! edited_transcript_feature
 [Term]
 id: SO:0000608
 name: H_ACA_box_snoRNA_encoding
+def: "snoRNA that is associated with guiding polyuridylation. It contains two short conserved sequence motifs: H box (ANANNA) and ACA (ACA)." []
 synonym: "H ACA box snoRNA encoding" EXACT []
 is_a: SO:0000578 ! snoRNA_encoding
 
@@ -5332,12 +5385,14 @@ is_a: SO:0000835 ! primary_transcript_region
 [Term]
 id: SO:0000617
 name: RNApol_III_promoter_type_1
+def: "This type of promoter recruits RNA pol III. This promoter is intragenic and includes an A box, an intermediate element, and a C box. This is well conserved in the 5s rRNA promoters across species." [PMID:12381659]
 synonym: "RNApol III promoter type 1" EXACT []
 is_a: SO:0000171 ! RNApol_III_promoter
 
 [Term]
 id: SO:0000618
 name: RNApol_III_promoter_type_2
+def: "This type of promoter recruits RNA pol III to transcribe genes mainly for t-RNA. This promoter is intragenic and includes an A box and a B box." [PMID:12381659]
 synonym: "RNApol III promoter type 2" EXACT []
 synonym: "tRNA promoter" RELATED []
 is_a: SO:0000171 ! RNApol_III_promoter
@@ -5363,6 +5418,7 @@ relationship: part_of SO:0000618 ! RNApol_III_promoter_type_2
 [Term]
 id: SO:0000621
 name: RNApol_III_promoter_type_3
+def: "This type of promoter recruits RNA pol III to transcribe predominantly noncoding RNAs. This promoter contains a proximal sequence element (PSE) and a TATA box upstream of the gene that it regulates. Transcription can also be activated by a distal sequence element (DSE), which is located further upstream. " [PMID:12381659]
 synonym: "RNApol III promoter type 3" EXACT []
 is_a: SO:0000171 ! RNApol_III_promoter
 
@@ -5377,6 +5433,7 @@ relationship: part_of SO:0000617 ! RNApol_III_promoter_type_1
 [Term]
 id: SO:0000623
 name: snRNA_encoding
+def: "A region that can be transcribed into a small nuclear RNA (snRNA)." []
 synonym: "snRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -5404,6 +5461,7 @@ is_a: SO:0000727 ! CRM
 [Term]
 id: SO:0000626
 name: chromosomal_regulatory_element
+def: "Regions of the chromosome that are important for regulating binding of chromosomes to the nuclear matrix." []
 synonym: "chromosomal regulatory element" EXACT []
 is_a: SO:0000830 ! chromosome_part
 
@@ -5421,6 +5479,7 @@ is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 [Term]
 id: SO:0000628
 name: chromosomal_structural_element
+def: "Regions of the chromosome that are important for structural elements." []
 subset: SOFA
 synonym: "chromosomal structural element" EXACT []
 is_a: SO:0000830 ! chromosome_part
@@ -5428,6 +5487,7 @@ is_a: SO:0000830 ! chromosome_part
 [Term]
 id: SO:0000629
 name: five_prime_open_reading_frame
+def: "An open reading frame found within the 5' UTR that can be translated and stall the translation of the downstream open reading frame." [PMID:12890013]
 synonym: "five prime open reading frame" EXACT []
 is_a: SO:0000836 ! mRNA_region
 relationship: part_of SO:0000204 ! five_prime_UTR
@@ -5491,6 +5551,7 @@ is_a: SO:0000185 ! primary_transcript
 [Term]
 id: SO:0000636
 name: spliced_leader_RNA
+def: "Snall nuclear RNAs that are incorporated into the pre-mRNAs to replace the 5' end in some eukaryotes." [PMID:24130571]
 synonym: "mini-exon" RELATED []
 synonym: "spliced leader RNA" EXACT []
 is_a: SO:0000835 ! primary_transcript_region
@@ -5530,12 +5591,14 @@ is_a: SO:0000638 ! transcribed_spacer_region
 [Term]
 id: SO:0000641
 name: tetranucleotide_repeat_microsatellite_feature
+def: "A region of a repeating tetranucleotide sequence (four bases)." []
 synonym: "tetranucleotide repeat microsatellite feature" EXACT []
 is_a: SO:0000289 ! microsatellite
 
 [Term]
 id: SO:0000642
 name: SRP_RNA_encoding
+def: "A region that can be transcribed into a signal recognition particle RNA (SRP RNA)." []
 synonym: "SRP RNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -5665,6 +5728,7 @@ is_a: SO:0000233 ! mature_transcript
 [Term]
 id: SO:0000656
 name: stRNA_encoding
+def: "A region that can be transcribed into a small temporal RNA (stRNA). Found in roundworm development." []
 synonym: "stRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -5694,6 +5758,7 @@ is_a: SO:0000657 ! repeat_region
 [Term]
 id: SO:0000659
 name: tmRNA_encoding
+def: "A region that can be transcribed into a transfer-messenger RNA (tmRNA)." []
 synonym: "tmRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -5719,12 +5784,14 @@ is_a: SO:0000188 ! intron
 [Term]
 id: SO:0000663
 name: tRNA_encoding
+def: "A region that can be transcribed into a  transfer RNA (tRNA)." []
 synonym: "tRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
 [Term]
 id: SO:0000664
 name: introgressed_chromosome_region
+def: "A region of a chromosome that has been introduced by backcrossing with a separate species." [PMID:11454782]
 synonym: "introgressed chromosome region" EXACT []
 is_a: SO:0000830 ! chromosome_part
 
@@ -5770,6 +5837,7 @@ is_a: SO:0000102 ! expressed_sequence_match
 [Term]
 id: SO:0000669
 name: sequence_rearrangement_feature
+def: "A feature where a segment of DNA has been rearranged from what it was in the parent cell." []
 synonym: "sequence rearrangement feature" EXACT []
 is_a: SO:0000298 ! recombination_feature
 
@@ -6335,18 +6403,21 @@ relationship: has_quality SO:0000864 ! exemplar
 [Term]
 id: SO:0000735
 name: sequence_location
+def: "The location of a sequence." []
 synonym: "sequence location" EXACT []
 is_a: SO:0000400 ! sequence_attribute
 
 [Term]
 id: SO:0000736
 name: organelle_sequence
+def: "A sequence of DNA that originates from a an organelle." []
 synonym: "organelle sequence" EXACT []
 is_a: SO:0000735 ! sequence_location
 
 [Term]
 id: SO:0000737
 name: mitochondrial_sequence
+def: "DNA belonging to the genome of a mitochondria." []
 comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
 synonym: "mitochondrial sequence" EXACT []
 is_a: SO:0000736 ! organelle_sequence
@@ -6354,18 +6425,21 @@ is_a: SO:0000736 ! organelle_sequence
 [Term]
 id: SO:0000738
 name: nuclear_sequence
+def: "DNA belonging to the nuclear genome of cell." []
 synonym: "nuclear sequence" EXACT []
 is_a: SO:0000736 ! organelle_sequence
 
 [Term]
 id: SO:0000739
 name: nucleomorphic_sequence
+def: "DNA belonging to the genome of a plastid such as a chloroplast. The nucleomorph is the nuclei of the plastic." []
 synonym: "nucleomorphic sequence" EXACT []
 is_a: SO:0000736 ! organelle_sequence
 
 [Term]
 id: SO:0000740
 name: plastid_sequence
+def: "DNA belonging to the genome of a plastid such as a chloroplast." []
 synonym: "plastid sequence" EXACT []
 is_a: SO:0000736 ! organelle_sequence
 
@@ -6391,42 +6465,49 @@ is_a: SO:0001235 ! replicon
 [Term]
 id: SO:0000743
 name: apicoplast_sequence
+def: "DNA belonging to the genome of an apicoplast, a non-photosynthetic plastid." []
 synonym: "apicoplast sequence" EXACT []
 is_a: SO:0000740 ! plastid_sequence
 
 [Term]
 id: SO:0000744
 name: chromoplast_sequence
+def: "DNA belonging to the genome of a chromoplast, a colored plastid for synthesis and storage of pigments." []
 synonym: "chromoplast sequence" EXACT []
 is_a: SO:0000740 ! plastid_sequence
 
 [Term]
 id: SO:0000745
 name: chloroplast_sequence
+def: "DNA belonging to the genome of a chloroplast, a green plastid for photosynthesis." []
 synonym: "chloroplast sequence" EXACT []
 is_a: SO:0000740 ! plastid_sequence
 
 [Term]
 id: SO:0000746
 name: cyanelle_sequence
+def: "DNA belonging to the genome of a cyanelle, a photosynthetic plastid found in algae." []
 synonym: "cyanelle sequence" EXACT []
 is_a: SO:0000740 ! plastid_sequence
 
 [Term]
 id: SO:0000747
 name: leucoplast_sequence
+def: "DNA belonging to the genome of a leucoplast, a colorless plastid generally containing starch or oil." []
 synonym: "leucoplast sequence" EXACT []
 is_a: SO:0000740 ! plastid_sequence
 
 [Term]
 id: SO:0000748
 name: proplastid_sequence
+def: "DNA belonging to the genome of a proplastid such as an immature chloroplast." []
 synonym: "proplastid sequence" EXACT []
 is_a: SO:0000740 ! plastid_sequence
 
 [Term]
 id: SO:0000749
 name: plasmid_location
+def: "The location of DNA that has come from a plasmid sequence." []
 synonym: "plasmid location" EXACT []
 is_a: SO:0000735 ! sequence_location
 
@@ -6440,12 +6521,14 @@ is_a: SO:0000296 ! origin_of_replication
 [Term]
 id: SO:0000751
 name: proviral_location
+def: "The location of DNA that has come from a viral origin." []
 synonym: "proviral location" EXACT []
 is_a: SO:0000735 ! sequence_location
 
 [Term]
 id: SO:0000752
 name: gene_group_regulatory_region
+def: "A region that is involved in the regulation of transcription of a group of regulated genes." []
 subset: SOFA
 synonym: "gene group regulatory region" EXACT []
 is_a: SO:0001679 ! transcription_regulatory_region
@@ -6470,6 +6553,7 @@ is_a: SO:0000440 ! vector_replicon
 [Term]
 id: SO:0000755
 name: plasmid_vector
+def: "A plasmid that has been generated to act as a vector for foreign sequence." []
 synonym: "plasmid vector" EXACT []
 xref: http://en.wikipedia.org/wiki/Plasmid_vector#Vectors "wiki"
 is_a: SO:0000440 ! vector_replicon
@@ -6486,6 +6570,7 @@ is_a: SO:0000352 ! DNA
 [Term]
 id: SO:0000757
 name: single_stranded_cDNA
+def: "DNA synthesized from RNA by reverse transcriptase, single stranded." []
 synonym: "single strand cDNA" EXACT []
 synonym: "single stranded cDNA" EXACT []
 synonym: "single-strand cDNA" RELATED []
@@ -6494,6 +6579,7 @@ is_a: SO:0000756 ! cDNA
 [Term]
 id: SO:0000758
 name: double_stranded_cDNA
+def: "DNA synthesized from RNA by reverse transcriptase that has been copied by PCR to make it double stranded." []
 synonym: "double strand cDNA" RELATED []
 synonym: "double stranded cDNA" EXACT []
 synonym: "double-strand cDNA" RELATED []
@@ -6686,6 +6772,7 @@ is_a: SO:0000733 ! feature_attribute
 [Term]
 id: SO:0000785
 name: cloned_region
+def: "The region of sequence that has been inserted and is being propagated by the clone." []
 comment: Added in response to Lynn Crosby. A clone insert may be composed of many cloned regions.
 synonym: "cloned region" EXACT []
 synonym: "cloned segment" EXACT []
@@ -6845,6 +6932,7 @@ relationship: has_quality SO:0000784 ! foreign
 [Term]
 id: SO:0000806
 name: fusion
+def: "When two regions of DNA are joined together that are not normally together." []
 is_a: SO:0000733 ! feature_attribute
 
 [Term]
@@ -7136,6 +7224,7 @@ relationship: part_of SO:0000662 ! spliceosomal_intron
 [Term]
 id: SO:0000842
 name: gene_component_region
+def: "A region of a gene that has a specific function." []
 subset: SOFA
 synonym: "gene component region" EXACT []
 is_a: SO:0001411 ! biological_region
@@ -7181,6 +7270,7 @@ relationship: part_of SO:0000584 ! tmRNA
 [Term]
 id: SO:0000848
 name: LTR_component
+def: "The long terminal repeat found at the ends of the sequence to be inserted into the host genome." []
 synonym: "long term repeat component" EXACT []
 synonym: "LTR component" EXACT []
 is_a: SO:0000840 ! repeat_component
@@ -7189,6 +7279,7 @@ relationship: part_of SO:0000286 ! long_terminal_repeat
 [Term]
 id: SO:0000849
 name: three_prime_LTR_component
+def: "A component of the three-prime long terminal repeat." [PMID:8649407]
 synonym: "3' long terminal repeat component" EXACT []
 synonym: "three prime LTR component" EXACT []
 is_a: SO:0000848 ! LTR_component
@@ -7197,6 +7288,7 @@ relationship: part_of SO:0000426 ! three_prime_LTR
 [Term]
 id: SO:0000850
 name: five_prime_LTR_component
+def: "A component of the five-prime long terminal repeat." [PMID:8649407]
 synonym: "5' long term repeat component" EXACT []
 synonym: "five prime LTR component" EXACT []
 is_a: SO:0000848 ! LTR_component
@@ -7258,6 +7350,7 @@ relationship: has_quality SO:0000858 ! orthologous
 [Term]
 id: SO:0000856
 name: conserved
+def: "A region that is similar or identical across more than one species." []
 is_a: SO:0000733 ! feature_attribute
 
 [Term]
@@ -7599,6 +7692,7 @@ relationship: has_quality SO:0000781 ! transgenic
 [Term]
 id: SO:0000903
 name: endogenous_retroviral_sequence
+def: "Endogenous DNA sequence that are likely to have arisen from retroviruses." []
 synonym: "endogenous retroviral sequence" EXACT []
 is_a: SO:0000751 ! proviral_location
 
@@ -7647,6 +7741,7 @@ is_a: SO:0000907 ! supported_by_sequence_similarity
 [Term]
 id: SO:0000910
 name: orphan
+def: "A gene whose predicted amino acid sequence is unsupported by any experimental evidence or by any match with any other known sequence." []
 is_a: SO:0000732 ! predicted
 
 [Term]
@@ -7814,6 +7909,7 @@ is_a: SO:0000930 ! guide_RNA_region
 [Term]
 id: SO:0000932
 name: pre_edited_mRNA
+def: "A primary transcript that, at least in part, encodes one or more proteins that has not been edited." []
 synonym: "pre-edited mRNA" EXACT []
 is_a: SO:0000120 ! protein_coding_primary_transcript
 
@@ -7841,6 +7937,7 @@ relationship: has_quality SO:0000116 ! edited
 [Term]
 id: SO:0000936
 name: vertebrate_immunoglobulin_T_cell_receptor_rearranged_segment
+def: "Genomic DNA of immunoglobulin/T-cell receptor gene in partially rearranged genomic DNA." []
 synonym: "vertebrate immunoglobulin T cell receptor rearranged segment" EXACT []
 is_a: SO:0000301 ! vertebrate_immune_system_gene_recombination_feature
 
@@ -7852,18 +7949,21 @@ is_obsolete: true
 [Term]
 id: SO:0000938
 name: vertebrate_immunoglobulin_T_cell_receptor_rearranged_gene_cluster
+def: "Genomic DNA of immunoglobulin/T-cell receptor gene in rearranged configuration." []
 synonym: "vertebrate immunoglobulin T cell receptor rearranged gene cluster" EXACT []
 is_a: SO:0000301 ! vertebrate_immune_system_gene_recombination_feature
 
 [Term]
 id: SO:0000939
 name: vertebrate_immune_system_gene_recombination_signal_feature
+def: "Feature used for the recombination of genomic material for the purpose of generating diversity of the immune system." []
 synonym: "vertebrate immune system gene recombination signal feature" EXACT []
 is_a: SO:0000301 ! vertebrate_immune_system_gene_recombination_feature
 
 [Term]
 id: SO:0000940
 name: recombinationally_rearranged
+def: "A gene that is recombinationally rearranged." []
 synonym: "recombinationally rearranged" EXACT []
 is_a: SO:0000733 ! feature_attribute
 
@@ -7947,6 +8047,7 @@ relationship: part_of SO:0000365 ! integron
 [Term]
 id: SO:0000951
 name: eukaryotic_terminator
+def: "A signal for RNA polymerase to terminate transcription." []
 synonym: "eukaryotic terminator" EXACT []
 is_a: SO:0000141 ! terminator
 
@@ -8124,6 +8225,7 @@ is_a: SO:0000208 ! terminal_inverted_repeat_element
 [Term]
 id: SO:0000975
 name: minicircle_gene
+def: "A gene found within a minicircle." []
 synonym: "minicircle gene" EXACT []
 is_a: SO:0000089 ! kinetoplast_gene
 relationship: part_of SO:0000980 ! minicircle
@@ -8168,18 +8270,21 @@ is_a: SO:0001235 ! replicon
 [Term]
 id: SO:0000981
 name: rho_dependent_bacterial_terminator
+def: "A transcription terminator that is dependent upon Rho." []
 synonym: "rho dependent bacterial terminator" EXACT []
 is_a: SO:0000614 ! bacterial_terminator
 
 [Term]
 id: SO:0000982
 name: rho_independent_bacterial_terminator
+def: "A transcription terminator that is not dependent upon Rho. Rather, the mRNA contains a sequence that allows it to base-pair with itself and make a stem-loop structure." []
 synonym: "rho independent bacterial terminator" EXACT []
 is_a: SO:0000614 ! bacterial_terminator
 
 [Term]
 id: SO:0000983
 name: strand_attribute
+def: "The attribute of how many strands are present in a nucleotide polymer." []
 comment: Attributes added to describe the different kinds of replicon. SO workshop, September 2006.
 synonym: "strand attribute" EXACT []
 is_a: SO:0000733 ! feature_attribute
@@ -8187,18 +8292,21 @@ is_a: SO:0000733 ! feature_attribute
 [Term]
 id: SO:0000984
 name: single
+def: "When a nucleotide polymer has only one strand." []
 comment: Attributes added to describe the different kinds of replicon. SO workshop, September 2006.
 is_a: SO:0000983 ! strand_attribute
 
 [Term]
 id: SO:0000985
 name: double
+def: "When a nucleotide polymer has two strands that are reverse-complement to one another and pair together." []
 comment: Attributes added to describe the different kinds of replicon. SO workshop, September 2006.
 is_a: SO:0000983 ! strand_attribute
 
 [Term]
 id: SO:0000986
 name: topology_attribute
+def: "The attribute of whether a nucleotide polymer is linear or circular." []
 comment: Attributes added to describe the different kinds of replicon. SO workshop, September 2006.
 synonym: "topology attribute" EXACT []
 is_a: SO:0000443 ! polymer_attribute
@@ -8247,6 +8355,7 @@ is_a: SO:0000352 ! DNA
 [Term]
 id: SO:0000992
 name: BAC_cloned_genomic_insert
+def: "A region of DNA that has been inserted into the bacterial genome using a bacterial artificial chromosome." []
 comment: Requested by Andy Schroder - Flybase Harvard, Nov 2006.
 synonym: "BAC cloned genomic insert" EXACT []
 is_a: SO:0000914 ! cloned_genomic_insert
@@ -8255,12 +8364,14 @@ relationship: derives_from SO:0000153 ! BAC
 [Term]
 id: SO:0000993
 name: consensus
+def: "A sequence produced from an aligment algorithm that uses multiple sequences as input." []
 comment: Term added Dec 06 to comply with mapping to MGED terms. It should be used to generate consensus regions. The specific cross product terms they require are consensus_region and consensus_mRNA.
 is_a: SO:0000905 ! status
 
 [Term]
 id: SO:0000994
 name: consensus_region
+def: "A region that has a known consensus sequence." []
 comment: DO not obsolete without considering MGED mapping.
 synonym: "consensus region" EXACT []
 is_a: SO:0001410 ! experimental_feature
@@ -8269,6 +8380,7 @@ relationship: has_quality SO:0000993 ! consensus
 [Term]
 id: SO:0000995
 name: consensus_mRNA
+def: "An mRNA sequence produced from an aligment algorithm that uses multiple sequences as input." []
 comment: DO not obsolete without considering MGED mapping.
 synonym: "consensus mRNA" EXACT []
 is_a: SO:0000234 ! mRNA
@@ -8278,6 +8390,7 @@ relationship: has_quality SO:0000993 ! consensus
 [Term]
 id: SO:0000996
 name: predicted_gene
+def: "A region of the genome that has been predicted to be a gene but has not been confirmed by laboratory experiments." []
 comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
 synonym: "predicted gene" EXACT []
 is_a: SO:0000704 ! gene
@@ -8286,6 +8399,7 @@ relationship: has_quality SO:0000732 ! predicted
 [Term]
 id: SO:0000997
 name: gene_fragment
+def: "A portion of a gene that is not the complete gene." []
 comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
 synonym: "gene fragment" EXACT []
 is_a: SO:0000842 ! gene_component_region
@@ -8354,12 +8468,14 @@ is_a: SO:0000286 ! long_terminal_repeat
 [Term]
 id: SO:0001004
 name: low_complexity
+def: "When a sequence does not contain an equal distribution of all four possible nucleotide bases or does not contain all nucleotide bases." []
 synonym: "low complexity" EXACT []
 is_a: SO:0000905 ! status
 
 [Term]
 id: SO:0001005
 name: low_complexity_region
+def: "A region where the DNA does not contain an equal distrubution of all four possible nucleotides or does not contain all four nucleotides." []
 synonym: "low complexity region" EXACT []
 is_a: SO:0001410 ! experimental_feature
 relationship: has_quality SO:0001004 ! low_complexity
@@ -8434,6 +8550,7 @@ is_a: SO:0002007 ! MNV
 [Term]
 id: SO:0001014
 name: intron_domain
+def: "An intronic region that has an attribute." []
 comment: Requested by Colin Batchelor, Feb 2007.
 synonym: "intron domain" EXACT []
 is_a: SO:0000835 ! primary_transcript_region
@@ -8565,6 +8682,7 @@ is_a: SO:0001507 ! variant_collection
 [Term]
 id: SO:0001029
 name: direction_attribute
+def: "The attribute of whether the sequence is the same direction as a feature (forward) or the opposite direction as a feature (reverse)." []
 synonym: "direction attribute" EXACT []
 is_a: SO:0000733 ! feature_attribute
 
@@ -8583,6 +8701,7 @@ is_a: SO:0001029 ! direction_attribute
 [Term]
 id: SO:0001032
 name: mitochondrial_DNA
+def: "DNA belonging to the genome of a mitochondria." []
 comment: This terms is used by MO.
 synonym: "mitochondrial DNA" EXACT []
 synonym: "mtDNA" EXACT []
@@ -8593,6 +8712,7 @@ relationship: has_quality SO:0000352 ! DNA
 [Term]
 id: SO:0001033
 name: chloroplast_DNA
+def: "DNA belonging to the genome of a chloroplast, a photosynthetic plastid." []
 comment: This term is used by MO.
 synonym: "chloroplast DNA" EXACT []
 is_a: SO:0000745 ! chloroplast_sequence
@@ -9797,6 +9917,7 @@ is_a: SO:0001150 ! beta_turn_type_six
 [Term]
 id: SO:0001152
 name: beta_turn_type_six_a_one
+def: "A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -60 degrees, psi-2 = 120 degrees, phi-3 = -90 degrees, psi-3 = 0 degrees." [PMID:27428516]
 subset: biosapiens
 synonym: "beta turn type six a one" EXACT []
 synonym: "type VIa1 beta turn" EXACT []
@@ -9806,6 +9927,7 @@ is_a: SO:0001151 ! beta_turn_type_six_a
 [Term]
 id: SO:0001153
 name: beta_turn_type_six_a_two
+def: "A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -120 degrees, psi-2 = 120 degrees, phi-3 = -60 degrees, psi-3 = 0 degrees." [PMID:27428516]
 subset: biosapiens
 synonym: "beta turn type six a two" EXACT []
 synonym: "type VIa2 beta turn" EXACT []
@@ -10378,6 +10500,7 @@ is_a: SO:0000188 ! intron
 [Term]
 id: SO:0001217
 name: protein_coding_gene
+def: "A gene that codes for an RNA that can be translated into a protein." []
 synonym: "protein coding gene" EXACT []
 is_a: SO:0000704 ! gene
 relationship: has_quality SO:0000010 ! protein_coding
@@ -10393,6 +10516,7 @@ relationship: has_quality SO:0000781 ! transgenic
 [Term]
 id: SO:0001219
 name: retrogene
+def: "A gene that has been produced as the product of a reverse transcriptase mediated event." []
 is_a: SO:0000704 ! gene
 relationship: has_quality SO:0000569 ! retrotransposed
 
@@ -10549,6 +10673,7 @@ relationship: part_of SO:0000104 ! polypeptide
 [Term]
 id: SO:0001238
 name: major_TSS
+def: "The tanscription start site that is most frequently used for transcription of a gene." []
 synonym: "major transcription start site" EXACT []
 synonym: "major TSS" EXACT []
 is_a: SO:0000315 ! TSS
@@ -10556,6 +10681,7 @@ is_a: SO:0000315 ! TSS
 [Term]
 id: SO:0001239
 name: minor_TSS
+def: "A tanscription start site that is not the most frequently used for transcription of a gene." []
 synonym: "minor TSS" EXACT []
 is_a: SO:0000315 ! TSS
 
@@ -10570,6 +10696,7 @@ relationship: has_part SO:0000315 ! TSS
 [Term]
 id: SO:0001241
 name: encodes_alternate_transcription_start_sites
+def: "A gene that has multiple possible transcription start sites." []
 synonym: "encodes alternate transcription start sites" EXACT []
 is_a: SO:0000401 ! gene_attribute
 
@@ -10740,6 +10867,7 @@ is_a: SO:0000704 ! gene
 [Term]
 id: SO:0001264
 name: gRNA_gene
+def: "A noncoding RNA that guides the insertion or deletion of uridine residues in mitochondrial mRNAs. This may also refer to synthetic RNAs used to guide DNA editing using the CRIPSR/Cas9 system." []
 synonym: "gRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 relationship: has_quality SO:0000979 ! gRNA_encoding
@@ -10748,6 +10876,7 @@ relationship: has_quality SO:0000979 ! gRNA_encoding
 id: SO:0001265
 name: miRNA_gene
 alt_id: SO:0001270
+def: "A small noncoding RNA of approximately 22 nucleotides in length which may be involved in regulation of gene expression." []
 synonym: "miRNA gene" EXACT []
 synonym: "stRNA gene" EXACT []
 synonym: "stRNA_gene" EXACT []
@@ -10758,6 +10887,7 @@ relationship: has_quality SO:0000656 ! stRNA_encoding
 [Term]
 id: SO:0001266
 name: scRNA_gene
+def: "A small noncoding RNA that is generally found only in the cytoplasm." []
 synonym: "scRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 relationship: has_quality SO:0000575 ! scRNA_encoding
@@ -10765,6 +10895,7 @@ relationship: has_quality SO:0000575 ! scRNA_encoding
 [Term]
 id: SO:0001267
 name: snoRNA_gene
+def: "A small noncoding RNA that guides chemical modification of other RNAs." []
 synonym: "snoRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 relationship: has_quality SO:0000578 ! snoRNA_encoding
@@ -10780,6 +10911,7 @@ is_a: SO:0001263 ! ncRNA_gene
 [Term]
 id: SO:0001269
 name: SRP_RNA_gene
+def: "A noncoding RNA that binds to the ribosome to halt protein synthesis when the signal peptide is present." []
 synonym: "SRP RNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 relationship: has_quality SO:0000642 ! SRP_RNA_encoding
@@ -10787,6 +10919,7 @@ relationship: has_quality SO:0000642 ! SRP_RNA_encoding
 [Term]
 id: SO:0001271
 name: tmRNA_gene
+def: "A bacterial RNA with both tRNA and mRNA like properties." []
 synonym: "tmRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 relationship: has_quality SO:0000659 ! tmRNA_encoding
@@ -10794,6 +10927,7 @@ relationship: has_quality SO:0000659 ! tmRNA_encoding
 [Term]
 id: SO:0001272
 name: tRNA_gene
+def: "A noncoding RNA that binds to a specific amino acid to allow that amino acid to be used by the ribosome during translation of RNA." []
 synonym: "tRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 relationship: has_quality SO:0000663 ! tRNA_encoding
@@ -10822,12 +10956,14 @@ is_a: SO:0000250 ! modified_RNA_base_feature
 [Term]
 id: SO:0001276
 name: modified_guanosine
+def: "A guanosine base that has been modified." []
 synonym: "modified guanosine" EXACT []
 is_a: SO:0000250 ! modified_RNA_base_feature
 
 [Term]
 id: SO:0001277
 name: modified_uridine
+def: "A uridine base that has been modified." []
 synonym: "modified uridine" EXACT []
 is_a: SO:0000250 ! modified_RNA_base_feature
 
@@ -11863,6 +11999,7 @@ is_a: SO:0001654 ! nucleotide_to_protein_binding_site
 [Term]
 id: SO:0001384
 name: CDS_fragment
+def: "A portion of a CDS that is not the complete CDS." []
 synonym: "CDS fragment" EXACT []
 synonym: "incomplete CDS" EXACT []
 is_a: SO:0000316 ! CDS
@@ -11927,6 +12064,7 @@ is_a: SO:0001385 ! modified_amino_acid_feature
 [Term]
 id: SO:0001391
 name: modified_L_glutamic_acid
+def: "A post translationally modified glutamic acid." []
 synonym: "ModGlu" EXACT AAMOD []
 synonym: "modified L glutamic acid" EXACT []
 synonym: "modified L-glutamic acid" EXACT []
@@ -12298,6 +12436,7 @@ is_a: SO:0001760 ! non_processed_pseudogene
 [Term]
 id: SO:0001435
 name: alanine
+def: "A non-polar, hydorophobic amino acid encoded by the codons GCN (GCT, GCC, GCA and GCG)." []
 comment: A place holder for a cross product with chebi.
 synonym: "A" EXACT aa1 []
 synonym: "Ala" EXACT aa3 []
@@ -12306,6 +12445,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001436
 name: valine
+def: "A non-polar, hydorophobic amino acid encoded by the codons GTN (GTT, GTC, GTA and GTG)." []
 comment: A place holder for a cross product with chebi.
 synonym: "V" EXACT aa1 []
 synonym: "Val" EXACT aa3 []
@@ -12314,6 +12454,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001437
 name: leucine
+def: "A non-polar, hydorophobic amino acid encoded by the codons CTN (CTT, CTC, CTA and CTG), TTA and TTG." []
 comment: A place holder for a cross product with chebi.
 synonym: "L" EXACT aa1 []
 synonym: "Leu" EXACT aa3 []
@@ -12322,6 +12463,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001438
 name: isoleucine
+def: "A non-polar, hydorophobic amino acid encoded by the codons ATH (ATT, ATC and ATA)." []
 comment: A place holder for a cross product with chebi.
 synonym: "I" EXACT aa1 []
 synonym: "Ile" EXACT aa3 []
@@ -12330,6 +12472,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001439
 name: proline
+def: "A non-polar, hydorophobic amino acid encoded by the codons CCN (CCT, CCC, CCA and CCG)." []
 comment: A place holder for a cross product with chebi.
 synonym: "P" EXACT aa1 []
 synonym: "Pro" EXACT aa3 []
@@ -12338,6 +12481,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001440
 name: tryptophan
+def: "A non-polar, hydorophobic amino acid encoded by the codon TGG." []
 comment: A place holder for a cross product with chebi.
 synonym: "Trp" EXACT aa3 []
 synonym: "W" EXACT aa1 []
@@ -12346,6 +12490,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001441
 name: phenylalanine
+def: "A non-polar, hydorophobic amino acid encoded by the codons TTT and TTC." []
 comment: A place holder for a cross product with chebi.
 synonym: "F" EXACT aa1 []
 synonym: "Phe" EXACT aa3 []
@@ -12354,6 +12499,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001442
 name: methionine
+def: "A non-polar, hydorophobic amino acid encoded by the codon ATG." []
 comment: A place holder for a cross product with chebi.
 synonym: "M" EXACT aa1 []
 synonym: "Met" EXACT aa3 []
@@ -12362,6 +12508,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001443
 name: glycine
+def: "A non-polar, hydorophilic amino acid encoded by the codons GGN (GGT, GGC, GGA and GGG)." []
 comment: A place holder for a cross product with chebi.
 synonym: "G" EXACT aa1 []
 synonym: "Gly" EXACT aa3 []
@@ -12370,6 +12517,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001444
 name: serine
+def: "A polar, hydorophilic amino acid encoded by the codons TCN (TCT, TCC, TCA, TCG), AGT and AGC." []
 comment: A place holder for a cross product with chebi.
 synonym: "S" EXACT aa1 []
 synonym: "Ser" EXACT aa3 []
@@ -12378,6 +12526,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001445
 name: threonine
+def: "A polar, hydorophilic amino acid encoded by the codons ACN (ACT, ACC, ACA and ACG)." []
 comment: A place holder for a cross product with chebi.
 synonym: "T" EXACT aa1 []
 synonym: "Thr" EXACT aa3 []
@@ -12386,6 +12535,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001446
 name: tyrosine
+def: "A polar, hydorophilic amino acid encoded by the codons TAT and TAC." []
 comment: A place holder for a cross product with chebi.
 synonym: "Tyr" EXACT aa3 []
 synonym: "Y" EXACT aa1 []
@@ -12394,6 +12544,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001447
 name: cysteine
+def: "A polar amino acid encoded by the codons TGT and TGC." []
 comment: A place holder for a cross product with chebi.
 synonym: "C" EXACT aa1 []
 synonym: "Cys" EXACT aa3 []
@@ -12402,6 +12553,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001448
 name: glutamine
+def: "A polar, hydorophilic amino acid encoded by the codons CAA and CAG. " []
 comment: A place holder for a cross product with chebi.
 synonym: "Gln" EXACT aa3 []
 synonym: "Q" EXACT aa1 []
@@ -12410,6 +12562,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001449
 name: asparagine
+def: "A polar, hydorophilic amino acid encoded by the codons AAT and AAC." []
 comment: A place holder for a cross product with chebi.
 synonym: "Asn" EXACT aa3 []
 synonym: "N" EXACT aa1 []
@@ -12418,6 +12571,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001450
 name: lysine
+def: "A positively charged, hydorophilic amino acid encoded by the codons AAA and AAG." []
 comment: A place holder for a cross product with chebi.
 synonym: "K" EXACT aa1 []
 synonym: "Lys" EXACT aa3 []
@@ -12426,6 +12580,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001451
 name: arginine
+def: "A positively charged, hydorophilic amino acid encoded by the codons CGN (CGT, CGC, CGA and CGG), AGA and AGG." []
 comment: A place holder for a cross product with chebi.
 synonym: "Arg" EXACT aa3 []
 synonym: "R" EXACT aa1 []
@@ -12434,6 +12589,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001452
 name: histidine
+def: "A positively charged, hydorophilic amino acid encoded by the codons CAT and CAC." []
 comment: A place holder for a cross product with chebi.
 synonym: "H" EXACT aa1 []
 synonym: "His" EXACT aa3 []
@@ -12442,6 +12598,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001453
 name: aspartic_acid
+def: "A negatively charged, hydorophilic amino acid encoded by the codons GAT and GAC." []
 comment: A place holder for a cross product with chebi.
 synonym: "Asp" EXACT aa3 []
 synonym: "aspartic acid" EXACT []
@@ -12451,6 +12608,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001454
 name: glutamic_acid
+def: "A negatively charged, hydorophilic amino acid encoded by the codons GAA and GAG." []
 comment: A place holder for a cross product with chebi.
 synonym: "E" EXACT aa1 []
 synonym: "Glu" EXACT aa3 []
@@ -12460,6 +12618,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001455
 name: selenocysteine
+def: "A relatively rare amino acid encoded by the codon UGA in some contexts, whereas UGA is a termination codon in other contexts." [PMID:23275319]
 comment: A place holder for a cross product with chebi.
 synonym: "Sec" EXACT aa3 []
 synonym: "U" EXACT aa1 []
@@ -12468,6 +12627,7 @@ is_a: SO:0001237 ! amino_acid
 [Term]
 id: SO:0001456
 name: pyrrolysine
+def: "A relatively rare amino acid encoded by the codon UAG in some contexts, whereas UAG is a termination codon in other contexts." [PMID:15788401]
 comment: A place holder for a cross product with chebi.
 synonym: "O" EXACT aa1 []
 synonym: "Pyl" EXACT aa3 []
@@ -12687,6 +12847,7 @@ creation_date: 2009-09-09T05:26:10Z
 [Term]
 id: SO:0001482
 name: shadow_enhancer
+def: "An enhancer that drives the pattern of transcription and binds to the same TF as the primary enhancer, but is located in the intron of or on the far side of a neighboring gene." [PMID:22083793]
 synonym: "shadow enhancer" EXACT []
 is_a: SO:0000165 ! enhancer
 created_by: kareneilbeck
@@ -12847,7 +13008,7 @@ creation_date: 2009-11-09T06:00:42Z
 id: SO:0001497
 name: X_element
 def: "The X element is a conserved region, of the telomere, of ~475 bp that contains an ARS sequence and in most cases an Abf1p binding site." [http://www.yeastgenome.org/help/glossary.html#xelemcoresequence, PMID:7785338, PMID:8005434]
-comment: Possible functions include roles in chromosomal segregation,\nmaintenance of chromosome stability, recombinational sequestering, or as a\nbarrier to transcriptional silencing. This term was requested 2009-10-16 by Michel Dumontier, tracker id 2880747. \n\nFrom Janos Demeter: The only region shared by all chromosome ends, the X element core sequence is a small conserved element (~475 bp) that contains an ARS sequence and in most cases an Abf1p binding site. Between these is a GC-rich region nearly identical to the meiosis-specific regulatory sequence URS1.
+comment: Possible functions include roles in chromosomal segregation,\nmaintenance of chromosome stability, recombinational sequestering, or as a\nbarrier to transcriptional silencing. This term was requested 2009-10-16 by Michel Dumontier, tracker id 2880747.\n\nFrom Janos Demeter: The only region shared by all chromosome ends, the X element core sequence is a small conserved element (~475 bp) that contains an ARS sequence and in most cases an Abf1p binding site. Between these is a GC-rich region nearly identical to the meiosis-specific regulatory sequence URS1.
 synonym: "X element" RELATED []
 synonym: "X element core sequence" EXACT []
 is_a: SO:0000330 ! conserved_region
@@ -12957,6 +13118,7 @@ creation_date: 2010-03-03T02:13:28Z
 [Term]
 id: SO:0001508
 name: alteration_attribute
+def: "An attribute of alteration of one or more chromosomes." []
 synonym: "alteration attribute" EXACT []
 is_a: SO:0000733 ! feature_attribute
 created_by: kareneilbeck
@@ -12965,6 +13127,7 @@ creation_date: 2010-03-04T02:53:23Z
 [Term]
 id: SO:0001509
 name: chromosomal_variation_attribute
+def: "An attribute of a change in the structure or number of a chromosomes." []
 synonym: "chromosomal variation attribute" EXACT []
 is_a: SO:0001508 ! alteration_attribute
 created_by: kareneilbeck
@@ -12973,6 +13136,7 @@ creation_date: 2010-03-04T02:54:30Z
 [Term]
 id: SO:0001510
 name: intrachromosomal
+def: "A change in chromosomes that occurs between two separate chromosomes." []
 is_a: SO:0001509 ! chromosomal_variation_attribute
 created_by: kareneilbeck
 creation_date: 2010-03-04T02:55:25Z
@@ -12980,6 +13144,7 @@ creation_date: 2010-03-04T02:55:25Z
 [Term]
 id: SO:0001511
 name: interchromosomal
+def: "A change in chromosomes that occurs between two sections of the same chromosome or between homologous chromosomes." []
 is_a: SO:0001509 ! chromosomal_variation_attribute
 created_by: kareneilbeck
 creation_date: 2010-03-04T02:55:43Z
@@ -12996,6 +13161,7 @@ creation_date: 2010-03-04T02:55:56Z
 [Term]
 id: SO:0001513
 name: tandem
+def: "An insertion of extension of a tandem repeat." []
 is_a: SO:0001512 ! insertion_attribute
 created_by: kareneilbeck
 creation_date: 2010-03-04T02:56:37Z
@@ -13027,6 +13193,7 @@ creation_date: 2010-03-04T02:57:51Z
 [Term]
 id: SO:0001517
 name: inversion_attribute
+def: "When a region of a chromosome is changed to the reverse order without duplication or deletion." []
 synonym: "inversion attribute" EXACT []
 is_a: SO:0001508 ! alteration_attribute
 created_by: kareneilbeck
@@ -13035,6 +13202,7 @@ creation_date: 2010-03-04T02:58:10Z
 [Term]
 id: SO:0001518
 name: pericentric
+def: "An inversion event that includes the centromere." []
 is_a: SO:0001517 ! inversion_attribute
 created_by: kareneilbeck
 creation_date: 2010-03-04T02:58:24Z
@@ -13042,6 +13210,7 @@ creation_date: 2010-03-04T02:58:24Z
 [Term]
 id: SO:0001519
 name: paracentric
+def: "An inversion event that does not include the centromere." []
 is_a: SO:0001517 ! inversion_attribute
 created_by: kareneilbeck
 creation_date: 2010-03-04T02:58:35Z
@@ -13049,6 +13218,7 @@ creation_date: 2010-03-04T02:58:35Z
 [Term]
 id: SO:0001520
 name: translocaton_attribute
+def: "An attribute of a translocation, which is then a region of nucleotide sequence that has translocated to a new position. The observed adjacency of two previously separated regions." []
 synonym: "translocation attribute" EXACT []
 is_a: SO:0001508 ! alteration_attribute
 created_by: kareneilbeck
@@ -13057,6 +13227,7 @@ creation_date: 2010-03-04T02:58:47Z
 [Term]
 id: SO:0001521
 name: reciprocal
+def: "When translocation occurs between nonhomologous chromosomes and involved an equal exchange of genetic materials." []
 is_a: SO:0001520 ! translocaton_attribute
 created_by: kareneilbeck
 creation_date: 2010-03-04T02:59:34Z
@@ -13064,6 +13235,7 @@ creation_date: 2010-03-04T02:59:34Z
 [Term]
 id: SO:0001522
 name: insertional
+def: "When a translocation is simply moving genetic material from one chromosome to another." []
 is_a: SO:0001520 ! translocaton_attribute
 created_by: kareneilbeck
 creation_date: 2010-03-04T02:59:51Z
@@ -13071,6 +13243,7 @@ creation_date: 2010-03-04T02:59:51Z
 [Term]
 id: SO:0001523
 name: duplication_attribute
+def: "An attribute of a duplication, which is an insertion which derives from, or is identical in sequence to, nucleotides present at a known location in the genome." []
 synonym: "duplication attribute" RELATED []
 is_a: SO:0001508 ! alteration_attribute
 created_by: kareneilbeck
@@ -13079,6 +13252,7 @@ creation_date: 2010-03-05T01:56:33Z
 [Term]
 id: SO:0001524
 name: chromosomally_aberrant_genome
+def: "When a genome contains an abnormal amount of chromosomes." []
 synonym: "chromosomally aberrant genome" RELATED []
 is_a: SO:0001506 ! variant_genome
 created_by: kareneilbeck
@@ -13848,6 +14022,7 @@ creation_date: 2010-03-22T02:41:30Z
 [Term]
 id: SO:0001593
 name: minus_2_frameshift_variant
+def: "A sequence variant which causes a disruption of the translational reading frame, by shifting two bases forward." []
 synonym: "-2 frameshift variant" EXACT []
 synonym: "minus 2 frameshift variant" EXACT []
 is_a: SO:0001589 ! frameshift_variant
@@ -13867,6 +14042,7 @@ creation_date: 2010-03-22T02:42:06Z
 [Term]
 id: SO:0001595
 name: plus_2_frameshift_variant
+def: "A sequence variant which causes a disruption of the translational reading frame, by shifting two bases backward." []
 synonym: "+2 frameshift variant" EXACT []
 synonym: "plus 2 frameshift variant" EXACT []
 is_a: SO:0001589 ! frameshift_variant
@@ -13931,6 +14107,7 @@ creation_date: 2010-03-22T02:45:48Z
 [Term]
 id: SO:0001602
 name: complex_change_of_translational_product_variant
+def: "A variant that changes the translational product with respect to the reference." []
 synonym: "complex change of translational product variant" EXACT []
 is_a: SO:0001539 ! translational_product_function_variant
 created_by: kareneilbeck
@@ -14672,6 +14849,7 @@ creation_date: 2010-10-01T03:13:41Z
 [Term]
 id: SO:0001670
 name: distal_promoter_element
+def: "A regulatory promoter element that is distal from the TSS." []
 synonym: "distal promoter element" RELATED []
 is_a: SO:0001678 ! regulatory_promoter_element
 created_by: kareneilbeck
@@ -14866,6 +15044,7 @@ creation_date: 2010-10-29T12:36:24Z
 [Term]
 id: SO:0001690
 name: three_prime_restriction_enzyme_junction
+def: "The restriction enzyme cleavage junction on the 3' strand of the nucleotide sequence." []
 synonym: "3' restriction enzyme junction" EXACT []
 is_a: SO:0001694 ! single_strand_restriction_enzyme_cleavage_site
 relationship: part_of SO:0001692 ! sticky_end_restriction_enzyme_cleavage_site
@@ -14884,6 +15063,7 @@ creation_date: 2010-10-29T12:39:53Z
 [Term]
 id: SO:0001692
 name: sticky_end_restriction_enzyme_cleavage_site
+def: "A site where restriction enzymes can cleave that will produce an overhang or 'sticky end'." []
 synonym: "sticky end restriction enzyme cleavage site" RELATED []
 is_a: SO:0001687 ! restriction_enzyme_recognition_site
 created_by: kareneilbeck
@@ -15598,6 +15778,7 @@ creation_date: 2011-03-15T03:47:20Z
 [Term]
 id: SO:0001765
 name: rare_variant
+def: "When a variant from the genomic sequence is rarely found in the general population. The threshold for 'rare' varies between studies." []
 synonym: "rare variant" EXACT []
 is_a: SO:0001763 ! variant_frequency
 created_by: kareneilbeck
@@ -15606,6 +15787,7 @@ creation_date: 2011-03-15T03:48:29Z
 [Term]
 id: SO:0001766
 name: polymorphic_variant
+def: "A variant that affects one of several possible alleles at that location, such as the major histocompatibility complex (MHC) genes." []
 synonym: "polymorphic variant" EXACT []
 is_a: SO:0001763 ! variant_frequency
 created_by: kareneilbeck
@@ -15614,6 +15796,7 @@ creation_date: 2011-03-15T03:48:51Z
 [Term]
 id: SO:0001767
 name: common_variant
+def: "When a variant from the genomic sequence is commonly found in the general population." []
 synonym: "common variant" EXACT []
 is_a: SO:0001763 ! variant_frequency
 created_by: kareneilbeck
@@ -15622,6 +15805,7 @@ creation_date: 2011-03-15T03:50:36Z
 [Term]
 id: SO:0001768
 name: fixed_variant
+def: "When a variant has become fixed in the population so that it is now the only variant." []
 synonym: "fixed variant" EXACT []
 is_a: SO:0001763 ! variant_frequency
 created_by: kareneilbeck
@@ -15639,6 +15823,7 @@ creation_date: 2011-03-15T03:53:15Z
 [Term]
 id: SO:0001770
 name: benign_variant
+def: "A variant that does not affect the function of the gene or cause disease." []
 synonym: "benign variant" EXACT []
 is_a: SO:0001769 ! variant_phenotype
 created_by: kareneilbeck
@@ -15647,6 +15832,7 @@ creation_date: 2011-03-15T03:55:40Z
 [Term]
 id: SO:0001771
 name: disease_associated_variant
+def: "A variant that has been found to be associated with disease." []
 synonym: "disease associated variant" EXACT []
 is_a: SO:0001769 ! variant_phenotype
 created_by: kareneilbeck
@@ -15655,6 +15841,7 @@ creation_date: 2011-03-15T04:05:16Z
 [Term]
 id: SO:0001772
 name: disease_causing_variant
+def: "A variant that has been found to cause disease." []
 synonym: "disease causing variant" EXACT []
 is_a: SO:0001769 ! variant_phenotype
 created_by: kareneilbeck
@@ -15672,6 +15859,7 @@ creation_date: 2011-03-15T04:06:22Z
 [Term]
 id: SO:0001774
 name: quantitative_variant
+def: "A variant within a gene that contributes to a quantitative trait such as height or weight." []
 synonym: "quantitative variant" EXACT []
 is_a: SO:0001769 ! variant_phenotype
 created_by: kareneilbeck
@@ -15680,6 +15868,7 @@ creation_date: 2011-03-15T04:28:13Z
 [Term]
 id: SO:0001775
 name: maternal_variant
+def: "A variant in the genetic material inherited from the mother." []
 synonym: "maternal variant" EXACT []
 is_a: SO:0001762 ! variant_origin
 created_by: kareneilbeck
@@ -15688,6 +15877,7 @@ creation_date: 2011-03-15T04:30:23Z
 [Term]
 id: SO:0001776
 name: paternal_variant
+def: "A variant in the genetic material inherited from the father." []
 synonym: "paternal variant" EXACT []
 is_a: SO:0001762 ! variant_origin
 created_by: kareneilbeck
@@ -15696,6 +15886,7 @@ creation_date: 2011-03-15T04:30:47Z
 [Term]
 id: SO:0001777
 name: somatic_variant
+def: "A variant that has arisen after splitting of the embryo, resulting in the variant being found in only some of the tissues or cells of the body." []
 synonym: "somatic variant" EXACT []
 is_a: SO:0001762 ! variant_origin
 created_by: kareneilbeck
@@ -15704,6 +15895,7 @@ creation_date: 2011-03-15T04:31:12Z
 [Term]
 id: SO:0001778
 name: germline_variant
+def: "A variant present in the embryo that is carried by every cell in the body." []
 synonym: "germline variant" EXACT []
 is_a: SO:0001762 ! variant_origin
 created_by: kareneilbeck
@@ -15712,6 +15904,7 @@ creation_date: 2011-03-15T04:31:46Z
 [Term]
 id: SO:0001779
 name: pedigree_specific_variant
+def: "A variant that is found only by individuals that belong to the same pedigree." []
 synonym: "pedigree specific variant" EXACT []
 is_a: SO:0001762 ! variant_origin
 created_by: kareneilbeck
@@ -15720,6 +15913,7 @@ creation_date: 2011-03-15T04:32:18Z
 [Term]
 id: SO:0001780
 name: population_specific_variant
+def: "A variant found within only speficic populations." []
 synonym: "population specific variant" EXACT []
 is_a: SO:0001762 ! variant_origin
 created_by: kareneilbeck
@@ -15728,6 +15922,7 @@ creation_date: 2011-03-15T04:33:05Z
 [Term]
 id: SO:0001781
 name: de_novo_variant
+def: "A variant arising in the offspring that is not found in either of the parents." []
 synonym: "de novo variant" EXACT []
 is_a: SO:0001762 ! variant_origin
 created_by: kareneilbeck
@@ -15762,6 +15957,7 @@ creation_date: 2011-03-23T03:21:19Z
 [Term]
 id: SO:0001785
 name: structural_alteration
+def: "An alteration of the genome that leads to a change in the structure of one or more chromosomes." []
 subset: DBVAR
 synonym: "structural alteration" EXACT []
 is_a: SO:0001059 ! sequence_alteration
@@ -16063,6 +16259,7 @@ creation_date: 2011-06-17T12:42:48Z
 [Term]
 id: SO:0001814
 name: coding_variant_quality
+def: "An attribute of a coding genomic variant." []
 synonym: "coding variant quality" EXACT []
 is_a: SO:0001761 ! variant_quality
 created_by: kareneilbeck
@@ -16071,6 +16268,7 @@ creation_date: 2011-06-24T03:32:25Z
 [Term]
 id: SO:0001815
 name: synonymous
+def: "A variant that does not lead to any change in the amino acid sequence." []
 is_a: SO:0001814 ! coding_variant_quality
 created_by: kareneilbeck
 creation_date: 2011-06-24T03:33:16Z
@@ -16078,6 +16276,7 @@ creation_date: 2011-06-24T03:33:16Z
 [Term]
 id: SO:0001816
 name: non_synonymous
+def: "A variant that leads to the change of an amino acid within the protein." []
 synonym: "non synonymous" RELATED []
 is_a: SO:0001814 ! coding_variant_quality
 created_by: kareneilbeck
@@ -17703,6 +17902,7 @@ creation_date: 2013-05-23T10:55:03Z
 [Term]
 id: SO:0001971
 name: zinc_finger_binding_site
+def: "A binding site to which a polypeptide will bind with a zinc finger motif, which is characterized by requiring one or more Zinc 2+ ions for stabilized folding." []
 synonym: "zinc finger binding site" EXACT []
 synonym: "zinc_fing" EXACT BS [unirot:features]
 is_a: SO:0001429 ! DNA_binding_site
@@ -17859,6 +18059,7 @@ creation_date: 2013-07-31T03:46:14Z
 [Term]
 id: SO:0001987
 name: downstream_transcript_variant
+def: "A feature variant, where the alteration occurs downstream of the transcript termination site." []
 comment: Requested by Graham Ritchie, EBI/Sanger.
 synonym: "downstream transcript variant" EXACT []
 is_a: SO:0001628 ! intergenic_variant
@@ -18729,7 +18930,7 @@ creation_date: 2015-11-23T14:24:16Z
 id: SO:0002075
 name: incomplete_transcript_variant
 def: "A sequence variant that intersects an incompletely annotated transcript." [SO:ke]
-comment: This term is to map to the ANNOVAR term 'ncRNA' http://annovar.openbioinformatics.org/en/latest/user-guide/gene/ . The description in the documentation (11/23/15) 'variant overlaps a transcript without coding annotation in the gene definition'. and this is further clarified in the document: ncRNA above refers to RNA without coding annotation. It does not mean that this is a RNA that will never be translated; it merely means that the user-selected gene annotation system was not able to give a coding sequence annotation. It could still code protein products and may have such annotations in future versions of gene annotation or in another gene annotation system. For example, BC039000 is regarded as ncRNA by ANNOVAR when using UCSC Known Gene annotation, but it is regarded as a protein-coding gene by ANNOVAR when using ENSEMBL annotation.  \n\nIt is further clarified in the comments section as: ncRNA does NOT mean conventional non-coding RNA. It means a RNA without complete coding sequence, and it can be a coding RNA that is annotated incorrectly by RefSeq or other gene definition systems.
+comment: This term is to map to the ANNOVAR term 'ncRNA' http://annovar.openbioinformatics.org/en/latest/user-guide/gene/ . The description in the documentation (11/23/15) 'variant overlaps a transcript without coding annotation in the gene definition'. and this is further clarified in the document: ncRNA above refers to RNA without coding annotation. It does not mean that this is a RNA that will never be translated; it merely means that the user-selected gene annotation system was not able to give a coding sequence annotation. It could still code protein products and may have such annotations in future versions of gene annotation or in another gene annotation system. For example, BC039000 is regarded as ncRNA by ANNOVAR when using UCSC Known Gene annotation, but it is regarded as a protein-coding gene by ANNOVAR when using ENSEMBL annotation.\n\nIt is further clarified in the comments section as: ncRNA does NOT mean conventional non-coding RNA. It means a RNA without complete coding sequence, and it can be a coding RNA that is annotated incorrectly by RefSeq or other gene definition systems.
 synonym: "incomplete transcript variant" EXACT []
 xref: http://annovar.openbioinformatics.org/en/latest/user-guide/gene/
 is_a: SO:0001576 ! transcript_variant
@@ -20310,6 +20511,15 @@ created_by: david
 creation_date: 2019-10-30T11:19:52Z
 
 [Term]
+id: SO:0002226
+name: group_IIC_intron
+def: "A group II intron that recognizes IBS1/EBS1 for the 5-prime exon and IBS3/EBS3 for the 3-prime exon and may also recognize a stem-loop in the RNA." [PMID:20463000]
+synonym: "group IIB intron" EXACT []
+is_a: SO:0000603 ! group_II_intron
+created_by: david
+creation_date: 2020-03-27T08:56:34Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
@@ -20357,18 +20567,21 @@ is_a: SO:0000147 ! exon
 [Term]
 id: SO:0005847
 name: cassette_array_member
+def: "A gene that is a member of a gene cassette, which is a mobile genetic element." []
 synonym: "cassette array member" EXACT []
 is_a: SO:0005848 ! gene_cassette_member
 
 [Term]
 id: SO:0005848
 name: gene_cassette_member
+def: "A gene that is a member of a gene cassette, which is a mobile genetic element." []
 synonym: "gene cassette member" EXACT []
 is_a: SO:0000081 ! gene_array_member
 
 [Term]
 id: SO:0005849
 name: gene_subarray_member
+def: "A gene that is a member of a group of genes that are either regulated or transcribed together within a larger group of genes that are regulated or transcribed together." []
 synonym: "gene subarray member" EXACT []
 is_a: SO:0000081 ! gene_array_member
 
@@ -20697,6 +20910,7 @@ is_a: SO:1000011 ! C_to_T_transition
 [Term]
 id: SO:1000013
 name: T_to_C_transition
+def: "A transition of a thymine to a cytidine." []
 synonym: "T to C transition" EXACT []
 is_a: SO:1000010 ! pyrimidine_transition
 
@@ -20745,6 +20959,7 @@ is_a: SO:1000018 ! pyrimidine_to_purine_transversion
 [Term]
 id: SO:1000020
 name: C_to_G_transversion
+def: "A transversion of a cytidine to a guanine." []
 synonym: "C to G transversion" EXACT []
 is_a: SO:1000018 ! pyrimidine_to_purine_transversion
 
@@ -21898,6 +22113,7 @@ is_a: SO:1000041 ! intrachromosomal_transposition
 [Term]
 id: SO:1000170
 name: uncharacterized_chromosomal_mutation
+def: "A chromosome structure variant that has not been characterized." []
 synonym: "uncharacterized chromosomal mutation" EXACT []
 is_a: SO:1000183 ! chromosome_structure_variation
 
@@ -21925,6 +22141,7 @@ is_a: SO:1000035 ! duplication
 [Term]
 id: SO:1000175
 name: partially_characterized_chromosomal_mutation
+def: "A chromosome structure variant that has not been characterized fully." []
 synonym: "partially characterized chromosomal mutation" EXACT []
 is_a: SO:1000170 ! uncharacterized_chromosomal_mutation
 
@@ -21959,6 +22176,7 @@ is_a: SO:0000240 ! chromosome_variation
 [Term]
 id: SO:1000183
 name: chromosome_structure_variation
+def: "An alteration of the genome that leads to a change in the structure or number of one or more chromosomes." []
 synonym: "chromosome structure variation" EXACT []
 synonym: "snpEff:CHROMOSOME_LARGE_DELETION" EXACT VAR []
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
@@ -22080,6 +22298,7 @@ relationship: has_quality SO:0000879 ! dicistronic
 [Term]
 id: SO:1001217
 name: member_of_regulon
+def: "A gene that is a member of a group of genes that are either regulated or transcribed together." []
 synonym: "member of regulon" EXACT []
 is_a: SO:0000081 ! gene_array_member
 

@@ -888,6 +888,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001153",
       "meta" : {
+        "definition" : {
+          "val" : "A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -120 degrees, psi-2 = 120 degrees, phi-3 = -60 degrees, psi-3 = 0 degrees.",
+          "xrefs" : [ "PMID:27428516" ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -912,6 +916,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001152",
       "meta" : {
+        "definition" : {
+          "val" : "A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -60 degrees, psi-2 = 120 degrees, phi-3 = -90 degrees, psi-3 = 0 degrees.",
+          "xrefs" : [ "PMID:27428516" ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2722,11 +2730,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "BS:00246"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
         } ],
         "deprecated" : true
       },
@@ -4510,13 +4518,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001110",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001061",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001110",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
       "pred" : "is_a",

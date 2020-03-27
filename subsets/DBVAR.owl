@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/so/subsets/DBVAR.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/so-xp.owl/subsets/DBVAR.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/so.owl/subsets/DBVAR.owl"/>
     </owl:Ontology>
     
 
@@ -1370,6 +1370,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0001785 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001785">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alteration of the genome that leads to a change in the structure of one or more chromosomes.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-03-25T02:27:41Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structural alteration</oboInOwl:hasExactSynonym>

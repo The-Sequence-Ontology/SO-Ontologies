@@ -932,6 +932,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001785",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of the genome that leads to a change in the structure of one or more chromosomes.",
+          "xrefs" : [ ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#DBVAR" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",

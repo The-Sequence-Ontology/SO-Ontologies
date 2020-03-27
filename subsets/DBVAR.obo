@@ -88,6 +88,7 @@ creation_date: 2011-03-23T03:21:19Z
 id: SO:0001785
 name: structural_alteration
 namespace: sequence
+def: "An alteration of the genome that leads to a change in the structure of one or more chromosomes." []
 subset: DBVAR
 synonym: "structural alteration" EXACT []
 created_by: kareneilbeck

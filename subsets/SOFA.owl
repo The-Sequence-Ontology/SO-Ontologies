@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/so/subsets/SOFA.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/so-xp.owl/subsets/SOFA.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/so.owl/subsets/SOFA.owl"/>
     </owl:Ontology>
     
 
@@ -1210,6 +1210,7 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000195"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coding exon that is not the most 3-prime or the most 5-prime in a given transcript.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interior coding exon</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000004</oboInOwl:id>
@@ -5481,6 +5482,7 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000628">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000830"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions of the chromosome that are important for structural elements.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosomal structural element</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000628</oboInOwl:id>
@@ -6508,6 +6510,7 @@ For example a variant transcript may have lost a stop codon present in the refer
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region that is involved in the regulation of transcription of a group of regulated genes.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene group regulatory region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000752</oboInOwl:id>
@@ -6874,6 +6877,7 @@ For example a variant transcript may have lost a stop codon present in the refer
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of a gene that has a specific function.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene component region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000842</oboInOwl:id>

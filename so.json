@@ -285,6 +285,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001014",
       "meta" : {
+        "definition" : {
+          "val" : "An intronic region that has an attribute.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "Requested by Colin Batchelor, Feb 2007." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -383,7 +387,7 @@
           "val" : "The X element is a conserved region, of the telomere, of ~475 bp that contains an ARS sequence and in most cases an Abf1p binding site.",
           "xrefs" : [ "PMID:7785338", "PMID:8005434", "http://www.yeastgenome.org/help/glossary.html#xelemcoresequence" ]
         },
-        "comments" : [ "Possible functions include roles in chromosomal segregation,\nmaintenance of chromosome stability, recombinational sequestering, or as a\nbarrier to transcriptional silencing. This term was requested 2009-10-16 by Michel Dumontier, tracker id 2880747. \n\nFrom Janos Demeter: The only region shared by all chromosome ends, the X element core sequence is a small conserved element (~475 bp) that contains an ARS sequence and in most cases an Abf1p binding site. Between these is a GC-rich region nearly identical to the meiosis-specific regulatory sequence URS1." ],
+        "comments" : [ "Possible functions include roles in chromosomal segregation,\nmaintenance of chromosome stability, recombinational sequestering, or as a\nbarrier to transcriptional silencing. This term was requested 2009-10-16 by Michel Dumontier, tracker id 2880747.\n\nFrom Janos Demeter: The only region shared by all chromosome ends, the X element core sequence is a small conserved element (~475 bp) that contains an ARS sequence and in most cases an Abf1p binding site. Between these is a GC-rich region nearly identical to the meiosis-specific regulatory sequence URS1." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "X element core sequence",
@@ -758,6 +762,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0005849",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that is a member of a group of genes that are either regulated or transcribed together within a larger group of genes that are regulated or transcribed together.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "gene subarray member",
@@ -773,6 +781,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0005848",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that is a member of a gene cassette, which is a mobile genetic element.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "gene cassette member",
@@ -788,6 +800,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0005847",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that is a member of a gene cassette, which is a mobile genetic element.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "cassette array member",
@@ -851,6 +867,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001005",
       "meta" : {
+        "definition" : {
+          "val" : "A region where the DNA does not contain an equal distrubution of all four possible nucleotides or does not contain all four nucleotides.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "low complexity region",
@@ -913,6 +933,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001004",
       "meta" : {
+        "definition" : {
+          "val" : "When a sequence does not contain an equal distribution of all four possible nucleotide bases or does not contain all nucleotide bases.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "low complexity",
@@ -1530,6 +1554,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001482",
       "meta" : {
+        "definition" : {
+          "val" : "An enhancer that drives the pattern of transcription and binds to the same TF as the primary enhancer, but is located in the intron of or on the far side of a neighboring gene.",
+          "xrefs" : [ "PMID:22083793" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "shadow enhancer",
@@ -1823,6 +1851,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001033",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a chloroplast, a photosynthetic plastid.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "This term is used by MO." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2004,6 +2036,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001032",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a mitochondria.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "This terms is used by MO." ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/Mitochondrial_DNA"
@@ -2200,6 +2236,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001029",
       "meta" : {
+        "definition" : {
+          "val" : "The attribute of whether the sequence is the same direction as a feature (forward) or the opposite direction as a feature (reverse).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "direction attribute",
@@ -3486,6 +3526,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000190",
       "meta" : {
+        "definition" : {
+          "val" : "An intron that is the most 5-prime in a given transcript.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "5' intron sequence",
@@ -3509,6 +3553,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000192",
       "meta" : {
+        "definition" : {
+          "val" : "An intron that is the most 3-prime in a given transcript.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "3' intron sequence",
@@ -3532,6 +3580,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000191",
       "meta" : {
+        "definition" : {
+          "val" : "An intron that is not the most 3-prime or the most 5-prime in a given transcript.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "interior intron",
@@ -5706,6 +5758,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000951",
       "meta" : {
+        "definition" : {
+          "val" : "A signal for RNA polymerase to terminate transcription.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "eukaryotic terminator",
@@ -5721,6 +5777,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1001217",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that is a member of a group of genes that are either regulated or transcribed together.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "member of regulon",
@@ -5989,6 +6049,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000940",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that is recombinationally rearranged.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "recombinationally rearranged",
@@ -6042,6 +6106,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000981",
       "meta" : {
+        "definition" : {
+          "val" : "A transcription terminator that is dependent upon Rho.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "rho dependent bacterial terminator",
@@ -6424,6 +6492,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000975",
       "meta" : {
+        "definition" : {
+          "val" : "A gene found within a minicircle.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "minicircle gene",
@@ -6934,6 +7006,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001816",
       "meta" : {
+        "definition" : {
+          "val" : "A variant that leads to the change of an amino acid within the protein.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "non synonymous",
@@ -6973,6 +7049,26 @@
       "type" : "CLASS",
       "lbl" : "rolling_circle"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001815",
+      "meta" : {
+        "definition" : {
+          "val" : "A variant that does not lead to any change in the amino acid sequence.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-06-24T03:33:16Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "synonymous"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000968",
       "meta" : {
         "comments" : [ "This has been obsoleted as it represents a process. replaced_by: GO:0034961." ],
@@ -6989,22 +7085,6 @@
       },
       "type" : "CLASS",
       "lbl" : "sequence_replication_mode"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0001815",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "kareneilbeck"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
-          "val" : "2011-06-24T03:33:16Z"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "synonymous"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001818",
       "meta" : {
@@ -7146,27 +7226,12 @@
       "type" : "CLASS",
       "lbl" : "linear_double_stranded_RNA_chromosome"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000967",
-      "meta" : {
-        "definition" : {
-          "val" : "Structural unit composed of a self-replicating, double-stranded, circular RNA molecule.",
-          "xrefs" : [ "SO:ma" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "circular double stranded RNA chromosome",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "circular_double_stranded_RNA_chromosome"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001814",
       "meta" : {
+        "definition" : {
+          "val" : "An attribute of a coding genomic variant.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "coding variant quality",
@@ -7185,6 +7250,25 @@
       },
       "type" : "CLASS",
       "lbl" : "coding_variant_quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000967",
+      "meta" : {
+        "definition" : {
+          "val" : "Structural unit composed of a self-replicating, double-stranded, circular RNA molecule.",
+          "xrefs" : [ "SO:ma" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "circular double stranded RNA chromosome",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "circular_double_stranded_RNA_chromosome"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001813",
       "meta" : {
@@ -7721,6 +7805,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000997",
       "meta" : {
+        "definition" : {
+          "val" : "A portion of a gene that is not the complete gene.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "This term is mapped to MGED. Do not obsolete without consulting MGED ontology." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8011,6 +8099,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000994",
       "meta" : {
+        "definition" : {
+          "val" : "A region that has a known consensus sequence.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "DO not obsolete without considering MGED mapping." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8082,6 +8174,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000993",
       "meta" : {
+        "definition" : {
+          "val" : "A sequence produced from an aligment algorithm that uses multiple sequences as input.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "Term added Dec 06 to comply with mapping to MGED terms. It should be used to generate consensus regions. The specific cross product terms they require are consensus_region and consensus_mRNA." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -8137,6 +8233,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000996",
       "meta" : {
+        "definition" : {
+          "val" : "A region of the genome that has been predicted to be a gene but has not been confirmed by laboratory experiments.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "This term is mapped to MGED. Do not obsolete without consulting MGED ontology." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8209,6 +8309,26 @@
       "type" : "CLASS",
       "lbl" : "AP_1_binding_site"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000995",
+      "meta" : {
+        "definition" : {
+          "val" : "An mRNA sequence produced from an aligment algorithm that uses multiple sequences as input.",
+          "xrefs" : [ ]
+        },
+        "comments" : [ "DO not obsolete without considering MGED mapping." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "consensus mRNA",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "consensus_mRNA"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000511",
       "meta" : {
         "definition" : {
@@ -8254,22 +8374,6 @@
       "type" : "CLASS",
       "lbl" : "SECIS_element"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000995",
-      "meta" : {
-        "comments" : [ "DO not obsolete without considering MGED mapping." ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "consensus mRNA",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "consensus_mRNA"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000990",
       "meta" : {
         "definition" : {
@@ -8311,6 +8415,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000992",
       "meta" : {
+        "definition" : {
+          "val" : "A region of DNA that has been inserted into the bacterial genome using a bacterial artificial chromosome.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "Requested by Andy Schroder - Flybase Harvard, Nov 2006." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8784,6 +8892,26 @@
       "type" : "CLASS",
       "lbl" : "V_region"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000986",
+      "meta" : {
+        "definition" : {
+          "val" : "The attribute of whether a nucleotide polymer is linear or circular.",
+          "xrefs" : [ ]
+        },
+        "comments" : [ "Attributes added to describe the different kinds of replicon. SO workshop, September 2006." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "topology attribute",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "topology_attribute"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1001261",
       "meta" : {
         "definition" : {
@@ -8802,22 +8930,6 @@
       },
       "type" : "CLASS",
       "lbl" : "recoded_mRNA"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000986",
-      "meta" : {
-        "comments" : [ "Attributes added to describe the different kinds of replicon. SO workshop, September 2006." ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "topology attribute",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "topology_attribute"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000502",
       "meta" : {
@@ -9073,6 +9185,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000983",
       "meta" : {
+        "definition" : {
+          "val" : "The attribute of how many strands are present in a nucleotide polymer.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "Attributes added to describe the different kinds of replicon. SO workshop, September 2006." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -9108,6 +9224,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000982",
       "meta" : {
+        "definition" : {
+          "val" : "A transcription terminator that is not dependent upon Rho. Rather, the mRNA contains a sequence that allows it to base-pair with itself and make a stem-loop structure.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "rho independent bacterial terminator",
@@ -9186,6 +9306,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000985",
       "meta" : {
+        "definition" : {
+          "val" : "When a nucleotide polymer has two strands that are reverse-complement to one another and pair together.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "Attributes added to describe the different kinds of replicon. SO workshop, September 2006." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -9263,6 +9387,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000984",
       "meta" : {
+        "definition" : {
+          "val" : "When a nucleotide polymer has only one strand.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "Attributes added to describe the different kinds of replicon. SO workshop, September 2006." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -10745,6 +10873,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000563",
       "meta" : {
+        "definition" : {
+          "val" : "A 12 or 23 nucleotide spacer between two regions of an immunoglobulin/T-cell receptor gene that may be rearranged by recombinase.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "vertebrate immune system gene recombination spacer",
@@ -10858,6 +10990,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000562",
       "meta" : {
+        "definition" : {
+          "val" : "Nine nucleotide recombination site, part of V-gene, D-gene or J-gene recombination feature of an immunoglobulin or T-cell receptor gene.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "nonamer of recombination feature of vertebrate immune system gene",
@@ -11782,6 +11918,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000546",
       "meta" : {
+        "definition" : {
+          "val" : "An oligonucleotide sequence that was designed by an experimenter that may or may not correspond with any natural sequence.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "designed sequence",
@@ -12156,6 +12296,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000585",
       "meta" : {
+        "definition" : {
+          "val" : "snoRNA that is associated with guiding methylation of nucleotides. It contains two short conserved sequence motifs: C (RUGAUGA) near the 5-prime end and D (CUGA) near the 3-prime end.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "C/D box snoRNA encoding",
@@ -12439,6 +12583,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000575",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a small cytoplasmic RNA (scRNA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "scRNA encoding",
@@ -12454,6 +12602,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000578",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a small nucleolar RNA (snoRNA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "snoRNA encoding",
@@ -12555,6 +12707,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000571",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a microRNA (miRNA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "miRNA encoding",
@@ -12636,6 +12792,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000573",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a  ribosomal RNA (rRNA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "rRNA encoding",
@@ -13184,6 +13344,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001452",
       "meta" : {
+        "definition" : {
+          "val" : "A positively charged, hydorophilic amino acid encoded by the codons CAT and CAC.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13229,6 +13393,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001451",
       "meta" : {
+        "definition" : {
+          "val" : "A positively charged, hydorophilic amino acid encoded by the codons CGN (CGT, CGC, CGA and CGG), AGA and AGG.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13269,6 +13437,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001454",
       "meta" : {
+        "definition" : {
+          "val" : "A negatively charged, hydorophilic amino acid encoded by the codons GAA and GAG.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13293,6 +13465,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001453",
       "meta" : {
+        "definition" : {
+          "val" : "A negatively charged, hydorophilic amino acid encoded by the codons GAT and GAC.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13336,6 +13512,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001450",
       "meta" : {
+        "definition" : {
+          "val" : "A positively charged, hydorophilic amino acid encoded by the codons AAA and AAG.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13356,6 +13536,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001449",
       "meta" : {
+        "definition" : {
+          "val" : "A polar, hydorophilic amino acid encoded by the codons AAT and AAC.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13395,6 +13579,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001448",
       "meta" : {
+        "definition" : {
+          "val" : "A polar, hydorophilic amino acid encoded by the codons CAA and CAG. ",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13440,6 +13628,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001445",
       "meta" : {
+        "definition" : {
+          "val" : "A polar, hydorophilic amino acid encoded by the codons ACN (ACT, ACC, ACA and ACG).",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13551,6 +13743,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001444",
       "meta" : {
+        "definition" : {
+          "val" : "A polar, hydorophilic amino acid encoded by the codons TCN (TCT, TCC, TCA, TCG), AGT and AGC.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13585,6 +13781,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001447",
       "meta" : {
+        "definition" : {
+          "val" : "A polar amino acid encoded by the codons TGT and TGC.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13605,6 +13805,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001446",
       "meta" : {
+        "definition" : {
+          "val" : "A polar, hydorophilic amino acid encoded by the codons TAT and TAC.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13647,6 +13851,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001441",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophobic amino acid encoded by the codons TTT and TTC.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13762,6 +13970,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001440",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophobic amino acid encoded by the codon TGG.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13836,6 +14048,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001443",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophilic amino acid encoded by the codons GGN (GGT, GGC, GGA and GGG).",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13894,6 +14110,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001442",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophobic amino acid encoded by the codon ATG.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -14002,6 +14222,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001438",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophobic amino acid encoded by the codons ATH (ATT, ATC and ATA).",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -14022,6 +14246,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000107",
       "meta" : {
+        "definition" : {
+          "val" : "A single stranded oligo used for polymerase chain reaction.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "sequencing primer",
@@ -14048,6 +14276,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001437",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophobic amino acid encoded by the codons CTN (CTT, CTC, CTA and CTG), TTA and TTG.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -14116,6 +14348,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001439",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophobic amino acid encoded by the codons CCN (CCT, CCC, CCA and CCG).",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -14308,6 +14544,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001436",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophobic amino acid encoded by the codons GTN (GTT, GTC, GTA and GTG).",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -14383,6 +14623,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001435",
       "meta" : {
+        "definition" : {
+          "val" : "A non-polar, hydorophobic amino acid encoded by the codons GCN (GCT, GCC, GCA and GCG).",
+          "xrefs" : [ ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -15224,6 +15468,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001456",
       "meta" : {
+        "definition" : {
+          "val" : "A relatively rare amino acid encoded by the codon UAG in some contexts, whereas UAG is a termination codon in other contexts.",
+          "xrefs" : [ "PMID:15788401" ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -15244,6 +15492,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001455",
       "meta" : {
+        "definition" : {
+          "val" : "A relatively rare amino acid encoded by the codon UGA in some contexts, whereas UGA is a termination codon in other contexts.",
+          "xrefs" : [ "PMID:23275319" ]
+        },
         "comments" : [ "A place holder for a cross product with chebi." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -17118,6 +17370,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000028",
       "meta" : {
+        "definition" : {
+          "val" : "Two bases paired opposite each other by hydrogen bonds creating a secondary structure.",
+          "xrefs" : [ ]
+        },
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/Base_pair"
         } ],
@@ -17625,6 +17881,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001391",
       "meta" : {
+        "definition" : {
+          "val" : "A post translationally modified glutamic acid.",
+          "xrefs" : [ ]
+        },
         "xrefs" : [ {
           "val" : "MOD:00906"
         } ],
@@ -17651,6 +17911,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000060",
       "meta" : {
+        "definition" : {
+          "val" : "One arm of a compound chromosome.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "FLAG - this term is should probably be a part of rather than an is_a." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -18067,6 +18331,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001384",
       "meta" : {
+        "definition" : {
+          "val" : "A portion of a CDS that is not the complete CDS.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CDS fragment",
@@ -18292,6 +18560,31 @@
       "type" : "CLASS",
       "lbl" : "translocate"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0002226",
+      "meta" : {
+        "definition" : {
+          "val" : "A group II intron that recognizes IBS1/EBS1 for the 5-prime exon and IBS3/EBS3 for the 3-prime exon and may also recognize a stem-loop in the RNA.",
+          "xrefs" : [ "PMID:20463000" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "group IIB intron",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "david"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2020-03-27T08:56:34Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "group_IIC_intron"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000088",
       "meta" : {
         "definition" : {
@@ -18361,6 +18654,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000084",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the micronuclei of a cell.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "micronuclear sequence",
@@ -18376,6 +18673,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000083",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the macronuclei of ciliates.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "macronuclear sequence",
@@ -18413,6 +18714,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000080",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that is a member of an operon, which is a set of genes transcribed together as a unit.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "operon member",
@@ -19272,6 +19577,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000910",
       "meta" : {
+        "definition" : {
+          "val" : "A gene whose predicted amino acid sequence is unsupported by any experimental evidence or by any match with any other known sequence.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"
@@ -19406,6 +19715,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000903",
       "meta" : {
+        "definition" : {
+          "val" : "Endogenous DNA sequence that are likely to have arisen from retroviruses.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "endogenous retroviral sequence",
@@ -19579,6 +19892,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000939",
       "meta" : {
+        "definition" : {
+          "val" : "Feature used for the recombination of genomic material for the purpose of generating diversity of the immune system.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "vertebrate immune system gene recombination signal feature",
@@ -19620,6 +19937,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000936",
       "meta" : {
+        "definition" : {
+          "val" : "Genomic DNA of immunoglobulin/T-cell receptor gene in partially rearranged genomic DNA.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "vertebrate immunoglobulin T cell receptor rearranged segment",
@@ -19654,6 +19975,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000938",
       "meta" : {
+        "definition" : {
+          "val" : "Genomic DNA of immunoglobulin/T-cell receptor gene in rearranged configuration.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "vertebrate immunoglobulin T cell receptor rearranged gene cluster",
@@ -19680,6 +20005,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000932",
       "meta" : {
+        "definition" : {
+          "val" : "A primary transcript that, at least in part, encodes one or more proteins that has not been edited.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "pre-edited mRNA",
@@ -20051,6 +20380,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1000013",
       "meta" : {
+        "definition" : {
+          "val" : "A transition of a thymine to a cytidine.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "T to C transition",
@@ -20430,6 +20763,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1000020",
       "meta" : {
+        "definition" : {
+          "val" : "A transversion of a cytidine to a guanine.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "C to G transversion",
@@ -21452,6 +21789,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000856",
       "meta" : {
+        "definition" : {
+          "val" : "A region that is similar or identical across more than one species.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"
@@ -21512,6 +21853,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000850",
       "meta" : {
+        "definition" : {
+          "val" : "A component of the five-prime long terminal repeat.",
+          "xrefs" : [ "PMID:8649407" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "5' long term repeat component",
@@ -21892,6 +22237,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000848",
       "meta" : {
+        "definition" : {
+          "val" : "The long terminal repeat found at the ends of the sequence to be inserted into the host genome.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "long term repeat component",
@@ -21931,6 +22280,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000849",
       "meta" : {
+        "definition" : {
+          "val" : "A component of the three-prime long terminal repeat.",
+          "xrefs" : [ "PMID:8649407" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "three prime LTR component",
@@ -22094,6 +22447,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000842",
       "meta" : {
+        "definition" : {
+          "val" : "A region of a gene that has a specific function.",
+          "xrefs" : [ ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -23775,6 +24132,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000420",
       "meta" : {
+        "definition" : {
+          "val" : "An inverted repeat (SO:0000294) occurring at the 5-prime termini of a DNA transposon.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "5' TIR",
@@ -25792,6 +26153,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000401",
       "meta" : {
+        "definition" : {
+          "val" : "An attribute describing a gene.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "gene attribute",
@@ -25834,6 +26199,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001771",
       "meta" : {
+        "definition" : {
+          "val" : "A variant that has been found to be associated with disease.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "disease associated variant",
@@ -25855,6 +26224,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001770",
       "meta" : {
+        "definition" : {
+          "val" : "A variant that does not affect the function of the gene or cause disease.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "benign variant",
@@ -25930,6 +26303,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001772",
       "meta" : {
+        "definition" : {
+          "val" : "A variant that has been found to cause disease.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "disease causing variant",
@@ -25988,6 +26365,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001768",
       "meta" : {
+        "definition" : {
+          "val" : "When a variant has become fixed in the population so that it is now the only variant.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "fixed variant",
@@ -26040,6 +26421,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001767",
       "meta" : {
+        "definition" : {
+          "val" : "When a variant from the genomic sequence is commonly found in the general population.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "common variant",
@@ -26061,6 +26446,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000439",
       "meta" : {
+        "definition" : {
+          "val" : "A ring chromosome is a chromosome whose arms have fused together to form a ring in an inverted fashion, often with the loss of the ends of the chromosome.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "inverted ring chromosome",
@@ -26164,6 +26553,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000432",
       "meta" : {
+        "definition" : {
+          "val" : "The U5 segment of the three-prime long terminal repeat.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "U5 three prime LTR region",
@@ -26208,6 +26601,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001766",
       "meta" : {
+        "definition" : {
+          "val" : "A variant that affects one of several possible alleles at that location, such as the major histocompatibility complex (MHC) genes.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "polymorphic variant",
@@ -26252,6 +26649,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001765",
       "meta" : {
+        "definition" : {
+          "val" : "When a variant from the genomic sequence is rarely found in the general population. The threshold for 'rare' varies between studies.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "rare variant",
@@ -26336,6 +26737,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000431",
       "meta" : {
+        "definition" : {
+          "val" : "The U3 segment of the three-prime long terminal repeat.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "U3 three prime LTR region",
@@ -26380,6 +26785,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000430",
       "meta" : {
+        "definition" : {
+          "val" : "The R segment of the three-prime long terminal repeat.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "R 3' long terminal repeat region",
@@ -26445,6 +26854,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000429",
       "meta" : {
+        "definition" : {
+          "val" : "The U3 segment of the three-prime long terminal repeat.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "U3 5' long term repeat region",
@@ -26461,6 +26874,33 @@
       },
       "type" : "CLASS",
       "lbl" : "U3_five_prime_LTR_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000426",
+      "meta" : {
+        "definition" : {
+          "val" : "The long terminal repeat found at the three-prime end of the sequence to be inserted into the host genome.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "3' LTR",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "3' long terminal repeat",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "three prime LTR",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "three_prime_LTR"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001757",
       "meta" : {
@@ -26486,29 +26926,6 @@
       },
       "type" : "CLASS",
       "lbl" : "SL12_acceptor_site"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000426",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "3' LTR",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "3' long terminal repeat",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "three prime LTR",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "three_prime_LTR"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001756",
       "meta" : {
@@ -26537,6 +26954,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000425",
       "meta" : {
+        "definition" : {
+          "val" : "The long terminal repeat found at the five-prime end of the sequence to be inserted into the host genome.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "5' LTR",
@@ -26560,6 +26981,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000428",
       "meta" : {
+        "definition" : {
+          "val" : "The U5 segment of the three-prime long terminal repeat.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "U5 5' long terminal repeat region",
@@ -26615,6 +27040,29 @@
       "type" : "CLASS",
       "lbl" : "unitary_pseudogene"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000427",
+      "meta" : {
+        "definition" : {
+          "val" : "The R segment of the three-prime long terminal repeat.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "R 5' long term repeat region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "R five prime LTR region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "R_five_prime_LTR_region"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001758",
       "meta" : {
         "definition" : {
@@ -26639,25 +27087,6 @@
       },
       "type" : "CLASS",
       "lbl" : "duplicated_pseudogene"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000427",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "R 5' long term repeat region",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "R five prime LTR region",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "R_five_prime_LTR_region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001753",
       "meta" : {
@@ -26686,6 +27115,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000422",
       "meta" : {
+        "definition" : {
+          "val" : "The U5 segment of the long terminal repeats.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "U5 LTR region",
@@ -26705,6 +27138,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000421",
       "meta" : {
+        "definition" : {
+          "val" : "An inverted repeat (SO:0000294) occurring at the 3-prime termini of a DNA transposon.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "three prime terminal inverted repeat",
@@ -26774,6 +27211,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000424",
       "meta" : {
+        "definition" : {
+          "val" : "The U3 segment of the long terminal repeats.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "U3 LTR region",
@@ -26818,6 +27259,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000423",
       "meta" : {
+        "definition" : {
+          "val" : "The R segment of the long terminal repeats.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "R long terminal repeat region",
@@ -27147,6 +27592,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000460",
       "meta" : {
+        "definition" : {
+          "val" : "Germline genomic DNA with the sequence for a V, D, C, or J portion of an immunoglobulin/T-cell receptor.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "I am using the term segment instead of gene here to avoid confusion with the region 'gene'." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -27527,6 +27976,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001785",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of the genome that leads to a change in the structure of one or more chromosomes.",
+          "xrefs" : [ ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#DBVAR" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -27782,6 +28235,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001781",
       "meta" : {
+        "definition" : {
+          "val" : "A variant arising in the offspring that is not found in either of the parents.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "de novo variant",
@@ -27936,6 +28393,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001780",
       "meta" : {
+        "definition" : {
+          "val" : "A variant found within only speficic populations.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "population specific variant",
@@ -27996,6 +28457,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001779",
       "meta" : {
+        "definition" : {
+          "val" : "A variant that is found only by individuals that belong to the same pedigree.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "pedigree specific variant",
@@ -28017,6 +28482,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001778",
       "meta" : {
+        "definition" : {
+          "val" : "A variant present in the embryo that is carried by every cell in the body.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "germline variant",
@@ -28076,6 +28545,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001775",
       "meta" : {
+        "definition" : {
+          "val" : "A variant in the genetic material inherited from the mother.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "maternal variant",
@@ -28135,6 +28608,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001774",
       "meta" : {
+        "definition" : {
+          "val" : "A variant within a gene that contributes to a quantitative trait such as height or weight.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "quantitative variant",
@@ -28156,6 +28633,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001777",
       "meta" : {
+        "definition" : {
+          "val" : "A variant that has arisen after splitting of the embryo, resulting in the variant being found in only some of the tissues or cells of the body.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "somatic variant",
@@ -28223,6 +28704,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001776",
       "meta" : {
+        "definition" : {
+          "val" : "A variant in the genetic material inherited from the father.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "paternal variant",
@@ -28513,6 +28998,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000482",
       "meta" : {
+        "definition" : {
+          "val" : "Genomic DNA of immunoglobulin/T-cell receptor gene in germline configuration.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "vertebrate_immunoglobulin/T-cell receptor gene cluster",
@@ -30299,6 +30788,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000011",
       "meta" : {
+        "definition" : {
+          "val" : "A gene which can be transcribed, but will not be translated into a protein.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "non protein-coding",
@@ -30359,6 +30852,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000010",
       "meta" : {
+        "definition" : {
+          "val" : "A gene which, when transcribed, can be translated into a protein.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "protein-coding",
@@ -30674,6 +31171,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000492",
       "meta" : {
+        "definition" : {
+          "val" : "Recombination signal including D-heptamer, D-spacer and D-nonamer in 5' of D-region of a D-gene or D-sequence.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D gene recombination feature",
@@ -30791,6 +31292,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000004",
       "meta" : {
+        "definition" : {
+          "val" : "A coding exon that is not the most 3-prime or the most 5-prime in a given transcript.",
+          "xrefs" : [ ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -31789,6 +32294,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001241",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that has multiple possible transcription start sites.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "encodes alternate transcription start sites",
@@ -31947,6 +32456,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001239",
       "meta" : {
+        "definition" : {
+          "val" : "A tanscription start site that is not the most frequently used for transcription of a gene.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "minor TSS",
@@ -32039,6 +32552,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001238",
       "meta" : {
+        "definition" : {
+          "val" : "The tanscription start site that is most frequently used for transcription of a gene.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "major transcription start site",
@@ -32081,6 +32598,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001276",
       "meta" : {
+        "definition" : {
+          "val" : "A guanosine base that has been modified.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "modified guanosine",
@@ -32243,6 +32764,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001277",
       "meta" : {
+        "definition" : {
+          "val" : "A uridine base that has been modified.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "modified uridine",
@@ -32326,6 +32851,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001272",
       "meta" : {
+        "definition" : {
+          "val" : "A noncoding RNA that binds to a specific amino acid to allow that amino acid to be used by the ribosome during translation of RNA.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "tRNA gene",
@@ -32367,6 +32896,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001271",
       "meta" : {
+        "definition" : {
+          "val" : "A bacterial RNA with both tRNA and mRNA like properties.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "tmRNA gene",
@@ -32474,6 +33007,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001269",
       "meta" : {
+        "definition" : {
+          "val" : "A noncoding RNA that binds to the ribosome to halt protein synthesis when the signal peptide is present.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SRP RNA gene",
@@ -32594,6 +33131,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001265",
       "meta" : {
+        "definition" : {
+          "val" : "A small noncoding RNA of approximately 22 nucleotides in length which may be involved in regulation of gene expression.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "miRNA gene",
@@ -32650,6 +33191,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001264",
       "meta" : {
+        "definition" : {
+          "val" : "A noncoding RNA that guides the insertion or deletion of uridine residues in mitochondrial mRNAs. This may also refer to synthetic RNAs used to guide DNA editing using the CRIPSR/Cas9 system.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "gRNA gene",
@@ -32728,6 +33273,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001267",
       "meta" : {
+        "definition" : {
+          "val" : "A small noncoding RNA that guides chemical modification of other RNAs.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "snoRNA gene",
@@ -32743,6 +33292,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001266",
       "meta" : {
+        "definition" : {
+          "val" : "A small noncoding RNA that is generally found only in the cytoplasm.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "scRNA gene",
@@ -36322,6 +36875,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000806",
       "meta" : {
+        "definition" : {
+          "val" : "When two regions of DNA are joined together that are not normally together.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"
@@ -37290,6 +37847,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000738",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the nuclear genome of cell.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "nuclear sequence",
@@ -37305,6 +37866,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000737",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a mitochondria.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "This term is mapped to MGED. Do not obsolete without consulting MGED ontology." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -37321,6 +37886,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000739",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a plastid such as a chloroplast. The nucleomorph is the nuclei of the plastic.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "nucleomorphic sequence",
@@ -37423,6 +37992,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000736",
       "meta" : {
+        "definition" : {
+          "val" : "A sequence of DNA that originates from a an organelle.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "organelle sequence",
@@ -37462,6 +38035,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000735",
       "meta" : {
+        "definition" : {
+          "val" : "The location of a sequence.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "sequence location",
@@ -38285,6 +38862,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001602",
       "meta" : {
+        "definition" : {
+          "val" : "A variant that changes the translational product with respect to the reference.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "complex change of translational product variant",
@@ -38306,6 +38887,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1000183",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of the genome that leads to a change in the structure or number of one or more chromosomes.",
+          "xrefs" : [ ]
+        },
         "xrefs" : [ {
           "val" : "http://snpeff.sourceforge.net/SnpEff_manual.html"
         } ],
@@ -38328,6 +38913,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000755",
       "meta" : {
+        "definition" : {
+          "val" : "A plasmid that has been generated to act as a vector for foreign sequence.",
+          "xrefs" : [ ]
+        },
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/Plasmid_vector#Vectors"
         } ],
@@ -38346,6 +38935,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000758",
       "meta" : {
+        "definition" : {
+          "val" : "DNA synthesized from RNA by reverse transcriptase that has been copied by PCR to make it double stranded.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "double strand cDNA",
@@ -38420,6 +39013,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000757",
       "meta" : {
+        "definition" : {
+          "val" : "DNA synthesized from RNA by reverse transcriptase, single stranded.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "single strand cDNA",
@@ -38499,6 +39096,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000752",
       "meta" : {
+        "definition" : {
+          "val" : "A region that is involved in the regulation of transcription of a group of regulated genes.",
+          "xrefs" : [ ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -38515,6 +39116,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000751",
       "meta" : {
+        "definition" : {
+          "val" : "The location of DNA that has come from a viral origin.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "proviral location",
@@ -38683,6 +39288,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000749",
       "meta" : {
+        "definition" : {
+          "val" : "The location of DNA that has come from a plasmid sequence.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "plasmid location",
@@ -38698,6 +39307,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000748",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a proplastid such as an immature chloroplast.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "proplastid sequence",
@@ -38713,6 +39326,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000745",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a chloroplast, a green plastid for photosynthesis.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "chloroplast sequence",
@@ -38752,6 +39369,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000744",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a chromoplast, a colored plastid for synthesis and storage of pigments.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "chromoplast sequence",
@@ -38794,6 +39415,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000747",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a leucoplast, a colorless plastid generally containing starch or oil.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "leucoplast sequence",
@@ -38807,23 +39432,12 @@
       "type" : "CLASS",
       "lbl" : "leucoplast_sequence"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000746",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "cyanelle sequence",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "cyanelle_sequence"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1000170",
       "meta" : {
+        "definition" : {
+          "val" : "A chromosome structure variant that has not been characterized.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "uncharacterized chromosomal mutation",
@@ -38836,6 +39450,25 @@
       },
       "type" : "CLASS",
       "lbl" : "uncharacterized_chromosomal_mutation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000746",
+      "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a cyanelle, a photosynthetic plastid found in algae.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cyanelle sequence",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cyanelle_sequence"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000741",
       "meta" : {
@@ -38877,6 +39510,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000740",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of a plastid such as a chloroplast.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "plastid sequence",
@@ -38890,23 +39527,12 @@
       "type" : "CLASS",
       "lbl" : "plastid_sequence"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_1000175",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "partially characterized chromosomal mutation",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "partially_characterized_chromosomal_mutation"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000743",
       "meta" : {
+        "definition" : {
+          "val" : "DNA belonging to the genome of an apicoplast, a non-photosynthetic plastid.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "apicoplast sequence",
@@ -38919,6 +39545,25 @@
       },
       "type" : "CLASS",
       "lbl" : "apicoplast_sequence"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_1000175",
+      "meta" : {
+        "definition" : {
+          "val" : "A chromosome structure variant that has not been characterized fully.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "partially characterized chromosomal mutation",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "partially_characterized_chromosomal_mutation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000742",
       "meta" : {
@@ -41338,6 +41983,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000301",
       "meta" : {
+        "definition" : {
+          "val" : "A feature where recombination has occurred for the purpose of generating a diversity in the immune system.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "vertebrate immune system gene recombination feature",
@@ -41353,6 +42002,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000785",
       "meta" : {
+        "definition" : {
+          "val" : "The region of sequence that has been inserted and is being propagated by the clone.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "Added in response to Lynn Crosby. A clone insert may be composed of many cloned regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -41424,6 +42077,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000300",
       "meta" : {
+        "definition" : {
+          "val" : "A location where a gene is rearranged due to recombination during mitosis or meiosis.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "recombination feature of rearranged gene",
@@ -41758,6 +42415,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000342",
       "meta" : {
+        "definition" : {
+          "val" : "A region specifically recognised by a recombinase where recombination can occur during mitosis or meiosis.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "site specific recombination target region",
@@ -41773,6 +42434,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001670",
       "meta" : {
+        "definition" : {
+          "val" : "A regulatory promoter element that is distal from the TSS.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "distal promoter element",
@@ -42419,6 +43084,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000328",
       "meta" : {
+        "definition" : {
+          "val" : "A DNA sequence used experimentally to detect the presence or absence of a complementary nucleic acid.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "microarray oligo",
@@ -42516,6 +43185,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000322",
       "meta" : {
+        "definition" : {
+          "val" : "A region of nucleotide sequence targeted by a nuclease enzyme that is found cleaved more than would be expected by chance.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "nuclease hypersensitive site",
@@ -42915,6 +43588,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001690",
       "meta" : {
+        "definition" : {
+          "val" : "The restriction enzyme cleavage junction on the 3' strand of the nucleotide sequence.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "3' restriction enzyme junction",
@@ -42936,6 +43613,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001692",
       "meta" : {
+        "definition" : {
+          "val" : "A site where restriction enzymes can cleave that will produce an overhang or 'sticky end'.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "sticky end restriction enzyme cleavage site",
@@ -43921,6 +44602,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000346",
       "meta" : {
+        "definition" : {
+          "val" : "Cre-Recombination target sequence.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "Cre-recombination target region",
@@ -44234,6 +44919,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000381",
       "meta" : {
+        "definition" : {
+          "val" : "A group II intron that recognizes IBS1/EBS1 and IBS2/EBS2 for the 5-prime exon and gamma/gamma-prime for the 3-prime exon.",
+          "xrefs" : [ "PMID:20463000" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "group IIA intron",
@@ -44405,6 +45094,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000382",
       "meta" : {
+        "definition" : {
+          "val" : "A group II intron that recognizes IBS1/EBS1 and IBS2/EBS2 for the 5-prime exon and IBS3/EBS3 for the 3-prime exon.",
+          "xrefs" : [ "PMID:20463000" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "group IIB intron",
@@ -45178,6 +45871,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001217",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that codes for an RNA that can be translated into a protein.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "protein coding gene",
@@ -45193,6 +45890,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001219",
       "meta" : {
+        "definition" : {
+          "val" : "A gene that has been produced as the product of a reverse transcriptase mediated event.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"
@@ -47103,6 +47804,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001153",
       "meta" : {
+        "definition" : {
+          "val" : "A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -120 degrees, psi-2 = 120 degrees, phi-3 = -60 degrees, psi-3 = 0 degrees.",
+          "xrefs" : [ "PMID:27428516" ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -47127,6 +47832,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001152",
       "meta" : {
+        "definition" : {
+          "val" : "A type VIa beta turn with the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -60 degrees, psi-2 = 120 degrees, phi-3 = -90 degrees, psi-3 = 0 degrees.",
+          "xrefs" : [ "PMID:27428516" ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -47394,6 +48103,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000299",
       "meta" : {
+        "definition" : {
+          "val" : "A location where recombination or occurs during mitosis or meiosis.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "specific recombination site",
@@ -47460,6 +48173,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000298",
       "meta" : {
+        "definition" : {
+          "val" : "A feature where there has been exchange of genetic material in the event of mitosis or meiosis",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "recombination feature",
@@ -47649,6 +48366,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000291",
       "meta" : {
+        "definition" : {
+          "val" : "A region of a repeating trinucleotide sequence (three bases).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "trinucleotide repeat microsatellite feature",
@@ -47676,6 +48397,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000290",
       "meta" : {
+        "definition" : {
+          "val" : "A region of a repeating dinucleotide sequence (two bases).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "dinucleotide repeat microsatellite marker",
@@ -51380,7 +52105,7 @@
           "val" : "A sequence variant that intersects an incompletely annotated transcript.",
           "xrefs" : [ "SO:ke" ]
         },
-        "comments" : [ "This term is to map to the ANNOVAR term 'ncRNA' http://annovar.openbioinformatics.org/en/latest/user-guide/gene/ . The description in the documentation (11/23/15) 'variant overlaps a transcript without coding annotation in the gene definition'. and this is further clarified in the document: ncRNA above refers to RNA without coding annotation. It does not mean that this is a RNA that will never be translated; it merely means that the user-selected gene annotation system was not able to give a coding sequence annotation. It could still code protein products and may have such annotations in future versions of gene annotation or in another gene annotation system. For example, BC039000 is regarded as ncRNA by ANNOVAR when using UCSC Known Gene annotation, but it is regarded as a protein-coding gene by ANNOVAR when using ENSEMBL annotation.  \n\nIt is further clarified in the comments section as: ncRNA does NOT mean conventional non-coding RNA. It means a RNA without complete coding sequence, and it can be a coding RNA that is annotated incorrectly by RefSeq or other gene definition systems." ],
+        "comments" : [ "This term is to map to the ANNOVAR term 'ncRNA' http://annovar.openbioinformatics.org/en/latest/user-guide/gene/ . The description in the documentation (11/23/15) 'variant overlaps a transcript without coding annotation in the gene definition'. and this is further clarified in the document: ncRNA above refers to RNA without coding annotation. It does not mean that this is a RNA that will never be translated; it merely means that the user-selected gene annotation system was not able to give a coding sequence annotation. It could still code protein products and may have such annotations in future versions of gene annotation or in another gene annotation system. For example, BC039000 is regarded as ncRNA by ANNOVAR when using UCSC Known Gene annotation, but it is regarded as a protein-coding gene by ANNOVAR when using ENSEMBL annotation.\n\nIt is further clarified in the comments section as: ncRNA does NOT mean conventional non-coding RNA. It means a RNA without complete coding sequence, and it can be a coding RNA that is annotated incorrectly by RefSeq or other gene definition systems." ],
         "xrefs" : [ {
           "val" : "http://annovar.openbioinformatics.org/en/latest/user-guide/gene/"
         } ],
@@ -52924,6 +53649,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000617",
       "meta" : {
+        "definition" : {
+          "val" : "This type of promoter recruits RNA pol III. This promoter is intragenic and includes an A box, an intermediate element, and a C box. This is well conserved in the 5s rRNA promoters across species.",
+          "xrefs" : [ "PMID:12381659" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "RNApol III promoter type 1",
@@ -53040,6 +53769,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000618",
       "meta" : {
+        "definition" : {
+          "val" : "This type of promoter recruits RNA pol III to transcribe genes mainly for t-RNA. This promoter is intragenic and includes an A box and a B box.",
+          "xrefs" : [ "PMID:12381659" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "RNApol III promoter type 2",
@@ -53542,6 +54275,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000608",
       "meta" : {
+        "definition" : {
+          "val" : "snoRNA that is associated with guiding polyuridylation. It contains two short conserved sequence motifs: H box (ANANNA) and ACA (ACA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "H ACA box snoRNA encoding",
@@ -53861,6 +54598,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001971",
       "meta" : {
+        "definition" : {
+          "val" : "A binding site to which a polypeptide will bind with a zinc finger motif, which is characterized by requiring one or more Zinc 2+ ions for stabilized folding.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "zinc finger binding site",
@@ -54174,6 +54915,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000636",
       "meta" : {
+        "definition" : {
+          "val" : "Snall nuclear RNAs that are incorporated into the pre-mRNAs to replace the 5' end in some eukaryotes.",
+          "xrefs" : [ "PMID:24130571" ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "mini-exon",
@@ -54461,6 +55206,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000628",
       "meta" : {
+        "definition" : {
+          "val" : "Regions of the chromosome that are important for structural elements.",
+          "xrefs" : [ ]
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -54534,6 +55283,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000629",
       "meta" : {
+        "definition" : {
+          "val" : "An open reading frame found within the 5' UTR that can be translated and stall the translation of the downstream open reading frame.",
+          "xrefs" : [ "PMID:12890013" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "five prime open reading frame",
@@ -54631,6 +55384,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000623",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a small nuclear RNA (snRNA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "snRNA encoding",
@@ -54672,6 +55429,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000626",
       "meta" : {
+        "definition" : {
+          "val" : "Regions of the chromosome that are important for regulating binding of chromosomes to the nuclear matrix.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "chromosomal regulatory element",
@@ -54881,6 +55642,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000621",
       "meta" : {
+        "definition" : {
+          "val" : "This type of promoter recruits RNA pol III to transcribe predominantly noncoding RNAs. This promoter contains a proximal sequence element (PSE) and a TATA box upstream of the gene that it regulates. Transcription can also be activated by a distal sequence element (DSE), which is located further upstream. ",
+          "xrefs" : [ "PMID:12381659" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "RNApol III promoter type 3",
@@ -55083,6 +55848,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001508",
       "meta" : {
+        "definition" : {
+          "val" : "An attribute of alteration of one or more chromosomes.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "alteration attribute",
@@ -55155,6 +55924,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001509",
       "meta" : {
+        "definition" : {
+          "val" : "An attribute of a change in the structure or number of a chromosomes.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "chromosomal variation attribute",
@@ -55278,6 +56051,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001987",
       "meta" : {
+        "definition" : {
+          "val" : "A feature variant, where the alteration occurs downstream of the transcript termination site.",
+          "xrefs" : [ ]
+        },
         "comments" : [ "Requested by Graham Ritchie, EBI/Sanger." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -55300,6 +56077,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000656",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a small temporal RNA (stRNA). Found in roundworm development.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "stRNA encoding",
@@ -55366,6 +56147,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000659",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a transfer-messenger RNA (tmRNA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "tmRNA encoding",
@@ -56184,6 +56969,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000642",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a signal recognition particle RNA (SRP RNA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SRP RNA encoding",
@@ -56199,6 +56988,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000641",
       "meta" : {
+        "definition" : {
+          "val" : "A region of a repeating tetranucleotide sequence (four bases).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "tetranucleotide repeat microsatellite feature",
@@ -56841,6 +57634,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001522",
       "meta" : {
+        "definition" : {
+          "val" : "When a translocation is simply moving genetic material from one chromosome to another.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "kareneilbeck"
@@ -56887,6 +57684,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001521",
       "meta" : {
+        "definition" : {
+          "val" : "When translocation occurs between nonhomologous chromosomes and involved an equal exchange of genetic materials.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"
@@ -56903,6 +57704,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001524",
       "meta" : {
+        "definition" : {
+          "val" : "When a genome contains an abnormal amount of chromosomes.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "chromosomally aberrant genome",
@@ -56947,6 +57752,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001523",
       "meta" : {
+        "definition" : {
+          "val" : "An attribute of a duplication, which is an insertion which derives from, or is identical in sequence to, nucleotides present at a known location in the genome.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "duplication attribute",
@@ -57042,6 +57851,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001520",
       "meta" : {
+        "definition" : {
+          "val" : "An attribute of a translocation, which is then a region of nucleotide sequence that has translocated to a new position. The observed adjacency of two previously separated regions.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "translocation attribute",
@@ -57129,21 +57942,12 @@
       },
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/BS_00225",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000231",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000227"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
-          "val" : "http://purl.obolibrary.org/obo/SO_0001122"
-        } ],
-        "deprecated" : true
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001519",
       "meta" : {
+        "definition" : {
+          "val" : "An inversion event that does not include the centromere.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2010-03-04T02:58:35Z"
@@ -57158,8 +57962,25 @@
       "type" : "CLASS",
       "lbl" : "paracentric"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/BS_00225",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000231",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000227"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "http://purl.obolibrary.org/obo/SO_0001122"
+        } ],
+        "deprecated" : true
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001518",
       "meta" : {
+        "definition" : {
+          "val" : "An inversion event that includes the centromere.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2010-03-04T02:58:24Z"
@@ -57393,6 +58214,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001517",
       "meta" : {
+        "definition" : {
+          "val" : "When a region of a chromosome is changed to the reverse order without duplication or deletion.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "inversion attribute",
@@ -57460,6 +58285,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000669",
       "meta" : {
+        "definition" : {
+          "val" : "A feature where a segment of DNA has been rearranged from what it was in the parent cell.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "sequence rearrangement feature",
@@ -57475,6 +58304,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001511",
       "meta" : {
+        "definition" : {
+          "val" : "A change in chromosomes that occurs between two sections of the same chromosome or between homologous chromosomes.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "kareneilbeck"
@@ -57517,6 +58350,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000664",
       "meta" : {
+        "definition" : {
+          "val" : "A region of a chromosome that has been introduced by backcrossing with a separate species.",
+          "xrefs" : [ "PMID:11454782" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "introgressed chromosome region",
@@ -57557,6 +58394,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001510",
       "meta" : {
+        "definition" : {
+          "val" : "A change in chromosomes that occurs between two separate chromosomes.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2010-03-04T02:55:25Z"
@@ -57573,6 +58414,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000663",
       "meta" : {
+        "definition" : {
+          "val" : "A region that can be transcribed into a  transfer RNA (tRNA).",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "tRNA encoding",
@@ -57585,6 +58430,26 @@
       },
       "type" : "CLASS",
       "lbl" : "tRNA_encoding"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001513",
+      "meta" : {
+        "definition" : {
+          "val" : "An insertion of extension of a tandem repeat.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "kareneilbeck"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-03-04T02:56:37Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tandem"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000666",
       "meta" : {
@@ -57624,22 +58489,6 @@
       },
       "type" : "CLASS",
       "lbl" : "subtelomere"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0001513",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "kareneilbeck"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
-          "val" : "2010-03-04T02:56:37Z"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "tandem"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001512",
       "meta" : {
@@ -59478,6 +60327,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000240",
       "meta" : {
+        "definition" : {
+          "val" : "A deviation in chromosome structure or number.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "chromosome variation",
@@ -59748,6 +60601,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000237",
       "meta" : {
+        "definition" : {
+          "val" : "An attribute describing a transcript.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "transcript attribute",
@@ -60404,6 +61261,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001595",
       "meta" : {
+        "definition" : {
+          "val" : "A sequence variant which causes a disruption of the translational reading frame, by shifting two bases backward.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "+2 frameshift variant",
@@ -60843,6 +61704,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001593",
       "meta" : {
+        "definition" : {
+          "val" : "A sequence variant which causes a disruption of the translational reading frame, by shifting two bases forward.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "-2 frameshift variant",
@@ -62547,13 +63412,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_1001268"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001258",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000713"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000214",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000210"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001258",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000713"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000048",
       "pred" : "is_a",
@@ -62731,25 +63596,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000951",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000141"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1001197",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000951",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000141"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001777",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001762"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001534",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001527"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000905",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000733"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001534",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001527"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000062",
       "pred" : "is_a",
@@ -62767,13 +63632,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001237"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001546",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001538"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002090",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001624"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001546",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001538"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001885",
       "pred" : "is_a",
@@ -62883,13 +63748,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001056",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000567",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000550"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001760",
       "pred" : "is_a",
@@ -62971,13 +63836,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000884"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000799",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000720"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000038",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_1000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000799",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000720"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000022",
       "pred" : "is_a",
@@ -63019,13 +63884,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000442",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000696"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1001260",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000243"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000442",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000696"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000144",
       "pred" : "is_a",
@@ -63335,13 +64200,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000588"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000596",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000232"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000570",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000492"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000596",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000232"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000145",
       "pred" : "is_a",
@@ -63490,6 +64355,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SO_0001798",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001797"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0002226",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000603"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002215",
       "pred" : "is_a",
@@ -63807,13 +64676,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000578"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000413",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000700"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000443",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000400"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000413",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000700"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000152",
       "pred" : "is_a",
@@ -64135,13 +65004,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000028",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000481",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000294"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000861",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
@@ -64191,13 +65060,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0005855"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000719",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001876"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0100004",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000719",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001876"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001163",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -64579,13 +65448,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_1000018"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000889",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000136"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000606",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000579"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000889",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000136"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000364",
       "pred" : "is_a",
@@ -64831,13 +65700,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001538"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0002152",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001564"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000406",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000188"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0002152",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001564"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002002",
       "pred" : "is_a",
@@ -65007,13 +65876,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000235"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001366",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001277"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001116",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001114"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001366",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001277"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001081",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
@@ -65063,13 +65932,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000577"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001801",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000483"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000902",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001801",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000483"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000892",
       "pred" : "is_a",
@@ -65183,13 +66052,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001878"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001314",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001273"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001758",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001760"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001314",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001273"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001273",
       "pred" : "is_a",
@@ -65223,13 +66092,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000150"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001083",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001082"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001989",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001983"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001082"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000829",
       "pred" : "http://purl.obolibrary.org/obo/so#has_origin",
@@ -65287,17 +66156,17 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001796"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0005848",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001965",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000081"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001964"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001722",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001733"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001965",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0005848",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001964"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000081"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001953",
       "pred" : "is_a",
@@ -65767,13 +66636,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000946"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001492",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002064",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001837"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001492",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000313",
       "pred" : "is_a",
@@ -65995,13 +66864,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0002192",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000657"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000005",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000705"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0002192",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000657"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000851",
       "pred" : "is_a",
@@ -66091,13 +66960,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000777"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001484",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000657"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001436",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001237"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001484",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000657"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000420",
       "pred" : "is_a",
@@ -66251,6 +67120,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001039"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001659"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000728",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0100011"
@@ -66258,10 +67131,6 @@
       "sub" : "http://purl.obolibrary.org/obo/SO_0000638",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000838"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001157",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001659"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -66387,13 +67256,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000130"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001872",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001630",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001568"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001872",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000138",
       "pred" : "is_a",
@@ -66479,10 +67348,6 @@
       "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000225"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000929",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000116"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001437",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001237"
@@ -66490,6 +67355,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SO_0001485",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000657"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000929",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000116"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000404",
       "pred" : "is_a",
@@ -66631,13 +67500,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/so#homologous_to"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000382",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000603"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000434",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000314"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000382",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000603"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001252",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
@@ -66659,17 +67528,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001420"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000531",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000458"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001101",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000531",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000458"
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000147",
       "pred" : "is_a",
@@ -66735,13 +67604,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000234"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001634",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001632"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001646",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001645"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001634",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001632"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002033",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -66995,13 +67864,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000696"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001889",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001880"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000939",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000301"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001889",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001880"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000741",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
@@ -67083,13 +67952,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001645"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001979",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000715"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001872",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001785"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001979",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000715"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002181",
       "pred" : "is_a",
@@ -67187,13 +68056,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000340"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000776",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000772"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001172",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000253"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000776",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000772"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000729",
       "pred" : "is_a",
@@ -67539,13 +68408,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001870",
-      "pred" : "http://purl.obolibrary.org/obo/so#transcribed_from",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000165"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001896",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000316"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001870",
+      "pred" : "http://purl.obolibrary.org/obo/so#transcribed_from",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000165"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001334",
       "pred" : "is_a",
@@ -67687,25 +68556,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000322"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000907",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000732"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000946",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000342"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000907",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000732"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000652",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000979",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000011"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000839",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000979",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000956",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
@@ -67739,13 +68608,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000371"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000882",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000881"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001218",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000781"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000882",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000881"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000381",
       "pred" : "is_a",
@@ -68139,13 +69008,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001701"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001253",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000143"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002086",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001565"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001253",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000143"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001858",
       "pred" : "is_a",
@@ -68215,17 +69084,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001151"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000493",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001309",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000561"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001273"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001176",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001172"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001309",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000493",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001273"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000561"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001960",
       "pred" : "is_a",
@@ -68279,13 +69148,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000159"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001245",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001244"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002020",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000627"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001245",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001244"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000755",
       "pred" : "is_a",
@@ -68295,13 +69164,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000068"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000534",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000466"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000523",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000576"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000534",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000466"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000507",
       "pred" : "http://purl.obolibrary.org/obo/so#non_functional_homolog_of",
@@ -68375,13 +69244,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000352"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000157",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000440"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000820",
       "pred" : "http://purl.obolibrary.org/obo/so#has_origin",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000745"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000440"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000283",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
@@ -68671,13 +69540,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000286"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000272",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000253"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000143",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000272",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000253"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001054",
       "pred" : "is_a",
@@ -68891,13 +69760,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001973"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000139",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000204"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000690",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000139",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000204"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000942",
       "pred" : "is_a",
@@ -68907,13 +69776,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_1001189"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001393",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001385"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001747",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001393",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001385"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001403",
       "pred" : "is_a",
@@ -69071,13 +69940,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000947"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_1001247",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_origin",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000910"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002172",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000413"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_1001247",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_origin",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000910"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000236",
       "pred" : "is_a",
@@ -69171,13 +70040,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000736"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0002069",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0002066"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000967",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000965"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0002069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0002066"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001674",
       "pred" : "is_a",
@@ -69239,13 +70108,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001021"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001945",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001973"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001580",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001791"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001945",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001973"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1001193",
       "pred" : "is_a",
@@ -69335,13 +70204,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001273"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001844",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001659"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000261",
       "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001844",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001659"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000140",
       "pred" : "is_a",
@@ -69387,13 +70256,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000313"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000446",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000188"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000445",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000446",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000188"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000270",
       "pred" : "is_a",
@@ -69491,13 +70360,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_1001268"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000590",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002096",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000248"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000590",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000995",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
@@ -69695,13 +70564,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000426"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000272",
-      "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000229"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000609",
       "pred" : "http://purl.obolibrary.org/obo/so#adjacent_to",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000272",
+      "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000229"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000559",
       "pred" : "is_a",
@@ -69723,13 +70592,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000217"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000525",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000470"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001985",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000525",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000470"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000526",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
@@ -69827,13 +70696,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000478"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000830",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000340"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000710",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000885"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000830",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000340"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000868",
       "pred" : "is_a",
@@ -70163,13 +71032,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000147"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001786",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0002218"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001964",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000305"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001786",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0002218"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000935",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
@@ -70203,21 +71072,21 @@
       "pred" : "http://purl.obolibrary.org/obo/so#has_origin",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000740"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000139",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000836"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001674",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001672"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000372",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000139",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000836"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000152",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000440"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000372",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000524",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
@@ -70423,13 +71292,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000176",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001913"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000779",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000783"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000176",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001913"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001293",
       "pred" : "is_a",
@@ -70571,13 +71440,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000407",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000650"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000133",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000401"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000407",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000650"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001982",
       "pred" : "is_a",
@@ -70647,13 +71516,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0002040"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001193",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001192"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000891",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000473"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001193",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001192"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001604",
       "pred" : "is_a",
@@ -70743,13 +71612,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000898"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000616",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000835"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000633",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000665"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000616",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000835"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002197",
       "pred" : "is_a",
@@ -70807,13 +71676,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000584"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001495",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000330"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001294",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001275"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001495",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000330"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002128",
       "pred" : "is_a",
@@ -70987,13 +71856,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000440"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000252",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000196",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001215"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000892",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
@@ -71015,13 +71884,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001628"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000535",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000466"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000524",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000576"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000535",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000466"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000059",
       "pred" : "is_a",
@@ -71251,13 +72120,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000693"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001224",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000127"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000417",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0100021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001224",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000127"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001362",
       "pred" : "is_a",
@@ -71291,25 +72160,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000588"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000798",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000804"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000505",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000458"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000798",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000804"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001375",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001277"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_1000173",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_1000035"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000161",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_1000155"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_1000173",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_1000035"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001639",
       "pred" : "is_a",
@@ -71499,13 +72368,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0002114"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0002050",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000167"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001860",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000713"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0002050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000167"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000078",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
@@ -71667,13 +72536,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001499"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000250",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001236"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001226",
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001222"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000250",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001236"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001004",
       "pred" : "is_a",
@@ -71791,13 +72660,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000890",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000980",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000890",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001781",
       "pred" : "is_a",
@@ -71843,13 +72712,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_1001268"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001550",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001549"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000069",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001550",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001549"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000479",
       "pred" : "is_a",
@@ -71903,13 +72772,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0002138"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000169",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001203"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000264",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000253"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000169",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001203"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001595",
       "pred" : "is_a",
@@ -72067,17 +72936,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001120"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001134",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001133"
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000527",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000478"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000529",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000458"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000527",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000478"
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001134",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001133"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000493",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -72095,13 +72964,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000697"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000818",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000816"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000460",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000301"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000818",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000816"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000853",
       "pred" : "is_a",
@@ -72155,13 +73024,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000815"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000282",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000866"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000816",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000282",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000866"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001939",
       "pred" : "is_a",
@@ -72231,13 +73100,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000021"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000119",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000401"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000018",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000119",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000401"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002024",
       "pred" : "is_a",
@@ -72579,21 +73448,21 @@
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001514"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001954",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001564",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001878"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000487",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000574"
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001954",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000297",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000296"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000487",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000574"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000851",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -72655,6 +73524,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000562"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001994",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001014"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001464",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000345"
@@ -72663,21 +73536,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000165"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001994",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001014"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002022",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001046",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000948"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000409",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001046",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000948"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001213",
       "pred" : "is_a",
@@ -72999,13 +73868,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000753"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000508",
-      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000458"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000506",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000478"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000508",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000458"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001040",
       "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
@@ -73039,13 +73908,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000028"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000722",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000692"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000756",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000352"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000722",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000692"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001266",
       "pred" : "is_a",
@@ -73467,13 +74336,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#has_quality",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000782"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000994",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001410"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0100014",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000418"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000994",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001410"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002146",
       "pred" : "is_a",
@@ -73619,13 +74488,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0002144"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0005845",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000147"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000496",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000561"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0005845",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000147"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001501",
       "pred" : "is_a",
@@ -73635,17 +74504,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001576"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001046",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000647",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001048"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000483"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000679",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000163"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000647",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001046",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000483"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001048"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000544",
       "pred" : "is_a",
@@ -73675,13 +74544,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000028"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001047",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000948"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001264",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001263"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001047",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000948"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000518",
       "pred" : "http://purl.obolibrary.org/obo/so#has_part",
@@ -73783,13 +74652,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000011"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000548",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001217"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000633",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000548",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001217"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000566",
       "pred" : "is_a",
@@ -73895,13 +74764,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000232"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000039",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001410"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000014",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001660"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001410"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0002142",
       "pred" : "is_a",
@@ -73955,7 +74824,7 @@
         "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
         "val" : "david"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/so/so-xp/releases/2015-11-24/so-xp.owl/so.owl"
+      "version" : "http://purl.obolibrary.org/obo/so/so.owl/so.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -75083,18 +75952,18 @@
         "fillerId" : "http://purl.obolibrary.org/obo/SO_1000035"
       } ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/SO_0001217",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/SO_0000704" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/so#has_quality",
-        "fillerId" : "http://purl.obolibrary.org/obo/SO_0000010"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/SO_0000373",
       "genusIds" : [ "http://purl.obolibrary.org/obo/SO_0000456" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/so#has_quality",
         "fillerId" : "http://purl.obolibrary.org/obo/SO_1000036"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/SO_0001217",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/SO_0000704" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/so#has_quality",
+        "fillerId" : "http://purl.obolibrary.org/obo/SO_0000010"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/SO_0001259",

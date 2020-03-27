@@ -33,6 +33,7 @@ is_a: SO:0000110 ! sequence_feature
 id: SO:0000004
 name: interior_coding_exon
 namespace: sequence
+def: "A coding exon that is not the most 3-prime or the most 5-prime in a given transcript." []
 subset: SOFA
 synonym: "interior coding exon" EXACT []
 is_a: SO:0000195 ! coding_exon
@@ -1780,6 +1781,7 @@ is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 id: SO:0000628
 name: chromosomal_structural_element
 namespace: sequence
+def: "Regions of the chromosome that are important for structural elements." []
 subset: SOFA
 synonym: "chromosomal structural element" EXACT []
 is_a: SO:0000830 ! chromosome_part
@@ -2205,6 +2207,7 @@ relationship: part_of SO:0000353 ! sequence_assembly
 id: SO:0000752
 name: gene_group_regulatory_region
 namespace: sequence
+def: "A region that is involved in the regulation of transcription of a group of regulated genes." []
 subset: SOFA
 synonym: "gene group regulatory region" EXACT []
 is_a: SO:0001679 ! transcription_regulatory_region
@@ -2356,6 +2359,7 @@ relationship: part_of SO:0000662 ! spliceosomal_intron
 id: SO:0000842
 name: gene_component_region
 namespace: sequence
+def: "A region of a gene that has a specific function." []
 subset: SOFA
 synonym: "gene component region" EXACT []
 is_a: SO:0001411 ! biological_region
