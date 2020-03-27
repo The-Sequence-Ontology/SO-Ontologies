@@ -3,12 +3,14 @@ data-version: so.owl
 date: 30:10:2019 11:24
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
+subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
 subsetdef: DBVAR "database of genomic structural variation"
 subsetdef: SOFA "SO feature annotation"
 synonymtypedef: aa1 "amino acid 1 letter code"
 synonymtypedef: aa3 "amino acid 3 letter code"
 synonymtypedef: AAMOD "amino acid modification"
+synonymtypedef: AGR "Alliance of Genome Resources"
 synonymtypedef: BS "biosapiens"
 synonymtypedef: dbsnp "dbsnp variant terms"
 synonymtypedef: dbvar "DBVAR"
@@ -2912,6 +2914,7 @@ relationship: has_quality SO:0000867 ! minus_2_frameshift
 id: SO:0000336
 name: pseudogene
 def: "A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their \"normal\" paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its \"normal\" paralog)." [http://www.ucl.ac.uk/~ucbhjow/b241/glossary.html]
+subset: Alliance_of_Genome_Resources
 subset: SOFA
 synonym: "INSDC_feature:gene" BROAD []
 synonym: "INSDC_qualifier:pseudo" EXACT []
@@ -10501,6 +10504,7 @@ is_a: SO:0000188 ! intron
 id: SO:0001217
 name: protein_coding_gene
 def: "A gene that codes for an RNA that can be translated into a protein." []
+subset: Alliance_of_Genome_Resources
 synonym: "protein coding gene" EXACT []
 is_a: SO:0000704 ! gene
 relationship: has_quality SO:0000010 ! protein_coding
@@ -10860,6 +10864,7 @@ relationship: has_part SO:0000345 ! EST
 id: SO:0001263
 name: ncRNA_gene
 def: "A gene that encodes a non-coding RNA." []
+subset: Alliance_of_Genome_Resources
 synonym: "ncRNA gene" EXACT []
 synonym: "non-coding RNA gene" EXACT []
 is_a: SO:0000704 ! gene

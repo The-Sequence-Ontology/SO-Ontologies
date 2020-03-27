@@ -1,0 +1,442 @@
+format-version: 1.2
+subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
+subsetdef: biosapiens "biosapiens protein feature ontology"
+subsetdef: DBVAR "database of genomic structural variation"
+subsetdef: SOFA "SO feature annotation"
+synonymtypedef: aa1 "amino acid 1 letter code"
+synonymtypedef: aa3 "amino acid 3 letter code"
+synonymtypedef: AAMOD "amino acid modification"
+synonymtypedef: AGR "Alliance of Genome Resources"
+synonymtypedef: BS "biosapiens"
+synonymtypedef: dbsnp "dbsnp variant terms"
+synonymtypedef: dbvar "DBVAR"
+synonymtypedef: ebi_variants "ensembl variant terms"
+synonymtypedef: RNAMOD "RNA modification" EXACT
+synonymtypedef: VAR "variant annotation term"
+ontology: so/subsets/Alliance_of_Genome_Resources
+
+[Term]
+id: SO:0000336
+name: pseudogene
+namespace: sequence
+def: "A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their \"normal\" paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its \"normal\" paralog)." [http://www.ucl.ac.uk/~ucbhjow/b241/glossary.html]
+subset: Alliance_of_Genome_Resources
+subset: SOFA
+synonym: "INSDC_feature:gene" BROAD []
+synonym: "INSDC_qualifier:pseudo" EXACT []
+synonym: "INSDC_qualifier:unknown" EXACT []
+xref: http://en.wikipedia.org/wiki/Pseudogene "wiki"
+
+[Term]
+id: SO:0001217
+name: protein_coding_gene
+namespace: sequence
+def: "A gene that codes for an RNA that can be translated into a protein." []
+subset: Alliance_of_Genome_Resources
+synonym: "protein coding gene" EXACT []
+
+[Term]
+id: SO:0001263
+name: ncRNA_gene
+namespace: sequence
+def: "A gene that encodes a non-coding RNA." []
+subset: Alliance_of_Genome_Resources
+synonym: "ncRNA gene" EXACT []
+synonym: "non-coding RNA gene" EXACT []
+
+[Typedef]
+id: adjacent_to
+name: adjacent_to
+namespace: sequence
+def: "A geometric operator, specified in Egenhofer 1989. Two features meet if they share a junction on the sequence. X adjacent_to Y iff X and Y share a boundary but do not overlap." [PMID:20226267, SO:ke]
+subset: SOFA
+
+[Typedef]
+id: associated_with
+name: associated_with
+namespace: sequence
+comment: This relationship is vague and up for discussion.
+
+[Typedef]
+id: complete_evidence_for_feature
+name: complete_evidence_for_feature
+namespace: sequence
+def: "B is complete_evidence_for_feature A if the extent (5' and 3' boundaries) and internal boundaries of B fully support the extent and internal boundaries of A." [SO:ke]
+comment: If A is a feature with multiple regions such as a multi exon transcript, the supporting EST evidence is complete if each of the regions is supported by an equivalent region in B. Also there must be no extra regions in B that are not represented in A. This relationship was requested by jeltje on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222.
+is_transitive: true
+is_a: evidence_for_feature ! evidence_for_feature
+
+[Typedef]
+id: connects_on
+name: connects_on
+namespace: sequence
+def: "X connects_on Y, Z, R iff whenever Z is on a R, X is adjacent to a Y and adjacent to a Z." [PMID:20226267]
+comment: Example: A splice_junction connects_on exon, exon, mature_transcript.
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:38:51Z
+
+[Typedef]
+id: contained_by
+name: contained_by
+namespace: sequence
+def: "X contained_by Y iff X starts after start of Y and X ends before end of Y." [PMID:20226267]
+comment: The inverse is contains. Example: intein contained_by immature_peptide_region.
+is_transitive: true
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:26:16Z
+
+[Typedef]
+id: contains
+name: contains
+namespace: sequence
+def: "The inverse of contained_by." [PMID:20226267]
+comment: Example: pre_miRNA contains miRNA_loop.
+is_transitive: true
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:32:15Z
+
+[Typedef]
+id: derives_from
+name: derives_from
+namespace: sequence
+subset: SOFA
+is_transitive: true
+
+[Typedef]
+id: disconnected_from
+name: disconnected_from
+namespace: sequence
+def: "X is disconnected_from Y iff it is not the case that X overlaps Y." [PMID:20226267]
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:42:10Z
+
+[Typedef]
+id: edited_from
+name: edited_from
+namespace: sequence
+created_by: kareneilbeck
+creation_date: 2009-08-19T02:19:45Z
+
+[Typedef]
+id: edited_to
+name: edited_to
+namespace: sequence
+created_by: kareneilbeck
+creation_date: 2009-08-19T02:19:11Z
+
+[Typedef]
+id: evidence_for_feature
+name: evidence_for_feature
+namespace: sequence
+def: "B is evidence_for_feature A, if an instance of B supports the existence of A." [SO:ke]
+comment: This relationship was requested by nlw on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222.
+is_transitive: true
+
+[Typedef]
+id: exemplar_of
+name: exemplar_of
+namespace: sequence
+def: "X is exemplar of Y if X is the best evidence for Y." [SO:ke]
+comment: Tracker id: 2594157.
+
+[Typedef]
+id: finished_by
+name: finished_by
+namespace: sequence
+def: "Xy is finished_by Y if Y part of X, and X and Y share a 3' boundary." [PMID:20226267]
+comment: Example CDS finished_by stop_codon.
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:45:45Z
+
+[Typedef]
+id: finishes
+name: finishes
+namespace: sequence
+def: "X finishes Y if X is part_of Y and X and Y share a 3' or C terminal boundary." [PMID:20226267]
+comment: Example: stop_codon finishes CDS.
+created_by: kareneilbeck
+creation_date: 2010-10-14T02:17:53Z
+
+[Typedef]
+id: gained
+name: gained
+namespace: sequence
+def: "X gained Y if X is a variant_of X' and Y part of X but not X'." [SO:ke]
+comment: A relation with which to annotate the changes in a variant sequence with respect to a reference.\nFor example a variant transcript may gain a stop codon not present in the reference sequence.
+created_by: kareneilbeck
+creation_date: 2011-06-28T12:51:10Z
+
+[Typedef]
+id: genome_of
+name: genome_of
+namespace: sequence
+
+[Typedef]
+id: guided_by
+name: guided_by
+namespace: sequence
+created_by: kareneilbeck
+creation_date: 2009-08-19T02:27:04Z
+
+[Typedef]
+id: guides
+name: guides
+namespace: sequence
+created_by: kareneilbeck
+creation_date: 2009-08-19T02:27:24Z
+
+[Typedef]
+id: has_integral_part
+name: has_integral_part
+namespace: sequence
+def: "X has_integral_part Y if and only if: X has_part Y and Y part_of X." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: mRNA has_integral_part CDS.
+is_a: has_part ! has_part
+created_by: kareneilbeck
+creation_date: 2009-08-19T12:01:46Z
+
+[Typedef]
+id: has_origin
+name: has_origin
+namespace: sequence
+
+[Typedef]
+id: has_part
+name: has_part
+namespace: sequence
+def: "Inverse of part_of." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: operon has_part gene.
+
+[Typedef]
+id: has_quality
+name: has_quality
+namespace: sequence
+comment: The relationship between a feature and an attribute.
+
+[Typedef]
+id: homologous_to
+name: homologous_to
+namespace: sequence
+subset: SOFA
+is_symmetric: true
+is_a: similar_to ! similar_to
+
+[Typedef]
+id: integral_part_of
+name: integral_part_of
+namespace: sequence
+def: "X integral_part_of Y if and only if: X part_of Y and Y has_part X." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: exon integral_part_of transcript.
+is_a: part_of ! part_of
+created_by: kareneilbeck
+creation_date: 2009-08-19T12:03:28Z
+
+[Typedef]
+id: is_consecutive_sequence_of
+name: is_consecutive_sequence_of
+namespace: sequence
+def: "R is_consecutive_sequence_of R iff every instance of R is equivalent to a collection of instances of U:u1, u2, un, such that no pair of ux uy is overlapping and for all ux, it is adjacent to ux-1 and ux+1, with the exception of the initial and terminal u1,and un (which may be identical)." [PMID:20226267]
+comment: Example: region is consecutive_sequence of base.
+created_by: kareneilbeck
+creation_date: 2010-10-14T02:19:48Z
+
+[Typedef]
+id: lost
+name: lost
+namespace: sequence
+def: "X lost Y if X is a variant_of X' and Y part of X' but not X." [SO:ke]
+comment: A relation with which to annotate the changes in a variant sequence with respect to a reference.\nFor example a variant transcript may have lost a stop codon present in the reference sequence.
+created_by: kareneilbeck
+creation_date: 2011-06-28T12:53:16Z
+
+[Typedef]
+id: maximally_overlaps
+name: maximally_overlaps
+namespace: sequence
+def: "A maximally_overlaps X iff all parts of A (including A itself) overlap both A and Y." [PMID:20226267]
+comment: Example: non_coding_region_of_exon maximally_overlaps the intersections of exon and UTR.
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:34:48Z
+
+[Typedef]
+id: member_of
+name: member_of
+namespace: sequence
+comment: A subtype of part_of. Inverse is collection_of. Winston, M, Chaffin, R, Herrmann: A taxonomy of part-whole relations. Cognitive Science 1987, 11:417-444.
+subset: SOFA
+is_transitive: true
+is_a: part_of ! part_of
+
+[Typedef]
+id: non_functional_homolog_of
+name: non_functional_homolog_of
+namespace: sequence
+def: "A relationship between a pseudogenic feature and its functional ancestor." [SO:ke]
+subset: SOFA
+is_a: homologous_to ! homologous_to
+
+[Typedef]
+id: orthologous_to
+name: orthologous_to
+namespace: sequence
+subset: SOFA
+is_symmetric: true
+is_a: homologous_to ! homologous_to
+
+[Typedef]
+id: overlaps
+name: overlaps
+namespace: sequence
+def: "X overlaps Y iff there exists some Z such that Z contained_by X and Z contained_by Y." [PMID:20226267]
+comment: Example: coding_exon overlaps CDS.
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:33:15Z
+
+[Typedef]
+id: paralogous_to
+name: paralogous_to
+namespace: sequence
+subset: SOFA
+is_symmetric: true
+is_a: homologous_to ! homologous_to
+
+[Typedef]
+id: part_of
+name: part_of
+namespace: sequence
+def: "X part_of Y if X is a subregion of Y." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: amino_acid part_of polypeptide.
+subset: SOFA
+is_transitive: true
+
+[Typedef]
+id: partial_evidence_for_feature
+name: partial_evidence_for_feature
+namespace: sequence
+def: "B is partial_evidence_for_feature A if the extent of B supports part_of but not all of A." [SO:ke]
+is_a: evidence_for_feature ! evidence_for_feature
+
+[Typedef]
+id: position_of
+name: position_of
+namespace: sequence
+
+[Typedef]
+id: processed_from
+name: processed_from
+namespace: sequence
+def: "Inverse of processed_into." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: miRNA processed_from miRNA_primary_transcript.
+created_by: kareneilbeck
+creation_date: 2009-08-19T12:14:00Z
+
+[Typedef]
+id: processed_into
+name: processed_into
+namespace: sequence
+def: "X is processed_into Y if a region X is modified to create Y." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: miRNA_primary_transcript processed into miRNA.
+created_by: kareneilbeck
+creation_date: 2009-08-19T12:15:02Z
+
+[Typedef]
+id: recombined_from
+name: recombined_from
+namespace: sequence
+created_by: kareneilbeck
+creation_date: 2009-08-19T02:21:03Z
+
+[Typedef]
+id: recombined_to
+name: recombined_to
+namespace: sequence
+created_by: kareneilbeck
+creation_date: 2009-08-19T02:20:07Z
+
+[Typedef]
+id: sequence_of
+name: sequence_of
+namespace: sequence
+
+[Typedef]
+id: similar_to
+name: similar_to
+namespace: sequence
+subset: SOFA
+is_symmetric: true
+
+[Typedef]
+id: started_by
+name: started_by
+namespace: sequence
+def: "X is strted_by Y if Y is part_of X and X and Y share a 5' boundary." [PMID:20226267]
+comment: Example: CDS started_by start_codon.
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:43:55Z
+
+[Typedef]
+id: starts
+name: starts
+namespace: sequence
+def: "X starts Y if X is part of Y, and A and Y share a 5' or N-terminal boundary." [PMID:20226267]
+comment: Example: start_codon starts CDS.
+created_by: kareneilbeck
+creation_date: 2010-10-14T01:47:53Z
+
+[Typedef]
+id: trans_spliced_from
+name: trans_spliced_from
+namespace: sequence
+created_by: kareneilbeck
+creation_date: 2009-08-19T02:22:14Z
+
+[Typedef]
+id: trans_spliced_to
+name: trans_spliced_to
+namespace: sequence
+created_by: kareneilbeck
+creation_date: 2009-08-19T02:22:00Z
+
+[Typedef]
+id: transcribed_from
+name: transcribed_from
+namespace: sequence
+def: "X is transcribed_from Y if X is synthesized from template Y." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: primary_transcript transcribed_from gene.
+created_by: kareneilbeck
+creation_date: 2009-08-19T12:05:39Z
+
+[Typedef]
+id: transcribed_to
+name: transcribed_to
+namespace: sequence
+def: "Inverse of transcribed_from." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: gene transcribed_to primary_transcript.
+created_by: kareneilbeck
+creation_date: 2009-08-19T12:08:24Z
+
+[Typedef]
+id: translates_to
+name: translates_to
+namespace: sequence
+def: "Inverse of translation _of." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: codon translates_to amino_acid.
+created_by: kareneilbeck
+creation_date: 2009-08-19T12:11:53Z
+
+[Typedef]
+id: translation_of
+name: translation_of
+namespace: sequence
+def: "X is translation of Y if Y is translated by ribosome to create X." [http://precedings.nature.com/documents/3495/version/1]
+comment: Example: Polypeptide translation_of CDS.
+created_by: kareneilbeck
+creation_date: 2009-08-19T12:09:59Z
+
+[Typedef]
+id: variant_of
+name: variant_of
+namespace: sequence
+def: "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A." [SO:immuno_workshop]
+comment: Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith.
+

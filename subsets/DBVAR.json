@@ -567,6 +567,9 @@
       "type" : "PROPERTY",
       "lbl" : "exemplar_of"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/so#AGR",
+      "lbl" : "Alliance of Genome Resources"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1000036",
       "meta" : {
         "definition" : {

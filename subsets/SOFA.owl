@@ -51,6 +51,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/so#AGR -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#AGR">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance of Genome Resources</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance of Genome Resources Gene Biotype Slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/so#BS -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#BS">
@@ -3445,6 +3463,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:unknown</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000336</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudogene</rdfs:label>
     </owl:Class>
