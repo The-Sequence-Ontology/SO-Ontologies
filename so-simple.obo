@@ -20530,6 +20530,7 @@ creation_date: 2020-03-27T08:56:34Z
 id: SO:0002227
 name: CDS_extension
 def: "A sequence variant extending the CDS, that causes elongation of the resulting polypeptide sequence." [PMID:14732127, PMID:15864293, PMID:27984720, PMID:31216041, PMID:32020195]
+comment: Added as per request by Edward Wallace GitHub issue #480 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/480)
 synonym: "CDS Extension" EXACT []
 synonym: "elongated CDS" EXACT []
 synonym: "elongated_CDS" EXACT []
@@ -20541,6 +20542,7 @@ creation_date: 2020-03-27T17:56:30Z
 id: SO:0002228
 name: CDS_five_prime_extension
 def: "A sequence variant extending the CDS at the 5' end, that causes elongation of the resulting polypeptide sequence at the N terminus." [PMID:14732127, PMID:15864293, PMID:27984720, PMID:31216041, PMID:32020195]
+comment: Added as per request by Edward Wallace GitHub issue #480 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/480)
 synonym: "CDS Extension 5 prime" EXACT []
 synonym: "CDS Extension five prime" EXACT []
 synonym: "elongated CDS five prime" EXACT []
@@ -20553,6 +20555,7 @@ creation_date: 2020-03-27T17:57:30Z
 id: SO:0002229
 name: CDS_three_prime_extension
 def: "A sequence variant extending the CDS at the 3' end, that causes elongation of the resulting polypeptide sequence at the C terminus." [PMID:14732127, PMID:15864293, PMID:27984720, PMID:31216041, PMID:32020195]
+comment: Added as per request by Edward Wallace GitHub issue #480 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/480)
 synonym: "CDS Extension 3 prime" EXACT []
 synonym: "CDS Extension three prime" EXACT []
 synonym: "elongated CDS three prime" EXACT []
@@ -20560,6 +20563,16 @@ synonym: "elongated_CDS_three_prime" EXACT []
 is_a: SO:0002227 ! CDS_extension
 created_by: david
 creation_date: 2020-03-27T17:58:30Z
+
+[Term]
+id: SO:0002230
+name: CAAX_box
+def: "A C-terminus protein motif (CAAX) serving as a post-translational prenylation site modified by the attachment of either a farnesyl or a geranyl-geranyl group to a cysteine residue. Farnesyltransferase recognizes CaaX boxes where X = M, S, Q, A, or C, whereas Geranylgeranyltransferase I recognizes CaaX boxes with X = L or E." []
+comment: Added as per request by Val Wood GitHub issue #479 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/479)
+synonym: "CAAX box" EXACT []
+is_a: SO:0100017 ! polypeptide_conserved_motif
+created_by: david
+creation_date: 2020-03-27T18:04:30Z
 
 [Term]
 id: SO:0005836
