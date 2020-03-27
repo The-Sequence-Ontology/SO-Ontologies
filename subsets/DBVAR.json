@@ -138,6 +138,7 @@
       "lbl" : "orthologous_to"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#BS",
+      "type" : "PROPERTY",
       "lbl" : "biosapiens"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#connects_on",
@@ -248,6 +249,7 @@
       "lbl" : "guided_by"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#VAR",
+      "type" : "PROPERTY",
       "lbl" : "variant annotation term"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#transcribed_to",
@@ -272,6 +274,7 @@
       "lbl" : "transcribed_to"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#aa3",
+      "type" : "PROPERTY",
       "lbl" : "amino acid 3 letter code"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#non_functional_homolog_of",
@@ -337,6 +340,7 @@
       "lbl" : "finishes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#aa1",
+      "type" : "PROPERTY",
       "lbl" : "amino acid 1 letter code"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#has_part",
@@ -483,6 +487,7 @@
       "lbl" : "has_broad_synonym"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#ebi_variants",
+      "type" : "PROPERTY",
       "lbl" : "ensembl variant terms"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#maximally_overlaps",
@@ -568,6 +573,7 @@
       "lbl" : "exemplar_of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#AGR",
+      "type" : "PROPERTY",
       "lbl" : "Alliance of Genome Resources"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1000036",
@@ -960,6 +966,7 @@
       "lbl" : "structural_alteration"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#dbsnp",
+      "type" : "PROPERTY",
       "lbl" : "dbsnp variant terms"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#finished_by",
@@ -1110,6 +1117,7 @@
           "val" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
         } ]
       },
+      "type" : "PROPERTY",
       "lbl" : "RNA modification"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#processed_from",
@@ -1145,6 +1153,7 @@
       "lbl" : "associated_with"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#AAMOD",
+      "type" : "PROPERTY",
       "lbl" : "amino acid modification"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#sequence_of",
@@ -1158,6 +1167,7 @@
       "lbl" : "sequence_of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#dbvar",
+      "type" : "PROPERTY",
       "lbl" : "DBVAR"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",

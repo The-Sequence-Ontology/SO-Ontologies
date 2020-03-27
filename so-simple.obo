@@ -14179,7 +14179,7 @@ creation_date: 2010-03-22T02:49:23Z
 [Term]
 id: SO:0001609
 name: elongated_polypeptide
-def: "A sequence variant with in the CDS that causes elongation of the resulting polypeptide sequence." [SO:ke]
+def: "An elongation of a polypeptide sequence deriving from a sequence variant extending the CDS." [SO:ke]
 synonym: "elongated polypeptide" EXACT []
 xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001603 ! polypeptide_sequence_variant
@@ -14189,18 +14189,20 @@ creation_date: 2010-03-22T02:49:52Z
 [Term]
 id: SO:0001610
 name: elongated_polypeptide_C_terminal
-def: "A sequence variant with in the CDS that causes elongation of the resulting polypeptide sequence at the C terminus." [SO:ke]
+def: "An elongation of a polypeptide sequence at the C terminus deriving from a sequence variant extending the CDS." [SO:ke]
 synonym: "elongated polypeptide C terminal" EXACT []
 is_a: SO:0001609 ! elongated_polypeptide
+relationship: derives_from SO:0002229 ! CDS_three_prime_extension
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:50:20Z
 
 [Term]
 id: SO:0001611
 name: elongated_polypeptide_N_terminal
-def: "A sequence variant with in the CDS that causes elongation of the resulting polypeptide sequence at the N terminus." [SO:ke]
+def: "An elongation of a polypeptide sequence at the N terminus deriving from a sequence variant extending the CDS." [SO:ke]
 synonym: "elongated polypeptide N terminal" EXACT []
 is_a: SO:0001609 ! elongated_polypeptide
+relationship: derives_from SO:0002228 ! CDS_five_prime_extension
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:50:31Z
 
@@ -20523,6 +20525,41 @@ synonym: "group IIB intron" EXACT []
 is_a: SO:0000603 ! group_II_intron
 created_by: david
 creation_date: 2020-03-27T08:56:34Z
+
+[Term]
+id: SO:0002227
+name: CDS_extension
+def: "A sequence variant extending the CDS, that causes elongation of the resulting polypeptide sequence." [PMID:14732127, PMID:15864293, PMID:27984720, PMID:31216041, PMID:32020195]
+synonym: "CDS Extension" EXACT []
+synonym: "elongated CDS" EXACT []
+synonym: "elongated_CDS" EXACT []
+is_a: SO:0000316 ! CDS
+created_by: david
+creation_date: 2020-03-27T17:56:30Z
+
+[Term]
+id: SO:0002228
+name: CDS_five_prime_extension
+def: "A sequence variant extending the CDS at the 5' end, that causes elongation of the resulting polypeptide sequence at the N terminus." [PMID:14732127, PMID:15864293, PMID:27984720, PMID:31216041, PMID:32020195]
+synonym: "CDS Extension 5 prime" EXACT []
+synonym: "CDS Extension five prime" EXACT []
+synonym: "elongated CDS five prime" EXACT []
+synonym: "elongated_CDS_five_prime" EXACT []
+is_a: SO:0002227 ! CDS_extension
+created_by: david
+creation_date: 2020-03-27T17:57:30Z
+
+[Term]
+id: SO:0002229
+name: CDS_three_prime_extension
+def: "A sequence variant extending the CDS at the 3' end, that causes elongation of the resulting polypeptide sequence at the C terminus." [PMID:14732127, PMID:15864293, PMID:27984720, PMID:31216041, PMID:32020195]
+synonym: "CDS Extension 3 prime" EXACT []
+synonym: "CDS Extension three prime" EXACT []
+synonym: "elongated CDS three prime" EXACT []
+synonym: "elongated_CDS_three_prime" EXACT []
+is_a: SO:0002227 ! CDS_extension
+created_by: david
+creation_date: 2020-03-27T17:58:30Z
 
 [Term]
 id: SO:0005836
