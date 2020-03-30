@@ -20575,6 +20575,17 @@ created_by: david
 creation_date: 2020-03-27T18:04:30Z
 
 [Term]
+id: SO:0002231
+name: self_cleaving_ribozyme
+def: "An RNA that catalyzes its own cleavage." []
+comment: Added as per request by John T. Sexton GitHub issue #470 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/470)
+synonym: "self cleaving ribozyme" EXACT []
+is_a: SO:0000374 ! ribozyme
+relationship: has_quality SO:0001977 ! ribonuclease_site
+created_by: david
+creation_date: 2020-03-30T16:02:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
