@@ -20993,6 +20993,18 @@ created_by: david
 creation_date: 2020-03-30T16:02:30Z
 
 [Term]
+id: SO:0002232
+name: selection_marker
+def: "A genetic feature that encodes a trait used for artificial selection of a subpopulation." []
+comment: Added as per request by Bryan Bartley GitHub issue #468 and #402 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/468)
+synonym: "selectable marker" EXACT []
+synonym: "selectable_marker" EXACT []
+synonym: "selection marker" EXACT []
+is_a: SO:0001645 ! genetic_marker
+created_by: david
+creation_date: 2020-04-01T10:04:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
