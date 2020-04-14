@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2020-04-14
-date: 14:04:2020 10:40
+date: 14:04:2020 12:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -22042,9 +22042,10 @@ is_a: SO:1000028 ! intrachromosomal_mutation
 
 [Term]
 id: SO:1000142
-name: dexstrosynaptic_chromosome
+name: dextrosynaptic_chromosome
 def: "An autosynaptic chromosome carrying the two right (D = dextro) telomeres." [FB:manual]
-synonym: "dexstrosynaptic chromosome" EXACT []
+comment: Corrected spelling from dexstrosynaptic_chromosome to dextrosynaptic_chromosome on April 14, 2020 in response to GitHub request #447
+synonym: "dextrosynaptic chromosome" EXACT []
 is_a: SO:1000136 ! autosynaptic_chromosome
 
 [Term]
