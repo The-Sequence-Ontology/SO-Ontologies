@@ -54,6 +54,10 @@ java.lang.IllegalStateException: Optional.get() cannot be called on an absent va
 2020-03-17 14:59:16,402 INFO  (OboOntologyReleaseRunner:21) deleting lock file
 ```
 
+### Naming Convention
+
+All rdfs:labels (names in OBO) must not contain spaces or special characters. Instead of spaces, underscores can be used. Most special characters can be spelled out. For example, "five_prime_UTR" is used rather than "5' UTR".
+
 ### Logs  
 
 The log files for the make process are stored in the "Logs" folder. This folder has been added to the .gitignore file so that users can view the log files for each make without the risk of accidentally committing them. If the build process worked correctly, the file 'so-reasoner-report.txt' should be present and empty and the ontology-release-runner output will be saved to the file 'OORT_logs_{date}_{time}.txt'.
