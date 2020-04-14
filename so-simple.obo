@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2020-04-14
-date: 14:04:2020 10:14
+date: 14:04:2020 10:40
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -20607,6 +20607,18 @@ is_a: SO:0000409 ! binding_site
 relationship: member_of SO:0000830 ! chromosome_part
 created_by: david
 creation_date: 2020-04-14T10:09:30Z
+
+[Term]
+id: SO:0002234
+name: pumilio_response_element
+def: "A cis-acting element involved in RNA stability found in the 3' UTR of some RNA (consensus UGUAAAUA)." [PMID:30601114]
+comment: Added as per request by Val Wood GitHub issue #455 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/455)
+synonym: "PRE binding RNA" EXACT []
+synonym: "pumilio response element" EXACT []
+is_a: SO:0000837 ! UTR_region
+relationship: part_of SO:0000205 ! three_prime_UTR
+created_by: david
+creation_date: 2020-04-14T10:40:30Z
 
 [Term]
 id: SO:0005836
