@@ -14682,9 +14682,10 @@ creation_date: 2010-03-23T11:16:58Z
 [Term]
 id: SO:0001621
 name: NMD_transcript_variant
-def: "A variant in a transcript that is the target of NMD." [SO:ke]
+def: "A variant in a transcript that is the target of nonsense-mediated mRNA decay." [SO:ke]
 synonym: "NMD transcript variant" EXACT []
 synonym: "NMD_transcript" EXACT ebi_variants [http://ensembl.org/info/docs/variation/index.html]
+synonym: "Nonsense mediated decay transcript variant" EXACT []
 synonym: "VEP:NMD_transcript_variant" EXACT VAR []
 xref: http:www.ensembl.org/info/genome/variation/predicted_data.html#consequences
 is_a: SO:0001576 ! transcript_variant
