@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-04-03
-date: 03:04:2020 11:24
+data-version: 2020-04-14
+date: 14:04:2020 10:14
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -21003,6 +21003,17 @@ synonym: "selection marker" EXACT []
 is_a: SO:0001645 ! genetic_marker
 created_by: david
 creation_date: 2020-04-01T10:04:30Z
+
+[Term]
+id: SO:0002233
+name: homologous_chromosome_recognition_and_pairing_locus
+def: "A chromosomal locus where complementary lncRNA and associated proteins accumulate at the corresponding lncRNA gene loci to tether homologous chromosome during chromosome pairing at meiosis I." [PMID:22582262, PMID:31811152]
+comment: Added as per request by Val Wood GitHub issue #483 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/483)
+synonym: "homologous chromosome recognition and pairing locus" EXACT []
+is_a: SO:0000409 ! binding_site
+relationship: member_of SO:0000830 ! chromosome_part
+created_by: david
+creation_date: 2020-04-14T10:09:30Z
 
 [Term]
 id: SO:0005836
