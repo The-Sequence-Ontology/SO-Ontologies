@@ -13952,10 +13952,10 @@ synonym: "stop gained" EXACT ebi_variants [http://ensembl.org/info/docs/variatio
 synonym: "VAAST:stop_gained" EXACT VAR []
 synonym: "VAT:prematureStop" EXACT VAR []
 synonym: "VEP:stop_gained" EXACT VAR []
+xref: http://ensembl.org/info/genome/variation/prediction/predicted_data.html
 xref: http://snp.gs.washington.edu/SeattleSeqAnnotation137/HelpHowToUse.jsp "Seattleseq"
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
 xref: http://vat.gersteinlab.org/formats.php "VAT"
-xref: http:www.ensembl.org/info/genome/variation/predicted_data.html#consequences
 xref: loinc:LA6699-8 "Nonsense"
 is_a: SO:0001906 ! feature_truncation
 is_a: SO:0001992 ! nonsynonymous_variant
