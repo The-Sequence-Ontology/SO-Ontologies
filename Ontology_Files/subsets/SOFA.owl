@@ -3580,7 +3580,6 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000344 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000344">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000165"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001056"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of a transcript that regulates splicing.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splice enhancer</oboInOwl:hasExactSynonym>

@@ -3073,7 +3073,6 @@ name: splice_enhancer
 def: "Region of a transcript that regulates splicing." [SO:ke]
 subset: SOFA
 synonym: "splice enhancer" EXACT []
-is_a: SO:0000165 ! enhancer
 is_a: SO:0001056 ! splicing_regulatory_region
 
 [Term]
