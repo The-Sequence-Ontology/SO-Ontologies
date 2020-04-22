@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-04-14
-date: 14:04:2020 12:02
+data-version: 2020-04-22
+date: 22:04:2020 12:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -5964,12 +5964,12 @@ is_a: SO:0000059 ! nuclease_binding_site
 
 [Term]
 id: SO:0000685
-name: DNAseI_hypersensitive_site
+name: DNaseI_hypersensitive_site
 def: "DNA region representing open chromatin structure that is hypersensitive to digestion by DNase I." []
 synonym: "DHS" EXACT []
-synonym: "DNAseI hypersensitive site" EXACT []
+synonym: "DNaseI hypersensitive site" EXACT []
 synonym: "INSDC_feature:regulatory" BROAD []
-synonym: "INSDC_qualifier:DNAseI_hypersensitive_site" EXACT []
+synonym: "INSDC_qualifier:DNase_I_hypersensitive_site" EXACT []
 is_a: SO:0000322 ! nuclease_hypersensitive_site
 
 [Term]
