@@ -21030,6 +21030,19 @@ created_by: david
 creation_date: 2020-04-14T10:40:30Z
 
 [Term]
+id: SO:0002235
+name: SUMO_interaction_motif
+def: "A polypeptide region that mediates binding to SUMO. The motif contains a hydrophobic core sequence consisting of three or four Ile, Leu, or Val residues plus one acidic or polar residue at position 2 or 3." [PMID:15388847,PMID:16524884]
+comment: Added as per request GitHub issue #434 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/434)
+synonym: "SUMO interaction motif" EXACT []
+synonym: "SUMO binding motif" EXACT []
+synonym: "SIM" EXACT []
+synonym: "SBM" EXACT []
+is_a: SO:0001093 ! protein_protein_contact
+created_by: david
+creation_date: 2020-04-22T12:40:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
