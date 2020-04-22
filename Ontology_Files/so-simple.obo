@@ -16608,7 +16608,9 @@ id: SO:0001843
 name: CRE
 alt_id: SO:0001900
 def: "MERGED DEFINITION:\nTARGET DEFINITION: A promoter element with consensus sequence TGACGTCA; bound by the ATF/CREB family of transcription factors.\n--------------------\nSOURCE DEFINITION: A promoter element that contains a core sequence TGACGT, bound by a protein complex that regulates transcription of genes encoding PKA pathway components." [PMID:11483355, PMID:11483993, PMID:15448137]
+comment: New synonym Atf1/Pcr1 recognition motif added in response to Antonia Lock GitHub Issue Request #437, PMID:15716492
 synonym: "ATF/CRE site" EXACT [PMID:11483993]
+synonym: "Atf1/Pcr1 recognition motif" EXACT []
 synonym: "cyclic AMP response element" EXACT []
 synonym: "M26 binding site" EXACT []
 synonym: "m26 site" EXACT []
