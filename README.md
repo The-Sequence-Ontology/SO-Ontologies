@@ -58,6 +58,10 @@ java.lang.IllegalStateException: Optional.get() cannot be called on an absent va
 
 All rdfs:labels (names in OBO) must not contain spaces or special characters. Instead of spaces, underscores can be used. Most special characters can be spelled out. For example, "five_prime_UTR" is used rather than "5' UTR".
 
+### ID Ranges
+
+To prevent clashing of IDs when multiple users simultaneously edit SO, we have assigned ranges for groups to use. These ranges can be viewed in the tab-delimited text file ID_ranges.txt. All external users are currently assigned the range of SO:0004001 to SO:0005000. If your group would like to work on SO, please create an issue request and we will create a range of IDs specifically for your group.  
+
 ### Logs  
 
 The log files for the make process are stored in the "Logs" folder. This folder has been added to the .gitignore file so that users can view the log files for each make without the risk of accidentally committing them. If the build process worked correctly, the file 'so-reasoner-report.txt' should be present and empty and the ontology-release-runner output will be saved to the file 'OORT_logs_{date}_{time}.txt'.
