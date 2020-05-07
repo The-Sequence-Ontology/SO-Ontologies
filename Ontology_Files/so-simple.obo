@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-04-22
-date: 22:04:2020 12:02
+data-version: 2020-05-07
+date: 07:05:2020 12:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -20634,6 +20634,103 @@ synonym: "SUMO interaction motif" EXACT []
 is_a: SO:0001093 ! protein_protein_contact
 created_by: david
 creation_date: 2020-04-22T12:40:30Z
+
+[Term]
+id: SO:0002236
+name: rRNA_18S_gene
+def: "A gene which codes for 18S_rRNA, which functions as the small subunit of the ribosome in eukaryotes." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+synonym: "18S rRNA gene" EXACT []
+synonym: "18S_rRNA_gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+relationship: derives_from SO:0000407 ! rRNA_18S
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
+
+[Term]
+id: SO:0002237
+name: rRNA_16S_gene
+def: "A gene which codes for 16S_rRNA, which functions as the small subunit of the ribosome in prokaryotes." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+synonym: "16S rRNA gene" EXACT []
+synonym: "16S_rRNA_gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+relationship: derives_from SO:0001000 ! rRNA_16S
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
+
+[Term]
+id: SO:0002238
+name: rRNA_5S_gene
+def: "A gene which codes for 5S_rRNA, which is a portion of the large subunit of the ribosome in both eukaryotes and prokaryotes." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+synonym: "5S rRNA gene" EXACT []
+synonym: "5S_rRNA_gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+relationship: derives_from SO:0000652 ! rRNA_5S
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
+
+[Term]
+id: SO:0002239
+name: rRNA_28S_gene
+def: "A gene which codes for 28S_rRNA, which functions as a component of the large subunit of the ribosome in eukaryotes." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+synonym: "28S rRNA gene" EXACT []
+synonym: "28S_rRNA_gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+relationship: derives_from SO:0000653 ! rRNA_28S
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
+
+[Term]
+id: SO:0002240
+name: rRNA_5_8S_gene
+def: "A gene which codes for 5_8S_rRNA (5.8S rRNA), which functions as a component of the large subunit of the ribosome in eukaryotes." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+synonym: "5.8S rRNA gene" EXACT []
+synonym: "5_8S rRNA gene" EXACT []
+synonym: "5_8S_rRNA_gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+relationship: derives_from SO:0000375 ! rRNA_5_8S
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
+
+[Term]
+id: SO:0002241
+name: rRNA_21S_gene
+def: "A gene which codes for 21S_rRNA, which functions as a component of the large subunit of the ribosome in mitochondria." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+synonym: "21S rRNA gene" EXACT []
+synonym: "21S_rRNA_gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+relationship: derives_from SO:0001171 ! rRNA_21S
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
+
+[Term]
+id: SO:0002242
+name: rRNA_25S_gene
+def: "A gene which codes for 25S_rRNA, which functions as a component of the large subunit of the ribosome in some eukaryotes." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+synonym: "25S rRNA gene" EXACT []
+synonym: "25S_rRNA_gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+relationship: derives_from SO:0001002 ! rRNA_25S
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
+
+[Term]
+id: SO:0002243
+name: rRNA_23S_gene
+def: "A gene which codes for 23S_rRNA, which functions as a component of the large subunit of the ribosome in prokaryotes." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+synonym: "23S rRNA gene" EXACT []
+synonym: "23S_rRNA_gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+relationship: derives_from SO:0001001 ! rRNA_23S
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0005836
