@@ -1409,6 +1409,7 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
@@ -1425,6 +1426,7 @@ synonym: "INSDC_feature:mat_peptide" EXACT []
 synonym: "mature peptide" RELATED []
 synonym: "mature protein region" EXACT []
 is_a: SO:0000839 ! polypeptide_region
+relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0001063 ! immature_peptide_region
 
 [Term]
@@ -2178,6 +2180,7 @@ synonym: "signal" RELATED []
 synonym: "transit" RELATED [uniprot:feature_type]
 synonym: "transit peptide" EXACT []
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0000851 ! CDS_region
 
 [Term]
 id: SO:0000727

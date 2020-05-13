@@ -3639,6 +3639,7 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0002251 ! signal_peptide_region_of_CDS
 relationship: part_of SO:0001062 ! propeptide
 
 [Term]
@@ -3654,6 +3655,7 @@ synonym: "INSDC_feature:mat_peptide" EXACT []
 synonym: "mature peptide" RELATED []
 synonym: "mature protein region" EXACT []
 is_a: SO:0000839 ! polypeptide_region
+relationship: derives_from SO:0002249 ! mature_protein_region_of_CDS
 relationship: part_of SO:0001063 ! immature_peptide_region
 
 [Term]
@@ -6323,6 +6325,7 @@ synonym: "signal" RELATED []
 synonym: "transit" RELATED [uniprot:feature_type]
 synonym: "transit peptide" EXACT []
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0002252 ! transit_peptide_region_of_CDS
 
 [Term]
 id: SO:0000726
@@ -8971,6 +8974,7 @@ synonym: "INSDC_feature:propeptide" EXACT []
 synonym: "propep" RELATED [uniprot:feature_type]
 xref: http://en.wikipedia.org/wiki/Propeptide "wiki"
 is_a: SO:0100011 ! cleaved_peptide_region
+relationship: derives_from SO:0002250 ! propeptide_region_of_CDS
 
 [Term]
 id: SO:0001063
@@ -20785,6 +20789,50 @@ synonym: "spurious protein" EXACT []
 is_a: SO:0001410 ! experimental_feature
 created_by: david
 creation_date: 2020-05-13T11:40:30Z
+
+[Term]
+id: SO:0002249
+name: mature_protein_region_of_CDS
+def: "A CDS region corresponding to a mature protein region of a polypeptide." []
+comment: Added as per request from GitHub Issue #484 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/484)
+synonym: "INSDC_feature:mat_peptide" EXACT []
+synonym: "mature protein region of CDS" EXACT []
+is_a: SO:0000851 ! CDS_region
+created_by: david
+creation_date: 2020-05-13T13:40:30Z
+
+[Term]
+id: SO:0002250
+name: propeptide_region_of_CDS
+def: "A CDS region corresponding to a propeptide of a polypeptide." []
+comment: Added as per request from GitHub Issue #484 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/484)
+synonym: "INSDC_feature:propeptide" EXACT []
+synonym: "propeptide region of CDS" EXACT []
+is_a: SO:0000851 ! CDS_region
+created_by: david
+creation_date: 2020-05-13T13:40:30Z
+
+[Term]
+id: SO:0002251
+name: signal_peptide_region_of_CDS
+def: "A CDS region corresponding to a signal peptide of a polypeptide." []
+comment: Added as per request from GitHub Issue #484 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/484)
+synonym: "INSDC_feature:sig_peptide" EXACT []
+synonym: "Signal peptide region of CDS" EXACT []
+is_a: SO:0000851 ! CDS_region
+created_by: david
+creation_date: 2020-05-13T13:40:30Z
+
+[Term]
+id: SO:0002252
+name: transit_peptide_region_of_CDS
+def: "CDS region corresponding to a transit peptide region of a polypeptide." []
+comment: Added as per request from GitHub Issue #484 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/484)
+synonym: "INSDC_feature:transit_peptide" EXACT []
+synonym: "transit peptide region of CDS" EXACT []
+is_a: SO:0000851 ! CDS_region
+created_by: david
+creation_date: 2020-05-13T13:40:30Z
 
 [Term]
 id: SO:0005836
