@@ -20777,6 +20777,16 @@ created_by: david
 creation_date: 2020-05-13T11:07:30Z
 
 [Term]
+id: SO:0002248
+name: spurious_protein
+def: "A region of DNA that is predicted to be translated and transcribed into a protein by a protein detection algorithm that does not get transcribed in nature." [PMID:21771858]
+comment: Added as per request from GitHub Issue #478 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/478)
+synonym: "spurious protein" EXACT []
+is_a: SO:0001410 ! experimental_feature
+created_by: david
+creation_date: 2020-05-13T11:40:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
