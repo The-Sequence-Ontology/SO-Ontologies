@@ -15275,7 +15275,7 @@ creation_date: 2010-10-06T01:44:57Z
 [Term]
 id: SO:0001674
 name: minus_24_signal
-def: "A conserved region about 12-bp upstream of the start point of bacterial transcription units, involved with sigma factor 54." [PMID:18331472]
+def: "A conserved region about 24-bp upstream of the start point of bacterial transcription units, involved with sigma factor 54." [PMID:18331472]
 synonym: "minus 24 signal" RELATED []
 is_a: SO:0000713 ! DNA_motif
 relationship: part_of SO:0001672 ! bacterial_RNApol_promoter_sigma54_element
@@ -21138,6 +21138,40 @@ is_a: SO:0001637 ! rRNA_gene
 relationship: derives_from SO:0001001 ! rRNA_23S
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
+
+[Term]
+id: SO:0002244
+name: partially_duplicated_transcript
+def: "A transcript which is partially duplicated due to duplication of DNA, leading to a new transcript that is only partial and likely nonfunctional." []
+comment: Added as per request from the Illumina group
+synonym: "partially duplicated transcript" EXACT []
+is_a: SO:0001576 ! transcript_variant
+created_by: david
+creation_date: 2020-05-13T09:07:30Z
+
+[Term]
+id: SO:0002245
+name: five_prime_duplicated_transcript
+def: "A partially_duplicated_transcript where the 5' end of the transcript is duplicated." []
+comment: Added as per request from the Illumina group
+synonym: "5' duplicated transcript" EXACT []
+synonym: "five prime duplicated transcript" EXACT []
+synonym: "five prime partially duplicated transcript" EXACT []
+is_a: SO:0002244 ! partially_duplicated_transcript
+created_by: david
+creation_date: 2020-05-13T09:07:30Z
+
+[Term]
+id: SO:0002246
+name: three_prime_duplicated_transcript
+def: "A partially_duplicated_transcript where the 3' end of the transcript is duplicated." []
+comment: Added as per request from the Illumina group
+synonym: "3' duplicated transcript" EXACT []
+synonym: "three prime duplicated transcript" EXACT []
+synonym: "three prime partially duplicated transcript" EXACT []
+is_a: SO:0002244 ! partially_duplicated_transcript
+created_by: david
+creation_date: 2020-05-13T09:07:30Z
 
 [Term]
 id: SO:0005836
