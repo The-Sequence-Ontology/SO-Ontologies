@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-05-07
-date: 07:05:2020 12:02
+data-version: 2020-05-13
+date: 13:05:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -15370,7 +15370,7 @@ id: SO:0001722
 name: H3K36_monomethylation_site
 def: "A kind of histone modification site, whereby the 36th residue (a lysine), from the start of the H3 histone protein is mono-methylated." [SO:ke]
 synonym: "H3K36 mono-methylation site" EXACT []
-synonym: "H3K36<Me1" RELATED []
+synonym: "H3K36Me1" RELATED []
 is_a: SO:0001733 ! H3K36_methylation_site
 created_by: kareneilbeck
 creation_date: 2010-04-13T10:46:32Z
