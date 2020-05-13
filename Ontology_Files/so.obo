@@ -21242,6 +21242,48 @@ created_by: david
 creation_date: 2020-05-13T13:40:30Z
 
 [Term]
+id: SO:0002253
+name: stem_loop_region
+def: "A portion of a stem loop secondary structure in RNA." []
+comment: Added as per request from GitHub Issue #451 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/451)
+synonym: "stem loop region" EXACT []
+is_a: SO:0000122 ! RNA_sequence_secondary_structure
+relationship: part_of SO:0000313 ! stem_loop
+created_by: david
+creation_date: 2020-05-13T11:40:30Z
+
+[Term]
+id: SO:0002254
+name: loop
+def: "The loop portion of a stem loop, which is not folded back upon itself. " []
+comment: Added as per request from GitHub Issue #451 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/451)
+synonym: "loop portion of stem loop" EXACT []
+is_a: SO:0002253 ! stem_loop_region
+created_by: david
+creation_date: 2020-05-13T11:40:30Z
+
+[Term]
+id: SO:0002255
+name: stem
+def: "The portion of a stem loop where the RNA is folded back upon itself. " []
+comment: Added as per request from GitHub Issue #451 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/451)
+synonym: "stem portion of stem loop" EXACT []
+is_a: SO:0002253 ! stem_loop_region
+created_by: david
+creation_date: 2020-05-13T11:40:30Z
+
+[Term]
+id: SO:0002256
+name: non_complimentary_stem
+def: "A region of a stem in a stem loop structure where the sequences are non-complimentary." []
+comment: Added as per request from GitHub Issue #451 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/451)
+synonym: "non-complimentary stem" EXACT []
+synonym: "noncomplimentary stem" EXACT []
+is_a: SO:0002255 ! stem
+created_by: david
+creation_date: 2020-05-13T11:40:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
