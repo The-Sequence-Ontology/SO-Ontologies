@@ -2205,7 +2205,7 @@ synonym: "INSDC_qualifier:unknown" BROAD []
 synonym: "transfer ribonucleic acid" RELATED []
 synonym: "transfer RNA" RELATED []
 xref: http://en.wikipedia.org/wiki/TRNA "wiki"
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0002247 ! sncRNA
 relationship: derives_from SO:0000210 ! tRNA_primary_transcript
 
 [Term]
@@ -2415,7 +2415,7 @@ synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:snRNA" EXACT []
 synonym: "small nuclear RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/SnRNA "wiki"
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0002247 ! sncRNA
 relationship: derives_from SO:0000231 ! snRNA_primary_transcript
 
 [Term]
@@ -2427,7 +2427,7 @@ synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:snoRNA" EXACT []
 synonym: "small nucleolar RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/SnoRNA "wiki"
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0002247 ! sncRNA
 relationship: derives_from SO:0000232 ! snoRNA_primary_transcript
 
 [Term]
@@ -3262,7 +3262,7 @@ name: small_regulatory_ncRNA
 def: "A non-coding RNA less than 200 nucleotides long, usually with a specific secondary structure, that acts to regulate gene expression. These include short ncRNAs such as piRNA, miRNA and siRNAs (among others)." [PMID:28541282, PomBase:al, SO:ma]
 subset: SOFA
 synonym: "small regulatory ncRNA" EXACT []
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0002247 ! sncRNA
 
 [Term]
 id: SO:0000371
@@ -21173,6 +21173,16 @@ synonym: "three prime partially duplicated transcript" EXACT []
 is_a: SO:0002244 ! partially_duplicated_transcript
 created_by: david
 creation_date: 2020-05-13T09:07:30Z
+
+[Term]
+id: SO:0002247
+name: sncRNA
+def: "A non-coding RNA less than 200 nucleotides in length." [PMID:30069443]
+comment: Added as per request from GitHub Issue #485 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/485)
+synonym: "Small noncoding RNA" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: david
+creation_date: 2020-05-13T11:07:30Z
 
 [Term]
 id: SO:0005836
