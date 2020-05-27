@@ -21284,6 +21284,16 @@ created_by: david
 creation_date: 2020-05-13T11:40:30Z
 
 [Term]
+id: SO:0002257
+name: knob
+def: "Cytologically observable heterochromatic regions of chromosomes away from centromeres that contain predominatly large tandem repeats and retrotransposons." [PMID: 6439888]
+comment: Added as per request from GitHub Issue #487 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/487)
+synonym: "Heterochromatin Knob" EXACT []
+is_a: SO:0000657 ! repeat_region
+created_by: david
+creation_date: 2020-05-27T10:45:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
