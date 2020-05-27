@@ -21304,6 +21304,20 @@ created_by: david
 creation_date: 2020-05-27T11:03:30Z
 
 [Term]
+id: SO:0002259
+name: polyA_site_cluster
+def: "A region defined by a cluster of experimentally determined polyadenylation sites, typically less than 25 bp in length and associated with a single polyadenylation signal." [PMID:17202160, PMID:24072873, PMID:25906188]
+comment: Added as per GitHub Issue Request #450 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/450)
+synonym: "polyA cluster" EXACT []
+synonym: "polyA site cluster" EXACT []
+synonym: "polyA_cluster" EXACT []
+is_a: SO:0000699 ! junction
+relationship: has_part SO:0000553 ! polyA_site
+relationship: part_of SO:0000205 ! three_prime_UTR
+created_by: david
+creation_date: 2020-05-27T14:17:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
