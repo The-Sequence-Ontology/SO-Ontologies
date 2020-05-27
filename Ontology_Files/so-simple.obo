@@ -20911,6 +20911,28 @@ created_by: david
 creation_date: 2020-05-27T14:17:30Z
 
 [Term]
+id: SO:0002260
+name: LARD
+def: "Large Retrotransposon Derivative elements are long-terminal repeats that contain reverse transcriptase priming sites and are conserved in sequence but contain no open reading frames encoding typical retrotransposon proteins . The LARDs identified in barley and other Triticeae have LTRs ~5.5 kb and an interal domain of ~3.5 kb. LARDs lack coding domains and thus do not encode proteins." [PMID:15082561]
+comment: Added as per GitHub Issue Request #429 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/429)
+synonym: "Large Retrotransposon Derivative" EXACT []
+synonym: "large_retrotransposon_derivative" EXACT []
+is_a: SO:0000186 ! LTR_retrotransposon
+created_by: david
+creation_date: 2020-05-27T15:47:30Z
+
+[Term]
+id: SO:0002261
+name: TRIM
+def: "TRIM elements have terminal direct repeat sequences of 100-250 bp in length that flank an internal domain of 100–300 bp. TRIMs lack coding domains and thus do not encode proteins." [PMID:11717436]
+comment: Added as per GitHub Issue Request #429 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/429)
+synonym: "terminal-repeat retrotransposons in miniature" EXACT []
+synonym: "terminal-repeat_retrotransposons_in_miniature" EXACT []
+is_a: SO:0000186 ! LTR_retrotransposon
+created_by: david
+creation_date: 2020-05-27T15:47:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
