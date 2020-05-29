@@ -6431,8 +6431,9 @@ is_a: SO:0000736 ! organelle_sequence
 id: SO:0000738
 name: nuclear_sequence
 def: "DNA belonging to the nuclear genome of cell." []
+comment: Moved from is_a SO:0000736 (organelle_sequence) when brought to our attention by GitHub issue #489.
 synonym: "nuclear sequence" EXACT []
-is_a: SO:0000736 ! organelle_sequence
+is_a: SO:0000735 ! sequence_location
 
 [Term]
 id: SO:0000739
