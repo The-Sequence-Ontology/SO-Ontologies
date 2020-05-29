@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-05-27
-date: 27:05:2020 10:02
+data-version: 2020-05-28
+date: 28:05:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -20931,6 +20931,32 @@ synonym: "terminal-repeat_retrotransposons_in_miniature" EXACT []
 is_a: SO:0000186 ! LTR_retrotransposon
 created_by: david
 creation_date: 2020-05-27T15:47:30Z
+
+[Term]
+id: SO:0002262
+name: Watson_strand
+def: "An absolute reference to the strand. When a chromosome has p and q arms, the Watson strand is the strand whose 5'-end is on the short arm of the chromosome. Of note, the term 'plus strand' is typically based on a reference sequence where it's preferred for the plus strand to be the Watson strand, but might not be and 'plus strand' is therefore not an exact synonym." [PMID:21303550]
+comment: Added as per GitHub Issue Request #419 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/419)
+synonym: "Forward strand" EXACT []
+synonym: "Plus strand" BROAD []
+synonym: "Top strand" EXACT []
+synonym: "Watson strand" EXACT []
+is_a: SO:0000830 ! chromosome_part
+created_by: david
+creation_date: 2020-05-28T10:33:30Z
+
+[Term]
+id: SO:0002263
+name: Crick_strand
+def: "An absolute reference to the strand. When a chromosome has p and q arms, the Crick strand is the strand whose 5'-end is on the long arm of the chromosome. Of note, the term 'minus strand' is typically based on a reference sequence where it's preferred for the minus strand to be the Crick strand, but might not be and 'minus strand' is therefore not an exact synonym." [PMID:21303550]
+comment: Added as per GitHub Issue Request #419 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/419)
+synonym: "Bottom strand" EXACT []
+synonym: "Crick strand" EXACT []
+synonym: "Minus strand" BROAD []
+synonym: "Reverse strand" EXACT []
+is_a: SO:0000830 ! chromosome_part
+created_by: david
+creation_date: 2020-05-28T10:33:30Z
 
 [Term]
 id: SO:0005836
