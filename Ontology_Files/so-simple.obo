@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-05-28
-date: 28:05:2020 10:02
+data-version: 2020-06-16
+date: 16:06:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -20905,7 +20905,7 @@ comment: Added as per GitHub Issue Request #450 (https://github.com/The-Sequence
 synonym: "polyA cluster" EXACT []
 synonym: "polyA site cluster" EXACT []
 synonym: "polyA_cluster" EXACT []
-is_a: SO:0000699 ! junction
+is_a: SO:0001411 ! biological_region
 relationship: has_part SO:0000553 ! polyA_site
 relationship: part_of SO:0000205 ! three_prime_UTR
 created_by: david
