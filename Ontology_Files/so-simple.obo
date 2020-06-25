@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-06-16
-date: 16:06:2020 10:02
+data-version: 2020-06-25
+date: 25:06:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -13367,10 +13367,15 @@ creation_date: 2010-03-11T03:31:30Z
 
 [Term]
 id: SO:0001535
-name: p_element
-def: "A P_element is a DNA transposon responsible for hybrid dysgenesis." [SO:ke]
-synonym: "P element" RELATED []
-is_a: SO:0000182 ! DNA_transposon
+name: P_TIR_transposon
+def: "A P-element is a DNA transposon responsible for hybrid dysgenesis. P elements in this terminal inverted repeat (TIR) transposon superfamily have 31 bp perfect TIR and upon insertion duplicate an 8 bp sequence. It contains transposase that may lack the DDE domain." [PMID:6309410, SO:ke]
+comment: Moved from under DNA_transposon (SO:0000182) by Dave Sant as per request from GitHub issue #488 on June 25, 2020
+synonym: "DTP transposon" EXACT []
+synonym: "P element" EXACT []
+synonym: "P TIR transposon" EXACT []
+synonym: "P transposable element" EXACT []
+synonym: "P-element" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
 created_by: kareneilbeck
 creation_date: 2010-03-12T03:40:33Z
 
@@ -18846,6 +18851,7 @@ name: LINE1_insertion
 def: "An insertion from the Line1 family of mobile elements." [NCBI:th]
 synonym: "line1 insertion" RELATED []
 is_a: SO:0001837 ! mobile_element_insertion
+relationship: derives_from SO:0002272 ! L1_LINE_retrotransposon
 created_by: kareneilbeck
 creation_date: 2015-06-18T11:34:44Z
 
@@ -18869,9 +18875,10 @@ creation_date: 2015-09-04T13:40:43Z
 [Term]
 id: SO:0002067
 name: HERV_deletion
-def: "A deletion of the HERV mobile element with respect to  a reference." [NCBI:th]
+def: "A deletion of the HERV mobile element with respect to a reference." [NCBI:th]
 synonym: "HERV deletion" EXACT []
 is_a: SO:0002066 ! mobile_element_deletion
+relationship: derives_from SO:0002268 ! Endogenous_Retrovirus_LTR_retrotransposon
 created_by: kareneilbeck
 creation_date: 2015-09-04T13:42:52Z
 
@@ -18890,6 +18897,7 @@ name: LINE1_deletion
 def: "A deletion of a LINE1 mobile element with respect to a reference." [NCBI:th]
 synonym: "LINE1 deletion" RELATED []
 is_a: SO:0002066 ! mobile_element_deletion
+relationship: derives_from SO:0002272 ! L1_LINE_retrotransposon
 created_by: kareneilbeck
 creation_date: 2015-09-04T13:46:26Z
 
@@ -20107,6 +20115,7 @@ name: HERV_insertion
 def: "An insertion of sequence from the HERV family of mobile elements with respect to a reference." [NCBI:th]
 synonym: "HERV insertion" EXACT []
 is_a: SO:0001837 ! mobile_element_insertion
+relationship: derives_from SO:0002268 ! Endogenous_Retrovirus_LTR_retrotransposon
 created_by: nicole
 creation_date: 2017-11-20T11:52:51Z
 
@@ -20958,6 +20967,349 @@ synonym: "Reverse strand" EXACT []
 is_a: SO:0000830 ! chromosome_part
 created_by: david
 creation_date: 2020-05-28T10:33:30Z
+
+[Term]
+id: SO:0002264
+name: Copia_LTR_retrotransposon
+def: "LTR retrotransposons in the Copia superfamily contain elements coding for specific proteins in this order: GAG, AP, INT, RT, RH. GAG is a structural protein for virus-like particles. AP is aspartic proteinase. INT is a DDE integrase. RT is a reverse transcriptase. RH is RNAse H." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Copia LTR retrotransposon" EXACT []
+synonym: "RLC retrotransposon" EXACT []
+synonym: "Ty1 retrotransposon" EXACT []
+is_a: SO:0000186 ! LTR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002265
+name: Gypsy_LTR_retrotransposon
+def: "LTR retrotransposons in the Gypsy superfamily contain elements coding for specific proteins in this order: GAG, AP, RT, RH, INT. GAG is a structural protein for virus-like particles. AP is aspartic proteinase. INT is a DDE integrase. RT is a reverse transcriptase. RH is RNAse H." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Gypsy LTR retrotransposon" EXACT []
+synonym: "RLG retrotransposon" EXACT []
+synonym: "Ty3 retrotransposon" EXACT []
+is_a: SO:0000186 ! LTR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002266
+name: Bel_Pao_LTR_retrotransposon
+def: "LTR retrotransposons in the Bel-Pao superfamily are similar to LTRs in the Gypsy and Retrovirus superfamilies. Mainly described in metazoan genomes, this superfamily contain elements coding for specific proteins in this order: GAG, AP, RT, RH and INT. GAG is a structural protein for virus-like particles. AP is aspartic proteinase. INT is a DDE integrase. RT is a reverse transcriptase. RH is RNAse H." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Bel Pao LTR retrotransposon" EXACT []
+synonym: "Bel-Pao LTR retrotransposon" EXACT []
+synonym: "RLB retrotransposon" EXACT []
+is_a: SO:0000186 ! LTR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002267
+name: Retrovirus_LTR_retrotransposon
+def: "LTR retrotransposons in the retrovirus superfamily are similar to LTR retrotransposons in the Gypsy and Bel-Pao superfamilies. Mainly described in vertebrate animals, this superfamily contain elements coding for specific proteins in this order: GAG, AP, RT, RH, INT, and ENV. GAG is a structural protein for virus-like particles. AP is aspartic proteinase. INT is a DDE integrase. RT is a reverse transcriptase. RH is RNAse H. ENV is envelop protein." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Retrovirus LTR retrotransposon" EXACT []
+synonym: "RLR retrotransposon" EXACT []
+is_a: SO:0000186 ! LTR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002268
+name: Endogenous_Retrovirus_LTR_retrotransposon
+def: "Endogenous retrovirus (ERV) retrotransposons are abundant in the genomes of jawed vertebrates. Human ERVs (HERVs) are classified based on their homologies to animal retroviruses. Class I families are similar in sequence to mammalian Gammaretroviruses (type C) and Epsilonretroviruses (Type E). Class II families show homology to mammalian Betaretroviruses (Type B) and Deltaretroviruses (Type D). F-Class III families are similar to foamy viruses." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Endogenous Retrovirus LTR retrotransposon" EXACT []
+synonym: "HERV" EXACT []
+synonym: "RLE retrotransposon" EXACT []
+is_a: SO:0000186 ! LTR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002269
+name: R2_LINE_retrotransposon
+def: "R2 retrotransposons are LINE elements (SO:0000194) that insert site-specifically into the host organism's 28S ribosomal RNA (rRNA) genes." [PMID:21734471]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "R2 LINE retrotransposon" EXACT []
+synonym: "R2 retrotransposon" EXACT []
+synonym: "RIR retrotransposon" EXACT []
+is_a: SO:0000194 ! LINE_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002270
+name: RTE_LINE_retrotransposon
+def: "RTE retrotransposons are LINE elements (SO:0000194) that contain a domain with homology to the apurinic-apyrimidic (AP) endonucleases in addition to the previously identified reverse transcriptase domain." [PMID:9729877]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "RIT retrotransposon" EXACT []
+synonym: "RTE LINE retrotransposon" EXACT []
+synonym: "RTE retrotransposon" EXACT []
+is_a: SO:0000194 ! LINE_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002271
+name: Jockey_LINE_retrotransposon
+def: "Jockey retrotransposons are LINE elements (SO:0000194) found only in arthropods. The full-length element is ~ 5 kb and contains two open reading frames (SO:0000236), ORF1 (568 aa) and ORF2 (916 aa), the second of which encodes an apurinic endonuclease (APE) and a reverse transcriptase (RT)." [PMID:31709017]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Jockey LINE retrotransposon" EXACT []
+synonym: "LINE Jockey element" EXACT []
+synonym: "RIJ retrotransposon" EXACT []
+is_a: SO:0000194 ! LINE_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002272
+name: L1_LINE_retrotransposon
+def: "Long interspersed element-1 (LINE-1) elements are found in the human genome, which contains ORF1 (open reading frame1, including CC, coiled coil; RRM, RNA recognition motif; CTD, carboxyl-terminal domain) and ORF2 (including EN, endonuclease; RT, reverse transcriptase; C, cysteine-rich domain). The L1-encoded proteins (ORF1p and ORF2p) can mobilize nonautonomous retrotransposons, other noncoding RNAs, and messenger RNAs." [PMID:31709017]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "L1 element" EXACT []
+synonym: "L1 LINE retrotransposon" EXACT []
+synonym: "LINE 1 element" EXACT []
+synonym: "LINE-1 element" EXACT []
+is_a: SO:0000194 ! LINE_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002273
+name: I_LINE_retrotransposon
+def: "Elements of the LINE I superfamily are similar to the Jockey and L1 superfamily. They contains two ORFs, the.second of which includes  Apurinic endonuclease (APE) and  reverse transcriptase (RT). The I superfamily encodes an RH (RNase H) domain downstream of the RT domain." []
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "I LINE retrotransposon" EXACT []
+synonym: "LINE I element" EXACT []
+synonym: "RII retrotransposon" EXACT []
+xref: https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/long-interspersed-nuclear-element
+is_a: SO:0000194 ! LINE_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002274
+name: tRNA_SINE_retrotransposon
+def: "Short interspersed elements that originated from tRNAs." [PMID:21673742]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "RST retrotransposon" EXACT []
+synonym: "tRNA SINE element" EXACT []
+synonym: "tRNA SINE retrotransposon" EXACT []
+is_a: SO:0000206 ! SINE_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002275
+name: 7SL_SINE_retrotransposon
+def: "Short interspersed elements that originated from 7SL RNAs." [PMID:21673742]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "7SL SINE element" EXACT []
+synonym: "7SL SINE retrotransposon" EXACT []
+synonym: "RSL retrotransposon" EXACT []
+is_a: SO:0000206 ! SINE_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002276
+name: 5S_SINE_retrotransposon
+def: "Short interspersed elements that originated from 5S rRNAs." [PMID:21673742]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "5S SINE element" EXACT []
+synonym: "5S SINE retrotransposon" EXACT []
+synonym: "RSS retrotransposon" EXACT []
+is_a: SO:0000206 ! SINE_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002277
+name: Crypton_YR_transposon
+def: "Crypton is a superfamily of DNA transposons that use tyrosine recombinase (YR) to cut and rejoin the recombining DNA molecules." [PMID:22011512]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Crypton transposon" EXACT []
+synonym: "Crypton YR transposon" EXACT []
+synonym: "DYC transposon" EXACT []
+is_a: SO:0000182 ! DNA_transposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002278
+name: Tc1_Mariner_TIR_transposon
+def: "Elements of the Tc1-Mariner terminal inverted repeat transposon superfamily (also called mariner transposons) are named after the Transponon of C. elegans number 1 transposasse. Their activity creates a 2-bp (TA) target-site duplication (TSD). Stowaway is the non-autonomous element in this superfamily usually shorter than 600 bp." [PMID:17984973, PMID:8556864]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "DTT transposon" EXACT []
+synonym: "Mariner" EXACT []
+synonym: "Stowaway" EXACT []
+synonym: "Tc1 Mariner TIR transposon" EXACT []
+synonym: "Tc1 transposon" EXACT []
+synonym: "TcMar-Stowaway transposon" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002279
+name: hAT_TIR_transposon
+def: "The hAT terminal inverted repeat transposon superfamily elements were first found in maize (the Ac/Ds elements). Members of the hAT superfamily have TSDs of 8 bp, relatively short TIRs of 5–27 bp and overall lengths of less than 4 kb." [PMID:11454746]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Ac transposon" EXACT []
+synonym: "Ac/Ds transposon" EXACT []
+synonym: "Ds transposon" EXACT []
+synonym: "DTA transposon" EXACT []
+synonym: "hAT TIR transposon" EXACT []
+synonym: "hAT transposon" EXACT []
+synonym: "hAT-Ac transposon" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002280
+name: Mutator_TIR_transposon
+def: "Members of the Mutator family of terminal inverted repeat (TIR) transposon are usually long but are also highly divergent, either sharing only terminal G…C nucleotides, or with the G…C nucleotides absent. The length of the TSD (7-11 bp, usually 9 bp) remains probably the most useful criterion for identification." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "DTM transposon" EXACT []
+synonym: "MLE transposon" EXACT []
+synonym: "Mu transposon" EXACT []
+synonym: "MuDR" EXACT []
+synonym: "MULE" EXACT []
+synonym: "Mutator TIR transposon" EXACT []
+synonym: "Mutator transposon" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002281
+name: Merlin_TIR_transposon
+def: "Terminal inverted repeat transposon superfamily Merlin elements create 8-9 bp target-site duplications (TSD)." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "DTE transposon" EXACT []
+synonym: "Merlin TIR transposon" EXACT []
+synonym: "Merlin transposon" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002282
+name: Transib_TIR_transposon
+def: "Terminal inverted repeat (TIR) transposons of the superfamily Transib contain the DDE motif, which is related to the RAG1 protein involved in V(D)J recombination." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "DTR transposon" EXACT []
+synonym: "Transib TIR transposon" EXACT []
+synonym: "transib transposon" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002283
+name: piggyBac_TIR_transposon
+def: "Primarily found in animals, the terminal inverted repeat (TIR) transposon superfamily piggyBac elements favour insertion adjacent to TTAA." [PMID:17984973]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "DTB transposon" EXACT []
+synonym: "piggyBac TIR transposon" EXACT []
+synonym: "PiggyBac transposable element" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002284
+name: PIF_Harbinger_TIR_transposon
+def: "Terminal inverted repeat transposons in the PIF/Harbinger/tourist superfamily create 3-bp target site duplication that are mainly 'TAA' or 'TTA'. The autonomous PIF-Harbinger elements are relatively small in size, usually a few kb in length. Non-autonomous elements in this superfamily usually shorter than 600 bp are referrred to as Tourist elements. The terminal sequences for PIF/Harbinger/Tourist elements are 'GGG/CCC…GGC/GCC' or 'GA/GGCA…TGCC/TC'." [PMID:26709091]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "DTH transposon" EXACT []
+synonym: "Harbinger transposon" EXACT []
+synonym: "PIF Harbinger TIR transposon" EXACT []
+synonym: "PIF transposon" EXACT []
+synonym: "Tourist transposon element" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002285
+name: CACTA_TIR_transposon
+def: "This terminal inverted repeat of the CACTA family generate 3-bp target site duplication (TSD) upon insertion. CACTA elements do not have a significant preference for genic region insertions. This terminal inverted repeat (TIR) transposon superfamily is named CACTA because their terminal sequences are 'CACTA/G…C/TAGTG'." [PMID:26709091]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "CACTA TIR transposon" EXACT []
+synonym: "CACTA transposon element" EXACT []
+synonym: "CACTC transposon" EXACT []
+synonym: "CMC-EnSpm transposon" EXACT []
+synonym: "dSpm transposon" EXACT []
+synonym: "DTC transposon" EXACT []
+synonym: "En transposon" EXACT []
+synonym: "En-Spm transposon" EXACT []
+synonym: "EnSpm transposon" EXACT []
+synonym: "Spm transposon" EXACT []
+is_a: SO:0000208 ! terminal_inverted_repeat_element
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002286
+name: YR_retrotransposon
+def: "Tyrosine Kinase (YR) retrotransposons are a subclass of non-LTR retrotransposons. These YR-encoding elements consist of central gag, pol and tyrosine recombinase (YR) open reading frames (ORFs) flanked with terminal repeat. The pol ORF includes a reverse transcriptase (RT), a RNase H (RH) and, in case of DIRS, a domain similar to bacterial and phage DNA N-6-adenine-methyltransferase (MT). Compared to the retroviral pol (LTR retrotransposons, non-LTR retrotransposons and Penelope elements), both aspartic protease and DDE integrase are absent from YR retrotransposons. YR retrotransposons have inverted terminal repeats (ITRs)." [PMID:24086727]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "tyrosine kinase retrotransposon" EXACT []
+synonym: "YR retrotransposon" EXACT []
+is_a: SO:0000189 ! non_LTR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002287
+name: DIRS_YR_retrotransposon
+def: "Dictyostelium intermediate repeat sequence (DIRS) retrotransposons are members of the YR_retrotransposon (SO:0002286) superfamily with the following protein domains: RT, RH, YR, and MT. RT is a reverse transcriptase. RH is RNAse H. YR is tyrosine recombinase. MT is DNA N-6-adenine-methyltransferase." [PMID:24086727]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "DIRS retrotransposon" EXACT []
+synonym: "DIRS YR retrotransposon" EXACT []
+synonym: "RYD retrotransposon" EXACT []
+is_a: SO:0002286 ! YR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002288
+name: Ngaro_YR_retrotransposon
+def: "Ngaro retrotransposons are members of the YR_retrotransposon (SO:0002286) superfamily with the following protein domains: RT, RH, YR. RT is a reverse transcriptase. RH is RNAse H. YR is Tyrosine recombinase. Inverted terminal repeats (ITRs) in Ngaro are arranged in A-pol-B-A-B order where A and B represent ITRs." [PMID:24086727]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Ngaro retrotransposon" EXACT []
+synonym: "Ngaro YR retrotransposon" EXACT []
+synonym: "RYN retrotransposon" EXACT []
+is_a: SO:0002286 ! YR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002289
+name: Viper_YR_retrotransposon
+def: "VIPER retrotransposons are members of the YR_retrotransposon (SO:0002286 superfamily with protein domains: RT, RH, YR. RT is a reverse transcriptase. RH is RNAse H. YR is Tyrosine recombinase. Inverted terminal repeats (ITRs) in VIPER are arranged in A-pol-B-A-B order where A and B represent ITRs. VIPER is only found in kinetoplastida genomes." [PMID:16297462]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "RYV retrotransposon" EXACT []
+synonym: "Viper retrotransposon" EXACT []
+synonym: "Viper YR retrotransposon" EXACT []
+is_a: SO:0002286 ! YR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
+
+[Term]
+id: SO:0002290
+name: Penelope_retrotransposon
+def: "Penelope is a subclass of non_LTR_retrotransposons (SO:0000189). Penelope retrotransposons contains structural features of TR, RT, EN, TR, terminal repeats which can be in tandem or inverse orientation in different Penelope copies. RT is reverse transcriptase. EN is endonuclease." [PMID:23914310]
+comment: Added as per GitHub Issue Request #488 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/488)
+synonym: "Penelope retrotransposon" EXACT []
+synonym: "RPP retrotransposon" EXACT []
+is_a: SO:0000189 ! non_LTR_retrotransposon
+created_by: david
+creation_date: 2020-06-25T14:00:30Z
 
 [Term]
 id: SO:0005836
