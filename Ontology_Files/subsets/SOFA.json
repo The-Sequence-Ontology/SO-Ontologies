@@ -5,7 +5,7 @@
       "meta" : {
         "definition" : {
           "val" : "A cis-acting sequence that increases the utilization of (some) eukaryotic promoters, and can function in either orientation and in any location (upstream or downstream) relative to the promoter.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "An enhancer may participate in an enhanceosome GO:0034206. A protein-DNA complex formed by the association of a distinct set of general and specific transcription factors with a region of enhancer DNA. The cooperative assembly of an enhanceosome confers specificity of transcriptional regulation. This comment is a place holder should we start to make cross products with GO." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
@@ -821,7 +821,7 @@
       "meta" : {
         "definition" : {
           "val" : "A small nuclear RNA molecule involved in pre-mRNA splicing and processing.",
-          "xrefs" : [ "PMID:11733745", "WB:ems", "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "PMID:11733745", "WB:ems", "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "This term is mapped to MGED. Do not obsolete without consulting MGED ontology." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
@@ -1654,7 +1654,7 @@
       "meta" : {
         "definition" : {
           "val" : "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "This term is mapped to MGED. Do not obsolete without consulting MGED ontology." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
@@ -2052,7 +2052,7 @@
       "meta" : {
         "definition" : {
           "val" : "A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites.",
-          "xrefs" : [ "NCBI:cf", "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "NCBI:cf", "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
@@ -2338,7 +2338,7 @@
       "meta" : {
         "definition" : {
           "val" : "The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle).",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "Added to bring SO inline with the EMBL, DDBJ, GenBank feature table. Old definition before biosapiens: The coding sequence for an N-terminal domain of a nuclear-encoded organellar protein. This domain is involved in post translational import of the protein into the organelle." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA", "http://purl.obolibrary.org/obo/so#biosapiens" ],
@@ -2374,7 +2374,7 @@
       "meta" : {
         "definition" : {
           "val" : "A region of a DNA molecule where transfer is initiated during the process of conjugation or mobilization.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
@@ -3185,7 +3185,7 @@
       "meta" : {
         "definition" : {
           "val" : "The polypeptide sequence that remains when the cleaved peptide regions have been cleaved from the immature peptide.",
-          "xrefs" : [ "EBIBS:GAR", "SO:cb", "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "EBIBS:GAR", "SO:cb", "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "This term mature peptide, merged with the biosapiens term mature protein region and took that to be the new name. Old def: The coding sequence for the mature or final peptide or protein product following post-translational modification." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens", "http://purl.obolibrary.org/obo/so#SOFA" ],
@@ -3221,7 +3221,7 @@
       "meta" : {
         "definition" : {
           "val" : "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "Old def before biosapiens:The sequence for an N-terminal domain of a secreted protein; this domain is involved in attaching nascent polypeptide to the membrane leader sequence." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA", "http://purl.obolibrary.org/obo/so#biosapiens" ],
@@ -4481,7 +4481,7 @@
       "meta" : {
         "definition" : {
           "val" : "The site on an RNA transcript to which will be added adenine residues by post-transcriptional polyadenylation. The boundary between the UTR and the polyA sequence.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
@@ -4592,7 +4592,7 @@
       "meta" : {
         "definition" : {
           "val" : "The recognition sequence necessary for endonuclease cleavage of an RNA transcript that is followed by polyadenylation; consensus=AATAAA.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
@@ -4699,7 +4699,7 @@
       "meta" : {
         "definition" : {
           "val" : "A modified nucleotide, i.e. a nucleotide other than A, T, C. G.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "Modified base:<modified_base>." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
@@ -5441,7 +5441,7 @@
       "meta" : {
         "definition" : {
           "val" : "A region at the 3' end of a mature transcript (following the stop codon) that is not translated into a protein.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
@@ -5630,7 +5630,7 @@
       "meta" : {
         "definition" : {
           "val" : "A region at the 5' end of a mature transcript (preceding the initiation codon) that is not translated into a protein.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
@@ -6816,7 +6816,7 @@
       "meta" : {
         "definition" : {
           "val" : "The sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
@@ -7056,7 +7056,7 @@
       "meta" : {
         "definition" : {
           "val" : "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity.",
-          "xrefs" : [ "ISBN:0198506732", "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "ISBN:0198506732", "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
@@ -7368,7 +7368,7 @@
       "meta" : {
         "definition" : {
           "val" : "The many tandem repeats (identical or related) of a short basic repeating unit; many have a base composition or other property different from the genome average that allows them to be separated from the bulk (main band) genomic DNA.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
@@ -7481,13 +7481,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000149",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000353"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000593",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000275"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000149",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000353"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000831",
       "pred" : "http://purl.obolibrary.org/obo/so#member_of",
@@ -7513,13 +7513,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000333",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
       "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
@@ -8145,13 +8145,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000185"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001215",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000852"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000289",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001215",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000852"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000366",
       "pred" : "is_a",
@@ -8237,13 +8237,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000657"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000725",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001527"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000305",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001236"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000725",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001527"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000007",
       "pred" : "is_a",
@@ -8349,21 +8349,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000204",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000203"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000687",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001000",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000204",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000650"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000203"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000007",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000149"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000650"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000336",
       "pred" : "is_a",
@@ -8553,13 +8553,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000252",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000196",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001215"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000341",
       "pred" : "is_a",
@@ -8621,13 +8621,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000590",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000627",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000590",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000719",
       "pred" : "is_a",

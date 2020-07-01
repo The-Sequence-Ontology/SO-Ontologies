@@ -44,7 +44,7 @@ is_a: SO:0000195 ! coding_exon
 id: SO:0000005
 name: satellite_DNA
 namespace: sequence
-def: "The many tandem repeats (identical or related) of a short basic repeating unit; many have a base composition or other property different from the genome average that allows them to be separated from the bulk (main band) genomic DNA." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "The many tandem repeats (identical or related) of a short basic repeating unit; many have a base composition or other property different from the genome average that allows them to be separated from the bulk (main band) genomic DNA." [http://www.insdc.org/files/feature_table.html]
 subset: SOFA
 synonym: "INSDC_feature:repeat_region" BROAD []
 synonym: "INSDC_qualifier:satellite" EXACT []
@@ -274,7 +274,7 @@ relationship: part_of SO:0000234 ! mRNA
 id: SO:0000141
 name: terminator
 namespace: sequence
-def: "The sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "The sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription." [http://www.insdc.org/files/feature_table.html]
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:terminator" EXACT []
@@ -411,7 +411,7 @@ is_a: SO:0001419 ! cis_splice_site
 id: SO:0000165
 name: enhancer
 namespace: sequence
-def: "A cis-acting sequence that increases the utilization of (some) eukaryotic promoters, and can function in either orientation and in any location (upstream or downstream) relative to the promoter." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "A cis-acting sequence that increases the utilization of (some) eukaryotic promoters, and can function in either orientation and in any location (upstream or downstream) relative to the promoter." [http://www.insdc.org/files/feature_table.html]
 comment: An enhancer may participate in an enhanceosome GO:0034206. A protein-DNA complex formed by the association of a distinct set of general and specific transcription factors with a region of enhancer DNA. The cooperative assembly of an enhanceosome confers specificity of transcriptional regulation. This comment is a place holder should we start to make cross products with GO.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
@@ -508,7 +508,7 @@ is_obsolete: true
 id: SO:0000188
 name: intron
 namespace: sequence
-def: "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it." [http://www.insdc.org/files/feature_table.html]
 comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
 subset: SOFA
 synonym: "INSDC_feature:intron" EXACT []
@@ -588,7 +588,7 @@ is_a: SO:0000836 ! mRNA_region
 id: SO:0000204
 name: five_prime_UTR
 namespace: sequence
-def: "A region at the 5' end of a mature transcript (preceding the initiation codon) that is not translated into a protein." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "A region at the 5' end of a mature transcript (preceding the initiation codon) that is not translated into a protein." [http://www.insdc.org/files/feature_table.html]
 subset: SOFA
 synonym: "5' UTR" EXACT []
 synonym: "five prime UTR" EXACT []
@@ -601,7 +601,7 @@ is_a: SO:0000203 ! UTR
 id: SO:0000205
 name: three_prime_UTR
 namespace: sequence
-def: "A region at the 3' end of a mature transcript (following the stop codon) that is not translated into a protein." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "A region at the 3' end of a mature transcript (following the stop codon) that is not translated into a protein." [http://www.insdc.org/files/feature_table.html]
 subset: SOFA
 synonym: "INSDC_feature:3'UTR" EXACT []
 synonym: "three prime untranslated region" EXACT []
@@ -679,7 +679,7 @@ is_a: SO:0001412 ! topologically_defined_region
 id: SO:0000252
 name: rRNA
 namespace: sequence
-def: "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, ISBN:0198506732]
+def: "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity." [http://www.insdc.org/files/feature_table.html, ISBN:0198506732]
 subset: SOFA
 synonym: "INSDC_feature:rRNA" EXACT []
 synonym: "INSDC_qualifier:unknown" BROAD []
@@ -708,7 +708,7 @@ relationship: derives_from SO:0000483 ! nc_primary_transcript
 id: SO:0000274
 name: snRNA
 namespace: sequence
-def: "A small nuclear RNA molecule involved in pre-mRNA splicing and processing." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, PMID:11733745, WB:ems]
+def: "A small nuclear RNA molecule involved in pre-mRNA splicing and processing." [http://www.insdc.org/files/feature_table.html, PMID:11733745, WB:ems]
 comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
@@ -781,7 +781,7 @@ is_a: SO:0000657 ! repeat_region
 id: SO:0000296
 name: origin_of_replication
 namespace: sequence
-def: "A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, NCBI:cf]
+def: "A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites." [http://www.insdc.org/files/feature_table.html, NCBI:cf]
 subset: SOFA
 synonym: "INSDC_feature:rep_origin" EXACT []
 synonym: "ori" EXACT []
@@ -802,7 +802,7 @@ is_a: SO:0000835 ! primary_transcript_region
 id: SO:0000305
 name: modified_DNA_base
 namespace: sequence
-def: "A modified nucleotide, i.e. a nucleotide other than A, T, C. G." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "A modified nucleotide, i.e. a nucleotide other than A, T, C. G." [http://www.insdc.org/files/feature_table.html]
 comment: Modified base:<modified_base>.
 subset: SOFA
 synonym: "INSDC_feature:modified_base" EXACT []
@@ -1399,7 +1399,7 @@ id: SO:0000418
 name: signal_peptide
 namespace: sequence
 alt_id: BS:00159
-def: "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components." [http://www.insdc.org/files/feature_table.html]
 comment: Old def before biosapiens:The sequence for an N-terminal domain of a secreted protein; this domain is involved in attaching nascent polypeptide to the membrane leader sequence.
 subset: biosapiens
 subset: SOFA
@@ -1417,7 +1417,7 @@ id: SO:0000419
 name: mature_protein_region
 namespace: sequence
 alt_id: BS:00149
-def: "The polypeptide sequence that remains when the cleaved peptide regions have been cleaved from the immature peptide." [EBIBS:GAR, http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, SO:cb]
+def: "The polypeptide sequence that remains when the cleaved peptide regions have been cleaved from the immature peptide." [EBIBS:GAR, http://www.insdc.org/files/feature_table.html, SO:cb]
 comment: This term mature peptide, merged with the biosapiens term mature protein region and took that to be the new name. Old def: The coding sequence for the mature or final peptide or protein product following post-translational modification.
 subset: biosapiens
 subset: SOFA
@@ -1579,7 +1579,7 @@ is_obsolete: true
 id: SO:0000551
 name: polyA_signal_sequence
 namespace: sequence
-def: "The recognition sequence necessary for endonuclease cleavage of an RNA transcript that is followed by polyadenylation; consensus=AATAAA." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "The recognition sequence necessary for endonuclease cleavage of an RNA transcript that is followed by polyadenylation; consensus=AATAAA." [http://www.insdc.org/files/feature_table.html]
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:polyA_signal_sequence" EXACT []
@@ -1593,7 +1593,7 @@ id: SO:0000553
 name: polyA_site
 namespace: sequence
 alt_id: SO:0001430
-def: "The site on an RNA transcript to which will be added adenine residues by post-transcriptional polyadenylation. The boundary between the UTR and the polyA sequence." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "The site on an RNA transcript to which will be added adenine residues by post-transcriptional polyadenylation. The boundary between the UTR and the polyA sequence." [http://www.insdc.org/files/feature_table.html]
 subset: SOFA
 synonym: "INSDC_feature:polyA_site" EXACT []
 synonym: "polyA cleavage site" EXACT []
@@ -2159,7 +2159,7 @@ is_a: SO:0000353 ! sequence_assembly
 id: SO:0000724
 name: oriT
 namespace: sequence
-def: "A region of a DNA molecule where transfer is initiated during the process of conjugation or mobilization." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "A region of a DNA molecule where transfer is initiated during the process of conjugation or mobilization." [http://www.insdc.org/files/feature_table.html]
 subset: SOFA
 synonym: "INSDC_feature:oriT" EXACT []
 synonym: "origin of transfer" EXACT []
@@ -2171,7 +2171,7 @@ id: SO:0000725
 name: transit_peptide
 namespace: sequence
 alt_id: BS:00055
-def: "The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle)." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle)." [http://www.insdc.org/files/feature_table.html]
 comment: Added to bring SO inline with the EMBL, DDBJ, GenBank feature table. Old definition before biosapiens: The coding sequence for an N-terminal domain of a nuclear-encoded organellar protein. This domain is involved in post translational import of the protein into the organelle.
 subset: biosapiens
 subset: SOFA

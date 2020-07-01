@@ -52,7 +52,7 @@ id: SO:0000418
 name: signal_peptide
 namespace: sequence
 alt_id: BS:00159
-def: "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components." [http://www.insdc.org/files/feature_table.html]
 comment: Old def before biosapiens:The sequence for an N-terminal domain of a secreted protein; this domain is involved in attaching nascent polypeptide to the membrane leader sequence.
 subset: biosapiens
 subset: SOFA
@@ -69,7 +69,7 @@ id: SO:0000419
 name: mature_protein_region
 namespace: sequence
 alt_id: BS:00149
-def: "The polypeptide sequence that remains when the cleaved peptide regions have been cleaved from the immature peptide." [EBIBS:GAR, http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, SO:cb]
+def: "The polypeptide sequence that remains when the cleaved peptide regions have been cleaved from the immature peptide." [EBIBS:GAR, http://www.insdc.org/files/feature_table.html, SO:cb]
 comment: This term mature peptide, merged with the biosapiens term mature protein region and took that to be the new name. Old def: The coding sequence for the mature or final peptide or protein product following post-translational modification.
 subset: biosapiens
 subset: SOFA
@@ -97,7 +97,7 @@ id: SO:0000725
 name: transit_peptide
 namespace: sequence
 alt_id: BS:00055
-def: "The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle)." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle)." [http://www.insdc.org/files/feature_table.html]
 comment: Added to bring SO inline with the EMBL, DDBJ, GenBank feature table. Old definition before biosapiens: The coding sequence for an N-terminal domain of a nuclear-encoded organellar protein. This domain is involved in post translational import of the protein into the organelle.
 subset: biosapiens
 subset: SOFA

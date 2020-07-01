@@ -1341,7 +1341,7 @@
       "meta" : {
         "definition" : {
           "val" : "The transit_peptide is a short region at the N-terminus of the peptide that directs the protein to an organelle (chloroplast, mitochondrion, microbody or cyanelle).",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "Added to bring SO inline with the EMBL, DDBJ, GenBank feature table. Old definition before biosapiens: The coding sequence for an N-terminal domain of a nuclear-encoded organellar protein. This domain is involved in post translational import of the protein into the organelle." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA", "http://purl.obolibrary.org/obo/so#biosapiens" ],
@@ -2035,7 +2035,7 @@
       "meta" : {
         "definition" : {
           "val" : "The polypeptide sequence that remains when the cleaved peptide regions have been cleaved from the immature peptide.",
-          "xrefs" : [ "EBIBS:GAR", "SO:cb", "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "EBIBS:GAR", "SO:cb", "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "This term mature peptide, merged with the biosapiens term mature protein region and took that to be the new name. Old def: The coding sequence for the mature or final peptide or protein product following post-translational modification." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens", "http://purl.obolibrary.org/obo/so#SOFA" ],
@@ -2071,7 +2071,7 @@
       "meta" : {
         "definition" : {
           "val" : "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.",
-          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+          "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
         "comments" : [ "Old def before biosapiens:The sequence for an N-terminal domain of a secreted protein; this domain is involved in attaching nascent polypeptide to the membrane leader sequence." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA", "http://purl.obolibrary.org/obo/so#biosapiens" ],
@@ -2733,11 +2733,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "BS:00246"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "BS:00246"
         } ],
         "deprecated" : true
       },
@@ -4521,13 +4521,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001110",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001061",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001110",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
       "pred" : "is_a",
@@ -4925,13 +4925,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001141",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001140",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001138"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001141",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
     } ],
     "id" : "http://purl.obolibrary.org/obo/so/subsets/biosapiens.owl",
     "meta" : {
