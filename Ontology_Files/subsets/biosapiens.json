@@ -4521,13 +4521,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001061",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001062"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001110",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001061",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001062"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
       "pred" : "is_a",
@@ -4925,13 +4925,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001140",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001138"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001141",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001140",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001138"
     } ],
     "id" : "http://purl.obolibrary.org/obo/so/subsets/biosapiens.owl",
     "meta" : {

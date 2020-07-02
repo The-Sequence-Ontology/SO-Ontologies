@@ -21742,6 +21742,23 @@ created_by: david
 creation_date: 2020-07-01T11:49:30Z
 
 [Term]
+id: SO:0002293
+name: mitochondrial_control_region
+def: "The non-coding region of the mitochondrial genome that controls RNA and DNA synthesis." [PMID: 19407924, PMID:10968878]
+comment: Added as per GitHub Issue Request #417 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/417) from INSDC
+synonym: "Mitochondrial A+T region" EXACT []
+synonym: "Mitochondrial DNA control region" EXACT []
+synonym: "Mitochondrial NCR" EXACT []
+synonym: "Mitochondrial noncoding region" EXACT []
+synonym: "MtDNA control region" EXACT []
+synonym: "MtDNA_control_region" EXACT []
+xref: https://en.wikipedia.org/wiki/MtDNA_control_region "wiki"
+is_a: SO:0000296 ! origin_of_replication
+relationship: has_origin SO:0000737 ! mitochondrial_sequence
+created_by: david
+creation_date: 2020-07-01T16:40:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
