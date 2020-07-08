@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-07-01
-date: 01:07:2020 10:02
+data-version: 2020-07-08
+date: 08:07:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -2665,11 +2665,12 @@ relationship: part_of SO:0001235 ! replicon
 id: SO:0000297
 name: D_loop
 def: "Displacement loop; a region within mitochondrial DNA in which a short stretch of RNA is paired with one strand of DNA, displacing the original partner DNA strand in this region; also used to describe the displacement of a region of one strand of duplex DNA by a single stranded invader in the reaction catalyzed by RecA protein." [http://www.insdc.org/files/feature_table.html]
+comment: Moved from is_a: SO:0000296 origin_of_replication to is_a: SO:0001411 biological_region after Terrence Murphy (INSDC) pointed out that the D loop can also refer to a loop in DNA repair, which is not an origin of replication. See GitHub Issue #417 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/417)
 synonym: "D-loop" EXACT []
 synonym: "displacement loop" RELATED []
 synonym: "INSDC_feature:D-loop" EXACT []
 xref: http://en.wikipedia.org/wiki/D_loop "wiki"
-is_a: SO:0000296 ! origin_of_replication
+is_a: SO:0001411 ! biological_region
 
 [Term]
 id: SO:0000298
@@ -21757,6 +21758,19 @@ is_a: SO:0000296 ! origin_of_replication
 relationship: has_origin SO:0000737 ! mitochondrial_sequence
 created_by: david
 creation_date: 2020-07-01T16:40:30Z
+
+[Term]
+id: SO:0002294
+name: mitochondrial_D_loop
+def: "Mitochondrial displacement loop; a region within mitochondrial DNA in which a short stretch of RNA is paired with one strand of DNA, displacing the original partner DNA strand in this region." [http://www.insdc.org/files/feature_table.html]
+comment: Added as per request by Terence Murphy (INSDC) for GitHub Issue #417 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/417)
+synonym: "Mitochondrial D loop" EXACT []
+synonym: "Mitochondrial displacement loop" EXACT []
+xref: http://en.wikipedia.org/wiki/D_loop "wiki"
+is_a: SO:0000297 ! D_loop
+is_a: SO:0002293 ! mitochondrial_control_region
+created_by: david
+creation_date: 2020-07-08T11:49:30Z
 
 [Term]
 id: SO:0005836
