@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-07-08
-date: 08:07:2020 10:02
+data-version: 2020-08-05
+date: 05:08:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -1581,8 +1581,8 @@ is_a: SO:0000347 ! nucleotide_match
 [Term]
 id: SO:0000178
 name: operon
-def: "A group of contiguous genes transcribed as a single (polycistronic) mRNA from a single regulatory region." [SO:ma]
-comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
+def: "The DNA region of a group of adjacent genes whose transcription is coordinated on one or several mutually overlapping transcription units transcribed in the same direction and sharing at least one gene." [SO:ma]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. Definition updated with per Mejia-Almonte et.al Redefining fundamental concepts of transcription initiation in prokaryotes Aug 5 2020.
 subset: SOFA
 synonym: "INSDC_feature:operon" EXACT []
 xref: http://en.wikipedia.org/wiki/Operon "wiki"
@@ -2056,7 +2056,8 @@ is_a: SO:0000233 ! mature_transcript
 [Term]
 id: SO:0000235
 name: TF_binding_site
-def: "A region of a nucleotide molecule that binds a Transcription Factor or Transcription Factor complex [GO:0005667]." [SO:ke]
+def: "A DNA site where a transcription factor binds" [SO:ke]
+comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585
 subset: SOFA
 synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
@@ -6002,10 +6003,12 @@ is_a: SO:0000669 ! sequence_rearrangement_feature
 id: SO:0000673
 name: transcript
 def: "An RNA synthesized on a DNA or RNA template by an RNA polymerase." [SO:ma]
+comment: Added relationship overlaps SO:0002300 unit_of_gene_expression with Mejia-Almonte et.al PMID:32665585 Aug 5, 2020.
 subset: SOFA
 synonym: "INSDC_feature:misc_RNA" BROAD []
 xref: http://en.wikipedia.org/wiki/RNA "wiki"
 is_a: SO:0000831 ! gene_member_region
+relationship: overlaps SO:0002300 ! unit_of_gene_expression
 
 [Term]
 id: SO:0000674
@@ -20900,7 +20903,7 @@ creation_date: 2019-07-31T14:01:20Z
 [Term]
 id: SO:0002222
 name: prokaryotic_promoter
-def: "A regulatory_region including the Transcription Start Site (TSS) of a gene. This is the region is recognized and bound by the RNA polymerase(RNAP)-holoenzyme, enabling transcription of a gene under certain conditions." []
+def: "A regulatory_region essential for the specific initiation of transcription at a defined location in a DNA molecule, although this location might not be one single base. It is recognized by a specific RNA polymerase(RNAP)-holoenzyme, and this recognition is not necessarily autonomous." [PMID:32665585]
 synonym: "Prokaryotic promoter" EXACT []
 is_a: SO:0000167 ! promoter
 created_by: david
@@ -21771,6 +21774,103 @@ is_a: SO:0000297 ! D_loop
 is_a: SO:0002293 ! mitochondrial_control_region
 created_by: david
 creation_date: 2020-07-08T11:49:30Z
+
+[Term]
+id: SO:0002295
+name: transcription_factor_regulatory_site
+def: "A TF_binding_site that is involved in regulation of expression." [Bacterial_regulation_working_group:CMA, PMID:32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "TFRS" EXACT []
+synonym: "transcription factor regulatory site" EXACT []
+is_a: SO:0000235 ! TF_binding_site
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002296
+name: TFRS_module
+def: "The possible discontinuous stretch of DNA that is the combination of one or several TFRSs whose bound TFs work jointly in the regulation of a promoter. " [Bacterial_regulation_working_group:CMA, PMID: 32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "TFRS module" EXACT []
+synonym: "TFRS phrase" EXACT []
+synonym: "transcription factor regulatory site module" EXACT []
+synonym: "transcription factor regulatory site phrase" EXACT []
+is_a: SO:0001679 ! transcription_regulatory_region
+relationship: has_part SO:0002295 ! transcription_factor_regulatory_site
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002297
+name: TFRS_collection
+def: "The possible discontinous stretch of DNA that encompass all the TFRSs that regulate a promoter." [Bacterial_regulation_working_group:CMA, PMID: 32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "TFRS collection" EXACT []
+synonym: "transcription factor regulatory site collection" EXACT []
+is_a: SO:0001679 ! transcription_regulatory_region
+relationship: has_part SO:0002295 ! transcription_factor_regulatory_site
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002298
+name: simple_operon
+def: "An operon whose transcription is coordinated on a single transcription unit." [Bacterial_regulation_working_group:CMA, PMID: 32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "simple operon" EXACT []
+is_a: SO:0000178 ! operon
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002299
+name: complex_operon
+def: "An operon whose transcription is coordinated on several mutually overlapping transcription units transcribed in the same direction and sharing at least one gene." [Bacterial_regulation_working_group:CMA, PMID: 32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "complex operon" EXACT []
+is_a: SO:0000178 ! operon
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002300
+name: unit_of_gene_expression
+def: "Transcription units or transcribed coding sequences." [Bacterial_regulation_working_group:CMA, PMID: 32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "unit of gene expression" EXACT []
+is_a: SO:0001411 ! biological_region
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002301
+name: transcription_unit
+def: "DNA regions delimited by different nonspurious TSS-TTS pairs." [Bacterial_regulation_working_group:CMA, PMID: 32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "transcription unit" EXACT []
+is_a: SO:0002300 ! unit_of_gene_expression
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002302
+name: simple_regulon
+def: "A regulon defined by considering one regulatory gene product." [Bacterial_regulation_working_group:CMA, PMID:32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "simple regulon" EXACT []
+is_a: SO:1001284 ! regulon
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002303
+name: complex_regulon
+def: "A regulon defined by considering the units of expression regulated by a specified set of regulatory gene products." [Bacterial_regulation_working_group:CMA, PMID:32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "simple regulon" EXACT []
+is_a: SO:1001284 ! regulon
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
 
 [Term]
 id: SO:0005836
@@ -23827,10 +23927,12 @@ is_a: SO:1001288 ! stop_codon_signal
 [Term]
 id: SO:1001284
 name: regulon
-def: "A group of genes, whether linked as a cluster or not, that respond to a common regulatory signal." [ISBN:0198506732]
+def: "A set of units of gene expression directly regulated by a common set of one or more common regulatory gene products." [ISBN:0198506732, PMID:32665585]
+comment: Definition updated with Mejia-Almonte et.al PMID:32665585 on Aug 5, 2020. Added relationship has_part SO:0002300
 subset: SOFA
 xref: http://en.wikipedia.org/wiki/Regulon "wiki"
 is_a: SO:0005855 ! gene_group
+relationship: has_part SO:0002300 ! unit_of_gene_expression
 
 [Term]
 id: SO:1001285

@@ -445,8 +445,8 @@ is_a: SO:0000347 ! nucleotide_match
 id: SO:0000178
 name: operon
 namespace: sequence
-def: "A group of contiguous genes transcribed as a single (polycistronic) mRNA from a single regulatory region." [SO:ma]
-comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
+def: "The DNA region of a group of adjacent genes whose transcription is coordinated on one or several mutually overlapping transcription units transcribed in the same direction and sharing at least one gene." [SO:ma]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. Definition updated with per Mejia-Almonte et.al Redefining fundamental concepts of transcription initiation in prokaryotes Aug 5 2020.
 subset: SOFA
 synonym: "INSDC_feature:operon" EXACT []
 xref: http://en.wikipedia.org/wiki/Operon "wiki"
@@ -649,7 +649,8 @@ is_a: SO:0000233 ! mature_transcript
 id: SO:0000235
 name: TF_binding_site
 namespace: sequence
-def: "A region of a nucleotide molecule that binds a Transcription Factor or Transcription Factor complex [GO:0005667]." [SO:ke]
+def: "A DNA site where a transcription factor binds" [SO:ke]
+comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585
 subset: SOFA
 synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
@@ -1409,6 +1410,7 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
@@ -1962,10 +1964,12 @@ id: SO:0000673
 name: transcript
 namespace: sequence
 def: "An RNA synthesized on a DNA or RNA template by an RNA polymerase." [SO:ma]
+comment: Added relationship overlaps SO:0002300 unit_of_gene_expression with Mejia-Almonte et.al PMID:32665585 Aug 5, 2020.
 subset: SOFA
 synonym: "INSDC_feature:misc_RNA" BROAD []
 xref: http://en.wikipedia.org/wiki/RNA "wiki"
 is_a: SO:0000831 ! gene_member_region
+relationship: overlaps SO:0001411 ! biological_region
 
 [Term]
 id: SO:0000684
@@ -2788,10 +2792,12 @@ is_a: SO:0001411 ! biological_region
 id: SO:1001284
 name: regulon
 namespace: sequence
-def: "A group of genes, whether linked as a cluster or not, that respond to a common regulatory signal." [ISBN:0198506732]
+def: "A set of units of gene expression directly regulated by a common set of one or more common regulatory gene products." [ISBN:0198506732, PMID:32665585]
+comment: Definition updated with Mejia-Almonte et.al PMID:32665585 on Aug 5, 2020. Added relationship has_part SO:0002300
 subset: SOFA
 xref: http://en.wikipedia.org/wiki/Regulon "wiki"
 is_a: SO:0005855 ! gene_group
+relationship: has_part SO:0001411 ! biological_region
 
 [Term]
 id: SO:2000061

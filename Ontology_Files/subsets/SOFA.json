@@ -2105,10 +2105,10 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0000178",
       "meta" : {
         "definition" : {
-          "val" : "A group of contiguous genes transcribed as a single (polycistronic) mRNA from a single regulatory region.",
+          "val" : "The DNA region of a group of adjacent genes whose transcription is coordinated on one or several mutually overlapping transcription units transcribed in the same direction and sharing at least one gene.",
           "xrefs" : [ "SO:ma" ]
         },
-        "comments" : [ "This term is mapped to MGED. Do not obsolete without consulting MGED ontology." ],
+        "comments" : [ "This term is mapped to MGED. Do not obsolete without consulting MGED ontology. Definition updated with per Mejia-Almonte et.al Redefining fundamental concepts of transcription initiation in prokaryotes Aug 5 2020." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/Operon"
@@ -3832,9 +3832,10 @@
       "id" : "http://purl.obolibrary.org/obo/SO_1001284",
       "meta" : {
         "definition" : {
-          "val" : "A group of genes, whether linked as a cluster or not, that respond to a common regulatory signal.",
-          "xrefs" : [ "ISBN:0198506732" ]
+          "val" : "A set of units of gene expression directly regulated by a common set of one or more common regulatory gene products.",
+          "xrefs" : [ "ISBN:0198506732", "PMID:32665585" ]
         },
+        "comments" : [ "Definition updated with Mejia-Almonte et.al PMID:32665585 on Aug 5, 2020. Added relationship has_part SO:0002300" ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/Regulon"
@@ -4571,6 +4572,7 @@
           "val" : "An RNA synthesized on a DNA or RNA template by an RNA polymerase.",
           "xrefs" : [ "SO:ma" ]
         },
+        "comments" : [ "Added relationship overlaps SO:0002300 unit_of_gene_expression with Mejia-Almonte et.al PMID:32665585 Aug 5, 2020." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/RNA"
@@ -5957,9 +5959,10 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0000235",
       "meta" : {
         "definition" : {
-          "val" : "A region of a nucleotide molecule that binds a Transcription Factor or Transcription Factor complex [GO:0005667].",
+          "val" : "A DNA site where a transcription factor binds",
           "xrefs" : [ "SO:ke" ]
         },
+        "comments" : [ "Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585" ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7437,13 +7440,13 @@
       "lbl" : "coding_region_of_exon"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000390",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000276",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000370"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000390",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000474",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -7520,6 +7523,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
+      "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000851"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000486",
       "pred" : "is_a",
@@ -7745,6 +7752,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_1001284",
+      "pred" : "http://purl.obolibrary.org/obo/so#has_part",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000474",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000143"
@@ -7945,6 +7956,10 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000353"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000673",
+      "pred" : "http://purl.obolibrary.org/obo/so#overlaps",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000141",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
@@ -8029,13 +8044,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000684",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000059"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000370",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000684",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000059"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000112",
       "pred" : "is_a",
@@ -8389,13 +8404,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000343"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000652",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0100011",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000652",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000624",
       "pred" : "is_a",
@@ -8517,13 +8532,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000668",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000102"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000179",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000753"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000668",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000102"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000296",
       "pred" : "is_a",
@@ -8617,13 +8632,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000590",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000627",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000590",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000719",
       "pred" : "is_a",
