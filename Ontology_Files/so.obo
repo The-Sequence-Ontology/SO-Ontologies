@@ -16986,9 +16986,10 @@ creation_date: 2011-10-07T03:37:43Z
 id: SO:0001840
 name: GATA_box
 def: "A GATA transcription factor element containing the consensus sequence WGATAR (in which W indicates A/T and R indicates A/G)." [PMID:8321208]
+comment: Changed to is_a SO:0001055 transcriptional_cis_regulatory_region from core_eukaryotic_promoter_element SO:0001660 after Ruth Lovering from GREEKC initiative pointed out that GATA boxes are frequently in enhancer regions, Dave Sant Aug 2020.
 synonym: "GATA box" EXACT []
 synonym: "GATA element" RELATED []
-is_a: SO:0001660 ! core_eukaryotic_promoter_element
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 created_by: kareneilbeck
 creation_date: 2011-10-07T03:42:05Z
 
