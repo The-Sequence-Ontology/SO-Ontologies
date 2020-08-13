@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-08-05
-date: 05:08:2020 10:02
+data-version: 2020-08-12
+date: 12:08:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -1462,13 +1462,13 @@ relationship: has_quality SO:0000277 ! bound_by_factor
 id: SO:0000167
 name: promoter
 def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery." [SO:regcreative]
-comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription.
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:promoter" EXACT []
 synonym: "promoter sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Promoter "wiki"
-is_a: SO:0001055 ! transcriptional_cis_regulatory_region
+is_a: SO:0000727 ! CRM
 
 [Term]
 id: SO:0000168
@@ -2057,12 +2057,13 @@ is_a: SO:0000233 ! mature_transcript
 id: SO:0000235
 name: TF_binding_site
 def: "A DNA site where a transcription factor binds" [SO:ke]
-comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585
+comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requsts from GREEKC initiative.
 subset: SOFA
 synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
 is_a: SO:0001654 ! nucleotide_to_protein_binding_site
 is_a: SO:0001679 ! transcription_regulatory_region
+relationship: part_of SO:0000727 ! CRM
 
 [Term]
 id: SO:0000236
@@ -2809,12 +2810,14 @@ is_a: SO:0000657 ! repeat_region
 id: SO:0000315
 name: TSS
 def: "The first base where RNA polymerase begins to synthesize the RNA transcript." [SO:ke]
+comment: Added relationship is_a SO:0002309 core_promoter_element with the creation of core_promoter_element as part of GREEKC initiative August 2020 - Dave Sant.
 subset: SOFA
 synonym: "INSDC_feature:misc_feature" BROAD []
 synonym: "INSDC_note:transcription_start_site" EXACT []
 synonym: "transcription start site" EXACT []
 synonym: "transcription_start_site" EXACT []
 is_a: SO:0000835 ! primary_transcript_region
+is_a: SO:0002309 ! core_promoter_element
 
 [Term]
 id: SO:0000316
@@ -5590,12 +5593,13 @@ is_a: SO:0000830 ! chromosome_part
 id: SO:0000627
 name: insulator
 def: "A regulatory region that 1) when located between a CM and a gene's promoter prevents the CRM from modulating that genes expression and 2) acts as a chromatin boundary element or barrier that can block the encroachment of condensed chromatin from an adjacent region." [NCBI:cf, PMID:12154228, SO:regcreative]
+comment: moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:insulator" EXACT []
 synonym: "insulator element" EXACT []
 xref: http://en.wikipedia.org/wiki/Insulator_(genetics) "wiki"
-is_a: SO:0001055 ! transcriptional_cis_regulatory_region
+is_a: SO:0000727 ! CRM
 
 [Term]
 id: SO:0000628
@@ -6499,15 +6503,12 @@ is_a: SO:0001411 ! biological_region
 id: SO:0000727
 name: CRM
 def: "A regulatory region where transcription factor binding sites clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundred kb upstream of the basal promoter, in the coding sequence, within introns, or in the downstream 3'UTR sequences, as well as on different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
-comment: Requested by Stephen Grossmann Dec 2004.
+comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020.
 subset: SOFA
 synonym: "cis regulatory module" EXACT []
 synonym: "TF module" EXACT []
 synonym: "transcription factor module" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
-intersection_of: SO:0001055 ! transcriptional_cis_regulatory_region
-intersection_of: has_part SO:0000235 ! TF_binding_site
-relationship: has_part SO:0000235 ! TF_binding_site
 
 [Term]
 id: SO:0000728
@@ -7339,6 +7340,8 @@ name: chromosome_part
 def: "A region of a chromosome." [SO:ke]
 comment: This is a manufactured term, that serves the purpose of allow the parts of a chromosome to have an is_a path to the root.
 subset: SOFA
+synonym: "chromosomal region" EXACT []
+synonym: "chromosomal_region" EXACT []
 synonym: "chromosome part" EXACT []
 is_a: SO:0001411 ! biological_region
 relationship: part_of SO:0000340 ! chromosome
@@ -12645,7 +12648,7 @@ is_a: SO:0000001 ! region
 [Term]
 id: SO:0001412
 name: topologically_defined_region
-def: "A region that is defined according to its relations with other regions within the same sequence." [SO:cb]
+def: "A DNA region within which self-interaction occurs more often than expected by chance because of DNA-looping." [PMID:32782014, SO:cb]
 subset: SOFA
 synonym: "topologically defined region" EXACT []
 is_a: SO:0000001 ! region
@@ -15141,20 +15144,22 @@ creation_date: 2010-08-26T09:36:16Z
 id: SO:0001659
 name: promoter_element
 def: "An element that can exist within the promoter region of a gene." []
+comment: Mmoved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
 synonym: "promoter element" EXACT []
 is_a: SO:0000713 ! DNA_motif
 relationship: overlaps SO:0000235 ! TF_binding_site
+relationship: part_of SO:0000167 ! promoter
 created_by: kareneilbeck
 creation_date: 2010-10-01T11:48:32Z
 
 [Term]
 id: SO:0001660
 name: core_eukaryotic_promoter_element
-def: "An element that only exists within the promoter region of a gene." []
+def: "An element that only exists within the promoter region of a eukaryotic gene." [GREEKC:cl]
 synonym: "core eukaryotic promoter element" EXACT []
-synonym: "core promoter element" EXACT []
 synonym: "general transcription factor binding site" RELATED []
-is_a: SO:0001659 ! promoter_element
+is_a: SO:0002309 ! core_promoter_element
+relationship: part_of SO:0002221 ! eukaryotic_promoter
 created_by: kareneilbeck
 creation_date: 2010-10-01T11:49:03Z
 
@@ -21871,6 +21876,115 @@ synonym: "simple regulon" EXACT []
 is_a: SO:1001284 ! regulon
 created_by: david
 creation_date: 2020-08-05T11:49:30Z
+
+[Term]
+id: SO:0002304
+name: topologically_associated_domain
+def: "An instance of a self-interacting DNA region flanked by left and right TAD boundaries." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "TAD" EXACT []
+synonym: "topologically associated domain" EXACT []
+is_a: SO:0001412 ! topologically_defined_region
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002305
+name: topologically_associated_domain_boundary
+def: "A DNA region enriched in DNA loop anchors and across which DNA loops occur less often than expected by chance." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "TAD boundary" EXACT []
+synonym: "TAD_boundary" EXACT []
+synonym: "topologically associated domain boundary" EXACT []
+is_a: SO:0000699 ! junction
+relationship: part_of SO:0002304 ! topologically_associated_domain
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002306
+name: chromatin_regulatory_region
+def: "A region of a chromosome where regulatory events occur, including epigenetic modifications. These epigenetic modifications can include nucleosome modifications and post-replicational DNA modifications." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "chromatin regulatory region" EXACT []
+is_a: SO:0000830 ! chromosome_part
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002307
+name: DNA_loop
+def: "A region of DNA between two positions that are held in close proximity." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "DNA loop" EXACT []
+is_a: SO:0000830 ! chromosome_part
+relationship: overlaps SO:0002304 ! topologically_associated_domain
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002308
+name: DNA_loop_anchor
+def: "The ends of a DNA loop where the two strands of DNA are held in close proximity. During interphase the anchors of DNA loops are CTCF binding sites." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "chromatin regulatory region" EXACT []
+is_a: SO:0000727 ! CRM
+relationship: part_of SO:0002307 ! DNA_loop
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002309
+name: core_promoter_element
+def: "An element that always exists within the promoter region of a gene. When multiple transcripts exist for a gene, the separate transcripts may have separate core_promoter_elements." [GREEKC:rl]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "core promoter element" EXACT []
+is_a: SO:0001659 ! promoter_element
+relationship: part_of SO:0000167 ! promoter
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002310
+name: cryptic_promoter
+def: "The promoter of a cryptic gene." [GREEKC:cl]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "cryptic promoter" EXACT []
+is_a: SO:0000167 ! promoter
+relationship: part_of SO:0001431 ! cryptic_gene
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002311
+name: viral_promoter
+def: "A regulatory_region including the Transcription Start Site (TSS) of a gene found in genes of viruses.." [GREEKC:cl]
+synonym: "viral promoter" EXACT []
+is_a: SO:0000167 ! promoter
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002312
+name: core_prokaryotic_promoter_element
+def: "An element that always exists within the promoter region of a prokaryotic gene." [GREEKC:rl]
+synonym: "core prokaryotic promoter element" EXACT []
+synonym: "general transcription factor binding site" RELATED []
+is_a: SO:0002309 ! core_promoter_element
+relationship: part_of SO:0002222 ! prokaryotic_promoter
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002313
+name: core_viral_promoter_element
+def: "An element that always exists within the promoter region of a viral gene." [GREEKC:rl]
+synonym: "core viral promoter element" EXACT []
+synonym: "general transcription factor binding site" RELATED []
+is_a: SO:0002309 ! core_promoter_element
+relationship: part_of SO:0002311 ! viral_promoter
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
 
 [Term]
 id: SO:0005836
