@@ -2733,11 +2733,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "BS:00246"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
         } ],
         "deprecated" : true
       },
@@ -4925,13 +4925,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001140",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001138"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001141",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001140",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001138"
     } ],
     "id" : "http://purl.obolibrary.org/obo/so/subsets/biosapiens.owl",
     "meta" : {

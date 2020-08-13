@@ -158,7 +158,7 @@ relationship: part_of SO:0001669 ! RNApol_II_core_promoter
 [Term]
 id: SO:0000015
 name: DPE_motif
-def: "A sequence element characteristic of some RNA polymerase II promoters; Positioned from +28 to +32 with respect to the TSS (+1). Experimental results suggest that the DPE acts in conjunction with the INR_motif to provide a binding site for TFIID in the absence of a TATA box to mediate transcription of TATA-less promoters. Consensus sequence (A|G)G(A|T)(C|T)(G|A|C)." [PMID:12651739\:12537576, PMID:16858867]
+def: "A sequence element characteristic of some RNA polymerase II promoters; Positioned from +28 to +32 with respect to the TSS (+1). Experimental results suggest that the DPE acts in conjunction with the INR_motif to provide a binding site for TFIID in the absence of a TATA box to mediate transcription of TATA-less promoters. Consensus sequence (A|G)G(A|T)(C|T)(G|A|C)." [PMID:12515390, PMID:12537576, PMID:12651739, PMID:16858867]
 comment: Binds TAF6, TAF9.
 synonym: "CRWMGCGWKCGCTTS" NARROW []
 synonym: "downstream core promoter element" EXACT []
@@ -1490,6 +1490,7 @@ is_a: SO:0001660 ! core_eukaryotic_promoter_element
 id: SO:0000175
 name: minus_10_signal
 def: "A conserved region about 10-bp upstream of the start point of bacterial transcription units which may be involved in binding RNA polymerase; consensus=TAtAaT. This region is associated with sigma factor 70." [http://www.insdc.org/files/feature_table.html]
+comment: Changed from is_a SO:0000713 DNA_motif to is_a SO:0002312 core_prokaryotic_promoter_element in response to GREEKC Initiative Dave Sant Aug 2020.
 synonym: "-10 signal" EXACT []
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:minus_10_signal" EXACT []
@@ -1498,7 +1499,7 @@ synonym: "Pribnow box" EXACT []
 synonym: "Pribnow Schaller box" EXACT []
 synonym: "Pribnow-Schaller box" EXACT []
 xref: http://en.wikipedia.org/wiki/Pribnow_box "wiki"
-is_a: SO:0000713 ! DNA_motif
+is_a: SO:0002312 ! core_prokaryotic_promoter_element
 relationship: part_of SO:0001671 ! bacterial_RNApol_promoter_sigma_70_element
 relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf_element
 
@@ -1506,11 +1507,12 @@ relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf_element
 id: SO:0000176
 name: minus_35_signal
 def: "A conserved hexamer about 35-bp upstream of the start point of bacterial transcription units; consensus=TTGACa or TGTTGACA. This region is associated with sigma factor 70." [http://www.insdc.org/files/feature_table.html]
+comment: Changed from is_a SO:0000713 DNA_motif to is_a SO:0002312 core_prokaryotic_promoter_element in response to GREEKC Initiative Dave Sant Aug 2020.
 synonym: "-35 signal" EXACT []
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:minus_35_signal" EXACT []
 synonym: "minus 35 signal" EXACT []
-is_a: SO:0000713 ! DNA_motif
+is_a: SO:0002312 ! core_prokaryotic_promoter_element
 relationship: part_of SO:0001671 ! bacterial_RNApol_promoter_sigma_70_element
 relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf_element
 
