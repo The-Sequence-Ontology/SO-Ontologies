@@ -2058,7 +2058,7 @@ is_a: SO:0000233 ! mature_transcript
 [Term]
 id: SO:0000235
 name: TF_binding_site
-def: "A DNA site where a transcription factor binds" [SO:ke]
+def: "A DNA site where a transcription factor binds." [SO:ke]
 comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requsts from GREEKC initiative.
 subset: SOFA
 synonym: "TF binding site" EXACT []
@@ -21930,7 +21930,7 @@ id: SO:0002308
 name: DNA_loop_anchor
 def: "The ends of a DNA loop where the two strands of DNA are held in close proximity. During interphase the anchors of DNA loops are CTCF binding sites." [GREEKC:cl, PMID:32782014]
 comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
-synonym: "chromatin regulatory region" EXACT []
+synonym: "DNA loop anchor" EXACT []
 is_a: SO:0000727 ! CRM
 relationship: part_of SO:0002307 ! DNA_loop
 created_by: david
