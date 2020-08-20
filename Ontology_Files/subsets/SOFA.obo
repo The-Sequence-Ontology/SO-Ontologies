@@ -423,8 +423,8 @@ is_a: SO:0000727 ! CRM
 id: SO:0000167
 name: promoter
 namespace: sequence
-def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery." [SO:regcreative]
-comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
+def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription." [SO:regcreative]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020. Merged with RNA_polymerase_promoter (SO:0001203) Aug 2020.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:promoter" EXACT []

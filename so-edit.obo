@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-08-12
-date: 12:08:2020 10:02
+data-version: 2020-08-20
+date: 20:08:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -1461,8 +1461,8 @@ relationship: has_quality SO:0000277 ! bound_by_factor
 [Term]
 id: SO:0000167
 name: promoter
-def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery." [SO:regcreative]
-comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
+def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription." [SO:regcreative]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020. Merged with RNA_polymerase_promoter (SO:0001203) Aug 2020.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:promoter" EXACT []
@@ -1480,31 +1480,34 @@ is_obsolete: true
 id: SO:0000169
 name: RNApol_I_promoter
 def: "A DNA sequence in eukaryotic DNA to which RNA polymerase I binds, to begin transcription." [SO:ke]
+comment: parent term RNA_polymerase_promoter SO:0001203 was obsoleted in Aug 2020, so term has been moved to eukaryotic_promoter SO:0002221.
 synonym: "pol I promoter" EXACT []
 synonym: "polymerase I promoter" EXACT []
 synonym: "RNA polymerase A promoter" EXACT []
 synonym: "RNApol I promoter" EXACT []
-is_a: SO:0001203 ! RNA_polymerase_promoter
+is_a: SO:0002221 ! eukaryotic_promoter
 
 [Term]
 id: SO:0000170
 name: RNApol_II_promoter
 def: "A DNA sequence in eukaryotic DNA to which RNA polymerase II binds, to begin transcription." [SO:ke]
+comment: parent term RNA_polymerase_promoter SO:0001203 was obsoleted in Aug 2020, so term has been moved to eukaryotic_promoter SO:0002221.
 synonym: "pol II promoter" RELATED []
 synonym: "polymerase II promoter" EXACT []
 synonym: "RNA polymerase B promoter" EXACT []
 synonym: "RNApol II promoter" EXACT []
-is_a: SO:0001203 ! RNA_polymerase_promoter
+is_a: SO:0002221 ! eukaryotic_promoter
 
 [Term]
 id: SO:0000171
 name: RNApol_III_promoter
 def: "A DNA sequence in eukaryotic DNA to which RNA polymerase III binds, to begin transcription." [SO:ke]
+comment: parent term RNA_polymerase_promoter SO:0001203 was obsoleted in Aug 2020, so term has been moved to eukaryotic_promoter SO:0002221.
 synonym: "pol III promoter" EXACT []
 synonym: "polymerase III promoter" EXACT []
 synonym: "RNA polymerase C promoter" EXACT []
 synonym: "RNApol III promoter" EXACT []
-is_a: SO:0001203 ! RNA_polymerase_promoter
+is_a: SO:0002221 ! eukaryotic_promoter
 
 [Term]
 id: SO:0000172
@@ -5481,9 +5484,9 @@ is_a: SO:0000841 ! spliceosomal_intron_region
 id: SO:0000613
 name: bacterial_RNApol_promoter
 def: "A DNA sequence to which bacterial RNA polymerase binds, to begin transcription." [SO:ke]
+comment: former parent RNA_polymerase_promoter SO:0001203 was merged with promoter SO:0000167 in Aug 2020 as part of GREEKC.
 synonym: "bacterial RNApol promoter" EXACT []
-is_a: SO:0001203 ! RNA_polymerase_promoter
-is_a: SO:0001659 ! promoter_element
+is_a: SO:0002222 ! prokaryotic_promoter
 
 [Term]
 id: SO:0000614
@@ -10742,15 +10745,19 @@ is_a: SO:0001199 ! ss_RNA_viral_sequence
 id: SO:0001203
 name: RNA_polymerase_promoter
 def: "A region (DNA) to which RNA polymerase binds, to begin transcription." [xenbase:jb]
+comment: Term merged with promoter SO:0000167 in August 2020 as part of GREEKC initiative. See GitHub Issue 492 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/492)
 synonym: "RNA polymerase promoter" EXACT []
 is_a: SO:0000167 ! promoter
+is_obsolete: true
+replaced_by: SO:0000167
 
 [Term]
 id: SO:0001204
 name: Phage_RNA_Polymerase_Promoter
 def: "A region (DNA) to which Bacteriophage RNA polymerase binds, to begin transcription." [xenbase:jb]
+comment: former parent RNA_polymerase_promoter SO:0001203 was merged with promoter SO:0000167 in Aug 2020 as part of GREEKC.
 synonym: "Phage RNA Polymerase Promoter" EXACT []
-is_a: SO:0001203 ! RNA_polymerase_promoter
+is_a: SO:0002311 ! viral_promoter
 
 [Term]
 id: SO:0001205
@@ -21961,7 +21968,7 @@ creation_date: 2020-08-12T14:01:30Z
 [Term]
 id: SO:0002311
 name: viral_promoter
-def: "A regulatory_region including the Transcription Start Site (TSS) of a gene found in genes of viruses.." [GREEKC:cl]
+def: "A regulatory_region including the Transcription Start Site (TSS) of a gene found in genes of viruses." [GREEKC:cl]
 synonym: "viral promoter" EXACT []
 is_a: SO:0000167 ! promoter
 created_by: david
