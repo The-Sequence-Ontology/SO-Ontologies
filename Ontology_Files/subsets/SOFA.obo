@@ -1778,7 +1778,7 @@ is_a: SO:0000727 ! CRM
 id: SO:0000627
 name: insulator
 namespace: sequence
-def: "A regulatory region that 1) when located between a CM and a gene's promoter prevents the CRM from modulating that genes expression and 2) acts as a chromatin boundary element or barrier that can block the encroachment of condensed chromatin from an adjacent region." [NCBI:cf, PMID:12154228, SO:regcreative]
+def: "A regulatory region that 1) when located between a CRM and a gene's promoter prevents the CRM from modulating that genes expression and 2) acts as a chromatin boundary element or barrier that can block the encroachment of condensed chromatin from an adjacent region." [NCBI:cf, PMID:12154228, SO:regcreative]
 comment: moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []

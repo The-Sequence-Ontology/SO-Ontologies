@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-08-20
-date: 20:08:2020 10:02
+data-version: 2020-08-26
+date: 26:08:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -5002,7 +5002,8 @@ is_a: SO:0000550 ! aneuploid_chromosome
 [Term]
 id: SO:0000568
 name: bidirectional_promoter
-def: "An unregulated promoter that allows continuous expression." [SO:ke]
+def: "A promoter that can allow for transcription in both directions." [PMID:21601935, SO:ke]
+comment: Definition updated in Aug 2020 by Dave Sant.
 synonym: "bidirectional promoter" EXACT []
 is_a: SO:0000167 ! promoter
 
@@ -5482,7 +5483,7 @@ is_a: SO:0000830 ! chromosome_part
 [Term]
 id: SO:0000627
 name: insulator
-def: "A regulatory region that 1) when located between a CM and a gene's promoter prevents the CRM from modulating that genes expression and 2) acts as a chromatin boundary element or barrier that can block the encroachment of condensed chromatin from an adjacent region." [NCBI:cf, PMID:12154228, SO:regcreative]
+def: "A regulatory region that 1) when located between a CRM and a gene's promoter prevents the CRM from modulating that genes expression and 2) acts as a chromatin boundary element or barrier that can block the encroachment of condensed chromatin from an adjacent region." [NCBI:cf, PMID:12154228, SO:regcreative]
 comment: moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
