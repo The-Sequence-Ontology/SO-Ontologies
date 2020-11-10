@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-11-09
-date: 09:11:2020 10:02
+data-version: 2020-11-10
+date: 10:11:2020 10:02
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -351,7 +351,8 @@ is_a: SO:0000626 ! chromosomal_regulatory_element
 [Term]
 id: SO:0000037
 name: locus_control_region
-def: "A DNA region that includes DNAse hypersensitive sites located 5' to a gene that confers the high-level, position-independent, and copy number-dependent expression to that gene." [SO:ma]
+def: "A DNA region that includes DNAse hypersensitive sites located near a gene that confers the high-level, position-independent, and copy number-dependent expression to that gene." [SO:ma]
+comment: Definition updated Nov 10 2020, Colin Logie from GREEKC helped us realize that LCRs can also be located 3' to a gene.
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:locus_control_region" EXACT []
 synonym: "LCR" EXACT []
@@ -6353,7 +6354,7 @@ is_a: SO:0001411 ! biological_region
 [Term]
 id: SO:0000727
 name: CRM
-def: "A regulatory region where transcription factor binding sites clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundred kb upstream of the basal promoter, in the coding sequence, within introns, or in the UTR sequences, as well as on different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
+def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the basal promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
 comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020.
 subset: SOFA
 synonym: "cis regulatory module" EXACT []
@@ -14817,7 +14818,7 @@ creation_date: 2010-10-01T02:43:16Z
 [Term]
 id: SO:0001663
 name: BREd_motif
-def: "A core TRNA polymerase II promoter element with consensus (G/A)T(T/G/A)(T/A)(G/T)(T/G)(T/G)." [PMID:16858867]
+def: "A core RNA polymerase II promoter element with consensus (G/A)T(T/G/A)(T/A)(G/T)(T/G)(T/G)." [PMID:16858867]
 synonym: "BREd" EXACT []
 synonym: "BREd motif" RELATED []
 is_a: SO:0001660 ! core_eukaryotic_promoter_element
