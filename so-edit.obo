@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-11-10
-date: 10:11:2020 10:02
+data-version: 2020-12-18
+date: 18:12:2020 22:40
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -21997,6 +21997,67 @@ is_a: SO:0002309 ! core_promoter_element
 relationship: part_of SO:0002311 ! viral_promoter
 created_by: david
 creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002314
+name: altered_gene_product_level
+def: "A sequence variant that alters the level of transcription of a gene." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+synonym: "altered gene product level" EXACT []
+synonym: "altered transcription level" EXACT []
+synonym: "altered_transcription_level" EXACT []
+is_a: SO:0001536 ! functional_effect_variant
+created_by: david
+creation_date: 2020-12-18T22:35:30Z
+
+[Term]
+id: SO:0002315
+name: increased_gene_product_level
+def: "A sequence variant that increases the level of transcription of a gene." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+synonym: "increased gene product level" EXACT []
+synonym: "increased transcription level" EXACT []
+synonym: "increased_transcription_level" EXACT []
+is_a: SO:0002314 ! altered_gene_product_level
+created_by: david
+creation_date: 2020-12-18T22:35:30Z
+
+[Term]
+id: SO:0002316
+name: decreased_gene_product_level
+def: "A sequence variant that decreases the level of transcription of a gene." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+synonym: "decreased gene product level" EXACT []
+synonym: "decreased transcription level" EXACT []
+synonym: "decreased_transcription_level" EXACT []
+synonym: "reduced_gene_product_level" EXACT []
+synonym: "reduced gene product level" EXACT []
+synonym: "reduced transcription level" EXACT []
+synonym: "reduced_transcription_level" EXACT []
+is_a: SO:0002314 ! altered_gene_product_level
+created_by: david
+creation_date: 2020-12-18T22:35:30Z
+
+[Term]
+id: SO:0002317
+name: absent_gene_product
+def: "A sequence variant that entirely stops the transcription of a gene." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+synonym: "absent gene product" EXACT []
+is_a: SO:0002316 ! decreased_gene_product_level
+is_a: SO:0002055 ! null_mutation
+created_by: david
+creation_date: 2020-12-18T22:35:30Z
+
+[Term]
+id: SO:0002318
+name: altered_gene_product_structure
+def: "A sequence variant that alters the structure of a gene product." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+synonym: "altered gene product structure" EXACT []
+is_a: SO:0001536 ! functional_effect_variant
+created_by: david
+creation_date: 2020-12-18T22:35:30Z
 
 [Term]
 id: SO:0005836

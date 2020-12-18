@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/so/subsets/SOFA.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2020-11-10/subsets/SOFA.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2020-12-18/subsets/SOFA.owl"/>
     </owl:Ontology>
     
 
@@ -4619,6 +4619,12 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000418">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001527"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000851"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
