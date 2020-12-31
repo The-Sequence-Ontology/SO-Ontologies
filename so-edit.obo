@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2020-12-18
-date: 18:12:2020 22:40
+data-version: 2020-12-30
+date: 30:12:2020 17:12
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -22030,9 +22030,9 @@ comment: Added as per request from Ang Roberts as part of GenCC November 2020. S
 synonym: "decreased gene product level" EXACT []
 synonym: "decreased transcription level" EXACT []
 synonym: "decreased_transcription_level" EXACT []
-synonym: "reduced_gene_product_level" EXACT []
 synonym: "reduced gene product level" EXACT []
 synonym: "reduced transcription level" EXACT []
+synonym: "reduced_gene_product_level" EXACT []
 synonym: "reduced_transcription_level" EXACT []
 is_a: SO:0002314 ! altered_gene_product_level
 created_by: david
@@ -22044,8 +22044,8 @@ name: absent_gene_product
 def: "A sequence variant that entirely stops the transcription of a gene." [GenCC:AR]
 comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
 synonym: "absent gene product" EXACT []
-is_a: SO:0002316 ! decreased_gene_product_level
 is_a: SO:0002055 ! null_mutation
+is_a: SO:0002316 ! decreased_gene_product_level
 created_by: david
 creation_date: 2020-12-18T22:35:30Z
 
@@ -22058,6 +22058,124 @@ synonym: "altered gene product structure" EXACT []
 is_a: SO:0001536 ! functional_effect_variant
 created_by: david
 creation_date: 2020-12-18T22:35:30Z
+
+[Term]
+id: SO:0002319
+name: NMD_triggering_variant
+def: "A sequence variant that leads to a change in the location of a termination codon in a transcript that leads to nonsense-mediated decay (NMD). The change in location of a termination codon can be caused by several different types of sequence variants, including stop_gained (SO:0001587), frameshift_variant (SO:0001589), splice_donor_variant (SO:0001575), and splice_acceptor_variant (SO:0001574) types of variants." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "NMD triggering variant" EXACT []
+synonym: "nonsense-mediated decay triggering variant" EXACT []
+is_a: SO:0002218 ! functionally_abnormal
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002320
+name: NMD_escaping_variant
+def: "A sequence variant that leads to a change in the location of a termination codon in a transcript but allows the transcript to escape nonsense-mediated decay (NMD). The change in location of a termination codon can be caused by several different types of sequence variants, including stop_gained (SO:0001587), frameshift_variant (SO:0001589), splice_donor_variant (SO:0001575), and splice_acceptor_variant (SO:0001574) types of variants." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "NMD escaping variant" EXACT []
+synonym: "nonsense-mediated decay escaping variant" EXACT []
+is_a: SO:0002218 ! functionally_abnormal
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002321
+name: stop_gained_NMD_triggering
+def: "A stop_gained (SO:0001587) variant that is degraded by nonsense-mediated decay (NMD)." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "stop gained variant-nonsense-mediated decay triggering" EXACT []
+synonym: "stop gained-NMD triggering" EXACT []
+is_a: SO:0001587 ! stop_gained
+is_a: SO:0002319 ! NMD_triggering_variant
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002322
+name: stop_gained_NMD_escaping
+def: "A stop_gained (SO:0001587) variant that allows the transcript to escape nonsense-mediated decay (NMD)." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "stop gained variant-nonsense-mediated decay escaping" EXACT []
+synonym: "stop gained-NMD escaping" EXACT []
+is_a: SO:0001587 ! stop_gained
+is_a: SO:0002320 ! NMD_escaping_variant
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002323
+name: frameshift_variant_NMD_triggering
+def: "A frameshift_variant (SO:0001589) that is degraded by nonsense-mediated decay (NMD)." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "frameshift variant-NMD triggering" EXACT []
+synonym: "frameshift variant-nonsense-mediated decay triggering" EXACT []
+is_a: SO:0001589 ! frameshift_variant
+is_a: SO:0002319 ! NMD_triggering_variant
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002324
+name: frameshift_variant_NMD_escaping
+def: "A frameshift_variant (SO:0001589) that allows the transcript to escape nonsense-mediated decay (NMD)." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "frameshift variant-NMD escaping" EXACT []
+synonym: "frameshift variant-nonsense-mediated decay escaping" EXACT []
+is_a: SO:0001589 ! frameshift_variant
+is_a: SO:0002320 ! NMD_escaping_variant
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002325
+name: splice_donor_variant_NMD_triggering
+def: "A splice_donor_variant (SO:0001575) that is degraded by nonsense-mediated decay (NMD)." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "splice donor variant-NMD triggering" EXACT []
+synonym: "splice donor variant-nonsense-mediated decay triggering" EXACT []
+is_a: SO:0001575 ! splice_donor_variant
+is_a: SO:0002319 ! NMD_triggering_variant
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002326
+name: splice_donor_variant_NMD_escaping
+def: "A splice_donor_variant (SO:0001575) that allows the transcript to escape nonsense-mediated decay (NMD)." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "splice donor variant-NMD escaping" EXACT []
+synonym: "splice donor variant-nonsense-mediated decay escaping" EXACT []
+is_a: SO:0001575 ! splice_donor_variant
+is_a: SO:0002320 ! NMD_escaping_variant
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002327
+name: splice_acceptor_variant_NMD_triggering
+def: "A splice_acceptor_variant (SO:0001574) that is degraded by nonsense-mediated decay (NMD)." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "splice acceptor variant-NMD triggering" EXACT []
+synonym: "splice acceptor variant-nonsense-mediated decay triggering" EXACT []
+is_a: SO:0001574 ! splice_acceptor_variant
+is_a: SO:0002319 ! NMD_triggering_variant
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002328
+name: splice_acceptor_variant_NMD_escaping
+def: "A splice_acceptor_variant (SO:0001574) that allows the transcript to escape nonsense-mediated decay (NMD)." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020.
+synonym: "splice acceptor variant-NMD escaping" EXACT []
+synonym: "splice acceptor variant-nonsense-mediated decay escaping" EXACT []
+is_a: SO:0001574 ! splice_acceptor_variant
+is_a: SO:0002320 ! NMD_escaping_variant
+created_by: david
+creation_date: 2020-12-30T17:12:30Z
 
 [Term]
 id: SO:0005836
