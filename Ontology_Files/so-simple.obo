@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2021-01-21
-date: 21:01:2021 18:31
+date: 21:01:2021 18:44
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -8939,8 +8939,10 @@ is_obsolete: true
 id: SO:0001058
 name: promoter_targeting_sequence
 def: "A transcriptional_cis_regulatory_region that restricts the activity of a CRM to a single promoter and which functions only when both itself and an insulator are located between the CRM and the promoter." [SO:regcreative]
+comment: Obsoleted Jan 21, 2021 by Dave Sant. GREEKC consortium individuals pointed out that this did not fit with the other child terms of transcriptional_cis_regulatory_region (SO:0001055), which are currently promoter, CRM and promoter flanking region. No comments about when this term was created exist, no references are listed. GREEKC members assume that this was previously under enhansosome (SO:0001057), which was probably created along with this term but has since been obsoleted. This term can be resurrected as non-obsolete if we can find a reference publication and/or change the name to a term that is commonly used in the field.
 synonym: "promoter targeting sequence" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
+is_obsolete: true
 
 [Term]
 id: SO:0001059
