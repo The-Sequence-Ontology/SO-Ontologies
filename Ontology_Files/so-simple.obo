@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2021-01-20
-date: 20:01:2021 18:38
+data-version: 2021-01-21
+date: 21:01:2021 18:31
 saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -15332,9 +15332,9 @@ creation_date: 2010-03-31T10:38:12Z
 id: SO:0001715
 name: ISRE
 def: "An ISRE is a transcriptional cis regulatory region, containing the consensus region: YAGTTTC(A/T)YTTTYCC, responsible for increased transcription via interferon binding." [http://genesdev.cshlp.org/content/2/4/383.abstrac]
-comment: Term requested via tracker (2981725) by Alan Ruttenberg, April 2010. It has been described as both an enhancer and a promoter, so the parent is the more general term.
+comment: Term requested via tracker (2981725) by Alan Ruttenberg, April 2010. It has been described as both an enhancer and a promoter, so the parent is the more general term. Moved from is_a SO:0001055 transcriptional_cis_regulatory_region to SO:0000235 TF_binding_site after Colin Logie pointed out that this is a consensus sequence where transcription factors bind, GREEKC Jan 21, 2021.
 synonym: "interferon stimulated response element" EXACT []
-is_a: SO:0001055 ! transcriptional_cis_regulatory_region
+is_a: SO:0000235 ! TF_binding_site
 created_by: kareneilbeck
 creation_date: 2010-04-05T11:15:08Z
 
@@ -16610,10 +16610,10 @@ creation_date: 2011-10-07T03:37:43Z
 id: SO:0001840
 name: GATA_box
 def: "A GATA transcription factor element containing the consensus sequence WGATAR (in which W indicates A/T and R indicates A/G)." [PMID:8321208]
-comment: Changed to is_a SO:0001055 transcriptional_cis_regulatory_region from core_eukaryotic_promoter_element SO:0001660 after Ruth Lovering from GREEKC initiative pointed out that GATA boxes are frequently in enhancer regions, Dave Sant Aug 2020.
+comment: Changed to is_a SO:0001055 transcriptional_cis_regulatory_region from core_eukaryotic_promoter_element SO:0001660 after Ruth Lovering from GREEKC initiative pointed out that GATA boxes are frequently in enhancer regions, Dave Sant Aug 2020. Moved from is_a SO:0001055 transcriptional_cis_regulatory_region to SO:0000235 TF_binding_site after Colin Logie pointed out that this is a consensus sequence where transcription factors bind, GREEKC Jan 21, 2021.
 synonym: "GATA box" EXACT []
 synonym: "GATA element" RELATED []
-is_a: SO:0001055 ! transcriptional_cis_regulatory_region
+is_a: SO:0000235 ! TF_binding_site
 created_by: kareneilbeck
 creation_date: 2011-10-07T03:42:05Z
 
