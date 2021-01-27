@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: 2021-01-21
-date: 21:01:2021 18:44
-saved-by: david
+data-version: 2021-01-27
+date: 27:01:2021 01:35
+saved-by: evanchristensen
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -2031,7 +2031,8 @@ is_a: SO:0000483 ! nc_primary_transcript
 [Term]
 id: SO:0000232
 name: snoRNA_primary_transcript
-def: "A primary transcript encoding a small nucleolar mRNA (SO:0000275)." [SO:ke]
+def: "A primary transcript encoding one or more small nucleolar RNAs (SO:0000275)." [SO:ke]
+comment: This definition was broadened 26 Jan 2021 to reflect that a single transcript can encode one or more snoRNAs. Brought to our attention by FlyBase. GitHub Issue #520 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/520).
 synonym: "snoRNA primary transcript" EXACT []
 is_a: SO:0000483 ! nc_primary_transcript
 
