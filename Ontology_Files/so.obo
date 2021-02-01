@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: 2021-01-27
-date: 27:01:2021 01:35
-saved-by: evanchristensen
+data-version: 2021-02-01
+date: 01:02:2021 16:53
+saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -3321,7 +3321,8 @@ relationship: has_quality SO:0001186 ! ribozymic
 [Term]
 id: SO:0000375
 name: rRNA_5_8S
-def: "5_8S ribosomal RNA (5. 8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein. 5_8S rRNA is also found in archaea." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00002]
+def: "5_8S ribosomal RNA (5.8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein." [https://rfam.xfam.org/family/RF00002]
+comment: Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505.
 subset: SOFA
 synonym: "5.8S LSU rRNA" EXACT []
 synonym: "5.8S ribosomal RNA" EXACT []
