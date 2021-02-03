@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2021-02-01
-date: 01:02:2021 16:53
+data-version: 2021-02-03
+date: 03:02:2021 20:33
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -10472,8 +10472,11 @@ is_a: SO:0000345 ! EST
 [Term]
 id: SO:0001210
 name: translational_frameshift
-def: "The region of mRNA (not divisible by 3 bases) that is skipped during the process of translational frameshifting (GO:0006452), causing the reading frame to be different." [SO:ke]
+def: "The region of mRNA (not divisible by 3 bases) that is skipped or added during the process of translational frameshifting (GO:0006452), causing the reading frame to be different." [http://www.insdc.org/files/feature_table.html, SO:ke]
+comment: Added synonym 'ribosomal_slippage' on Feb 1, 2021, a term in INSDC and GenBank. See GitHub Issue #522.
+synonym: "INSDC_qualifier:ribosomal_slippage" EXACT []
 synonym: "ribosomal frameshift" EXACT []
+synonym: "ribosomal slippage" EXACT []
 synonym: "translational frameshift" EXACT []
 xref: http://en.wikipedia.org/wiki/Translational_frameshift "wiki"
 is_a: SO:0000836 ! mRNA_region
@@ -21775,6 +21778,30 @@ is_a: SO:0001574 ! splice_acceptor_variant
 is_a: SO:0002320 ! NMD_escaping_variant
 created_by: david
 creation_date: 2020-12-30T17:12:30Z
+
+[Term]
+id: SO:0002329
+name: minus_1_translational_frameshift
+def: "The region of mRNA 1 base long that is included as part of two separate codons during the process of translational frameshifting (GO:0006452), causing the reading frame to be different." [SO:ds]
+comment: Added along with the update to the definition of transaltional_frameshift SO:0001210 Feb 2021, brought to our attention by Terrence Murphy of INSDC. See GitHub Issue #522.
+synonym: "minus 1 ribosomal frameshift" EXACT []
+synonym: "minus 1 ribosomal slippage" EXACT []
+synonym: "minus 1 translational frameshift" EXACT []
+is_a: SO:0001210 ! translational_frameshift
+created_by: david
+creation_date: 2021-02-03T20:33:30Z
+
+[Term]
+id: SO:0002330
+name: minus_2_translational_frameshift
+def: "The region of mRNA 2 bases long that is included as part of two separate codons during the process of translational frameshifting (GO:0006452), causing the reading frame to be different." [SO:ds]
+comment: Added along with the update to the definition of transaltional_frameshift SO:0001210 Feb 2021, brought to our attention by Terrence Murphy of INSDC. See GitHub Issue #522.
+synonym: "minus 2 ribosomal frameshift" EXACT []
+synonym: "minus 2 ribosomal slippage" EXACT []
+synonym: "minus 2 translational frameshift" EXACT []
+is_a: SO:0001210 ! translational_frameshift
+created_by: david
+creation_date: 2021-02-03T20:33:30Z
 
 [Term]
 id: SO:0005836
