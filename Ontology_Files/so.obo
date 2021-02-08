@@ -10754,7 +10754,6 @@ name: RNA_polymerase_promoter
 def: "A region (DNA) to which RNA polymerase binds, to begin transcription." [xenbase:jb]
 comment: Term merged with promoter SO:0000167 in August 2020 as part of GREEKC initiative. See GitHub Issue 492 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/492)
 synonym: "RNA polymerase promoter" EXACT []
-is_a: SO:0000167 ! promoter
 is_obsolete: true
 replaced_by: SO:0000167
 
