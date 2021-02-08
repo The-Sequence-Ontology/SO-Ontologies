@@ -417,7 +417,7 @@ subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:enhancer" EXACT []
 xref: http://en.wikipedia.org/wiki/Enhancer_(genetics) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000167
@@ -656,7 +656,7 @@ synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
 is_a: SO:0001654 ! nucleotide_to_protein_binding_site
 is_a: SO:0001679 ! transcription_regulatory_region
-relationship: part_of SO:0000727 ! CRM
+relationship: part_of SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000236
@@ -1416,7 +1416,6 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
-relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
@@ -1774,7 +1773,7 @@ subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:silencer" EXACT []
 xref: http://en.wikipedia.org/wiki/Silencer_(DNA) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000627
@@ -1787,7 +1786,7 @@ synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:insulator" EXACT []
 synonym: "insulator element" EXACT []
 xref: http://en.wikipedia.org/wiki/Insulator_(genetics) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000628
@@ -2194,12 +2193,13 @@ relationship: derives_from SO:0000851 ! CDS_region
 
 [Term]
 id: SO:0000727
-name: CRM
+name: cis_regulatory_module
 namespace: sequence
 def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the core promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
-comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020.
+comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020. DS Updated name from 'CRM' to 'cis_regulatory_module' on 08 Feb 2021. See GitHub Issue #526
 subset: SOFA
 synonym: "cis regulatory module" EXACT []
+synonym: "CRM" EXACT []
 synonym: "TF module" EXACT []
 synonym: "transcription factor module" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region

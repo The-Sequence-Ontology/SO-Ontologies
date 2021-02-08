@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2021-02-03
-date: 03:02:2021 20:33
+data-version: 2021-02-08
+date: 08:02:2021 18:59
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -359,7 +359,7 @@ synonym: "LCR" EXACT []
 synonym: "locus control element" RELATED []
 synonym: "locus control region" EXACT []
 xref: http://en.wikipedia.org/wiki/Locus_control_region "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000038
@@ -1393,7 +1393,7 @@ subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:enhancer" EXACT []
 xref: http://en.wikipedia.org/wiki/Enhancer_(genetics) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000166
@@ -2014,7 +2014,7 @@ synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
 is_a: SO:0001654 ! nucleotide_to_protein_binding_site
 is_a: SO:0001679 ! transcription_regulatory_region
-relationship: part_of SO:0000727 ! CRM
+relationship: part_of SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000236
@@ -5474,7 +5474,7 @@ subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:silencer" EXACT []
 xref: http://en.wikipedia.org/wiki/Silencer_(DNA) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000626
@@ -5493,7 +5493,7 @@ synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:insulator" EXACT []
 synonym: "insulator element" EXACT []
 xref: http://en.wikipedia.org/wiki/Insulator_(genetics) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000628
@@ -6355,11 +6355,12 @@ is_a: SO:0001411 ! biological_region
 
 [Term]
 id: SO:0000727
-name: CRM
+name: cis_regulatory_module
 def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the core promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
-comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020.
+comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020. DS Updated name from 'CRM' to 'cis_regulatory_module' on 08 Feb 2021. See GitHub Issue #526
 subset: SOFA
 synonym: "cis regulatory module" EXACT []
+synonym: "CRM" EXACT []
 synonym: "TF module" EXACT []
 synonym: "transcription factor module" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
@@ -21542,7 +21543,7 @@ name: DNA_loop_anchor
 def: "The ends of a DNA loop where the two strands of DNA are held in close proximity. During interphase the anchors of DNA loops are CTCF binding sites." [GREEKC:cl, PMID:32782014]
 comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
 synonym: "DNA loop anchor" EXACT []
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 relationship: part_of SO:0002307 ! DNA_loop
 created_by: david
 creation_date: 2020-08-12T14:01:30Z

@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2021-02-03
-date: 03:02:2021 20:33
+data-version: 2021-02-08
+date: 08:02:2021 18:59
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -361,7 +361,7 @@ synonym: "LCR" EXACT []
 synonym: "locus control element" RELATED []
 synonym: "locus control region" EXACT []
 xref: http://en.wikipedia.org/wiki/Locus_control_region "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000038
@@ -1447,7 +1447,7 @@ subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:enhancer" EXACT []
 xref: http://en.wikipedia.org/wiki/Enhancer_(genetics) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000166
@@ -2070,7 +2070,7 @@ synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
 is_a: SO:0001654 ! nucleotide_to_protein_binding_site
 is_a: SO:0001679 ! transcription_regulatory_region
-relationship: part_of SO:0000727 ! CRM
+relationship: part_of SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000236
@@ -5589,7 +5589,7 @@ subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:silencer" EXACT []
 xref: http://en.wikipedia.org/wiki/Silencer_(DNA) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000626
@@ -5608,7 +5608,7 @@ synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:insulator" EXACT []
 synonym: "insulator element" EXACT []
 xref: http://en.wikipedia.org/wiki/Insulator_(genetics) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000628
@@ -6510,11 +6510,12 @@ is_a: SO:0001411 ! biological_region
 
 [Term]
 id: SO:0000727
-name: CRM
+name: cis_regulatory_module
 def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the core promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
-comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020.
+comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020. DS Updated name from 'CRM' to 'cis_regulatory_module' on 08 Feb 2021. See GitHub Issue #526
 subset: SOFA
 synonym: "cis regulatory module" EXACT []
+synonym: "CRM" EXACT []
 synonym: "TF module" EXACT []
 synonym: "transcription factor module" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
@@ -10805,12 +10806,12 @@ is_a: SO:0000345 ! EST
 [Term]
 id: SO:0001210
 name: translational_frameshift
-def: "The region of mRNA (not divisible by 3 bases) that is skipped or added during the process of translational frameshifting (GO:0006452), causing the reading frame to be different." [SO:ke, http://www.insdc.org/files/feature_table.html]
+def: "The region of mRNA (not divisible by 3 bases) that is skipped or added during the process of translational frameshifting (GO:0006452), causing the reading frame to be different." [http://www.insdc.org/files/feature_table.html, SO:ke]
 comment: Added synonym 'ribosomal_slippage' on Feb 1, 2021, a term in INSDC and GenBank. See GitHub Issue #522.
-synonym: "ribosomal frameshift" EXACT []
-synonym: "translational frameshift" EXACT []
 synonym: "INSDC_qualifier:ribosomal_slippage" EXACT []
+synonym: "ribosomal frameshift" EXACT []
 synonym: "ribosomal slippage" EXACT []
+synonym: "translational frameshift" EXACT []
 xref: http://en.wikipedia.org/wiki/Translational_frameshift "wiki"
 is_a: SO:0000836 ! mRNA_region
 
@@ -21947,7 +21948,7 @@ name: DNA_loop_anchor
 def: "The ends of a DNA loop where the two strands of DNA are held in close proximity. During interphase the anchors of DNA loops are CTCF binding sites." [GREEKC:cl, PMID:32782014]
 comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
 synonym: "DNA loop anchor" EXACT []
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 relationship: part_of SO:0002307 ! DNA_loop
 created_by: david
 creation_date: 2020-08-12T14:01:30Z
@@ -22189,9 +22190,9 @@ id: SO:0002329
 name: minus_1_translational_frameshift
 def: "The region of mRNA 1 base long that is included as part of two separate codons during the process of translational frameshifting (GO:0006452), causing the reading frame to be different." [SO:ds]
 comment: Added along with the update to the definition of transaltional_frameshift SO:0001210 Feb 2021, brought to our attention by Terrence Murphy of INSDC. See GitHub Issue #522.
-synonym: "minus 1 translational frameshift" EXACT []
 synonym: "minus 1 ribosomal frameshift" EXACT []
 synonym: "minus 1 ribosomal slippage" EXACT []
+synonym: "minus 1 translational frameshift" EXACT []
 is_a: SO:0001210 ! translational_frameshift
 created_by: david
 creation_date: 2021-02-03T20:33:30Z
@@ -22201,9 +22202,9 @@ id: SO:0002330
 name: minus_2_translational_frameshift
 def: "The region of mRNA 2 bases long that is included as part of two separate codons during the process of translational frameshifting (GO:0006452), causing the reading frame to be different." [SO:ds]
 comment: Added along with the update to the definition of transaltional_frameshift SO:0001210 Feb 2021, brought to our attention by Terrence Murphy of INSDC. See GitHub Issue #522.
-synonym: "minus 2 translational frameshift" EXACT []
 synonym: "minus 2 ribosomal frameshift" EXACT []
 synonym: "minus 2 ribosomal slippage" EXACT []
+synonym: "minus 2 translational frameshift" EXACT []
 is_a: SO:0001210 ! translational_frameshift
 created_by: david
 creation_date: 2021-02-03T20:33:30Z
