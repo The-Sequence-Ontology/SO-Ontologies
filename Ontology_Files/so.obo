@@ -1470,6 +1470,7 @@ synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:promoter" EXACT []
 synonym: "promoter sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Promoter "wiki"
+is_a: SO:0000842 ! gene_component_region
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
@@ -11076,9 +11077,10 @@ is_a: SO:0000315 ! TSS
 id: SO:0001240
 name: TSS_region
 def: "The region of a gene from the 5' most TSS to the 3' TSS." [BBOP:nw]
+comment: Merged into promoter (SO:0000167) on 11 Feb 2021 by Dave Sant. GREEKC had asked us to merge these terms to reduce redundancy. See GitHub Issue #528
 synonym: "TSS region" EXACT []
-is_a: SO:0000842 ! gene_component_region
-relationship: has_part SO:0000315 ! TSS
+is_obsolete: true
+replaced_by: SO:0000167
 
 [Term]
 id: SO:0001241
