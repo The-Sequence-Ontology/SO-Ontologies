@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2021-02-11
-date: 11:02:2021 18:46
+date: 11:02:2021 19:10
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -504,10 +504,11 @@ is_a: SO:0000054 ! aneuploid
 id: SO:0000057
 name: operator
 def: "A regulatory element of an operon to which activators or repressors bind thereby effecting translation of genes in that operon." [SO:ma]
+comment: Moved to transcriptional_cis_regulatory_region (SO:0001055) from gene_group_regulatory_region (SO:0000752) on 11 Feb 2021 when SO:0000752 was merged into SO:0001055. See GitHub Issue #529.
 subset: SOFA
 synonym: "operator segment" EXACT []
 xref: http://en.wikipedia.org/wiki/Operator_(biology)#Operator "wiki"
-is_a: SO:0000752 ! gene_group_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0000058
@@ -5384,9 +5385,9 @@ is_a: SO:0002222 ! prokaryotic_promoter
 id: SO:0000614
 name: bacterial_terminator
 def: "A terminator signal for bacterial transcription." [SO:ke]
+comment: Moved to transcriptional_cis_regulatory_region (SO:0001055) from gene_group_regulatory_region (SO:0000752) on 11 Feb 2021 when SO:0000752 was merged into SO:0001055. See GitHub Issue #529.
 synonym: "bacterial terminator" EXACT []
 is_a: SO:0000141 ! terminator
-is_a: SO:0000752 ! gene_group_regulatory_region
 
 [Term]
 id: SO:0000615
@@ -6555,11 +6556,11 @@ is_a: SO:0000735 ! sequence_location
 id: SO:0000752
 name: gene_group_regulatory_region
 def: "A region that is involved in the regulation of transcription of a group of regulated genes." []
-comment: Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
+comment: Merged into transcriptional_cis_regulatory_region (SO:0001055) on 11 Feb 2021 as part of GREEKC reducing redundancy as we prepare to submit several terms to Ensembl. See GitHub Issue #529.
 subset: SOFA
 synonym: "gene group regulatory region" EXACT []
-is_a: SO:0001055 ! transcriptional_cis_regulatory_region
-relationship: member_of SO:0005855 ! gene_group
+is_obsolete: true
+replaced_by: SO:0001055
 
 [Term]
 id: SO:0000753
