@@ -2650,10 +2650,10 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0001720",
       "meta" : {
         "definition" : {
-          "val" : "A biological region implicated in inherited changes caused by mechanisms other than changes in the underlying DNA sequence.",
+          "val" : "A region of DNA that is modified in such a way that chromatin folding and transcription may be modified with no changes in the underlying DNA sequence. Examples include changes in DNA methylation status and regions bound by modified histones.",
           "xrefs" : [ "SO:ke", "http://en.wikipedia.org/wiki/Epigenetics" ]
         },
-        "comments" : [ "Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530." ],
+        "comments" : [ "Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530. 11 Feb 2021 updated definition along with addition of epigenomically_modified_region (SO:0002332). Epigenetically modified region is now not inherited while epigenomically modified region is not annotated as inherited. See GitHub Issue #532." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -7830,13 +7830,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000324"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000836",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000234"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000842",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000836",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000234"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/so#partial_evidence_for_feature",
       "pred" : "subPropertyOf",
@@ -8018,13 +8018,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000830"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000837",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000836"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000727",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000837",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000836"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000036",
       "pred" : "is_a",
@@ -8174,13 +8174,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000185"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001215",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000852"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000289",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001215",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000852"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000366",
       "pred" : "is_a",
@@ -8262,13 +8262,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000657"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000725",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001527"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000305",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001236"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000725",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001527"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000007",
       "pred" : "is_a",
@@ -8382,13 +8382,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000727"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000687",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000204",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000203"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000687",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000007",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -8426,13 +8426,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000343"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000652",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0100011",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000652",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000624",
       "pred" : "is_a",

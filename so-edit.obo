@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2021-02-11
-date: 11:02:2021 19:41
+date: 11:02:2021 21:16
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -15780,8 +15780,8 @@ creation_date: 2010-04-13T10:42:45Z
 [Term]
 id: SO:0001720
 name: epigenetically_modified_region
-def: "A biological region implicated in inherited changes caused by mechanisms other than changes in the underlying DNA sequence." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
-comment: Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530.
+def: "A region of DNA that is modified in such a way that chromatin folding and transcription may be modified with no changes in the underlying DNA sequence. Examples include changes in DNA methylation status and regions bound by modified histones." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
+comment: Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530. 11 Feb 2021 updated definition along with addition of epigenomically_modified_region (SO:0002332). Epigenetically modified region is now not inherited while epigenomically modified region is not annotated as inherited. See GitHub Issue #532.
 subset: SOFA
 synonym: "epigenetically modified region" RELATED []
 is_a: SO:0005836 ! regulatory_region
@@ -22234,6 +22234,18 @@ synonym: "accessible DNA region" EXACT []
 is_a: SO:0001411 ! biological_region
 created_by: david
 creation_date: 2021-02-11T16:41:30Z
+
+[Term]
+id: SO:0002332
+name: epigenomically_modified_region
+def: "A biological region implicated in inherited changes caused by mechanisms other than changes in the underlying DNA sequence." [http://en.wikipedia.org/wiki/Epigenetics, SO:ds]
+comment: Added as part of GREEKC terms to differentiate between inherited and not inherited epigenetic changes. See GitHub Issue #532.
+synonym: "epigenomically modified region" EXACT []
+xref: https://epi.grants.cancer.gov/epigen/#:~:text=mail.nih.gov-,Overview,a%20cell%20or%20entire%20organism.
+is_a: SO:0005836 ! regulatory_region
+relationship: has_quality SO:0000133 ! epigenetically_modified
+created_by: david
+creation_date: 2021-02-11T21:16:30Z
 
 [Term]
 id: SO:0005836
