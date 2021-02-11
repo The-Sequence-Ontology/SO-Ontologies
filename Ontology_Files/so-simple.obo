@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2021-02-11
-date: 11:02:2021 19:10
+date: 11:02:2021 19:30
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -15398,9 +15398,10 @@ creation_date: 2010-04-13T10:42:45Z
 id: SO:0001720
 name: epigenetically_modified_region
 def: "A biological region implicated in inherited changes caused by mechanisms other than changes in the underlying DNA sequence." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
+comment: Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530.
 subset: SOFA
 synonym: "epigenetically modified region" RELATED []
-is_a: SO:0001411 ! biological_region
+is_a: SO:0005836 ! regulatory_region
 relationship: has_quality SO:0000133 ! epigenetically_modified
 created_by: kareneilbeck
 creation_date: 2010-03-27T12:02:29Z
@@ -20199,10 +20200,11 @@ creation_date: 2018-01-04T17:28:52Z
 id: SO:0002191
 name: imprinting_control_region
 def: "A regulatory region that controls epigenetic imprinting and affects the expression of target genes in an allele- or parent-of-origin-specific manner. Associated regulatory elements may include differentially methylated regions and non-coding RNAs." []
+comment: Moved from is_a regulatory_region (SO:0005836) to is_a epigentically_modified_region (SO:0001720) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530.
 synonym: "imprinting control region" EXACT []
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:imprinting_control_region" EXACT []
-is_a: SO:0005836 ! regulatory_region
+is_a: SO:0001720 ! epigenetically_modified_region
 created_by: nicole
 creation_date: 2018-01-04T17:35:34Z
 

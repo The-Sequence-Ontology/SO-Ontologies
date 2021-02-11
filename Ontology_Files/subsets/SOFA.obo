@@ -2711,9 +2711,10 @@ id: SO:0001720
 name: epigenetically_modified_region
 namespace: sequence
 def: "A biological region implicated in inherited changes caused by mechanisms other than changes in the underlying DNA sequence." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
+comment: Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530.
 subset: SOFA
 synonym: "epigenetically modified region" RELATED []
-is_a: SO:0001411 ! biological_region
+is_a: SO:0005836 ! regulatory_region
 created_by: kareneilbeck
 creation_date: 2010-03-27T12:02:29Z
 
