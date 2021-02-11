@@ -2548,6 +2548,7 @@
           "val" : "A regulatory_region that modulates splicing.",
           "xrefs" : [ "SO:ke" ]
         },
+        "comments" : [ "Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2589,6 +2590,7 @@
           "val" : "A regulatory_region that modulates the transcription of a gene or genes.",
           "xrefs" : [ "PMID:9679020", "SO:regcreative" ]
         },
+        "comments" : [ "Previous parent term transcription_regulatory_region (SO:0001067) has been merged with this term on 11 Feb 2021 as part of the GREEKC consortium. See GitHub Issue #527." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2676,6 +2678,7 @@
           "val" : "A region that is involved in the regulation of transcription of a group of regulated genes.",
           "xrefs" : [ ]
         },
+        "comments" : [ "Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -4611,6 +4614,7 @@
           "val" : "The recognition sequence necessary for endonuclease cleavage of an RNA transcript that is followed by polyadenylation; consensus=AATAAA.",
           "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
+        "comments" : [ "Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasBroadSynonym",
@@ -5942,7 +5946,7 @@
           "val" : "A DNA site where a transcription factor binds.",
           "xrefs" : [ "SO:ke" ]
         },
-        "comments" : [ "Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requsts from GREEKC initiative." ],
+        "comments" : [ "Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requests from GREEKC initiative. Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6436,6 +6440,7 @@
           "val" : "A regulatory region that is involved in the control of the process of transcription.",
           "xrefs" : [ "SO:ke" ]
         },
+        "comments" : [ "Obsoleted by David Sant on 11 Feb 2021 when it was merged with transcriptional_cis_regulatory_region (SO:0001055) to reduce redundancy and be consistent with Gene Ontology. See GitHub Issue #527." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6451,7 +6456,8 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "kareneilbeck"
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
       "lbl" : "transcription_regulatory_region"
@@ -6837,6 +6843,7 @@
           "val" : "The sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription.",
           "xrefs" : [ "http://www.insdc.org/files/feature_table.html" ]
         },
+        "comments" : [ "Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/Terminator_(genetics)"
@@ -7457,13 +7464,13 @@
       "lbl" : "coding_region_of_exon"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000390",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000276",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000370"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000390",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000474",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -7537,9 +7544,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
+      "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000851"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000486",
       "pred" : "is_a",
@@ -7565,9 +7572,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000700"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000551",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000752",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000318",
       "pred" : "is_a",
@@ -7653,13 +7660,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001059"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000197",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001215"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000253",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000197",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001215"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000830",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -7705,13 +7712,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000727"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000688",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000353"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000727"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000699",
       "pred" : "is_a",
@@ -7728,10 +7735,6 @@
       "sub" : "http://purl.obolibrary.org/obo/SO_0000337",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000442"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001055",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000347",
       "pred" : "is_a",
@@ -7772,10 +7775,6 @@
       "sub" : "http://purl.obolibrary.org/obo/SO_0000474",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000143"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000752",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000777",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -7829,13 +7828,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000324"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000842",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000836",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000842",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/so#partial_evidence_for_feature",
       "pred" : "subPropertyOf",
@@ -7905,13 +7904,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000831"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_2000061",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000695"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001720",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_2000061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000695"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000103",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -7952,6 +7951,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SO_0000403",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000593"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000842",
       "pred" : "is_a",
@@ -8017,13 +8020,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000830"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000727",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000837",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000836"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000727",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000036",
       "pred" : "is_a",
@@ -8044,10 +8047,6 @@
       "sub" : "http://purl.obolibrary.org/obo/SO_0001412",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001056",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000419",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -8381,6 +8380,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001055",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0005836"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000627",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000727"
@@ -8429,17 +8432,21 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000343"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0100011",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001063"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000652",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100011",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001063"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000624",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000628"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000141",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000839",
       "pred" : "is_a",
@@ -8501,10 +8508,6 @@
       "pred" : "http://purl.obolibrary.org/obo/so#derives_from",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000851"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001679",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0005836"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000753",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000151"
@@ -8557,6 +8560,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000179",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000753"
@@ -8581,10 +8588,6 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000167"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000141",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001679"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000385",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
@@ -8593,17 +8596,21 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000196",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001215"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000252",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000196",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001215"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000341",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000830"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000551",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000655",
       "pred" : "is_a",

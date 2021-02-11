@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/so/subsets/SOFA.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2021-02-08/subsets/SOFA.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2021-02-11/subsets/SOFA.owl"/>
     </owl:Ontology>
     
 
@@ -1785,7 +1785,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001679"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
@@ -1800,6 +1800,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000141</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terminator</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2687,8 +2688,8 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001055"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001654"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001679"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
@@ -2701,7 +2702,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000235</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requsts from GREEKC initiative.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requests from GREEKC initiative. Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TF_binding_site</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4622,6 +4623,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001527"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000851"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0100011"/>
             </owl:Restriction>
@@ -5041,7 +5048,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000551 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000551">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001679"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001055"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The recognition sequence necessary for endonuclease cleavage of an RNA transcript that is followed by polyadenylation; consensus=AATAAA.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:polyA_signal_sequence</oboInOwl:hasExactSynonym>
@@ -5051,6 +5058,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000551</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyA_signal_sequence</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6547,7 +6555,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000752 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000752">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001679"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#member_of"/>
@@ -6559,6 +6567,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000752</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene_group_regulatory_region</rdfs:label>
     </owl:Class>
     
@@ -7143,7 +7152,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0001055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001679"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005836"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A regulatory_region that modulates the transcription of a gene or genes.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:regulatory</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:transcriptional_cis_regulatory_region</oboInOwl:hasExactSynonym>
@@ -7152,6 +7161,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0001055</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Previous parent term transcription_regulatory_region (SO:0001067) has been merged with this term on 11 Feb 2021 as part of the GREEKC consortium. See GitHub Issue #527.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptional_cis_regulatory_region</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7167,12 +7177,13 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0001056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001679"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001055"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A regulatory_region that modulates splicing.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splicing regulatory region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0001056</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splicing_regulatory_region</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7584,7 +7595,6 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0001679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001679">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005836"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A regulatory region that is involved in the control of the process of transcription.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-12T03:49:35Z</oboInOwl:creation_date>
@@ -7592,7 +7602,9 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0001679</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obsoleted by David Sant on 11 Feb 2021 when it was merged with transcriptional_cis_regulatory_region (SO:0001055) to reduce redundancy and be consistent with Gene Ontology. See GitHub Issue #527.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription_regulatory_region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001679"/>

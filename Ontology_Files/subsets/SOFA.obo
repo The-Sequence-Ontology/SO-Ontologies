@@ -275,12 +275,13 @@ id: SO:0000141
 name: terminator
 namespace: sequence
 def: "The sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription." [http://www.insdc.org/files/feature_table.html]
+comment: Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:terminator" EXACT []
 synonym: "terminator sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Terminator_(genetics) "wiki"
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 relationship: part_of SO:0000673 ! transcript
 
 [Term]
@@ -650,12 +651,12 @@ id: SO:0000235
 name: TF_binding_site
 namespace: sequence
 def: "A DNA site where a transcription factor binds." [SO:ke]
-comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requsts from GREEKC initiative.
+comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requests from GREEKC initiative. Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 is_a: SO:0001654 ! nucleotide_to_protein_binding_site
-is_a: SO:0001679 ! transcription_regulatory_region
 relationship: part_of SO:0000727 ! cis_regulatory_module
 
 [Term]
@@ -1416,6 +1417,7 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
@@ -1586,13 +1588,14 @@ id: SO:0000551
 name: polyA_signal_sequence
 namespace: sequence
 def: "The recognition sequence necessary for endonuclease cleavage of an RNA transcript that is followed by polyadenylation; consensus=AATAAA." [http://www.insdc.org/files/feature_table.html]
+comment: Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:polyA_signal_sequence" EXACT []
 synonym: "poly(A) signal" EXACT []
 synonym: "polyA signal sequence" EXACT []
 synonym: "polyadenylation termination signal" EXACT []
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0000553
@@ -2220,9 +2223,10 @@ id: SO:0000752
 name: gene_group_regulatory_region
 namespace: sequence
 def: "A region that is involved in the regulation of transcription of a group of regulated genes." []
+comment: Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "gene group regulatory region" EXACT []
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 relationship: member_of SO:0005855 ! gene_group
 
 [Term]
@@ -2475,21 +2479,23 @@ id: SO:0001055
 name: transcriptional_cis_regulatory_region
 namespace: sequence
 def: "A regulatory_region that modulates the transcription of a gene or genes." [PMID:9679020, SO:regcreative]
+comment: Previous parent term transcription_regulatory_region (SO:0001067) has been merged with this term on 11 Feb 2021 as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:transcriptional_cis_regulatory_region" EXACT []
 synonym: "transcription-control region" EXACT []
 synonym: "transcriptional cis regulatory region" EXACT []
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0005836 ! regulatory_region
 
 [Term]
 id: SO:0001056
 name: splicing_regulatory_region
 namespace: sequence
 def: "A regulatory_region that modulates splicing." [SO:ke]
+comment: Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "splicing regulatory region" EXACT []
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0001059
@@ -2680,9 +2686,10 @@ id: SO:0001679
 name: transcription_regulatory_region
 namespace: sequence
 def: "A regulatory region that is involved in the control of the process of transcription." [SO:ke]
+comment: Obsoleted by David Sant on 11 Feb 2021 when it was merged with transcriptional_cis_regulatory_region (SO:0001055) to reduce redundancy and be consistent with Gene Ontology. See GitHub Issue #527.
 subset: SOFA
 synonym: "transcription regulatory region" EXACT []
-is_a: SO:0005836 ! regulatory_region
+is_obsolete: true
 created_by: kareneilbeck
 creation_date: 2010-10-12T03:49:35Z
 
