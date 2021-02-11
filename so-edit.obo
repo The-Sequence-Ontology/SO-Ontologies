@@ -22241,8 +22241,8 @@ name: epigenomically_modified_region
 def: "A biological region implicated in inherited changes caused by mechanisms other than changes in the underlying DNA sequence." [http://en.wikipedia.org/wiki/Epigenetics, SO:ds]
 comment: Added as part of GREEKC terms to differentiate between inherited and not inherited epigenetic changes. See GitHub Issue #532.
 synonym: "epigenomically modified region" EXACT []
-xref: https://epi.grants.cancer.gov/epigen/#:~:text=mail.nih.gov-,Overview,a%20cell%20or%20entire%20organism.
-is_a: SO:0005836 ! regulatory_region
+xref: https://epi.grants.cancer.gov/epigen/#\:~\:text=mail.nih.gov-\,Overview\,a%20cell%20or%20entire%20organism.
+is_a: SO:0001720 ! epigenetically_modified_region
 relationship: has_quality SO:0000133 ! epigenetically_modified
 created_by: david
 creation_date: 2021-02-11T21:16:30Z
@@ -24700,3 +24700,4 @@ id: variant_of
 name: variant_of
 def: "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A." [SO:immuno_workshop]
 comment: Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith.
+
