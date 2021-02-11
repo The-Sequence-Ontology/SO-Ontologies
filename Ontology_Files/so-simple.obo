@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2021-02-11
-date: 11:02:2021 19:30
+date: 11:02:2021 19:41
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -2808,8 +2808,10 @@ relationship: has_quality SO:0000868 ! plus_1_frameshift
 id: SO:0000322
 name: nuclease_hypersensitive_site
 def: "A region of nucleotide sequence targeted by a nuclease enzyme that is found cleaved more than would be expected by chance." []
+comment: Relationship to accessible_DNA_region added 11 Feb 2021. GREEKC pointed out that this is an assay based term, but we need a biological term for the accessible DNA. See GitHub Issue #531.
 synonym: "nuclease hypersensitive site" EXACT []
 is_a: SO:0000684 ! nuclease_sensitive_site
+is_a: SO:0002331 ! accessible_DNA_region
 
 [Term]
 id: SO:0000323
@@ -20200,7 +20202,7 @@ creation_date: 2018-01-04T17:28:52Z
 id: SO:0002191
 name: imprinting_control_region
 def: "A regulatory region that controls epigenetic imprinting and affects the expression of target genes in an allele- or parent-of-origin-specific manner. Associated regulatory elements may include differentially methylated regions and non-coding RNAs." []
-comment: Moved from is_a regulatory_region (SO:0005836) to is_a epigentically_modified_region (SO:0001720) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530.
+comment: Moved from is_a regulatory_region (SO:0005836) to is_a epigenetically_modified_region (SO:0001720) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530.
 synonym: "imprinting control region" EXACT []
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:imprinting_control_region" EXACT []
@@ -21817,6 +21819,16 @@ synonym: "minus 2 translational frameshift" EXACT []
 is_a: SO:0001210 ! translational_frameshift
 created_by: david
 creation_date: 2021-02-03T20:33:30Z
+
+[Term]
+id: SO:0002331
+name: accessible_DNA_region
+def: "A region of DNA that is free of histones and accessible to DNA-binding proteins including transcription factors and nucleases." [PMID:25903461, SO:ds]
+comment: Added as part of GREEKC terms. See GitHub Issue #531.
+synonym: "accessible DNA region" EXACT []
+is_a: SO:0001411 ! biological_region
+created_by: david
+creation_date: 2021-02-11T16:41:30Z
 
 [Term]
 id: SO:0005836
