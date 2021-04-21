@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2021-02-16
-date: 16:02:2021 19:03
+data-version: 2021-04-21
+date: 21:04:2021 19:21
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -22247,6 +22247,36 @@ is_a: SO:0001720 ! epigenetically_modified_region
 relationship: has_quality SO:0000133 ! epigenetically_modified
 created_by: david
 creation_date: 2021-02-11T21:16:30Z
+
+[Term]
+id: SO:0002333
+name: amber_stop_codon
+def: "A stop codon with the DNA sequence TAG." [https://en.wikipedia.org/wiki/Stop_codon]
+comment: Added as per GitHub request #537.
+synonym: "Amber stop codon" EXACT []
+is_a: SO:0000319 ! stop_codon
+created_by: david
+creation_date: 2021-04-21T21:16:30Z
+
+[Term]
+id: SO:0002334
+name: ochre_stop_codon
+def: "A stop codon with the DNA sequence TAA." [https://en.wikipedia.org/wiki/Stop_codon]
+comment: Added as per GitHub request #537.
+synonym: "Ochre stop codon" EXACT []
+is_a: SO:0000319 ! stop_codon
+created_by: david
+creation_date: 2021-04-21T21:16:30Z
+
+[Term]
+id: SO:0002335
+name: opal_stop_codon
+def: "A stop codon with the DNA sequence TGA." [https://en.wikipedia.org/wiki/Stop_codon]
+comment: Added as per GitHub request #537.
+synonym: "Opal stop codon" EXACT []
+is_a: SO:0000319 ! stop_codon
+created_by: david
+creation_date: 2021-04-21T21:16:30Z
 
 [Term]
 id: SO:0005836
