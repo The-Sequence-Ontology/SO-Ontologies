@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2021-04-21
-date: 21:04:2021 19:21
+data-version: 2021-04-23
+date: 23:04:2021 22:32
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -13111,7 +13111,7 @@ def: "Long, intervening non-coding RNA. A transcript that does not overlap withi
 synonym: "large intervening non-coding RNA" EXACT []
 synonym: "long intergenic non-coding RNA" EXACT []
 synonym: "long intervening non-coding RNA" EXACT []
-is_a: SO:0001877 ! lnc_RNA
+is_a: SO:0001877 ! lncRNA
 
 [Term]
 id: SO:0001464
@@ -17389,7 +17389,7 @@ creation_date: 2012-02-14T05:05:32Z
 
 [Term]
 id: SO:0001877
-name: lnc_RNA
+name: lncRNA
 def: "A non-coding RNA over 200nucleotides in length." [HGNC:mw]
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:lncRNA" EXACT []
@@ -17668,7 +17668,7 @@ name: antisense_lncRNA
 def: "Non-coding RNA transcribed from the opposite DNA strand compared with other transcripts and overlap in part with sense RNA." [PMID:19638999]
 synonym: "antisense lncRNA" RELATED []
 synonym: "natural antisense transcript" EXACT []
-is_a: SO:0001877 ! lnc_RNA
+is_a: SO:0001877 ! lncRNA
 created_by: kareneilbeck
 creation_date: 2012-04-06T04:36:44Z
 
@@ -20008,7 +20008,7 @@ synonym: "sense intronic lncRNA" EXACT []
 synonym: "sense_intronic" EXACT []
 synonym: "sense_intronic_lncRNA" EXACT []
 synonym: "sense_intronic_non-coding_RNA" EXACT []
-is_a: SO:0001877 ! lnc_RNA
+is_a: SO:0001877 ! lncRNA
 created_by: nicole
 creation_date: 2016-08-23T16:15:02Z
 
@@ -20019,7 +20019,7 @@ def: "A long non-coding transcript that contains a protein coding gene within it
 synonym: "sense overlap lncRNA" EXACT []
 synonym: "sense_overlap_lncRNA" EXACT []
 synonym: "sense_overlapping" EXACT []
-is_a: SO:0001877 ! lnc_RNA
+is_a: SO:0001877 ! lncRNA
 created_by: nicole
 creation_date: 2016-08-23T16:16:13Z
 
