@@ -19612,7 +19612,7 @@ creation_date: 2016-05-17T13:34:12Z
 [Term]
 id: SO:0002095
 name: scaRNA
-def: "A ncRNA, specific to the Cajal body, that has been demonstrated to function as a guide RNA in the site-specific synthesis of 2'-O-ribose-methylated nucleotides and pseudouridines in the RNA polymerase II-transcribed U1, U2, U4 and U5 spliceosomal small nuclear RNAs (snRNAs)." [PMC:126017, PMID:28869095, PMID:27775477, SO:nrs]
+def: "A ncRNA, specific to the Cajal body, that has been demonstrated to function as a guide RNA in the site-specific synthesis of 2'-O-ribose-methylated nucleotides and pseudouridines in the RNA polymerase II-transcribed U1, U2, U4 and U5 spliceosomal small nuclear RNAs (snRNAs)." [PMC:126017, PMID:27775477, PMID:28869095, SO:nrs]
 comment: Moved from is_a ncRNA (SO:0000655) to is_a snoRNA (SO:0000275) as per request from FlyBase by Dave Sant 24 April 2021. See GitHub Issue #509.
 synonym: "small Cajal body specific RNA" EXACT []
 synonym: "small Cajal body-specific RNA" EXACT []
@@ -22309,13 +22309,26 @@ creation_date: 2021-04-23T22:59:30Z
 [Term]
 id: SO:0002338
 name: U7_snRNA
-def: "A 57–71 nucleotide RNA that is a component of the U7 small nuclear ribonucleoprotein complex (U7 snRNP). The U7 snRNP is required for histone pre-mRNA processing.." [PMID:15526162]
+def: "A 57–71 nucleotide RNA that is a component of the U7 small nuclear ribonucleoprotein complex (U7 snRNP). The U7 snRNP is required for histone pre-mRNA processing." [PMID:15526162]
 comment: Added as a request from FlyBase. See GitHub Issue #508
-synonym: "U7 snRNA" EXACT []
+synonym: "small nuclear RNA U7" EXACT []
 synonym: "snRNA U7" EXACT []
+synonym: "U7 small nuclear RNA" EXACT []
+synonym: "U7 snRNA" EXACT []
+is_a: SO:0000274 ! snRNA
+created_by: david
+creation_date: 2021-04-24T16:59:30Z
+
+[Term]
+id: SO:0002339
+name: scaRNA_gene
+def: "A gene that encodes for a scaRNA (small Cajal body-specific RNA)." [PMID:27775477, PMID:28869095]
+comment: Added as a request from FlyBase. See GitHub Issue #510
+synonym: "scaRNA gene" EXACT []
+synonym: "Small Cajal body-specific RNA gene" EXACT []
 synonym: "small nuclear RNA U7" EXACT []
 synonym: "U7 small nuclear RNA" EXACT []
-is_a: SO:0000274 ! snRNA
+is_a: SO:0001267 ! snoRNA_gene
 created_by: david
 creation_date: 2021-04-24T16:59:30Z
 
@@ -24772,3 +24785,4 @@ id: variant_of
 name: variant_of
 def: "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A." [SO:immuno_workshop]
 comment: Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith.
+
