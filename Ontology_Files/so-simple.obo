@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2021-04-23
-date: 23:04:2021 22:59
+data-version: 2021-04-24
+date: 24:04:2021 16:59
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -21899,6 +21899,19 @@ synonym: "rRNA 2S" EXACT []
 is_a: SO:0000651 ! large_subunit_rRNA
 created_by: david
 creation_date: 2021-04-23T22:59:30Z
+
+[Term]
+id: SO:0002338
+name: U7_snRNA
+def: "A 57–71 nucleotide RNA that is a component of the U7 small nuclear ribonucleoprotein complex (U7 snRNP). The U7 snRNP is required for histone pre-mRNA processing.." [PMID:15526162]
+comment: Added as a request from FlyBase. See GitHub Issue #508
+synonym: "small nuclear RNA U7" EXACT []
+synonym: "snRNA U7" EXACT []
+synonym: "U7 small nuclear RNA" EXACT []
+synonym: "U7 snRNA" EXACT []
+is_a: SO:0000274 ! snRNA
+created_by: david
+creation_date: 2021-04-24T16:59:30Z
 
 [Term]
 id: SO:0005836
