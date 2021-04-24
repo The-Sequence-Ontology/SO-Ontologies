@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2021-04-24
-date: 24:04:2021 16:59
+date: 24:04:2021 17:49
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -19612,11 +19612,12 @@ creation_date: 2016-05-17T13:34:12Z
 [Term]
 id: SO:0002095
 name: scaRNA
-def: "A ncRNA, specific to the Cajal body, that has been demonstrated to function as a guide RNA in the site-specific synthesis of 2'-O-ribose-methylated nucleotides and pseudouridines in the RNA polymerase II-transcribed U1, U2, U4 and U5 spliceosomal small nuclear RNAs (snRNAs)." [PMC:126017, SO:nrs]
+def: "A ncRNA, specific to the Cajal body, that has been demonstrated to function as a guide RNA in the site-specific synthesis of 2'-O-ribose-methylated nucleotides and pseudouridines in the RNA polymerase II-transcribed U1, U2, U4 and U5 spliceosomal small nuclear RNAs (snRNAs)." [PMC:126017, PMID:27775477, PMID:28869095, SO:nrs]
+comment: Moved from is_a ncRNA (SO:0000655) to is_a snoRNA (SO:0000275) as per request from FlyBase by Dave Sant 24 April 2021. See GitHub Issue #509.
 synonym: "small Cajal body specific RNA" EXACT []
 synonym: "small Cajal body-specific RNA" EXACT []
 xref: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC126017/
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0000275 ! snoRNA
 created_by: nicole
 creation_date: 2016-05-19T13:42:45Z
 
