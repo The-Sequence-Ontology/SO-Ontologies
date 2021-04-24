@@ -22326,8 +22326,6 @@ def: "A gene that encodes for a scaRNA (small Cajal body-specific RNA)." [PMID:2
 comment: Added as a request from FlyBase. See GitHub Issue #510
 synonym: "scaRNA gene" EXACT []
 synonym: "Small Cajal body-specific RNA gene" EXACT []
-synonym: "small nuclear RNA U7" EXACT []
-synonym: "U7 small nuclear RNA" EXACT []
 is_a: SO:0001267 ! snoRNA_gene
 created_by: david
 creation_date: 2021-04-24T16:59:30Z
