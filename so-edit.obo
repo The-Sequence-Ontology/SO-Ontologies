@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2021-04-23
-date: 23:04:2021 22:32
+date: 23:04:2021 22:59
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -22284,6 +22284,28 @@ created_by: david
 creation_date: 2021-04-21T21:16:30Z
 
 [Term]
+id: SO:0002336
+name: rRNA_2S_gene
+def: "A gene that encodes for 2S ribosomal RNA, which functions as a component of the large subunit of the ribosome in Drosophila and at least some other Diptera." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+comment: Added as a request from FlyBase. See GitHub Issue #507
+synonym: "2S rRNA gene" EXACT []
+synonym: "rRNA 2S gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+created_by: david
+creation_date: 2021-04-23T22:59:30Z
+
+[Term]
+id: SO:0002337
+name: rRNA_2S
+def: "A 30 nucleotide rRNA found in Drosophila and at least some other Diptera that is homologous to the 3' part of other 5.8S rRNA molecules. It forms a stable complex with the 5.8S and 26S rRNAs." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+comment: Added as a request from FlyBase. See GitHub Issue #507
+synonym: "2S rRNA" EXACT []
+synonym: "rRNA 2S" EXACT []
+is_a: SO:0000651 ! large_subunit_rRNA
+created_by: david
+creation_date: 2021-04-23T22:59:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
@@ -24736,3 +24758,4 @@ id: variant_of
 name: variant_of
 def: "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A." [SO:immuno_workshop]
 comment: Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith.
+
