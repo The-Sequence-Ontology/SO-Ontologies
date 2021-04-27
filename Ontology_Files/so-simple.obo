@@ -10923,10 +10923,11 @@ id: SO:0001265
 name: miRNA_gene
 alt_id: SO:0001270
 def: "A small noncoding RNA of approximately 22 nucleotides in length which may be involved in regulation of gene expression." []
+comment: Moved from ncRNA_gene to sncRNA_gene 27 April 2021 to be more consistent with the organization of the ncRNA branch of SO. Requested by FlyBase, moved by Dave Sant. See GitHub Issue #514.
 synonym: "miRNA gene" EXACT []
 synonym: "stRNA gene" EXACT []
 synonym: "stRNA_gene" EXACT []
-is_a: SO:0001263 ! ncRNA_gene
+is_a: SO:0002342 ! sncRNA_gene
 relationship: has_quality SO:0000571 ! miRNA_encoding
 relationship: has_quality SO:0000656 ! stRNA_encoding
 
@@ -10942,17 +10943,19 @@ relationship: has_quality SO:0000575 ! scRNA_encoding
 id: SO:0001267
 name: snoRNA_gene
 def: "A gene encoding a small noncoding RNA that participates in the processing or chemical modifications of many RNAs, including ribosomal RNAs and spliceosomal RNAs." []
+comment: Moved from ncRNA_gene to sncRNA_gene 27 April 2021 to be more consistent with the organization of the ncRNA branch of SO. Requested by FlyBase, moved by Dave Sant. See GitHub Issue #514.
 synonym: "snoRNA gene" EXACT []
-is_a: SO:0001263 ! ncRNA_gene
+is_a: SO:0002342 ! sncRNA_gene
 relationship: has_quality SO:0000578 ! snoRNA_encoding
 
 [Term]
 id: SO:0001268
 name: snRNA_gene
 def: "A gene that encodes a small nuclear RNA." [http://en.wikipedia.org/wiki/Small_nuclear_RNA]
+comment: Moved from ncRNA_gene to sncRNA_gene 27 April 2021 to be more consistent with the organization of the ncRNA branch of SO. Requested by FlyBase, moved by Dave Sant. See GitHub Issue #514.
 synonym: "small nuclear RNA gene" EXACT []
 synonym: "snRNA gene" EXACT []
-is_a: SO:0001263 ! ncRNA_gene
+is_a: SO:0002342 ! sncRNA_gene
 
 [Term]
 id: SO:0001269
@@ -10966,16 +10969,18 @@ relationship: has_quality SO:0000642 ! SRP_RNA_encoding
 id: SO:0001271
 name: tmRNA_gene
 def: "A bacterial RNA with both tRNA and mRNA like properties." []
+comment: Moved from ncRNA_gene to sncRNA_gene 27 April 2021 to be more consistent with the organization of the ncRNA branch of SO. Requested by FlyBase, moved by Dave Sant. See GitHub Issue #514.
 synonym: "tmRNA gene" EXACT []
-is_a: SO:0001263 ! ncRNA_gene
+is_a: SO:0002342 ! sncRNA_gene
 relationship: has_quality SO:0000659 ! tmRNA_encoding
 
 [Term]
 id: SO:0001272
 name: tRNA_gene
 def: "A noncoding RNA that binds to a specific amino acid to allow that amino acid to be used by the ribosome during translation of RNA." []
+comment: Moved from ncRNA_gene to sncRNA_gene 27 April 2021 to be more consistent with the organization of the ncRNA branch of SO. Requested by FlyBase, moved by Dave Sant. See GitHub Issue #514.
 synonym: "tRNA gene" EXACT []
-is_a: SO:0001263 ! ncRNA_gene
+is_a: SO:0002342 ! sncRNA_gene
 relationship: has_quality SO:0000663 ! tRNA_encoding
 
 [Term]
@@ -14600,8 +14605,9 @@ creation_date: 2010-04-21T10:10:32Z
 id: SO:0001638
 name: piRNA_gene
 def: "A gene that encodes for an piwi associated RNA." [SO:ke]
+comment: Moved from ncRNA_gene to sncRNA_gene 27 April 2021 to be more consistent with the organization of the ncRNA branch of SO. Requested by FlyBase, moved by Dave Sant. See GitHub Issue #514.
 synonym: "piRNA gene" EXACT []
-is_a: SO:0001263 ! ncRNA_gene
+is_a: SO:0002342 ! sncRNA_gene
 created_by: kareneilbeck
 creation_date: 2010-04-21T10:11:36Z
 
@@ -21945,6 +21951,18 @@ synonym: "7SK RNA gene" EXACT []
 synonym: "RNA 7SK gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 created_by: david
+creation_date: 2021-04-27T14:50:30Z
+
+[Term]
+id: SO:0002342
+name: sncRNA_gene
+def: "A ncRNA_gene (SO:0001263) that is less than 200 nucleotides in length." [PMID:28449079, PMID:30069443, PMID:30937442]
+comment: Added as a request from FlyBase to make the ncRNA_gene branch in SO mirror the ncRNA branch. See GitHub Issue #514
+synonym: "small non-coding RNA gene" EXACT []
+synonym: "sncRNA gene" EXACT []
+is_a: SO:0001263 ! ncRNA_gene
+created_by: david
+creation_date: 2021-04-27T14:50:30Z
 
 [Term]
 id: SO:0005836
