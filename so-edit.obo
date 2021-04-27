@@ -22331,6 +22331,27 @@ created_by: david
 creation_date: 2021-04-24T16:59:30Z
 
 [Term]
+id: SO:0002340
+name: RNA_7SK
+def: "An abundant small nuclear RNA that, together with associated cellular proteins, regulates the activity of the positive transcription elongation factor b (P-TEFb). It is often described in literature as similar to a snRNA, except of longer length." [PMID:19246988, PMID:21853533, PMID:27369380]
+comment: Added as a request from FlyBase. See GitHub Issue #512
+synonym: "7SK RNA" EXACT []
+synonym: "RNA 7SK" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: david
+creation_date: 2021-04-27T14:50:30Z
+
+[Term]
+id: SO:0002341
+name: RNA_7SK_gene
+def: "A gene encoding a 7SK RNA (SO:0002340)." [PMID:19246988, PMID:21853533, PMID:27369380]
+comment: Added as a request from FlyBase. See GitHub Issue #512
+synonym: "7SK RNA gene" EXACT []
+synonym: "RNA 7SK gene" EXACT []
+is_a: SO:0001263 ! ncRNA_gene
+created_by: david
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]

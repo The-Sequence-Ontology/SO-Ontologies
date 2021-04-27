@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2021-04-24
-date: 24:04:2021 17:49
+data-version: 2021-04-27
+date: 27:04:2021 14:50
 saved-by: davidsant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
@@ -10941,7 +10941,7 @@ relationship: has_quality SO:0000575 ! scRNA_encoding
 [Term]
 id: SO:0001267
 name: snoRNA_gene
-def: "A small noncoding RNA that guides chemical modification of other RNAs." []
+def: "A gene encoding a small noncoding RNA that participates in the processing or chemical modifications of many RNAs, including ribosomal RNAs and spliceosomal RNAs." []
 synonym: "snoRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 relationship: has_quality SO:0000578 ! snoRNA_encoding
@@ -21924,6 +21924,27 @@ synonym: "Small Cajal body-specific RNA gene" EXACT []
 is_a: SO:0001267 ! snoRNA_gene
 created_by: david
 creation_date: 2021-04-24T16:59:30Z
+
+[Term]
+id: SO:0002340
+name: RNA_7SK
+def: "An abundant small nuclear RNA that, together with associated cellular proteins, regulates the activity of the positive transcription elongation factor b (P-TEFb). It is often described in literature as similar to a snRNA, except of longer length." [PMID:19246988, PMID:21853533, PMID:27369380]
+comment: Added as a request from FlyBase. See GitHub Issue #512
+synonym: "7SK RNA" EXACT []
+synonym: "RNA 7SK" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: david
+creation_date: 2021-04-27T14:50:30Z
+
+[Term]
+id: SO:0002341
+name: RNA_7SK_gene
+def: "A gene encoding a 7SK RNA (SO:0002340)." [PMID:19246988, PMID:21853533, PMID:27369380]
+comment: Added as a request from FlyBase. See GitHub Issue #512
+synonym: "7SK RNA gene" EXACT []
+synonym: "RNA 7SK gene" EXACT []
+is_a: SO:0001263 ! ncRNA_gene
+created_by: david
 
 [Term]
 id: SO:0005836
