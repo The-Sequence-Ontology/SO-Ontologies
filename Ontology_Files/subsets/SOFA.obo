@@ -119,10 +119,11 @@ id: SO:0000057
 name: operator
 namespace: sequence
 def: "A regulatory element of an operon to which activators or repressors bind thereby effecting translation of genes in that operon." [SO:ma]
+comment: Moved to transcriptional_cis_regulatory_region (SO:0001055) from gene_group_regulatory_region (SO:0000752) on 11 Feb 2021 when SO:0000752 was merged into SO:0001055. See GitHub Issue #529.
 subset: SOFA
 synonym: "operator segment" EXACT []
 xref: http://en.wikipedia.org/wiki/Operator_(biology)#Operator "wiki"
-is_a: SO:0000752 ! gene_group_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0000059
@@ -275,12 +276,13 @@ id: SO:0000141
 name: terminator
 namespace: sequence
 def: "The sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription." [http://www.insdc.org/files/feature_table.html]
+comment: Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:terminator" EXACT []
 synonym: "terminator sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Terminator_(genetics) "wiki"
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 relationship: part_of SO:0000673 ! transcript
 
 [Term]
@@ -417,20 +419,21 @@ subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:enhancer" EXACT []
 xref: http://en.wikipedia.org/wiki/Enhancer_(genetics) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000167
 name: promoter
 namespace: sequence
-def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription." [SO:regcreative]
-comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020. Merged with RNA_polymerase_promoter (SO:0001203) Aug 2020.
+def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the core transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription." [SO:regcreative]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020. Merged with RNA_polymerase_promoter (SO:0001203) Aug 2020. Moved up one level from is_a CRM (SO:0000727) to is_a transcriptional_cis_regulatory_region (SO:0001055) as part of the GREEKC work January 2021. Pascale Gaudet from Gene Ontology pointed out that CRM can be located upstream of the promoter and therefore cannot include the promoter.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:promoter" EXACT []
 synonym: "promoter sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Promoter "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000842 ! gene_component_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0000177
@@ -650,13 +653,13 @@ id: SO:0000235
 name: TF_binding_site
 namespace: sequence
 def: "A DNA site where a transcription factor binds." [SO:ke]
-comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requsts from GREEKC initiative.
+comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requests from GREEKC initiative. Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 is_a: SO:0001654 ! nucleotide_to_protein_binding_site
-is_a: SO:0001679 ! transcription_regulatory_region
-relationship: part_of SO:0000727 ! CRM
+relationship: part_of SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000236
@@ -1134,7 +1137,8 @@ is_a: SO:0000372 ! enzymatic_RNA
 id: SO:0000375
 name: rRNA_5_8S
 namespace: sequence
-def: "5_8S ribosomal RNA (5. 8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein. 5_8S rRNA is also found in archaea." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00002]
+def: "5_8S ribosomal RNA (5.8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein." [https://rfam.xfam.org/family/RF00002]
+comment: Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505.
 subset: SOFA
 synonym: "5.8S LSU rRNA" EXACT []
 synonym: "5.8S ribosomal RNA" EXACT []
@@ -1415,6 +1419,7 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
@@ -1585,13 +1590,14 @@ id: SO:0000551
 name: polyA_signal_sequence
 namespace: sequence
 def: "The recognition sequence necessary for endonuclease cleavage of an RNA transcript that is followed by polyadenylation; consensus=AATAAA." [http://www.insdc.org/files/feature_table.html]
+comment: Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:polyA_signal_sequence" EXACT []
 synonym: "poly(A) signal" EXACT []
 synonym: "polyA signal sequence" EXACT []
 synonym: "polyadenylation termination signal" EXACT []
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0000553
@@ -1772,7 +1778,7 @@ subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:silencer" EXACT []
 xref: http://en.wikipedia.org/wiki/Silencer_(DNA) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000627
@@ -1785,7 +1791,7 @@ synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:insulator" EXACT []
 synonym: "insulator element" EXACT []
 xref: http://en.wikipedia.org/wiki/Insulator_(genetics) "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0000727 ! cis_regulatory_module
 
 [Term]
 id: SO:0000628
@@ -2192,12 +2198,13 @@ relationship: derives_from SO:0000851 ! CDS_region
 
 [Term]
 id: SO:0000727
-name: CRM
+name: cis_regulatory_module
 namespace: sequence
-def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the basal promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
-comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020.
+def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the core promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network. CRM DNA accessibility is subject to regulation by dbTFs and transcription co-TFs." [PMID:19660565, SO:SG]
+comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020. DS Updated name from 'CRM' to 'cis_regulatory_module' on 08 Feb 2021. See GitHub Issue #526. DS Added final sentence to definition as part of GREEKC Feb 16, 2021. See GitHub Issue #534.
 subset: SOFA
 synonym: "cis regulatory module" EXACT []
+synonym: "CRM" EXACT []
 synonym: "TF module" EXACT []
 synonym: "transcription factor module" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
@@ -2218,10 +2225,11 @@ id: SO:0000752
 name: gene_group_regulatory_region
 namespace: sequence
 def: "A region that is involved in the regulation of transcription of a group of regulated genes." []
+comment: Merged into transcriptional_cis_regulatory_region (SO:0001055) on 11 Feb 2021 as part of GREEKC reducing redundancy as we prepare to submit several terms to Ensembl. See GitHub Issue #529.
 subset: SOFA
 synonym: "gene group regulatory region" EXACT []
-is_a: SO:0001679 ! transcription_regulatory_region
-relationship: member_of SO:0005855 ! gene_group
+is_obsolete: true
+replaced_by: SO:0001055
 
 [Term]
 id: SO:0000753
@@ -2473,21 +2481,23 @@ id: SO:0001055
 name: transcriptional_cis_regulatory_region
 namespace: sequence
 def: "A regulatory_region that modulates the transcription of a gene or genes." [PMID:9679020, SO:regcreative]
+comment: Previous parent term transcription_regulatory_region (SO:0001067) has been merged with this term on 11 Feb 2021 as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:transcriptional_cis_regulatory_region" EXACT []
 synonym: "transcription-control region" EXACT []
 synonym: "transcriptional cis regulatory region" EXACT []
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0005836 ! regulatory_region
 
 [Term]
 id: SO:0001056
 name: splicing_regulatory_region
 namespace: sequence
 def: "A regulatory_region that modulates splicing." [SO:ke]
+comment: Moved from transcription_regulatory_region (SO:0001679) to transcriptional_cis_regulatory_region (SO:0001055) by Dave Sant on Feb 11, 2021 when transcription_regulatory_region was merged into transcriptional_cis_regulatory_region to be consistent with GO and reduce redundancy as part of the GREEKC consortium. See GitHub Issue #527.
 subset: SOFA
 synonym: "splicing regulatory region" EXACT []
-is_a: SO:0001679 ! transcription_regulatory_region
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0001059
@@ -2678,9 +2688,10 @@ id: SO:0001679
 name: transcription_regulatory_region
 namespace: sequence
 def: "A regulatory region that is involved in the control of the process of transcription." [SO:ke]
+comment: Obsoleted by David Sant on 11 Feb 2021 when it was merged with transcriptional_cis_regulatory_region (SO:0001055) to reduce redundancy and be consistent with Gene Ontology. See GitHub Issue #527.
 subset: SOFA
 synonym: "transcription regulatory region" EXACT []
-is_a: SO:0005836 ! regulatory_region
+is_obsolete: true
 created_by: kareneilbeck
 creation_date: 2010-10-12T03:49:35Z
 
@@ -2700,10 +2711,11 @@ creation_date: 2010-10-14T04:13:22Z
 id: SO:0001720
 name: epigenetically_modified_region
 namespace: sequence
-def: "A biological region implicated in inherited changes caused by mechanisms other than changes in the underlying DNA sequence." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
+def: "A biological DNA region implicated in epigenomic changes caused by mechanisms other than changes in the underlying DNA sequence. This includes, nucleosomal histone post-translational modifications, nucleosome depletion to render DNA accessible and post-replicational base modifications such as cytosine modification." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
+comment: Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530. 11 Feb 2021 updated definition along with addition of epigenomically_modified_region (SO:0002332). Epigenetically modified region is now not inherited while epigenomically modified region is not annotated as inherited. See GitHub Issue #532 and issue #534.
 subset: SOFA
 synonym: "epigenetically modified region" RELATED []
-is_a: SO:0001411 ! biological_region
+is_a: SO:0005836 ! regulatory_region
 created_by: kareneilbeck
 creation_date: 2010-03-27T12:02:29Z
 

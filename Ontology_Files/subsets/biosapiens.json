@@ -339,7 +339,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "turn",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -507,7 +508,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "paperclip",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -534,7 +536,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "nest",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "polypeptide nest motif",
@@ -678,7 +681,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "helix",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -705,11 +709,13 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "a-helix",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "helix",
-          "xrefs" : [ "uniprot:feature_type" ]
+          "xrefs" : [ "uniprot:feature_type" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -757,7 +763,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "helix",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1029,7 +1036,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "mutagen",
-          "xrefs" : [ "uniprot:feature_type" ]
+          "xrefs" : [ "uniprot:feature_type" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1649,11 +1657,13 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "2nary structure",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "secondary structure",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "polypeptide secondary structure",
@@ -1661,11 +1671,13 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "secondary_structure",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "secondary structure region",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1688,7 +1700,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "transmem",
-          "xrefs" : [ "uniprot:feature_type" ]
+          "xrefs" : [ "uniprot:feature_type" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "transmembrane polypeptide region",
@@ -1696,7 +1709,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "transmembrane",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1729,7 +1743,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "structural_motif",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1753,7 +1768,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "non_cytoplasm_location",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "non cytoplasmic polypeptide region",
@@ -1761,7 +1777,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "outside",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -1788,11 +1805,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "cytoplasm_location",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "inside",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -1819,7 +1838,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "membrane_loop",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1842,7 +1862,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "intramembrane",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "intramembrane polypeptide region",
@@ -1898,11 +1919,13 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "extramembrane_region",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "topo_dom",
-          "xrefs" : [ "uniprot:feature_type" ]
+          "xrefs" : [ "uniprot:feature_type" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "extramembrane polypeptide region",
@@ -1910,7 +1933,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "extramembrane",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2133,15 +2157,18 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "polypeptide_structural_domain",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "structural domain",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "domain",
-          "xrefs" : [ "uniprot:feature_type" ]
+          "xrefs" : [ "uniprot:feature_type" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2665,7 +2692,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "ca_bind",
-          "xrefs" : [ "uniprot:feature_type" ]
+          "xrefs" : [ "uniprot:feature_type" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "polypeptide calcium ion contact site",
@@ -3022,7 +3050,8 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "HTH",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "helix turn helix",
@@ -3068,7 +3097,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "coiled",
-          "xrefs" : [ "uniprot:feature_type" ]
+          "xrefs" : [ "uniprot:feature_type" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "coiled coil",
@@ -3256,7 +3286,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "DNA_bind",
-          "xrefs" : [ "uniprot:feature" ]
+          "xrefs" : [ "uniprot:feature" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "polypeptide DNA contact",
@@ -3426,7 +3457,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "no output",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -3520,11 +3552,13 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "random coil",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "coil",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "peptide coil",
@@ -3780,7 +3814,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "disordered region",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "intrinsically unstructured polypeptide region",
@@ -3899,7 +3934,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "strand",
-          "xrefs" : [ "uniprot:feature_type" ]
+          "xrefs" : [ "uniprot:feature_type" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#BS"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",

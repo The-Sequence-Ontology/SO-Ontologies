@@ -395,7 +395,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "erverted",
-          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ]
+          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#dbvar"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "tandem duplication",
@@ -430,7 +431,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "insertion",
-          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ]
+          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#dbvar"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -583,7 +585,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "inversion",
-          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ]
+          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#dbvar"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -883,7 +886,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "gain",
-          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ]
+          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#dbvar"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "copy number gain",
@@ -996,7 +1000,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "UPD",
-          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ]
+          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#dbvar"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "uniparental disomy",
@@ -1042,7 +1047,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "loss",
-          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ]
+          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#dbvar"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "copy number loss",
@@ -1072,7 +1078,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "complex",
-          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ]
+          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/dbvar/" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/so#dbvar"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "complex_chromosomal_mutation",
