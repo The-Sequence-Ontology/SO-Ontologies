@@ -706,25 +706,26 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0001001",
       "meta" : {
         "definition" : {
-          "val" : "A large polynucleotide in Bacteria and Archaea, which functions as the large subunit of the ribosome.",
+          "val" : "Cytosolic 23S rRNA is an RNA component of the large subunit of cytosolic ribosomes in prokaryotes.",
           "xrefs" : [ "SO:ke" ]
         },
+        "comments" : [ "Renamed from rRNA_23S to cytosolic_23S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "23S LSU rRNA",
+          "val" : "cytosolic 23S LSU rRNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "23S rRNA",
+          "val" : "cytosolic 23S rRNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "rRNA 23S",
+          "val" : "cytosolic rRNA 23S",
           "xrefs" : [ ]
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "23S ribosomal RNA",
+          "val" : "cytosolic 23S ribosomal RNA",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -733,7 +734,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "rRNA_23S"
+      "lbl" : "cytosolic_23S_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1000005",
       "meta" : {
@@ -754,6 +755,42 @@
       },
       "type" : "CLASS",
       "lbl" : "complex_substitution"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001000",
+      "meta" : {
+        "definition" : {
+          "val" : "Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "comments" : [ "Renamed to cytosolic_16S_rRNA from rRNA_16S on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/16S_ribosomal_RNA"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cytosolic 16S rRNA",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cytosolic 16S ribosomal RNA",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cytosolic  rRNA 16S",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cytosolic  16S SSU RNA",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cytosolic_16S_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000395",
       "meta" : {
@@ -789,41 +826,6 @@
       },
       "type" : "CLASS",
       "lbl" : "U5_snRNA"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0001000",
-      "meta" : {
-        "definition" : {
-          "val" : "A large polynucleotide in Bacteria and Archaea, which functions as the small subunit of the ribosome.",
-          "xrefs" : [ "SO:ke" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
-        "xrefs" : [ {
-          "val" : "http://en.wikipedia.org/wiki/16S_ribosomal_RNA"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "16S SSU RNA",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "16S ribosomal RNA",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "rRNA 16S",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "16S rRNA",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "rRNA_16S"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000274",
       "meta" : {
@@ -913,38 +915,6 @@
       "type" : "PROPERTY",
       "lbl" : "contained_by"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0001002",
-      "meta" : {
-        "definition" : {
-          "val" : "A large polynucleotide which functions as part of the large subunit of the ribosome in some eukaryotes.",
-          "xrefs" : [ "RSC:cb" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "25S ribosomal RNA",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "25S LSU rRNA",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "rRNA 25S",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "25S rRNA",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "sequence"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "rRNA_25S"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000276",
       "meta" : {
         "definition" : {
@@ -1010,6 +980,39 @@
       },
       "type" : "CLASS",
       "lbl" : "substitution"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001002",
+      "meta" : {
+        "definition" : {
+          "val" : "Cytosolic 25S rRNA is an RNA component of the large subunit of cytosolic ribosomes most eukaryotes.",
+          "xrefs" : [ "PMID:15493135", "PMID:2100998", "RSC:cb" ]
+        },
+        "comments" : [ "Renamed from  rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cytosolic 25S ribosomal RNA",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cytosolic rRNA 25S",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cytosolic 25S rRNA",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cytosolic 25S LSU rRNA",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sequence"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cytosolic_25S_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000397",
       "meta" : {
@@ -3415,28 +3418,29 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0000653",
       "meta" : {
         "definition" : {
-          "val" : "A component of the large ribosomal subunit.",
+          "val" : "Cytosolic 28S rRNA is an RNA component of the large subunit of cytosolic ribosomes in metazoan eukaryotes.",
           "xrefs" : [ "SO:ke" ]
         },
+        "comments" : [ "Renamed from  rRNA_28S to cytosolic_28S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/28S_ribosomal_RNA"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "28S ribosomal RNA",
+          "val" : "cytosolic rRNA 28S",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "28S LSU rRNA",
+          "val" : "cytosolic 28S LSU rRNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "28S rRNA",
+          "val" : "cytosolic 28S rRNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "rRNA 28S",
+          "val" : "cytosolic 28S ribosomal RNA",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -3445,33 +3449,34 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "rRNA_28S"
+      "lbl" : "cytosolic_28S_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000652",
       "meta" : {
         "definition" : {
-          "val" : "5S ribosomal RNA (5S rRNA) is a component of the large ribosomal subunit in both prokaryotes and eukaryotes. In eukaryotes, it is synthesised by RNA polymerase III (the other eukaryotic rRNAs are cleaved from a 45S precursor synthesised by RNA polymerase I). In Xenopus oocytes, it has been shown that fingers 4-7 of the nine-zinc finger transcription factor TFIIIA can bind to the central region of 5S RNA. Thus, in addition to positively regulating 5S rRNA transcription, TFIIIA also stabilizes 5S rRNA until it is required for transcription.",
+          "val" : "Cytosolic 5S rRNA is an RNA component of the large subunit of cytosolic ribosomes in both prokaryotes and eukaryotes.",
           "xrefs" : [ "http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00001" ]
         },
+        "comments" : [ "Renamed from  rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/5S_ribosomal_RNA"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "rRNA 5S",
+          "val" : "cytosolic rRNA 5S",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "5S rRNA",
+          "val" : "cytosolic 5S rRNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "5S LSU rRNA",
+          "val" : "cytosolic 5S LSU rRNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "5S ribosomal RNA",
+          "val" : "cytosolic 5S ribosomal RNA",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -3480,7 +3485,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "rRNA_5S"
+      "lbl" : "cytosolic_5S_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000410",
       "meta" : {
@@ -3607,21 +3612,22 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0000651",
       "meta" : {
         "definition" : {
-          "val" : "Ribosomal RNA transcript that structures the large subunit of the ribosome.",
+          "val" : "Cytosolic LSU rRNA is an RNA component of the large subunit of cytosolic ribosomes.",
           "xrefs" : [ "SO:ke" ]
         },
+        "comments" : [ "Renamed to cytosolic_LSU_rRNA from large_subunit_rRNA on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "LSU rRNA",
-          "xrefs" : [ "RSC:cb" ]
+          "val" : "cytosolic large subunit rRNA",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "LSU RNA",
-          "xrefs" : [ "RSC:cb" ]
+          "val" : "cytosolic LSU rRNA",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "large subunit rRNA",
+          "val" : "cytosolic LSU RNA",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -3630,27 +3636,28 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "large_subunit_rRNA"
+      "lbl" : "cytosolic_LSU_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000650",
       "meta" : {
         "definition" : {
-          "val" : "Ribosomal RNA transcript that structures the small subunit of the ribosome.",
+          "val" : "Cytosolic SSU rRNA is an RNA component of the small subunit of cytosolic ribosomes.",
           "xrefs" : [ "SO:ke" ]
         },
+        "comments" : [ "Renamed to cytosolic_SSU_rRNA from small_subunit_rRNA on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "small subunit rRNA",
+          "val" : "cytosolic SSU ribosomal RNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SSU RNA",
-          "xrefs" : [ "RSC:cb" ]
+          "val" : "cytosolic small subunit rRNA",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SSU rRNA",
-          "xrefs" : [ "RSC:cb" ]
+          "val" : "cytosolic SSU rRNA",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -3658,7 +3665,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "small_subunit_rRNA"
+      "lbl" : "cytosolic_SSU_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001063",
       "meta" : {
@@ -3723,24 +3730,25 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0000407",
       "meta" : {
         "definition" : {
-          "val" : "A large polynucleotide in eukaryotes, which functions as the small subunit of the ribosome.",
+          "val" : "Cytosolic 18S rRNA is an RNA component of the small subunit of cytosolic ribosomes in eukaryotes.",
           "xrefs" : [ "SO:ke" ]
         },
+        "comments" : [ "Renamed to cytosolic_18S_rRNA from rRNA_18S on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/18S_ribosomal_RNA"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "rRNA 18S",
+          "val" : "cytosolic rRNA 18S",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "18S rRNA",
+          "val" : "cytosolic 18S ribosomal RNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "18S ribosomal RNA",
+          "val" : "cytosolic 18S rRNA",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -3749,7 +3757,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "rRNA_18S"
+      "lbl" : "cytosolic_18S_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000409",
       "meta" : {
@@ -7087,9 +7095,10 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0000252",
       "meta" : {
         "definition" : {
-          "val" : "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity.",
+          "val" : "rRNA is an RNA component of a ribosome that can provide both structural scaffolding and catalytic activity.",
           "xrefs" : [ "ISBN:0198506732", "http://www.insdc.org/files/feature_table.html" ]
         },
+        "comments" : [ "Definition updated 10 June 2021 as part of restructuring rRNA terms and reforming definitions to have similar structures. Request from EBI. See GitHub Issue #493" ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/RRNA"
@@ -7150,29 +7159,29 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0000375",
       "meta" : {
         "definition" : {
-          "val" : "5_8S ribosomal RNA (5.8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein.",
+          "val" : "Cytosolic 5.8S rRNA is an RNA component of the large subunit of cytosolic ribosomes in eukaryotes.",
           "xrefs" : [ "https://rfam.xfam.org/family/RF00002" ]
         },
-        "comments" : [ "Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505." ],
+        "comments" : [ "Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505. Renamed from rRNA_5_8S to cytosolic_5_8S_rRNA on 10 June 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "5.8S rRNA",
+          "val" : "cytosolic rRNA 5 8S",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "5.8S ribosomal RNA",
+          "val" : "cytosolic 5.8S ribosomal RNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "rRNA 5 8S",
+          "val" : "cytosolic 5.8S LSU rRNA",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "5.8S LSU rRNA",
+          "val" : "cytosolic 5.8S rRNA",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -7181,7 +7190,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "rRNA_5_8S"
+      "lbl" : "cytosolic_5_8S_rRNA"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000370",
       "meta" : {
@@ -7514,13 +7523,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000839"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000149",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000353"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000593",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000275"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000149",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000353"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000057",
       "pred" : "is_a",
@@ -7662,13 +7671,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001059"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000253",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000197",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001215"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000253",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000830",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -7714,13 +7723,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000727"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000688",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000353"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000235",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000727"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000699",
       "pred" : "is_a",
@@ -8014,13 +8023,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000830"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000837",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000836"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000727",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000837",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000836"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000036",
       "pred" : "is_a",
@@ -8054,13 +8063,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000370",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000684",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000059"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000370",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000112",
       "pred" : "is_a",
@@ -8170,13 +8179,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000185"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000289",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000005"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001215",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000852"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000289",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000366",
       "pred" : "is_a",
@@ -8378,21 +8387,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000727"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000687",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000204",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000203"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001000",
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000687",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000650"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000007",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000149"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000650"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000336",
       "pred" : "is_a",
@@ -8422,13 +8431,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000343"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0100011",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001063"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000652",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000651"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0100011",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001063"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000624",
       "pred" : "is_a",
@@ -8446,13 +8455,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001248"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000696",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000695"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000724",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000296"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000696",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000695"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000314",
       "pred" : "is_a",

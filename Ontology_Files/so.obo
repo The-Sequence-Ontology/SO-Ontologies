@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: 2021-05-27
-date: 27:05:2021 01:50
-saved-by: evanchristensen
+data-version: 2021-06-10
+date: 10:06:2021 16:45
+saved-by: david
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -2196,7 +2196,8 @@ is_obsolete: true
 [Term]
 id: SO:0000252
 name: rRNA
-def: "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity." [http://www.insdc.org/files/feature_table.html, ISBN:0198506732]
+def: "rRNA is an RNA component of a ribosome that can provide both structural scaffolding and catalytic activity." [http://www.insdc.org/files/feature_table.html, ISBN:0198506732]
+comment: Definition updated 10 June 2021 as part of restructuring rRNA terms and reforming definitions to have similar structures. Request from EBI. See GitHub Issue #493
 subset: SOFA
 synonym: "INSDC_feature:rRNA" EXACT []
 synonym: "INSDC_qualifier:unknown" BROAD []
@@ -3325,16 +3326,16 @@ relationship: has_quality SO:0001186 ! ribozymic
 
 [Term]
 id: SO:0000375
-name: rRNA_5_8S
-def: "5_8S ribosomal RNA (5.8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein." [https://rfam.xfam.org/family/RF00002]
-comment: Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505.
+name: cytosolic_5_8S_rRNA
+def: "Cytosolic 5.8S rRNA is an RNA component of the large subunit of cytosolic ribosomes in eukaryotes." [https://rfam.xfam.org/family/RF00002]
+comment: Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505. Renamed from rRNA_5_8S to cytosolic_5_8S_rRNA on 10 June 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "5.8S LSU rRNA" EXACT []
-synonym: "5.8S ribosomal RNA" EXACT []
-synonym: "5.8S rRNA" EXACT []
-synonym: "rRNA 5 8S" EXACT []
+synonym: "cytosolic 5.8S LSU rRNA" EXACT []
+synonym: "cytosolic 5.8S ribosomal RNA" EXACT []
+synonym: "cytosolic 5.8S rRNA" EXACT []
+synonym: "cytosolic rRNA 5 8S" EXACT []
 xref: http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA "wiki"
-is_a: SO:0000651 ! large_subunit_rRNA
+is_a: SO:0000651 ! cytosolic_LSU_rRNA
 
 [Term]
 id: SO:0000376
@@ -3635,14 +3636,15 @@ is_a: SO:0000188 ! intron
 
 [Term]
 id: SO:0000407
-name: rRNA_18S
-def: "A large polynucleotide in eukaryotes, which functions as the small subunit of the ribosome." [SO:ke]
+name: cytosolic_18S_rRNA
+def: "Cytosolic 18S rRNA is an RNA component of the small subunit of cytosolic ribosomes in eukaryotes." [SO:ke]
+comment: Renamed to cytosolic_18S_rRNA from rRNA_18S on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "18S ribosomal RNA" EXACT []
-synonym: "18S rRNA" EXACT []
-synonym: "rRNA 18S" EXACT []
+synonym: "cytosolic 18S ribosomal RNA" EXACT []
+synonym: "cytosolic 18S rRNA" EXACT []
+synonym: "cytosolic rRNA 18S" EXACT []
 xref: http://en.wikipedia.org/wiki/18S_ribosomal_RNA "wiki"
-is_a: SO:0000650 ! small_subunit_rRNA
+is_a: SO:0000650 ! cytosolic_SSU_rRNA
 
 [Term]
 id: SO:0000408
@@ -5809,49 +5811,53 @@ relationship: has_part SO:0001244 ! pre_miRNA
 
 [Term]
 id: SO:0000650
-name: small_subunit_rRNA
-def: "Ribosomal RNA transcript that structures the small subunit of the ribosome." [SO:ke]
+name: cytosolic_SSU_rRNA
+def: "Cytosolic SSU rRNA is an RNA component of the small subunit of cytosolic ribosomes." [SO:ke]
+comment: Renamed to cytosolic_SSU_rRNA from small_subunit_rRNA on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "small subunit rRNA" EXACT []
-synonym: "SSU RNA" EXACT [RSC:cb]
-synonym: "SSU rRNA" EXACT [RSC:cb]
-is_a: SO:0000252 ! rRNA
+synonym: "cytosolic small subunit rRNA" EXACT []
+synonym: "cytosolic SSU ribosomal RNA" EXACT []
+synonym: "cytosolic SSU rRNA" EXACT []
+is_a: SO:0002343 ! cytosolic_rRNA
 relationship: derives_from SO:0000255 ! rRNA_small_subunit_primary_transcript
 
 [Term]
 id: SO:0000651
-name: large_subunit_rRNA
-def: "Ribosomal RNA transcript that structures the large subunit of the ribosome." [SO:ke]
+name: cytosolic_LSU_rRNA
+def: "Cytosolic LSU rRNA is an RNA component of the large subunit of cytosolic ribosomes." [SO:ke]
+comment: Renamed to cytosolic_LSU_rRNA from large_subunit_rRNA on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "large subunit rRNA" EXACT []
-synonym: "LSU RNA" EXACT [RSC:cb]
-synonym: "LSU rRNA" EXACT [RSC:cb]
-is_a: SO:0000252 ! rRNA
+synonym: "cytosolic large subunit rRNA" EXACT []
+synonym: "cytosolic LSU RNA" EXACT []
+synonym: "cytosolic LSU rRNA" EXACT []
+is_a: SO:0002343 ! cytosolic_rRNA
 relationship: derives_from SO:0000325 ! rRNA_large_subunit_primary_transcript
 
 [Term]
 id: SO:0000652
-name: rRNA_5S
-def: "5S ribosomal RNA (5S rRNA) is a component of the large ribosomal subunit in both prokaryotes and eukaryotes. In eukaryotes, it is synthesised by RNA polymerase III (the other eukaryotic rRNAs are cleaved from a 45S precursor synthesised by RNA polymerase I). In Xenopus oocytes, it has been shown that fingers 4-7 of the nine-zinc finger transcription factor TFIIIA can bind to the central region of 5S RNA. Thus, in addition to positively regulating 5S rRNA transcription, TFIIIA also stabilizes 5S rRNA until it is required for transcription." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00001]
+name: cytosolic_5S_rRNA
+def: "Cytosolic 5S rRNA is an RNA component of the large subunit of cytosolic ribosomes in both prokaryotes and eukaryotes." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00001]
+comment: Renamed from  rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "5S LSU rRNA" EXACT []
-synonym: "5S ribosomal RNA" EXACT []
-synonym: "5S rRNA" EXACT []
-synonym: "rRNA 5S" EXACT []
+synonym: "cytosolic 5S LSU rRNA" EXACT []
+synonym: "cytosolic 5S ribosomal RNA" EXACT []
+synonym: "cytosolic 5S rRNA" EXACT []
+synonym: "cytosolic rRNA 5S" EXACT []
 xref: http://en.wikipedia.org/wiki/5S_ribosomal_RNA "wiki"
-is_a: SO:0000651 ! large_subunit_rRNA
+is_a: SO:0000651 ! cytosolic_LSU_rRNA
 
 [Term]
 id: SO:0000653
-name: rRNA_28S
-def: "A component of the large ribosomal subunit." [SO:ke]
+name: cytosolic_28S_rRNA
+def: "Cytosolic 28S rRNA is an RNA component of the large subunit of cytosolic ribosomes in metazoan eukaryotes." [SO:ke]
+comment: Renamed from  rRNA_28S to cytosolic_28S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "28S LSU rRNA" EXACT []
-synonym: "28S ribosomal RNA" EXACT []
-synonym: "28S rRNA" EXACT []
-synonym: "rRNA 28S" EXACT []
+synonym: "cytosolic 28S LSU rRNA" EXACT []
+synonym: "cytosolic 28S ribosomal RNA" EXACT []
+synonym: "cytosolic 28S rRNA" EXACT []
+synonym: "cytosolic rRNA 28S" EXACT []
 xref: http://en.wikipedia.org/wiki/28S_ribosomal_RNA "wiki"
-is_a: SO:0000651 ! large_subunit_rRNA
+is_a: SO:0000651 ! cytosolic_LSU_rRNA
 
 [Term]
 id: SO:0000654
@@ -8764,37 +8770,40 @@ relationship: part_of SO:0000153 ! BAC
 
 [Term]
 id: SO:0001000
-name: rRNA_16S
-def: "A large polynucleotide in Bacteria and Archaea, which functions as the small subunit of the ribosome." [SO:ke]
+name: cytosolic_16S_rRNA
+def: "Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes." [SO:ke]
+comment: Renamed to cytosolic_16S_rRNA from rRNA_16S on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "16S ribosomal RNA" EXACT []
-synonym: "16S rRNA" RELATED []
-synonym: "16S SSU RNA" EXACT []
-synonym: "rRNA 16S" EXACT []
+synonym: "cytosolic  16S SSU RNA" EXACT []
+synonym: "cytosolic  rRNA 16S" EXACT []
+synonym: "cytosolic 16S ribosomal RNA" EXACT []
+synonym: "cytosolic 16S rRNA" RELATED []
 xref: http://en.wikipedia.org/wiki/16S_ribosomal_RNA "wiki"
-is_a: SO:0000650 ! small_subunit_rRNA
+is_a: SO:0000650 ! cytosolic_SSU_rRNA
 
 [Term]
 id: SO:0001001
-name: rRNA_23S
-def: "A large polynucleotide in Bacteria and Archaea, which functions as the large subunit of the ribosome." [SO:ke]
+name: cytosolic_23S_rRNA
+def: "Cytosolic 23S rRNA is an RNA component of the large subunit of cytosolic ribosomes in prokaryotes." [SO:ke]
+comment: Renamed from rRNA_23S to cytosolic_23S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "23S LSU rRNA" EXACT []
-synonym: "23S ribosomal RNA" RELATED []
-synonym: "23S rRNA" EXACT []
-synonym: "rRNA 23S" EXACT []
-is_a: SO:0000651 ! large_subunit_rRNA
+synonym: "cytosolic 23S LSU rRNA" EXACT []
+synonym: "cytosolic 23S ribosomal RNA" RELATED []
+synonym: "cytosolic 23S rRNA" EXACT []
+synonym: "cytosolic rRNA 23S" EXACT []
+is_a: SO:0000651 ! cytosolic_LSU_rRNA
 
 [Term]
 id: SO:0001002
-name: rRNA_25S
-def: "A large polynucleotide which functions as part of the large subunit of the ribosome in some eukaryotes." [RSC:cb]
+name: cytosolic_25S_rRNA
+def: "Cytosolic 25S rRNA is an RNA component of the large subunit of cytosolic ribosomes most eukaryotes." [PMID:15493135, PMID:2100998, RSC:cb]
+comment: Renamed from  rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "25S LSU rRNA" EXACT []
-synonym: "25S ribosomal RNA" EXACT []
-synonym: "25S rRNA" EXACT []
-synonym: "rRNA 25S" EXACT []
-is_a: SO:0000651 ! large_subunit_rRNA
+synonym: "cytosolic 25S LSU rRNA" EXACT []
+synonym: "cytosolic 25S ribosomal RNA" EXACT []
+synonym: "cytosolic 25S rRNA" EXACT []
+synonym: "cytosolic rRNA 25S" EXACT []
+is_a: SO:0000651 ! cytosolic_LSU_rRNA
 
 [Term]
 id: SO:0001003
@@ -10475,11 +10484,13 @@ is_a: SO:0000208 ! terminal_inverted_repeat_element
 id: SO:0001171
 name: rRNA_21S
 def: "A component of the large ribosomal subunit in mitochondrial rRNA." [RSC:cb]
+comment: This term has been merged into mt_LSU_rRNA (SO:0002345) as part of reorganization of rRNA child terms 10 June 2021. Requested by EBI. See GitHub Issue #493.
 synonym: "21S LSU rRNA" EXACT []
 synonym: "21S ribosomal RNA" EXACT []
 synonym: "21S rRNA" EXACT []
 synonym: "rRNA 21S" EXACT []
-is_a: SO:0000651 ! large_subunit_rRNA
+is_obsolete: true
+replaced_by: SO:0002345
 
 [Term]
 id: SO:0001172
@@ -19982,8 +19993,11 @@ creation_date: 2016-08-23T16:03:33Z
 [Term]
 id: SO:0002128
 name: mt_rRNA
-def: "Mitochondrial ribosomal RNA." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+def: "Mitochondrial rRNA is an RNA component of the small or large subunits of mitochondrial ribosomes." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Updated definition to be consistent with format of other rRNA definitions on 10 June 2021. Requested by EBI. See GitHub Issue #493.
+synonym: "mitochondrial rRNA" EXACT []
 synonym: "mitochondrial_rRNA" EXACT []
+synonym: "Mt rRNA" EXACT []
 synonym: "Mt_rRNA" EXACT []
 is_a: SO:0000252 ! rRNA
 created_by: nicole
@@ -21122,7 +21136,7 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "18S rRNA gene" EXACT []
 synonym: "18S_rRNA_gene" EXACT []
 is_a: SO:0001637 ! rRNA_gene
-relationship: derives_from SO:0000407 ! rRNA_18S
+relationship: derives_from SO:0000407 ! cytosolic_18S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21134,7 +21148,7 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "16S rRNA gene" EXACT []
 synonym: "16S_rRNA_gene" EXACT []
 is_a: SO:0001637 ! rRNA_gene
-relationship: derives_from SO:0001000 ! rRNA_16S
+relationship: derives_from SO:0001000 ! cytosolic_16S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21146,7 +21160,7 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "5S rRNA gene" EXACT []
 synonym: "5S_rRNA_gene" EXACT []
 is_a: SO:0001637 ! rRNA_gene
-relationship: derives_from SO:0000652 ! rRNA_5S
+relationship: derives_from SO:0000652 ! cytosolic_5S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21158,7 +21172,7 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "28S rRNA gene" EXACT []
 synonym: "28S_rRNA_gene" EXACT []
 is_a: SO:0001637 ! rRNA_gene
-relationship: derives_from SO:0000653 ! rRNA_28S
+relationship: derives_from SO:0000653 ! cytosolic_28S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21171,7 +21185,7 @@ synonym: "5.8S rRNA gene" EXACT []
 synonym: "5_8S rRNA gene" EXACT []
 synonym: "5_8S_rRNA_gene" EXACT []
 is_a: SO:0001637 ! rRNA_gene
-relationship: derives_from SO:0000375 ! rRNA_5_8S
+relationship: derives_from SO:0000375 ! cytosolic_5_8S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21179,11 +21193,10 @@ creation_date: 2020-05-07T16:12:30Z
 id: SO:0002241
 name: rRNA_21S_gene
 def: "A gene which codes for 21S_rRNA, which functions as a component of the large subunit of the ribosome in mitochondria." []
-comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472) Removed relationship derives_from SO:0001171 on 10 June 2021 when SO:0001171 rRNA_21S was obsoleted into SO:0002345 mt_LSU_rRNA. See GitHub Issue #493.
 synonym: "21S rRNA gene" EXACT []
 synonym: "21S_rRNA_gene" EXACT []
 is_a: SO:0001637 ! rRNA_gene
-relationship: derives_from SO:0001171 ! rRNA_21S
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21195,7 +21208,7 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "25S rRNA gene" EXACT []
 synonym: "25S_rRNA_gene" EXACT []
 is_a: SO:0001637 ! rRNA_gene
-relationship: derives_from SO:0001002 ! rRNA_25S
+relationship: derives_from SO:0001002 ! cytosolic_25S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21207,7 +21220,7 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "23S rRNA gene" EXACT []
 synonym: "23S_rRNA_gene" EXACT []
 is_a: SO:0001637 ! rRNA_gene
-relationship: derives_from SO:0001001 ! rRNA_23S
+relationship: derives_from SO:0001001 ! cytosolic_23S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -22304,19 +22317,19 @@ creation_date: 2021-04-23T22:59:30Z
 
 [Term]
 id: SO:0002337
-name: rRNA_2S
-def: "A 30 nucleotide rRNA found in Drosophila and at least some other Diptera that is homologous to the 3' part of other 5.8S rRNA molecules. It forms a stable complex with the 5.8S and 26S rRNAs." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
-comment: Added as a request from FlyBase. See GitHub Issue #507
-synonym: "2S rRNA" EXACT []
-synonym: "rRNA 2S" EXACT []
-is_a: SO:0000651 ! large_subunit_rRNA
+name: cytosolic_2S_rRNA
+def: "Cytosolic 2S rRNA is a 30 nucleotide RNA component of the large subunit of cytosolic ribosomes in Drosophila and at least some other Diptera. It is homologous to the 3' part of other 5.8S rRNA molecules. The 3' end of the 5.8S molecule is able to base-pair with the 5' end of the 2S rRNA to generate a helical region equivalent in position to the 'GC-rich hairpin' found in all previously sequenced 5.8S molecules." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+comment: Added as a request from FlyBase. See GitHub Issue #507. Renamed from  rRNA_2S to cytosolic_2S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
+synonym: "cytosolic 2S rRNA" EXACT []
+synonym: "cytosolic rRNA 2S" EXACT []
+is_a: SO:0000651 ! cytosolic_LSU_rRNA
 created_by: david
 creation_date: 2021-04-23T22:59:30Z
 
 [Term]
 id: SO:0002338
 name: U7_snRNA
-def: "A 57–71 nucleotide RNA that is a component of the U7 small nuclear ribonucleoprotein complex (U7 snRNP). The U7 snRNP is required for histone pre-mRNA processing." [PMID:15526162]
+def: "A 57 to 71 nucleotide RNA that is a component of the U7 small nuclear ribonucleoprotein complex (U7 snRNP). The U7 snRNP is required for histone pre-mRNA processing." [PMID:15526162]
 comment: Added as a request from FlyBase. See GitHub Issue #508
 synonym: "small nuclear RNA U7" EXACT []
 synonym: "snRNA U7" EXACT []
@@ -22369,6 +22382,73 @@ synonym: "sncRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 created_by: david
 creation_date: 2021-04-27T14:50:30Z
+
+[Term]
+id: SO:0002343
+name: cytosolic_rRNA
+def: "Cytosolic rRNA is an RNA component of the small or large subunits of cytosolic ribosomes." [PMID:3044395]
+comment: Added as a request from EBI. See GitHub Issue #493
+synonym: "cytosolic ribosomal RNA" EXACT []
+synonym: "cytosolic rRNA" EXACT []
+is_a: SO:0000252 ! rRNA
+created_by: david
+creation_date: 2021-06-10T16:45:30Z
+
+[Term]
+id: SO:0002344
+name: mt_SSU_rRNA
+def: "Mitochondrial SSU rRNA is an RNA component of the small subunit of mitochondrial ribosomes." [PMID: 24572720, PMID:3044395]
+comment: Added as a request from EMBL. See GitHub Issue #493
+synonym: "mitochondrial small subunit rRNA" EXACT []
+synonym: "mitochondrial SSU rRNA" EXACT []
+synonym: "MT SSU rRNA" EXACT []
+is_a: SO:0002128 ! mt_rRNA
+created_by: david
+creation_date: 2021-06-10T16:45:30Z
+
+[Term]
+id: SO:0002345
+name: mt_LSU_rRNA
+def: "Mitochondrial LSU rRNA is an RNA component of the large subunit of mitochondrial ribosomes." [PMID: 24572720, PMID:3044395]
+comment: Added as a request from EMBL. See GitHub Issue #493
+synonym: "mitochondrial large subunit rRNA" EXACT []
+synonym: "mitochondrial LSU rRNA" EXACT []
+synonym: "MT LSU rRNA" EXACT []
+is_a: SO:0002128 ! mt_rRNA
+created_by: david
+creation_date: 2021-06-10T16:45:30Z
+
+[Term]
+id: SO:0002346
+name: plastid_rRNA
+def: "Plastid rRNA is an RNA component of the small or large subunits of plastid (such as chloroplast) ribosomes." [PMID: 24572720, PMID:3044395]
+comment: Added as a request from EMBL. See GitHub Issue #493
+synonym: "plastid rRNA" EXACT []
+is_a: SO:0000252 ! rRNA
+created_by: david
+creation_date: 2021-06-10T16:45:30Z
+
+[Term]
+id: SO:0002347
+name: plastid_SSU_rRNA
+def: "Plastid SSU rRNA is an RNA component of the small subunit of plastid (such as chloroplast) ribosomes." [PMID: 24572720, PMID:3044395]
+comment: Added as a request from EMBL. See GitHub Issue #493
+synonym: "plastid small subunit rRNA" EXACT []
+synonym: "plastid SSU rRNA" EXACT []
+is_a: SO:0002346 ! plastid_rRNA
+created_by: david
+creation_date: 2021-06-10T16:45:30Z
+
+[Term]
+id: SO:0002348
+name: plastid_LSU_rRNA
+def: "Plastid LSU rRNA is an RNA component of the large subunit of plastid (such as chloroplast) ribosomes." [PMID: 24572720, PMID:3044395]
+comment: Added as a request from EMBL. See GitHub Issue #493
+synonym: "plastid  large subunit rRNA" EXACT []
+synonym: "plastid LSU rRNA" EXACT []
+is_a: SO:0002346 ! plastid_rRNA
+created_by: david
+creation_date: 2021-06-10T16:45:30Z
 
 [Term]
 id: SO:0005836
