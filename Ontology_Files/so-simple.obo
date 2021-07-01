@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: 2021-06-10
-date: 10:06:2021 16:45
-saved-by: david
+data-version: 2021-07-01
+date: 01:07:2021 18:35
+saved-by: Evan Christensen
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -5663,7 +5663,7 @@ is_a: SO:0000185 ! primary_transcript
 [Term]
 id: SO:0000646
 name: siRNA
-def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules." [PMID:12592000]
+def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. siRNAs trigger the cleavage of their target molecules." [PMID:12592000]
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:siRNA" EXACT []
