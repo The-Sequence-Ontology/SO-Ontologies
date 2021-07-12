@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/so/subsets/DBVAR.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2021-07-01/subsets/DBVAR.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2021-07-12/subsets/DBVAR.owl"/>
     </owl:Ontology>
     
 
@@ -1169,7 +1169,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant_of</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Added to SO during the immunology workshop, June 2007. This relationship was approved by Barry Smith.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant_of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>

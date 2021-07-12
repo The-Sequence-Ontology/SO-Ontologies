@@ -191,7 +191,7 @@
           "val" : "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A.",
           "xrefs" : [ "SO:immuno_workshop" ]
         },
-        "comments" : [ "Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith." ],
+        "comments" : [ "Added to SO during the immunology workshop, June 2007. This relationship was approved by Barry Smith." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"
@@ -615,7 +615,7 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0001118",
       "meta" : {
         "definition" : {
-          "val" : "The pi helix has 4.1 residues per turn and a translation of 1.15  (=0.115 nm) along the helical axis. The N-H group of an amino acid forms a hydrogen bond with the C=O group of the amino acid five residues earlier.",
+          "val" : "The pi helix has 4.1 residues per turn and a translation of 1.15 (=0.115 nm) along the helical axis. The N-H group of an amino acid forms a hydrogen bond with the C=O group of the amino acid five residues earlier.",
           "xrefs" : [ "EBIBS:GAR" ]
         },
         "comments" : [ "Range." ],
@@ -3635,7 +3635,7 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0100005",
       "meta" : {
         "definition" : {
-          "val" : "A motif of 4 consecutive residues with dihedral angles as follows: res i: phi -90 bounds -120 to -60, res i psi -10 bounds -50 to 30, res i+1: phi -90 bounds -120 to -60, res i+1: psi -10 bounds -50 to 30, res i+2: phi -75 bounds -100 to -50, res i+2: psi 140 bounds 110 to 170.  The extra restriction of the length of the O to O distance is similar, that it be less than 5 Angstrom. In this case these two Oxygen atoms are the main chain carbonyl oxygen atoms of residues i-1 and i+2.",
+          "val" : "A motif of 4 consecutive residues with dihedral angles as follows: res i: phi -90 bounds -120 to -60, res i psi -10 bounds -50 to 30, res i+1: phi -90 bounds -120 to -60, res i+1: psi -10 bounds -50 to 30, res i+2: phi -75 bounds -100 to -50, res i+2: psi 140 bounds 110 to 170. The extra restriction of the length of the O to O distance is similar, that it be less than 5 Angstrom. In this case these two Oxygen atoms are the main chain carbonyl oxygen atoms of residues i-1 and i+2.",
           "xrefs" : [ "EBIBS:GAR", "http://www.ebi.ac.uk/msd-srv/msdmotif/" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#biosapiens" ],
@@ -4961,13 +4961,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001141",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001140",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001138"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001141",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001128"
     } ],
     "id" : "http://purl.obolibrary.org/obo/so/subsets/biosapiens.owl",
     "meta" : {

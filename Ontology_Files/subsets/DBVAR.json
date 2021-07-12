@@ -63,7 +63,7 @@
           "val" : "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A.",
           "xrefs" : [ "SO:immuno_workshop" ]
         },
-        "comments" : [ "Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith." ],
+        "comments" : [ "Added to SO during the immunology workshop, June 2007. This relationship was approved by Barry Smith." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"

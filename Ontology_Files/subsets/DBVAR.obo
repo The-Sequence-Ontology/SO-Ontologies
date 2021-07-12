@@ -521,5 +521,5 @@ id: variant_of
 name: variant_of
 namespace: sequence
 def: "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A." [SO:immuno_workshop]
-comment: Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith.
+comment: Added to SO during the immunology workshop, June 2007. This relationship was approved by Barry Smith.
 

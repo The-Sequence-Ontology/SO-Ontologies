@@ -100,7 +100,7 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0000161",
       "meta" : {
         "definition" : {
-          "val" : "A modified  base in which adenine has been methylated.",
+          "val" : "A modified base in which adenine has been methylated.",
           "xrefs" : [ "SO:ke" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
@@ -209,7 +209,7 @@
           "val" : "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A.",
           "xrefs" : [ "SO:immuno_workshop" ]
         },
-        "comments" : [ "Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith." ],
+        "comments" : [ "Added to SO during the immunology workshop, June 2007. This relationship was approved by Barry Smith." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sequence"
@@ -777,11 +777,11 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "cytosolic  rRNA 16S",
+          "val" : "cytosolic rRNA 16S",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "cytosolic  16S SSU RNA",
+          "val" : "cytosolic 16S SSU RNA",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -987,7 +987,7 @@
           "val" : "Cytosolic 25S rRNA is an RNA component of the large subunit of cytosolic ribosomes most eukaryotes.",
           "xrefs" : [ "PMID:15493135", "PMID:2100998", "RSC:cb" ]
         },
-        "comments" : [ "Renamed from  rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
+        "comments" : [ "Renamed from rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -3421,7 +3421,7 @@
           "val" : "Cytosolic 28S rRNA is an RNA component of the large subunit of cytosolic ribosomes in metazoan eukaryotes.",
           "xrefs" : [ "SO:ke" ]
         },
-        "comments" : [ "Renamed from  rRNA_28S to cytosolic_28S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
+        "comments" : [ "Renamed from rRNA_28S to cytosolic_28S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/28S_ribosomal_RNA"
@@ -3457,7 +3457,7 @@
           "val" : "Cytosolic 5S rRNA is an RNA component of the large subunit of cytosolic ribosomes in both prokaryotes and eukaryotes.",
           "xrefs" : [ "http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00001" ]
         },
-        "comments" : [ "Renamed from  rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
+        "comments" : [ "Renamed from rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/so#SOFA" ],
         "xrefs" : [ {
           "val" : "http://en.wikipedia.org/wiki/5S_ribosomal_RNA"
@@ -7479,13 +7479,13 @@
       "lbl" : "coding_region_of_exon"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000276",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000370"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000390",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000276",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000370"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000474",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
@@ -7839,13 +7839,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000324"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000842",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000836",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000842",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/so#partial_evidence_for_feature",
       "pred" : "subPropertyOf",
@@ -8027,13 +8027,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000830"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000727",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000837",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000836"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000727",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_1000036",
       "pred" : "is_a",
@@ -8271,13 +8271,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000657"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000725",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001527"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000305",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001236"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000725",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001527"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000007",
       "pred" : "is_a",
@@ -8391,21 +8391,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000727"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000687",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000204",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000203"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000007",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000149"
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000687",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000699"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001000",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000650"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000149"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000336",
       "pred" : "is_a",
@@ -8575,13 +8575,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001055"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000179",
-      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000753"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000668",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000102"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000179",
+      "pred" : "http://purl.obolibrary.org/obo/so#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000753"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000296",
       "pred" : "is_a",
@@ -8607,13 +8607,13 @@
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000252",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000196",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001215"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000655"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000341",
       "pred" : "is_a",

@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: 2021-07-01
-date: 01:07:2021 18:35
-saved-by: Evan Christensen
+data-version: 2021-07-12
+date: 12:07:2021 19:12
+saved-by: David Sant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -1342,7 +1342,7 @@ is_obsolete: true
 [Term]
 id: SO:0000161
 name: methylated_adenine
-def: "A modified  base in which adenine has been methylated." [SO:ke]
+def: "A modified base in which adenine has been methylated." [SO:ke]
 subset: SOFA
 synonym: "methylated A" EXACT []
 synonym: "methylated adenine" EXACT []
@@ -1497,7 +1497,7 @@ is_a: SO:0001660 ! core_eukaryotic_promoter_element
 id: SO:0000175
 name: minus_10_signal
 def: "A conserved region about 10-bp upstream of the start point of bacterial transcription units which may be involved in binding RNA polymerase; consensus=TAtAaT. This region is associated with sigma factor 70." [http://www.insdc.org/files/feature_table.html]
-comment: Changed from is_a SO:0000713 DNA_motif to is_a SO:0002312 core_prokaryotic_promoter_element in response to GREEKC Initiative Dave Sant Aug 2020.
+comment: Changed from is_a SO:0000713 DNA_motif to is_a SO:0002312 core_prokaryotic_promoter_element in response to GREEKC Initiative Dave Sant Aug 2020. Changed from is_a SO:0002312 core_prokaryotic_promoter_element back to is_a SO:0000713 DNA_motif to be consistent with minus_12_signal and minus_24_signal on 12 July 2021.
 synonym: "-10 signal" EXACT []
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:minus_10_signal" EXACT []
@@ -1506,7 +1506,7 @@ synonym: "Pribnow box" EXACT []
 synonym: "Pribnow Schaller box" EXACT []
 synonym: "Pribnow-Schaller box" EXACT []
 xref: http://en.wikipedia.org/wiki/Pribnow_box "wiki"
-is_a: SO:0002312 ! core_prokaryotic_promoter_element
+is_a: SO:0000713 ! DNA_motif
 relationship: part_of SO:0001671 ! bacterial_RNApol_promoter_sigma_70_element
 relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf_element
 
@@ -1514,12 +1514,12 @@ relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf_element
 id: SO:0000176
 name: minus_35_signal
 def: "A conserved hexamer about 35-bp upstream of the start point of bacterial transcription units; consensus=TTGACa or TGTTGACA. This region is associated with sigma factor 70." [http://www.insdc.org/files/feature_table.html]
-comment: Changed from is_a SO:0000713 DNA_motif to is_a SO:0002312 core_prokaryotic_promoter_element in response to GREEKC Initiative Dave Sant Aug 2020.
+comment: Changed from is_a SO:0000713 DNA_motif to is_a SO:0002312 core_prokaryotic_promoter_element in response to GREEKC Initiative Dave Sant Aug 2020. Changed from is_a SO:0002312 core_prokaryotic_promoter_element back to is_a SO:0000713 DNA_motif to be consistent with minus_12_signal and minus_24_signal on 12 July 2021.
 synonym: "-35 signal" EXACT []
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:minus_35_signal" EXACT []
 synonym: "minus 35 signal" EXACT []
-is_a: SO:0002312 ! core_prokaryotic_promoter_element
+is_a: SO:0000713 ! DNA_motif
 relationship: part_of SO:0001671 ! bacterial_RNApol_promoter_sigma_70_element
 relationship: part_of SO:0001913 ! bacterial_RNApol_promoter_sigma_ecf_element
 
@@ -5054,7 +5054,7 @@ is_a: SO:0000936 ! vertebrate_immunoglobulin_T_cell_receptor_rearranged_segment
 [Term]
 id: SO:0000573
 name: rRNA_encoding
-def: "A region that can be transcribed into a  ribosomal RNA (rRNA)." []
+def: "A region that can be transcribed into a ribosomal RNA (rRNA)." []
 synonym: "rRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -5712,7 +5712,7 @@ relationship: derives_from SO:0000325 ! rRNA_large_subunit_primary_transcript
 id: SO:0000652
 name: cytosolic_5S_rRNA
 def: "Cytosolic 5S rRNA is an RNA component of the large subunit of cytosolic ribosomes in both prokaryotes and eukaryotes." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00001]
-comment: Renamed from  rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
+comment: Renamed from rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
 synonym: "cytosolic 5S LSU rRNA" EXACT []
 synonym: "cytosolic 5S ribosomal RNA" EXACT []
@@ -5725,7 +5725,7 @@ is_a: SO:0000651 ! cytosolic_LSU_rRNA
 id: SO:0000653
 name: cytosolic_28S_rRNA
 def: "Cytosolic 28S rRNA is an RNA component of the large subunit of cytosolic ribosomes in metazoan eukaryotes." [SO:ke]
-comment: Renamed from  rRNA_28S to cytosolic_28S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
+comment: Renamed from rRNA_28S to cytosolic_28S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
 synonym: "cytosolic 28S LSU rRNA" EXACT []
 synonym: "cytosolic 28S ribosomal RNA" EXACT []
@@ -5815,7 +5815,7 @@ is_a: SO:0000188 ! intron
 [Term]
 id: SO:0000663
 name: tRNA_encoding
-def: "A region that can be transcribed into a  transfer RNA (tRNA)." []
+def: "A region that can be transcribed into a transfer RNA (tRNA)." []
 synonym: "tRNA encoding" EXACT []
 is_a: SO:0000011 ! non_protein_coding
 
@@ -8467,10 +8467,10 @@ name: cytosolic_16S_rRNA
 def: "Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes." [SO:ke]
 comment: Renamed to cytosolic_16S_rRNA from rRNA_16S on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "cytosolic  16S SSU RNA" EXACT []
-synonym: "cytosolic  rRNA 16S" EXACT []
 synonym: "cytosolic 16S ribosomal RNA" EXACT []
 synonym: "cytosolic 16S rRNA" RELATED []
+synonym: "cytosolic 16S SSU RNA" EXACT []
+synonym: "cytosolic rRNA 16S" EXACT []
 xref: http://en.wikipedia.org/wiki/16S_ribosomal_RNA "wiki"
 is_a: SO:0000650 ! cytosolic_SSU_rRNA
 
@@ -8490,7 +8490,7 @@ is_a: SO:0000651 ! cytosolic_LSU_rRNA
 id: SO:0001002
 name: cytosolic_25S_rRNA
 def: "Cytosolic 25S rRNA is an RNA component of the large subunit of cytosolic ribosomes most eukaryotes." [PMID:15493135, PMID:2100998, RSC:cb]
-comment: Renamed from  rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
+comment: Renamed from rRNA_5S to cytosolic_5S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
 synonym: "cytosolic 25S LSU rRNA" EXACT []
 synonym: "cytosolic 25S ribosomal RNA" EXACT []
@@ -9599,7 +9599,7 @@ is_a: SO:0001116 ! right_handed_peptide_helix
 id: SO:0001118
 name: pi_helix
 alt_id: BS:00153
-def: "The pi helix has 4.1 residues per turn and a translation of 1.15  (=0.115 nm) along the helical axis. The N-H group of an amino acid forms a hydrogen bond with the C=O group of the amino acid five residues earlier." [EBIBS:GAR]
+def: "The pi helix has 4.1 residues per turn and a translation of 1.15 (=0.115 nm) along the helical axis. The N-H group of an amino acid forms a hydrogen bond with the C=O group of the amino acid five residues earlier." [EBIBS:GAR]
 comment: Range.
 subset: biosapiens
 synonym: "pi helix" EXACT []
@@ -10004,7 +10004,7 @@ is_a: SO:0001133 ! beta_turn
 id: SO:0001156
 name: DRE_motif
 def: "A sequence element characteristic of some RNA polymerase II promoters, usually located between -10 and -60 relative to the TSS. Consensus sequence is WATCGATW." [PMID:12537576]
-comment: This consensus sequence was identified computationally using the MEME algorithm within core promoter sequences from -60 to +40, with an E value of 1.7e-183.  Tends to co-occur with Motif 7. Tends to not occur with DPE motif (SO:0000015) or motif 10.
+comment: This consensus sequence was identified computationally using the MEME algorithm within core promoter sequences from -60 to +40, with an E value of 1.7e-183. Tends to co-occur with Motif 7. Tends to not occur with DPE motif (SO:0000015) or motif 10.
 synonym: "DRE motif" EXACT []
 synonym: "NDM4" EXACT []
 synonym: "WATCGATW_motif" EXACT []
@@ -17512,8 +17512,8 @@ creation_date: 2012-10-31T12:42:45Z
 [Term]
 id: SO:0001923
 name: TERRA
-def: "A non-coding RNA transcript, derived from the transcription of the telomere. These  transcripts contain G rich telomeric RNA repeats and RNA tracts corresponding to adjacent subtelomeric sequences. They are 100-9000 bases long." [PMID:22139915]
-comment: Telomeric transcription has been documented in mammals, birds,  fish, plants and  yeast. Requested by Antonia Lock, October 2012.
+def: "A non-coding RNA transcript, derived from the transcription of the telomere. These transcripts contain G rich telomeric RNA repeats and RNA tracts corresponding to adjacent subtelomeric sequences. They are 100-9000 bases long." [PMID:22139915]
+comment: Telomeric transcription has been documented in mammals, birds, fish, plants and yeast. Requested by Antonia Lock, October 2012.
 synonym: "telomeric repeat containing RNA" RELATED []
 is_a: SO:0001927 ! telomeric_transcript
 created_by: kareneilbeck
@@ -17523,7 +17523,7 @@ creation_date: 2012-10-31T01:06:40Z
 id: SO:0001924
 name: ARRET
 def: "A non coding RNA transcript, complementary to subtelomeric tract of TERRA transcript but devoid of the repeats." [PMID:2139915]
-comment: Telomeric transcription has been documented in mammals, birds,  fish, plants and  yeast. Requested by Antonia Lock, October 2012.
+comment: Telomeric transcription has been documented in mammals, birds, fish, plants and yeast. Requested by Antonia Lock, October 2012.
 is_a: SO:0001927 ! telomeric_transcript
 created_by: kareneilbeck
 creation_date: 2012-10-31T01:11:49Z
@@ -17531,8 +17531,8 @@ creation_date: 2012-10-31T01:11:49Z
 [Term]
 id: SO:0001925
 name: ARIA
-def: "A non-coding RNA transcript, derived from the transcription of the telomere. These  transcripts consist of C rich repeats." [PMID:22139915]
-comment: Telomeric transcription has been documented in mammals, birds,  fish, plants and  yeast. Requested by Antonia Lock, October 2012.
+def: "A non-coding RNA transcript, derived from the transcription of the telomere. These transcripts consist of C rich repeats." [PMID:22139915]
+comment: Telomeric transcription has been documented in mammals, birds, fish, plants and yeast. Requested by Antonia Lock, October 2012.
 is_a: SO:0001927 ! telomeric_transcript
 created_by: kareneilbeck
 creation_date: 2012-10-31T01:24:37Z
@@ -17540,8 +17540,8 @@ creation_date: 2012-10-31T01:24:37Z
 [Term]
 id: SO:0001926
 name: anti_ARRET
-def: "A non-coding RNA transcript, derived from the transcription of the telomere. These  transcripts are antisense of ARRET transcripts." [PMID:22139915]
-comment: Telomeric transcription has been documented in mammals, birds,  fish, plants and  yeast. Requested by Antonia Lock, October 2012.
+def: "A non-coding RNA transcript, derived from the transcription of the telomere. These transcripts are antisense of ARRET transcripts." [PMID:22139915]
+comment: Telomeric transcription has been documented in mammals, birds, fish, plants and yeast. Requested by Antonia Lock, October 2012.
 synonym: "anti-ARRET" EXACT []
 is_a: SO:0001927 ! telomeric_transcript
 created_by: kareneilbeck
@@ -17834,7 +17834,7 @@ creation_date: 2013-03-06T03:32:47Z
 [Term]
 id: SO:0001956
 name: protease_site
-def: "A polypeptide_region that  codes for a protease cleavage site." [SO:ke]
+def: "A polypeptide_region that codes for a protease cleavage site." [SO:ke]
 synonym: "protease site" EXACT []
 is_a: SO:0000839 ! polypeptide_region
 created_by: kareneilbeck
@@ -18025,7 +18025,7 @@ creation_date: 2013-07-30T10:59:11Z
 id: SO:0001975
 name: five_prime_sticky_end_restriction_enzyme_cleavage_site
 def: "A restriction enzyme recognition site that, when cleaved, results in 5 prime overhangs." [SO:ke]
-comment: Requested by  Jackie Quinn. The sticky restriction sites are different from junctions because they include the sequence that is cut, inclusive of the five prime junction and the three prime junction.
+comment: Requested by Jackie Quinn. The sticky restriction sites are different from junctions because they include the sequence that is cut, inclusive of the five prime junction and the three prime junction.
 synonym: "five prime sticky end restriction enzyme cleavage site" EXACT []
 is_a: SO:0001692 ! sticky_end_restriction_enzyme_cleavage_site
 created_by: kareneilbeck
@@ -18035,7 +18035,7 @@ creation_date: 2013-07-30T11:32:16Z
 id: SO:0001976
 name: three_prime_sticky_end_restriction_enzyme_cleavage_site
 def: "A restriction enzyme recognition site that, when cleaved, results in 3 prime overhangs." [SO:ke]
-comment: Requested by  Jackie Quinn. The sticky restriction sites are different from junctions because they include the sequence that is cut, inclusive of the five prime junction and the three prime junction.
+comment: Requested by Jackie Quinn. The sticky restriction sites are different from junctions because they include the sequence that is cut, inclusive of the five prime junction and the three prime junction.
 synonym: "three prime sticky end restriction enzyme cleavage site" EXACT []
 is_a: SO:0001692 ! sticky_end_restriction_enzyme_cleavage_site
 created_by: kareneilbeck
@@ -18053,7 +18053,7 @@ creation_date: 2013-07-30T11:41:06Z
 [Term]
 id: SO:0001978
 name: signature
-def: "A region of  sequence where developer information is encoded." [SO:ke]
+def: "A region of sequence where developer information is encoded." [SO:ke]
 comment: Requested by Jackie Quinn for use in synthetic biology.
 synonym: "DNA signature" EXACT []
 is_a: SO:0000804 ! engineered_region
@@ -18083,7 +18083,7 @@ creation_date: 2013-07-30T04:00:50Z
 [Term]
 id: SO:0001981
 name: L_box
-def: "An orientation dependent  regulatory promoter element, with consensus sequence of TTGCACAN4TTGCACA, found in plants." [PMID:17381552, PMID:2902624, SO:ml]
+def: "An orientation dependent regulatory promoter element, with consensus sequence of TTGCACAN4TTGCACA, found in plants." [PMID:17381552, PMID:2902624, SO:ml]
 synonym: "L-box" EXACT []
 synonym: "L-box promoter element" EXACT []
 is_a: SO:0001678 ! regulatory_promoter_element
@@ -18093,7 +18093,7 @@ creation_date: 2013-07-30T04:12:19Z
 [Term]
 id: SO:0001982
 name: I-box
-def: "A plant regulatory promoter motif,  composed of a highly conserved hexamer GATAAG (I-box core)." [PMID:2347304, PMID:2902624, SO:ml]
+def: "A plant regulatory promoter motif, composed of a highly conserved hexamer GATAAG (I-box core)." [PMID:2347304, PMID:2902624, SO:ml]
 synonym: "I-box promoter motif" EXACT []
 is_a: SO:0001678 ! regulatory_promoter_element
 created_by: kareneilbeck
@@ -18239,7 +18239,7 @@ creation_date: 2014-01-04T06:41:23Z
 [Term]
 id: SO:0001997
 name: subtelomere
-def: "A heterochromatic region of the chromosome,  adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed." [POMBE:al]
+def: "A heterochromatic region of the chromosome, adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed." [POMBE:al]
 is_a: SO:0000628 ! chromosomal_structural_element
 created_by: kareneilbeck
 creation_date: 2014-01-05T07:02:01Z
@@ -18340,7 +18340,7 @@ creation_date: 2014-01-13T03:48:40Z
 id: SO:0002008
 name: rare_amino_acid_variant
 def: "A sequence variant whereby at least one base of a codon encoding a rare amino acid is changed, resulting in a different encoded amino acid." [SO:ke]
-comment: Request from  Uma Devi Paila, UVA.  Variants in the sites of rare amino acids e.g. Selenocysteine.  These are important impact terms since a loss of such rare amino acids may lead to a loss of function.
+comment: Request from Uma Devi Paila, UVA. Variants in the sites of rare amino acids e.g. Selenocysteine. These are important impact terms since a loss of such rare amino acids may lead to a loss of function.
 synonym: "Jannovar:rare_amino_acid_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "rare amino acid variant" EXACT []
 synonym: "snpEff:RARE_AMINO_ACID" EXACT VAR []
@@ -18352,8 +18352,8 @@ creation_date: 2014-03-24T02:24:01Z
 [Term]
 id: SO:0002009
 name: selenocysteine_loss
-def: "A sequence variant whereby at least one base of a codon encoding selenocysteine  is changed, resulting in a different encoded amino acid." [SO:ke]
-comment: Request from  Uma Devi Paila, UVA.  Variants in the sites of rare amino acids e.g. Selenocysteine.  These are important impact terms since a loss of such rare amino acids may lead to a loss of function.
+def: "A sequence variant whereby at least one base of a codon encoding selenocysteine is changed, resulting in a different encoded amino acid." [SO:ke]
+comment: Request from Uma Devi Paila, UVA. Variants in the sites of rare amino acids e.g. Selenocysteine. These are important impact terms since a loss of such rare amino acids may lead to a loss of function.
 synonym: "selenocysteine loss" EXACT []
 is_a: SO:0002008 ! rare_amino_acid_variant
 created_by: kareneilbeck
@@ -18363,7 +18363,7 @@ creation_date: 2014-03-24T02:29:44Z
 id: SO:0002010
 name: pyrrolysine_loss
 def: "A sequence variant whereby at least one base of a codon encoding pyrrolysine is changed, resulting in a different encoded amino acid." [SO:ke]
-comment: Request from  Uma Devi Paila, UVA.  Variants in the sites of rare amino acids e.g. Selenocysteine.  These are important impact terms since a loss of such rare amino acids may lead to a loss of function.
+comment: Request from Uma Devi Paila, UVA. Variants in the sites of rare amino acids e.g. Selenocysteine. These are important impact terms since a loss of such rare amino acids may lead to a loss of function.
 synonym: "pyrrolysine loss" EXACT []
 is_a: SO:0002008 ! rare_amino_acid_variant
 created_by: kareneilbeck
@@ -18372,7 +18372,7 @@ creation_date: 2014-03-24T02:30:16Z
 [Term]
 id: SO:0002011
 name: intragenic_variant
-def: "A variant that occurs within a gene but falls outside of all transcript features. This occurs when alternate transcripts of a gene do not share overlapping  sequence." [SO:ke]
+def: "A variant that occurs within a gene but falls outside of all transcript features. This occurs when alternate transcripts of a gene do not share overlapping sequence." [SO:ke]
 comment: Requested by Pablo Cingolani, for use in SnpEff.
 synonym: "intragenic variant" EXACT []
 synonym: "Jannovar:intragenic_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
@@ -18386,7 +18386,7 @@ creation_date: 2014-03-24T02:33:13Z
 id: SO:0002012
 name: start_lost
 def: "A codon variant that changes at least one base of the canonical start codon." [SO:ke]
-comment: Request from  Uma Devi Paila, UVA. This term should not be applied to incomplete transcripts.
+comment: Request from Uma Devi Paila, UVA. This term should not be applied to incomplete transcripts.
 synonym: "Jannovar:start_lost" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "snpEff:START_LOST" EXACT VAR []
 synonym: "VEP:start_lost" EXACT VAR []
@@ -18400,7 +18400,7 @@ creation_date: 2014-03-24T02:41:28Z
 [Term]
 id: SO:0002013
 name: 5_prime_UTR_truncation
-def: "A sequence variant that causes the reduction of a the 5'UTR  with regard to the reference sequence." [SO:ke]
+def: "A sequence variant that causes the reduction of a the 5'UTR with regard to the reference sequence." [SO:ke]
 synonym: "5 prime UTR truncation" EXACT []
 synonym: "Jannovar:5_prime_utr_truncation" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "snpEff:UTR_5_DELETED" EXACT VAR []
@@ -18421,7 +18421,7 @@ creation_date: 2014-03-25T10:48:26Z
 [Term]
 id: SO:0002015
 name: 3_prime_UTR_truncation
-def: "A sequence variant that causes the reduction of a the 3' UTR  with regard to the reference sequence." [SO:ke]
+def: "A sequence variant that causes the reduction of a the 3' UTR with regard to the reference sequence." [SO:ke]
 synonym: "3 prime UTR truncation" EXACT []
 synonym: "Jannovar:3_prime_utr_truncation" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "snpEff:UTR_3_DELETED" EXACT VAR []
@@ -18519,7 +18519,7 @@ creation_date: 2014-05-30T15:13:16Z
 id: SO:0002024
 name: W_region
 alt_id: SO:0002000
-def: "The leftmost segment of homology in the HML and MAT mating loci,  but not present in HMR." [SGD:jd]
+def: "The leftmost segment of homology in the HML and MAT mating loci, but not present in HMR." [SGD:jd]
 comment: MERGED COMMENT:\nTARGET COMMENT: Requested by Janos Demeter, SGD.\n--------------------\nSOURCE COMMENT: Requested by Janos Demeter, SGD.
 synonym: "W-region" EXACT []
 is_a: SO:0001999 ! mating_type_region_motif
@@ -18630,7 +18630,7 @@ creation_date: 2015-01-09T15:02:13Z
 [Term]
 id: SO:0002035
 name: lncRNA_primary_transcript
-def: "A primary transcript encoding a  lncRNA." [SO:ke]
+def: "A primary transcript encoding a lncRNA." [SO:ke]
 synonym: "lncRNA primary transcript" EXACT []
 is_a: SO:0000483 ! nc_primary_transcript
 created_by: kareneilbeck
@@ -18678,7 +18678,7 @@ creation_date: 2015-01-09T15:32:00Z
 [Term]
 id: SO:0002040
 name: vaultRNA_primary_transcript
-def: "A primary transcript encoding a  vaultRNA." [SO:ke]
+def: "A primary transcript encoding a vaultRNA." [SO:ke]
 synonym: "vaultRNA primary transcript" EXACT []
 is_a: SO:0000483 ! nc_primary_transcript
 created_by: kareneilbeck
@@ -18697,7 +18697,7 @@ creation_date: 2015-01-09T15:34:32Z
 [Term]
 id: SO:0002042
 name: Y_RNA_primary_transcript
-def: "A primary transcript encoding a  Y-RNA." [SO:ke]
+def: "A primary transcript encoding a Y-RNA." [SO:ke]
 synonym: "Y-RNA primary transcript" EXACT []
 is_a: SO:0000483 ! nc_primary_transcript
 created_by: kareneilbeck
@@ -18837,7 +18837,7 @@ creation_date: 2015-05-14T11:21:57Z
 [Term]
 id: SO:0002056
 name: intronic_splicing_silencer
-def: "An intronic  splicing regulatory element that functions to recruit trans acting splicing factors suppress the transcription of the gene or genes they control." [PMID:23241926, SO:ke]
+def: "An intronic splicing regulatory element that functions to recruit trans acting splicing factors suppress the transcription of the gene or genes they control." [PMID:23241926, SO:ke]
 comment: Requested by Javier Diez Perez.
 synonym: "intronic splicing silencer" EXACT []
 synonym: "ISS" EXACT []
@@ -18857,7 +18857,7 @@ creation_date: 2015-05-14T12:28:31Z
 [Term]
 id: SO:0002058
 name: exonic_splicing_silencer
-def: "An exonic  splicing regulatory element that functions to recruit trans acting splicing factors suppress the transcription of the gene or genes they control." [PMID:23241926, SO:ke]
+def: "An exonic splicing regulatory element that functions to recruit trans acting splicing factors suppress the transcription of the gene or genes they control." [PMID:23241926, SO:ke]
 comment: Requested by Javier Diez Perez.
 synonym: "ESS" EXACT []
 synonym: "exonic splicing silencer" EXACT []
@@ -19204,7 +19204,7 @@ creation_date: 2016-03-07T10:38:26Z
 id: SO:0002093
 name: structural_interaction_variant
 def: "A variant that impacts the internal interactions of the resulting polypeptide structure." [SO:ke]
-comment: Requested by Pablo Cingolani. The way I calculate this is simply by looking at the PDB entry of one protein and then marking those AA that are within 3 Angstrom of each  other (and far away in the AA sequence, e.g. over 20 AA distance). The assumption is that, since they are very close in distance, they  must be "interacting" and thus important for protein structure.
+comment: Requested by Pablo Cingolani. The way I calculate this is simply by looking at the PDB entry of one protein and then marking those AA that are within 3 Angstrom of each other (and far away in the AA sequence, e.g. over 20 AA distance). The assumption is that, since they are very close in distance, they must be "interacting" and thus important for protein structure.
 synonym: "structural interaction variant" EXACT []
 is_a: SO:0001599 ! 3D_polypeptide_structure_variant
 created_by: kareneilbeck
@@ -19301,7 +19301,7 @@ creation_date: 2016-07-15T16:05:34Z
 [Term]
 id: SO:0002102
 name: IG_V_pseudogene
-def: "A pseudogenic variable region which closely resembles a known functional imunoglobulin variable gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon that rearranges at the DNA level and codes the variable region of  an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+def: "A pseudogenic variable region which closely resembles a known functional imunoglobulin variable gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon that rearranges at the DNA level and codes the variable region of an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
 comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
 synonym: "IG V pseudogene" EXACT []
 synonym: "IG variable pseudogene" EXACT []
@@ -19315,7 +19315,7 @@ creation_date: 2016-07-15T16:05:56Z
 [Term]
 id: SO:0002103
 name: TR_V_pseudogene
-def: "A pseudogenic variable region which closely resembles a known functional T receptor variable gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon that rearranges at the DNA level and codes the variable region of  an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+def: "A pseudogenic variable region which closely resembles a known functional T receptor variable gene but in which the coding region has stop codons, frameshift mutations or a mutation that effects the initiation codon that rearranges at the DNA level and codes the variable region of an immunoglobulin chain." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
 comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
 synonym: "T cell receptor V pseudogene" EXACT []
 synonym: "T cell receptor Variable pseudogene" EXACT []
@@ -19395,7 +19395,7 @@ creation_date: 2016-07-18T12:45:48Z
 [Term]
 id: SO:0002110
 name: polymorphic_pseudogene_with_retained_intron
-def: "A polymorphic  pseudogene in the reference genome, containing a retained intron,  known to be intact in the genomes of other individuals of the same species. The annotation process has confirmed that the pseudogenisation event is not a genomic sequencing error." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+def: "A polymorphic pseudogene in the reference genome, containing a retained intron, known to be intact in the genomes of other individuals of the same species. The annotation process has confirmed that the pseudogenisation event is not a genomic sequencing error." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
 comment: Term added as part of collaboration with Gencode, adding biotypes used in annotation.
 synonym: "polymorphic pseudogene with retained intron" EXACT []
 is_a: SO:0001841 ! polymorphic_pseudogene
@@ -19509,7 +19509,7 @@ creation_date: 2016-08-23T15:48:21Z
 [Term]
 id: SO:0002121
 name: vertebrate_immune_system_gene
-def: "The configuration of the  IG and TR variable (V), diversity (D) and joining (J) germline genes before DNA rearrangements  (with or without constant (C) genes in undefined configuration. (germline, non rearranged regions of the IG DNA loci)." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
+def: "The configuration of the IG and TR variable (V), diversity (D) and joining (J) germline genes before DNA rearrangements (with or without constant (C) genes in undefined configuration. (germline, non rearranged regions of the IG DNA loci)." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html, IGMT:http\://www.imgt.org/IMGTScientificChart/SequenceDescription/Keywords.php]
 comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
 synonym: "immune_gene" EXACT []
 is_a: SO:0000704 ! gene
@@ -19519,7 +19519,7 @@ creation_date: 2016-08-23T15:54:51Z
 [Term]
 id: SO:0002122
 name: immunoglobulin_gene
-def: "A germline immunoglobulin  gene." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+def: "A germline immunoglobulin gene." [GENCODE:http\://www.gencodegenes.org/gencode_biotypes.html]
 comment: These terms have been requested by Adam Frankish to support Gencode and Vega biotypes. The terms are defined according to IGMT.
 synonym: "All_IG_genes" EXACT []
 synonym: "IG_genes" EXACT []
@@ -21914,7 +21914,7 @@ creation_date: 2021-04-23T22:59:30Z
 id: SO:0002337
 name: cytosolic_2S_rRNA
 def: "Cytosolic 2S rRNA is a 30 nucleotide RNA component of the large subunit of cytosolic ribosomes in Drosophila and at least some other Diptera. It is homologous to the 3' part of other 5.8S rRNA molecules. The 3' end of the 5.8S molecule is able to base-pair with the 5' end of the 2S rRNA to generate a helical region equivalent in position to the 'GC-rich hairpin' found in all previously sequenced 5.8S molecules." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
-comment: Added as a request from FlyBase. See GitHub Issue #507. Renamed from  rRNA_2S to cytosolic_2S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
+comment: Added as a request from FlyBase. See GitHub Issue #507. Renamed from rRNA_2S to cytosolic_2S_rRNA on 27 May 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 synonym: "cytosolic 2S rRNA" EXACT []
 synonym: "cytosolic rRNA 2S" EXACT []
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
@@ -22039,7 +22039,7 @@ id: SO:0002348
 name: plastid_LSU_rRNA
 def: "Plastid LSU rRNA is an RNA component of the large subunit of plastid (such as chloroplast) ribosomes." [PMID: 24572720, PMID:3044395]
 comment: Added as a request from EMBL. See GitHub Issue #493
-synonym: "plastid  large subunit rRNA" EXACT []
+synonym: "plastid large subunit rRNA" EXACT []
 synonym: "plastid LSU rRNA" EXACT []
 is_a: SO:0002346 ! plastid_rRNA
 created_by: david
@@ -22228,7 +22228,7 @@ is_a: SO:0001078 ! polypeptide_secondary_structure
 [Term]
 id: SO:0100005
 name: catmat_left_handed_four
-def: "A motif of 4 consecutive residues with dihedral angles as follows: res i: phi -90 bounds -120 to -60, res i psi -10 bounds -50 to 30, res i+1: phi -90 bounds -120 to -60, res i+1: psi -10 bounds -50 to 30, res i+2: phi -75 bounds -100 to -50, res i+2: psi 140 bounds 110 to 170.  The extra restriction of the length of the O to O distance is similar, that it be less than 5 Angstrom. In this case these two Oxygen atoms are the main chain carbonyl oxygen atoms of residues i-1 and i+2." [EBIBS:GAR, http://www.ebi.ac.uk/msd-srv/msdmotif/]
+def: "A motif of 4 consecutive residues with dihedral angles as follows: res i: phi -90 bounds -120 to -60, res i psi -10 bounds -50 to 30, res i+1: phi -90 bounds -120 to -60, res i+1: psi -10 bounds -50 to 30, res i+2: phi -75 bounds -100 to -50, res i+2: psi 140 bounds 110 to 170. The extra restriction of the length of the O to O distance is similar, that it be less than 5 Angstrom. In this case these two Oxygen atoms are the main chain carbonyl oxygen atoms of residues i-1 and i+2." [EBIBS:GAR, http://www.ebi.ac.uk/msd-srv/msdmotif/]
 subset: biosapiens
 synonym: "catmat-4l" EXACT []
 is_a: SO:0001078 ! polypeptide_secondary_structure
@@ -24448,5 +24448,5 @@ creation_date: 2009-08-19T12:09:59Z
 id: variant_of
 name: variant_of
 def: "A' is a variant (mutation) of A = definition every instance of A' is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A' to some instance of A." [SO:immuno_workshop]
-comment: Added to SO during the immunology workshop, June 2007.  This relationship was approved by Barry Smith.
+comment: Added to SO during the immunology workshop, June 2007. This relationship was approved by Barry Smith.
 
