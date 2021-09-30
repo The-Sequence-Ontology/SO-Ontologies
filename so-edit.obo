@@ -8774,10 +8774,10 @@ name: cytosolic_16S_rRNA
 def: "Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes." [SO:ke]
 comment: Renamed to cytosolic_16S_rRNA from rRNA_16S on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "cytosolic 16S SSU RNA" EXACT []
-synonym: "cytosolic rRNA 16S" EXACT []
 synonym: "cytosolic 16S ribosomal RNA" EXACT []
 synonym: "cytosolic 16S rRNA" RELATED []
+synonym: "cytosolic 16S SSU RNA" EXACT []
+synonym: "cytosolic rRNA 16S" EXACT []
 xref: http://en.wikipedia.org/wiki/16S_ribosomal_RNA "wiki"
 is_a: SO:0000650 ! cytosolic_SSU_rRNA
 
@@ -22449,6 +22449,33 @@ synonym: "plastid LSU rRNA" EXACT []
 is_a: SO:0002346 ! plastid_rRNA
 created_by: david
 creation_date: 2021-06-10T16:45:30Z
+
+[Term]
+id: SO:0002349
+name: fragile_site
+def: "A heritable locus on a chromosome that is prone to DNA breakage." []
+comment: See GitHub Issue #301.
+is_a: SO:0001021 ! chromosome_breakpoint
+created_by: evan
+creation_date: 2021-09-30T19:29:24Z
+
+[Term]
+id: SO:0002350
+name: common_fragile_site
+def: "A fragile site considered part of the normal chromosomal structure." []
+comment: PMID: 16236432 & PMID: 17608616. See GitHub Issue #301.
+is_a: SO:0002349 ! fragile_site
+created_by: evan
+creation_date: 2021-09-30T19:33:59Z
+
+[Term]
+id: SO:0002351
+name: rare_fragile_site
+def: "A fragile site found in the chromosomes of less than five percent of the human population." []
+comment: PMID: 16236432 & PMID: 17608616. See GitHub Issue #301.
+is_a: SO:0002349 ! fragile_site
+created_by: evan
+creation_date: 2021-09-30T19:34:13Z
 
 [Term]
 id: SO:0005836

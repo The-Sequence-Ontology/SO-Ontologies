@@ -22046,6 +22046,33 @@ created_by: david
 creation_date: 2021-06-10T16:45:30Z
 
 [Term]
+id: SO:0002349
+name: fragile_site
+def: "A heritable locus on a chromosome that is prone to DNA breakage." []
+comment: See GitHub Issue #301.
+is_a: SO:0001021 ! chromosome_breakpoint
+created_by: evan
+creation_date: 2021-09-30T19:29:24Z
+
+[Term]
+id: SO:0002350
+name: common_fragile_site
+def: "A fragile site considered part of the normal chromosomal structure." []
+comment: PMID: 16236432 & PMID: 17608616. See GitHub Issue #301.
+is_a: SO:0002349 ! fragile_site
+created_by: evan
+creation_date: 2021-09-30T19:33:59Z
+
+[Term]
+id: SO:0002351
+name: rare_fragile_site
+def: "A fragile site found in the chromosomes of less than five percent of the human population." []
+comment: PMID: 16236432 & PMID: 17608616. See GitHub Issue #301.
+is_a: SO:0002349 ! fragile_site
+created_by: evan
+creation_date: 2021-09-30T19:34:13Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]

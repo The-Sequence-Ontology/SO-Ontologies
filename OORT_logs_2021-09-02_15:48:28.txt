@@ -1,0 +1,371 @@
+2021-09-02 15:48:29,218 INFO  (OboOntologyReleaseRunner:21) Base directory path /Users/evan/github_repos/SO-Ontologies/Ontology_Files
+2021-09-02 15:48:29,224 INFO  (OboOntologyReleaseRunner:21) Using staging folder for release manager: /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging
+2021-09-02 15:48:29,226 INFO  (OboOntologyReleaseRunner:21) Using the following ontologies: [so-edit.obo]
+2021-09-02 15:48:29,484 INFO  (ParserWrapper:75) Start loading ontology: file:/Users/evan/github_repos/SO-Ontologies/so-edit.obo from: file:/Users/evan/github_repos/SO-Ontologies/so-edit.obo
+2021-09-02 15:48:30,073 WARN  (OBOFormatParser:1469) LINE: 21818 accepting bad xref with spaces:PMID: 19407924  LINE:
+def: "The non-coding region of the mitochondrial genome that controls RNA and DNA synthesis." [PMID: 19407924, PMID:10968878]
+2021-09-02 15:48:30,077 WARN  (OBOFormatParser:1469) LINE: 22310 accepting bad xref with spaces:PMID: 118436  LINE:
+def: "A gene that encodes for 2S ribosomal RNA, which functions as a component of the large subunit of the ribosome in Drosophila and at least some other Diptera." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+2021-09-02 15:48:30,078 WARN  (OBOFormatParser:1469) LINE: 22310 accepting bad xref with spaces:PMID: 29474379  LINE:
+def: "A gene that encodes for 2S ribosomal RNA, which functions as a component of the large subunit of the ribosome in Drosophila and at least some other Diptera." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+2021-09-02 15:48:30,078 WARN  (OBOFormatParser:1469) LINE: 22310 accepting bad xref with spaces:PMID: 3136294  LINE:
+def: "A gene that encodes for 2S ribosomal RNA, which functions as a component of the large subunit of the ribosome in Drosophila and at least some other Diptera." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+2021-09-02 15:48:30,078 WARN  (OBOFormatParser:1469) LINE: 22321 accepting bad xref with spaces:PMID: 118436  LINE:
+def: "Cytosolic 2S rRNA is a 30 nucleotide RNA component of the large subunit of cytosolic ribosomes in Drosophila and at least some other Diptera. It is homologous to the 3' part of other 5.8S rRNA molecules. The 3' end of the 5.8S molecule is able to base-pair with the 5' end of the 2S rRNA to generate a helical region equivalent in position to the 'GC-rich hairpin' found in all previously sequenced 5.8S molecules." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+2021-09-02 15:48:30,078 WARN  (OBOFormatParser:1469) LINE: 22321 accepting bad xref with spaces:PMID: 29474379  LINE:
+def: "Cytosolic 2S rRNA is a 30 nucleotide RNA component of the large subunit of cytosolic ribosomes in Drosophila and at least some other Diptera. It is homologous to the 3' part of other 5.8S rRNA molecules. The 3' end of the 5.8S molecule is able to base-pair with the 5' end of the 2S rRNA to generate a helical region equivalent in position to the 'GC-rich hairpin' found in all previously sequenced 5.8S molecules." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+2021-09-02 15:48:30,078 WARN  (OBOFormatParser:1469) LINE: 22321 accepting bad xref with spaces:PMID: 3136294  LINE:
+def: "Cytosolic 2S rRNA is a 30 nucleotide RNA component of the large subunit of cytosolic ribosomes in Drosophila and at least some other Diptera. It is homologous to the 3' part of other 5.8S rRNA molecules. The 3' end of the 5.8S molecule is able to base-pair with the 5' end of the 2S rRNA to generate a helical region equivalent in position to the 'GC-rich hairpin' found in all previously sequenced 5.8S molecules." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
+2021-09-02 15:48:30,079 WARN  (OBOFormatParser:1469) LINE: 22400 accepting bad xref with spaces:PMID: 24572720  LINE:
+def: "Mitochondrial SSU rRNA is an RNA component of the small subunit of mitochondrial ribosomes." [PMID: 24572720, PMID:3044395]
+2021-09-02 15:48:30,080 WARN  (OBOFormatParser:1469) LINE: 22412 accepting bad xref with spaces:PMID: 24572720  LINE:
+def: "Mitochondrial LSU rRNA is an RNA component of the large subunit of mitochondrial ribosomes." [PMID: 24572720, PMID:3044395]
+2021-09-02 15:48:30,080 WARN  (OBOFormatParser:1469) LINE: 22424 accepting bad xref with spaces:PMID: 24572720  LINE:
+def: "Plastid rRNA is an RNA component of the small or large subunits of plastid (such as chloroplast) ribosomes." [PMID: 24572720, PMID:3044395]
+2021-09-02 15:48:30,080 WARN  (OBOFormatParser:1469) LINE: 22434 accepting bad xref with spaces:PMID: 24572720  LINE:
+def: "Plastid SSU rRNA is an RNA component of the small subunit of plastid (such as chloroplast) ribosomes." [PMID: 24572720, PMID:3044395]
+2021-09-02 15:48:30,080 WARN  (OBOFormatParser:1469) LINE: 22445 accepting bad xref with spaces:PMID: 24572720  LINE:
+def: "Plastid LSU rRNA is an RNA component of the large subunit of plastid (such as chloroplast) ribosomes." [PMID: 24572720, PMID:3044395]
+2021-09-02 15:48:30,515 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/so.owl from: file:/Users/evan/github_repos/SO-Ontologies/so-edit.obo
+2021-09-02 15:48:30,523 INFO  (OboOntologyReleaseRunner:21) The following prefixes will be used to determine which classes belong in source:[so]
+2021-09-02 15:48:30,831 INFO  (OboOntologyReleaseRunner:47) OntologyChecks for so:
+Name 	 Status 	 Message
+Self Reference In Definition	Success	
+Name Redundancy Check	Warning	
+		Primary label 'NMD_transcript' <http://purl.obolibrary.org/obo/SO_0002114> re-used as EXACT synonym for IRIs: <http://purl.obolibrary.org/obo/SO_0001621> 'NMD_transcript_variant'
+Obsolete Class in Signature Check	Success	
+Dangling Reference Check	Success	
+Summary (Total, Success, Warning, Error):  (4, 3, 1, 0)
+2021-09-02 15:48:30,834 INFO  (OboOntologyReleaseRunner:21) Creating main ontology
+2021-09-02 15:48:30,834 INFO  (OboOntologyReleaseRunner:21) Using reasoner to add/retract links in main ontology
+2021-09-02 15:48:30,835 INFO  (OboOntologyReleaseRunner:21) Checking consistency
+2021-09-02 15:48:30,835 INFO  (OboOntologyReleaseRunner:21) Creating reasoner using: ReasonerFactory
+2021-09-02 15:48:30,994 INFO  (OboOntologyReleaseRunner:21) Created reasoner: Reasoner
+2021-09-02 15:48:30,994 INFO  (OboOntologyReleaseRunner:21) Consistency check started............
+2021-09-02 15:48:30,995 INFO  (OboOntologyReleaseRunner:21) Is the ontology consistent .....................true, 0
+2021-09-02 15:48:31,210 INFO  (OboOntologyReleaseRunner:21) unsat: http://www.w3.org/2002/07/owl#Nothing
+2021-09-02 15:48:31,210 INFO  (OboOntologyReleaseRunner:21) Checking consistency completed
+2021-09-02 15:48:31,211 INFO  (OboOntologyReleaseRunner:21) Creating inferences
+2021-09-02 15:48:31,211 INFO  (OboOntologyReleaseRunner:21) Finding asserted equivalencies...
+2021-09-02 15:48:31,213 INFO  (OboOntologyReleaseRunner:21) Finding inferred superclasses...
+2021-09-02 15:48:31,257 INFO  (OboOntologyReleaseRunner:21) Checking for redundant assertions caused by inferences
+2021-09-02 15:48:31,334 INFO  (OboOntologyReleaseRunner:21) Done building inferences
+2021-09-02 15:48:31,334 INFO  (OboOntologyReleaseRunner:21) Inferences creation completed
+2021-09-02 15:48:31,334 INFO  (OboOntologyReleaseRunner:21) Finding redundant axioms
+2021-09-02 15:48:31,334 INFO  (OboOntologyReleaseRunner:21) Redundant axioms removed
+2021-09-02 15:48:31,334 INFO  (OboOntologyReleaseRunner:21) Check for potential redundant subClass axioms
+2021-09-02 15:48:31,341 INFO  (OboOntologyReleaseRunner:47) 
+2021-09-02 15:48:31,344 INFO  (OboOntologyReleaseRunner:21) Saving: so
+2021-09-02 15:48:31,345 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so.owl
+2021-09-02 15:48:32,213 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so.owx
+2021-09-02 15:48:32,776 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0000019)' generated in frame: SO:0000313
+2021-09-02 15:48:32,779 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00033)' generated in frame: SO:0000409
+2021-09-02 15:48:32,779 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00012)' generated in frame: SO:0000417
+2021-09-02 15:48:32,780 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00134)' generated in frame: SO:0000417
+2021-09-02 15:48:32,780 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00159)' generated in frame: SO:0000418
+2021-09-02 15:48:32,780 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00149)' generated in frame: SO:0000419
+2021-09-02 15:48:32,785 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00067)' generated in frame: SO:0000691
+2021-09-02 15:48:32,786 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00055)' generated in frame: SO:0000725
+2021-09-02 15:48:32,788 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00124)' generated in frame: SO:0000839
+2021-09-02 15:48:32,788 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00331)' generated in frame: SO:0000839
+2021-09-02 15:48:32,788 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00203)' generated in frame: SO:0000912
+2021-09-02 15:48:32,789 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0000974)' generated in frame: SO:0000980
+2021-09-02 15:48:32,790 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00063)' generated in frame: SO:0001061
+2021-09-02 15:48:32,790 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00077)' generated in frame: SO:0001062
+2021-09-02 15:48:32,790 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00129)' generated in frame: SO:0001063
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00076)' generated in frame: SO:0001064
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00068)' generated in frame: SO:0001066
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00032)' generated in frame: SO:0001067
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00070)' generated in frame: SO:0001068
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00337)' generated in frame: SO:0001070
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00128)' generated in frame: SO:0001071
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00154)' generated in frame: SO:0001072
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00145)' generated in frame: SO:0001073
+2021-09-02 15:48:32,791 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00144)' generated in frame: SO:0001074
+2021-09-02 15:48:32,792 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00156)' generated in frame: SO:0001075
+2021-09-02 15:48:32,792 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00155)' generated in frame: SO:0001076
+2021-09-02 15:48:32,792 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00158)' generated in frame: SO:0001077
+2021-09-02 15:48:32,792 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00003)' generated in frame: SO:0001078
+2021-09-02 15:48:32,792 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:0000338)' generated in frame: SO:0001079
+2021-09-02 15:48:32,792 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00041)' generated in frame: SO:0001080
+2021-09-02 15:48:32,792 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00147)' generated in frame: SO:0001081
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00125)' generated in frame: SO:0001082
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00182)' generated in frame: SO:0001083
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00072)' generated in frame: SO:0001084
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00069)' generated in frame: SO:0001085
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00181)' generated in frame: SO:0001086
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00178)' generated in frame: SO:0001087
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00028)' generated in frame: SO:0001088
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00052)' generated in frame: SO:0001089
+2021-09-02 15:48:32,793 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00246)' generated in frame: SO:0001090
+2021-09-02 15:48:32,794 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00029)' generated in frame: SO:0001091
+2021-09-02 15:48:32,794 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00027)' generated in frame: SO:0001092
+2021-09-02 15:48:32,794 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00131)' generated in frame: SO:0001093
+2021-09-02 15:48:32,794 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00186)' generated in frame: SO:0001094
+2021-09-02 15:48:32,794 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00136)' generated in frame: SO:0001095
+2021-09-02 15:48:32,794 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00146)' generated in frame: SO:0001096
+2021-09-02 15:48:32,794 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00137)' generated in frame: SO:0001097
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00187)' generated in frame: SO:0001098
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00140)' generated in frame: SO:0001099
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00141)' generated in frame: SO:0001100
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00142)' generated in frame: SO:0001101
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00143)' generated in frame: SO:0001102
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00185)' generated in frame: SO:0001103
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00026)' generated in frame: SO:0001104
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00157)' generated in frame: SO:0001105
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00202)' generated in frame: SO:0001106
+2021-09-02 15:48:32,795 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00208)' generated in frame: SO:0001107
+2021-09-02 15:48:32,796 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00209)' generated in frame: SO:0001108
+2021-09-02 15:48:32,796 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00210)' generated in frame: SO:0001109
+2021-09-02 15:48:32,796 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00211)' generated in frame: SO:0001110
+2021-09-02 15:48:32,796 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00042)' generated in frame: SO:0001111
+2021-09-02 15:48:32,796 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:0000341)' generated in frame: SO:0001112
+2021-09-02 15:48:32,796 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00151)' generated in frame: SO:0001113
+2021-09-02 15:48:32,796 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00152)' generated in frame: SO:0001114
+2021-09-02 15:48:32,796 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00222)' generated in frame: SO:0001115
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:0000339)' generated in frame: SO:0001116
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00040)' generated in frame: SO:0001117
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00153)' generated in frame: SO:0001118
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:0000340)' generated in frame: SO:0001119
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00223)' generated in frame: SO:0001120
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00224)' generated in frame: SO:0001121
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00225)' generated in frame: SO:0001122
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00226)' generated in frame: SO:0001123
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00228)' generated in frame: SO:0001124
+2021-09-02 15:48:32,797 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00227)' generated in frame: SO:0001125
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00229)' generated in frame: SO:0001126
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00230)' generated in frame: SO:0001127
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00148)' generated in frame: SO:0001128
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00206)' generated in frame: SO:0001129
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00204)' generated in frame: SO:0001130
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00205)' generated in frame: SO:0001131
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00207)' generated in frame: SO:0001132
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00212)' generated in frame: SO:0001133
+2021-09-02 15:48:32,798 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00215)' generated in frame: SO:0001134
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00213)' generated in frame: SO:0001135
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00216)' generated in frame: SO:0001136
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00214)' generated in frame: SO:0001137
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00219)' generated in frame: SO:0001138
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00220)' generated in frame: SO:0001139
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00221)' generated in frame: SO:0001140
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00231)' generated in frame: SO:0001141
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00234)' generated in frame: SO:0001142
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00232)' generated in frame: SO:0001143
+2021-09-02 15:48:32,799 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00235)' generated in frame: SO:0001144
+2021-09-02 15:48:32,800 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00233)' generated in frame: SO:0001145
+2021-09-02 15:48:32,800 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00336)' generated in frame: SO:0001146
+2021-09-02 15:48:32,800 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00071)' generated in frame: SO:0001147
+2021-09-02 15:48:32,800 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00036)' generated in frame: SO:0001148
+2021-09-02 15:48:32,800 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001065)' generated in frame: SO:0001149
+2021-09-02 15:48:32,800 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( BS:00073)' generated in frame: SO:0001149
+2021-09-02 15:48:32,810 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001588)' generated in frame: SO:0001819
+2021-09-02 15:48:32,810 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001651)' generated in frame: SO:0001821
+2021-09-02 15:48:32,811 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001652)' generated in frame: SO:0001822
+2021-09-02 15:48:32,815 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0002000)' generated in frame: SO:0002024
+2021-09-02 15:48:32,817 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001903)' generated in frame: SO:0002131
+2021-09-02 15:48:32,878 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so.obo
+2021-09-02 15:48:32,943 INFO  (OboOntologyReleaseRunner:21) exporting json to so.json
+2021-09-02 15:48:32,944 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so.json
+2021-09-02 15:48:33,185 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so-metadata.txt
+2021-09-02 15:48:33,302 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:33,302 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:33,302 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:33,303 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:33,303 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasAlternativeId; we will use an original iri as the identifier.
+2021-09-02 15:48:33,303 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:33,303 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasDbXref; we will use an original iri as the identifier.
+2021-09-02 15:48:33,304 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasExactSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:33,304 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:33,304 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasOBONamespace; we will use an original iri as the identifier.
+2021-09-02 15:48:33,305 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:33,305 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:33,305 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:33,305 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#inSubset; we will use an original iri as the identifier.
+2021-09-02 15:48:33,305 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:33,305 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:33,306 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:33,306 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:33,329 INFO  (OboOntologyReleaseRunner:21) writing named subsets
+2021-09-02 15:48:33,352 INFO  (OboOntologyReleaseRunner:21) subset:SOFA #classes:251
+2021-09-02 15:48:33,356 INFO  (Mooncat:852) Testing 25249 axioms
+2021-09-02 15:48:33,392 INFO  (Mooncat:888) Base axioms to be added: 5562
+2021-09-02 15:48:33,393 INFO  (Mooncat:890) Checking closure for: 251
+2021-09-02 15:48:33,596 INFO  (Mooncat:934) # of gaps spanned = 314
+2021-09-02 15:48:33,622 INFO  (Mooncat:943) Removing 2612 dangling axioms from http://purl.obolibrary.org/obo/so/subsets/SOFA.owl
+2021-09-02 15:48:33,631 INFO  (Mooncat:662) Removing 0 dangling axioms
+2021-09-02 15:48:33,631 INFO  (Mooncat:664) FINISHED Removing 0 dangling axioms
+2021-09-02 15:48:33,632 INFO  (OboOntologyReleaseRunner:21) subOnt:Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/so/subsets/SOFA.owl>) VersionIRI(<null>))) [Axioms: 2985 Logical Axioms: 336] First 20 axioms: {AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000650> "SO:0000650"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000140> "INSDC_qualifier:attenuator"^^xsd:string) AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.rna.ucla.edu/index.html"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000602> "A short 3'-uridylated RNA that can form a duplex (except for its post-transcriptionally added oligo_U tail (SO:0000609)) with a stretch of mature edited mRNA."^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0000418> <http://purl.obolibrary.org/obo/so#SOFA>) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000274> "INSDC_qualifier:snRNA"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000276> "SO:0000276"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000393> "U4 snRNA"^^xsd:string) AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000730> "A gap in the sequence of known length. The unknown bases are filled in with N's."^^xsd:string) AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00010"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000386> "The RNA component of Ribonuclease P (RNase P), a ubiquitous endoribonuclease, found in archaea, bacteria and eukarya as well as chloroplasts and mitochondria. Its best characterized activity is the generation of mature 5 prime ends of tRNAs by cleaving the 5 prime leader elements of precursor-tRNAs. Cellular RNase Ps are ribonucleoproteins. RNA from bacterial RNase Ps retains its catalytic activity in the absence of the protein subunit, i.e. it is a ribozyme. Isolated eukaryotic and archaeal RNase P RNA has not been shown to retain its catalytic function, but is still essential for the catalytic activity of the holoenzyme. Although the archaeal and eukaryotic holoenzymes have a much greater protein content than the bacterial ones, the RNA cores from all the three lineages are homologous. Helices corresponding to P1, P2, P3, P4, and P10/11 are common to all cellular RNase P RNAs. Yet, there is considerable sequence variation, particularly among the eukaryotic RNAs."^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/so#started_by> "started_by"^^xsd:string) AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000233> "A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5' and/or the 3' ends, other than addition of bases. In bacteria functional mRNAs are usually not modified."^^xsd:string) AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00015"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000393> "U4 small nuclear RNA (U4 snRNA) is a component of the major U2-dependent spliceosome. It forms a duplex with U6, and with each splicing round, it is displaced from U6 (and the spliceosome) in an ATP-dependent manner, allowing U6 to refold and create the active site for splicing catalysis. A recycling process involving protein Prp24 re-anneals U4 and U6."^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/so#part_of> "sequence"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/so#trans_spliced_to> "sequence"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001214> "sequence"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000717> "reading frame"^^xsd:string) AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/so#genome_of> "genome_of"^^xsd:string) AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/so#starts> "Example: start_codon starts CDS."^^xsd:string) AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SO_0000777> "Added Jan 2006 to allow the annotation of the pseudogenic rRNA by flybase. Non-functional is defined as its transcription is prevented due to one or more mutatations."^^xsd:string) AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000657> "repeat_region"^^xsd:string) } #axioms:2985
+2021-09-02 15:48:33,632 INFO  (OboOntologyReleaseRunner:21) Saving: subsets/SOFA
+2021-09-02 15:48:33,632 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/SOFA.owl
+2021-09-02 15:48:33,689 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/SOFA.owx
+2021-09-02 15:48:33,747 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/SOFA.obo
+2021-09-02 15:48:33,753 INFO  (OboOntologyReleaseRunner:21) exporting json to subsets/SOFA.json
+2021-09-02 15:48:33,754 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/SOFA.json
+2021-09-02 15:48:33,778 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/SOFA-metadata.txt
+2021-09-02 15:48:33,881 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:33,881 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:33,881 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:33,881 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:33,881 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasAlternativeId; we will use an original iri as the identifier.
+2021-09-02 15:48:33,881 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:33,882 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasDbXref; we will use an original iri as the identifier.
+2021-09-02 15:48:33,882 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasExactSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:33,882 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:33,882 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasOBONamespace; we will use an original iri as the identifier.
+2021-09-02 15:48:33,882 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:33,882 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:33,882 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:33,883 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#inSubset; we will use an original iri as the identifier.
+2021-09-02 15:48:33,883 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:33,883 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:33,883 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:33,883 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:33,926 INFO  (OboOntologyReleaseRunner:21) subset:biosapiens #classes:122
+2021-09-02 15:48:33,931 INFO  (Mooncat:852) Testing 25249 axioms
+2021-09-02 15:48:33,958 INFO  (Mooncat:888) Base axioms to be added: 4311
+2021-09-02 15:48:33,958 INFO  (Mooncat:890) Checking closure for: 122
+2021-09-02 15:48:34,045 INFO  (Mooncat:934) # of gaps spanned = 130
+2021-09-02 15:48:34,069 INFO  (Mooncat:943) Removing 2594 dangling axioms from http://purl.obolibrary.org/obo/so/subsets/biosapiens.owl
+2021-09-02 15:48:34,074 INFO  (Mooncat:662) Removing 0 dangling axioms
+2021-09-02 15:48:34,074 INFO  (Mooncat:664) FINISHED Removing 0 dangling axioms
+2021-09-02 15:48:34,074 INFO  (OboOntologyReleaseRunner:21) subOnt:Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/so/subsets/biosapiens.owl>) VersionIRI(<null>))) [Axioms: 1723 Logical Axioms: 150] First 20 axioms: {Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001150>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001116>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001080>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#trans_spliced_from>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001134>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0100004>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#processed_into>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001107>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0100008>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001098>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#non_functional_homolog_of>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001132>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0100014>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#started_by>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001142>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of>)) Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001077>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#position_of>)) Declaration(AnnotationProperty(rdfs:comment)) } #axioms:1723
+2021-09-02 15:48:34,075 INFO  (OboOntologyReleaseRunner:21) Saving: subsets/biosapiens
+2021-09-02 15:48:34,075 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/biosapiens.owl
+2021-09-02 15:48:34,108 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/biosapiens.owx
+2021-09-02 15:48:34,142 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/biosapiens.obo
+2021-09-02 15:48:34,145 INFO  (OboOntologyReleaseRunner:21) exporting json to subsets/biosapiens.json
+2021-09-02 15:48:34,146 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/biosapiens.json
+2021-09-02 15:48:34,163 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/biosapiens-metadata.txt
+2021-09-02 15:48:34,260 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:34,260 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:34,260 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:34,260 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:34,260 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasAlternativeId; we will use an original iri as the identifier.
+2021-09-02 15:48:34,261 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,261 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasDbXref; we will use an original iri as the identifier.
+2021-09-02 15:48:34,261 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasExactSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,261 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,261 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasOBONamespace; we will use an original iri as the identifier.
+2021-09-02 15:48:34,262 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,262 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:34,262 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:34,262 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#inSubset; we will use an original iri as the identifier.
+2021-09-02 15:48:34,262 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:34,262 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:34,262 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:34,263 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:34,294 INFO  (OboOntologyReleaseRunner:21) subset:DBVAR #classes:10
+2021-09-02 15:48:34,299 INFO  (Mooncat:852) Testing 25249 axioms
+2021-09-02 15:48:34,322 INFO  (Mooncat:888) Base axioms to be added: 3222
+2021-09-02 15:48:34,322 INFO  (Mooncat:890) Checking closure for: 10
+2021-09-02 15:48:34,323 INFO  (Mooncat:934) # of gaps spanned = 3
+2021-09-02 15:48:34,340 INFO  (Mooncat:943) Removing 2704 dangling axioms from http://purl.obolibrary.org/obo/so/subsets/DBVAR.owl
+2021-09-02 15:48:34,342 INFO  (Mooncat:662) Removing 0 dangling axioms
+2021-09-02 15:48:34,343 INFO  (Mooncat:664) FINISHED Removing 0 dangling axioms
+2021-09-02 15:48:34,343 INFO  (OboOntologyReleaseRunner:21) subOnt:Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/so/subsets/DBVAR.owl>) VersionIRI(<null>))) [Axioms: 519 Logical Axioms: 23] First 20 axioms: {SymmetricObjectProperty(<http://purl.obolibrary.org/obo/so#paralogous_to>) SymmetricObjectProperty(<http://purl.obolibrary.org/obo/so#similar_to>) SymmetricObjectProperty(<http://purl.obolibrary.org/obo/so#orthologous_to>) SymmetricObjectProperty(<http://purl.obolibrary.org/obo/so#homologous_to>) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/so#guides> "guides"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of> "kareneilbeck"^^xsd:string) AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/so#disconnected_from> "disconnected_from"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/so#non_functional_homolog_of> "non_functional_homolog_of"^^xsd:string) AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/so#DBVAR> "database of genomic structural variation"^^xsd:string) AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset"^^xsd:string) AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/so#gained> "gained"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/so#position_of> "sequence"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000199> "sequence"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/so#recombined_from> "kareneilbeck"^^xsd:string) AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20226267"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/so#starts> "X starts Y if X is part of Y, and A and Y share a 5' or N-terminal boundary."^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/so#finished_by> "finished_by"^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/so#recombined_to> "kareneilbeck"^^xsd:string) AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/so#complete_evidence_for_feature> "If A is a feature with multiple regions such as a multi exon transcript, the supporting EST evidence is complete if each of the regions is supported by an equivalent region in B. Also there must be no extra regions in B that are not represented in A. This relationship was requested by jeltje on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222."^^xsd:string) AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/so#started_by> "2010-10-14T01:43:55Z"^^xsd:string) AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/so#derives_from> "derives_from"^^xsd:string) } #axioms:519
+2021-09-02 15:48:34,343 INFO  (OboOntologyReleaseRunner:21) Saving: subsets/DBVAR
+2021-09-02 15:48:34,344 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/DBVAR.owl
+2021-09-02 15:48:34,378 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/DBVAR.owx
+2021-09-02 15:48:34,388 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/DBVAR.obo
+2021-09-02 15:48:34,390 INFO  (OboOntologyReleaseRunner:21) exporting json to subsets/DBVAR.json
+2021-09-02 15:48:34,391 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/DBVAR.json
+2021-09-02 15:48:34,424 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/DBVAR-metadata.txt
+2021-09-02 15:48:34,520 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:34,520 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:34,520 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:34,520 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:34,520 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasAlternativeId; we will use an original iri as the identifier.
+2021-09-02 15:48:34,521 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,521 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasDbXref; we will use an original iri as the identifier.
+2021-09-02 15:48:34,521 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasExactSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,521 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,521 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasOBONamespace; we will use an original iri as the identifier.
+2021-09-02 15:48:34,521 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,522 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:34,522 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:34,522 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#inSubset; we will use an original iri as the identifier.
+2021-09-02 15:48:34,522 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:34,522 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:34,522 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:34,522 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:34,554 INFO  (OboOntologyReleaseRunner:21) subset:Alliance_of_Genome_Resources #classes:3
+2021-09-02 15:48:34,561 INFO  (Mooncat:852) Testing 25249 axioms
+2021-09-02 15:48:34,582 INFO  (Mooncat:888) Base axioms to be added: 3153
+2021-09-02 15:48:34,582 INFO  (Mooncat:890) Checking closure for: 3
+2021-09-02 15:48:34,582 INFO  (Mooncat:934) # of gaps spanned = 0
+2021-09-02 15:48:34,599 INFO  (Mooncat:943) Removing 2710 dangling axioms from http://purl.obolibrary.org/obo/so/subsets/Alliance_of_Genome_Resources.owl
+2021-09-02 15:48:34,601 INFO  (Mooncat:662) Removing 0 dangling axioms
+2021-09-02 15:48:34,601 INFO  (Mooncat:664) FINISHED Removing 0 dangling axioms
+2021-09-02 15:48:34,601 INFO  (OboOntologyReleaseRunner:21) subOnt:Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/so/subsets/Alliance_of_Genome_Resources.owl>) VersionIRI(<null>))) [Axioms: 443 Logical Axioms: 20] First 20 axioms: {TransitiveObjectProperty(<http://purl.obolibrary.org/obo/so#evidence_for_feature>) TransitiveObjectProperty(<http://purl.obolibrary.org/obo/so#contains>) TransitiveObjectProperty(<http://purl.obolibrary.org/obo/so#contained_by>) TransitiveObjectProperty(<http://purl.obolibrary.org/obo/so#member_of>) TransitiveObjectProperty(<http://purl.obolibrary.org/obo/so#complete_evidence_for_feature>) TransitiveObjectProperty(<http://purl.obolibrary.org/obo/so#part_of>) TransitiveObjectProperty(<http://purl.obolibrary.org/obo/so#derives_from>) SymmetricObjectProperty(<http://purl.obolibrary.org/obo/so#homologous_to>) SymmetricObjectProperty(<http://purl.obolibrary.org/obo/so#paralogous_to>) SymmetricObjectProperty(<http://purl.obolibrary.org/obo/so#orthologous_to>) SymmetricObjectProperty(<http://purl.obolibrary.org/obo/so#similar_to>) Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#gained>)) Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001263>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#exemplar_of>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#recombined_from>)) Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>)) Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#translation_of>)) Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#overlaps>)) } #axioms:443
+2021-09-02 15:48:34,601 INFO  (OboOntologyReleaseRunner:21) Saving: subsets/Alliance_of_Genome_Resources
+2021-09-02 15:48:34,602 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/Alliance_of_Genome_Resources.owl
+2021-09-02 15:48:34,633 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/Alliance_of_Genome_Resources.owx
+2021-09-02 15:48:34,644 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/Alliance_of_Genome_Resources.obo
+2021-09-02 15:48:34,645 INFO  (OboOntologyReleaseRunner:21) exporting json to subsets/Alliance_of_Genome_Resources.json
+2021-09-02 15:48:34,647 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/Alliance_of_Genome_Resources.json
+2021-09-02 15:48:34,655 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/subsets/Alliance_of_Genome_Resources-metadata.txt
+2021-09-02 15:48:34,744 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:34,744 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:34,744 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:34,744 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:34,744 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasAlternativeId; we will use an original iri as the identifier.
+2021-09-02 15:48:34,744 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,745 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasDbXref; we will use an original iri as the identifier.
+2021-09-02 15:48:34,745 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasExactSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,745 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,745 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasOBONamespace; we will use an original iri as the identifier.
+2021-09-02 15:48:34,745 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:34,745 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:34,745 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:34,746 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#inSubset; we will use an original iri as the identifier.
+2021-09-02 15:48:34,746 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:34,746 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:34,746 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:34,746 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:34,768 INFO  (OboOntologyReleaseRunner:21) Creating simple ontology
+2021-09-02 15:48:34,768 INFO  (OboOntologyReleaseRunner:21) Setting core ontology idspace: [so]
+2021-09-02 15:48:34,778 INFO  (OboOntologyReleaseRunner:21) Estimated core ontology number of classes: 2599
+2021-09-02 15:48:34,779 INFO  (Mooncat:713) Num of classes to be removed = 97
+2021-09-02 15:48:34,792 INFO  (Mooncat:662) Removing 97 dangling axioms
+2021-09-02 15:48:34,793 INFO  (Mooncat:664) FINISHED Removing 97 dangling axioms
+2021-09-02 15:48:34,793 INFO  (OboOntologyReleaseRunner:21) Removing 220 EquivalentClasses axioms from simple
+2021-09-02 15:48:34,803 INFO  (Mooncat:662) Removing 0 dangling axioms
+2021-09-02 15:48:34,803 INFO  (Mooncat:664) FINISHED Removing 0 dangling axioms
+2021-09-02 15:48:34,803 INFO  (OboOntologyReleaseRunner:21) Removing axiom annotations which are equivalent to trailing qualifiers
+2021-09-02 15:48:34,817 INFO  (OboOntologyReleaseRunner:21) Saving: so-simple
+2021-09-02 15:48:34,818 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so-simple.owl
+2021-09-02 15:48:35,309 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so-simple.owx
+2021-09-02 15:48:35,647 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0000019)' generated in frame: SO:0000313
+2021-09-02 15:48:35,658 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0000974)' generated in frame: SO:0000980
+2021-09-02 15:48:35,660 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001065)' generated in frame: SO:0001149
+2021-09-02 15:48:35,669 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001588)' generated in frame: SO:0001819
+2021-09-02 15:48:35,669 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001651)' generated in frame: SO:0001821
+2021-09-02 15:48:35,669 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001652)' generated in frame: SO:0001822
+2021-09-02 15:48:35,672 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0002000)' generated in frame: SO:0002024
+2021-09-02 15:48:35,673 ERROR (OWLAPIOwl2Obo:1064) Duplicate clause 'alt_id( SO:0001903)' generated in frame: SO:0002131
+2021-09-02 15:48:35,714 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so-simple.obo
+2021-09-02 15:48:35,774 INFO  (OboOntologyReleaseRunner:21) exporting json to so-simple.json
+2021-09-02 15:48:35,775 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so-simple.json
+2021-09-02 15:48:35,877 INFO  (OboOntologyReleaseRunner:21) saving to /Users/evan/github_repos/SO-Ontologies/Ontology_Files/staging/so-simple-metadata.txt
+2021-09-02 15:48:35,955 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:35,955 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#created_by; we will use an original iri as the identifier.
+2021-09-02 15:48:35,955 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:35,955 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#creation_date; we will use an original iri as the identifier.
+2021-09-02 15:48:35,956 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasAlternativeId; we will use an original iri as the identifier.
+2021-09-02 15:48:35,956 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:35,956 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasDbXref; we will use an original iri as the identifier.
+2021-09-02 15:48:35,956 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasExactSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:35,956 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:35,956 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasOBONamespace; we will use an original iri as the identifier.
+2021-09-02 15:48:35,956 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym; we will use an original iri as the identifier.
+2021-09-02 15:48:35,957 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:35,957 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#id; we will use an original iri as the identifier.
+2021-09-02 15:48:35,957 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.geneontology.org/formats/oboInOwl#inSubset; we will use an original iri as the identifier.
+2021-09-02 15:48:35,957 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:35,957 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#comment; we will use an original iri as the identifier.
+2021-09-02 15:48:35,957 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:35,957 WARN  (OWLGraphWrapperExtended:936) Unable to retrieve the value of oboInOwl#id as the identifier for http://www.w3.org/2000/01/rdf-schema#label; we will use an original iri as the identifier.
+2021-09-02 15:48:35,973 INFO  (OboOntologyReleaseRunner:21) Creating simple ontology completed
+2021-09-02 15:48:36,060 INFO  (OboOntologyReleaseRunner:21) Finished release manager process
+2021-09-02 15:48:36,061 INFO  (OboOntologyReleaseRunner:21) Done!
+2021-09-02 15:48:36,061 INFO  (OboOntologyReleaseRunner:21) deleting lock file
