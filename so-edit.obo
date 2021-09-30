@@ -22478,6 +22478,16 @@ created_by: evan
 creation_date: 2021-09-30T19:34:13Z
 
 [Term]
+id: SO:0002352
+name: sisRNA
+def: "An intronic sequence derived from the coding strand of a cognate host gene, that is not rapidly degraded. It may contain exonic sequences, 5′ caps, and/or polyA tails." []
+comment: PMIDs: 30391089, 27147469, 29397203. See GitHub Issue #515.
+is_a: SO:0000655 ! ncRNA
+created_by: evan
+creation_date: 2021-09-30T21:07:18Z
+synonymtypedef: Stable intronic sequence RNA
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
