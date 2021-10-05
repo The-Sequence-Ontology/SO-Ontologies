@@ -22057,8 +22057,8 @@ creation_date: 2021-09-30T19:29:24Z
 [Term]
 id: SO:0002350
 name: common_fragile_site
-def: "A fragile site considered part of the normal chromosomal structure." []
-comment: PMID: 16236432 & PMID: 17608616. See GitHub Issue #301.
+def: "A fragile site considered part of the normal chromosomal structure." [PMID: 16236432, PMID: 17608616]
+comment: See GitHub Issue #301.
 is_a: SO:0002349 ! fragile_site
 created_by: evan
 creation_date: 2021-09-30T19:33:59Z
@@ -22066,11 +22066,44 @@ creation_date: 2021-09-30T19:33:59Z
 [Term]
 id: SO:0002351
 name: rare_fragile_site
-def: "A fragile site found in the chromosomes of less than five percent of the human population." []
-comment: PMID: 16236432 & PMID: 17608616. See GitHub Issue #301.
+def: "A fragile site found in the chromosomes of less than five percent of the human population." [PMID:16236432, PMID:17608616]
+comment: See GitHub Issue #301.
 is_a: SO:0002349 ! fragile_site
 created_by: evan
 creation_date: 2021-09-30T19:34:13Z
+
+[Term]
+id: SO:0002352
+name: sisRNA
+def: "An intronic sequence derived from the coding strand of a cognate host gene, that is not rapidly degraded. It may contain exonic sequences, 5′ caps, and_or polyA tails." [PMID:27147469, PMID:29397203, PMID:30391089]
+comment: See GitHub Issue #515.
+synonym: "Stable intronic sequence RNA" EXACT []
+synonym: "stable_intronic_sequence_RNA" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: evan
+creation_date: 2021-09-30T21:07:18Z
+
+[Term]
+id: SO:0002353
+name: sbRNA_gene
+def: "A gene encoding a stem-bulge RNA." [PMID:25908866, PMID:30666901]
+comment: See GitHub Issue #516.
+synonym: "Stem-bulge RNA gene" EXACT []
+synonym: "stem_bulge_RNA_gene" EXACT []
+is_a: SO:0001263 ! ncRNA_gene
+created_by: evan
+creation_date: 2021-09-30T21:25:37Z
+
+[Term]
+id: SO:0002354
+name: sbRNA
+def: "A small non-coding stem-loop RNA present in nematodes and insects, functionally and structurally related to vertebrate Y RNA." [PMID:25908866, PMID:30666901]
+comment: See GitHub Issue #516.
+synonym: "Stem-bulge RNA" EXACT []
+synonym: "stem_bulge_RNA" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: evan
+creation_date: 2021-09-30T21:29:19Z
 
 [Term]
 id: SO:0005836
