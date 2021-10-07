@@ -8774,10 +8774,10 @@ name: cytosolic_16S_rRNA
 def: "Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes." [SO:ke]
 comment: Renamed to cytosolic_16S_rRNA from rRNA_16S on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "cytosolic 16S SSU RNA" EXACT []
-synonym: "cytosolic rRNA 16S" EXACT []
 synonym: "cytosolic 16S ribosomal RNA" EXACT []
 synonym: "cytosolic 16S rRNA" RELATED []
+synonym: "cytosolic 16S SSU RNA" EXACT []
+synonym: "cytosolic rRNA 16S" EXACT []
 xref: http://en.wikipedia.org/wiki/16S_ribosomal_RNA "wiki"
 is_a: SO:0000650 ! cytosolic_SSU_rRNA
 
@@ -22480,7 +22480,7 @@ creation_date: 2021-09-30T19:34:13Z
 [Term]
 id: SO:0002352
 name: sisRNA
-def: "An intronic sequence derived from the coding strand of a cognate host gene, that is not rapidly degraded. It may contain exonic sequences, 5′ caps, and_or polyA tails." [PMID:30391089, PMID:27147469, PMID:29397203]
+def: "An intronic sequence derived from the coding strand of a cognate host gene, that is not rapidly degraded. It may contain exonic sequences, 5′ caps, and_or polyA tails." [PMID:27147469, PMID:29397203, PMID:30391089]
 comment: See GitHub Issue #515.
 synonym: "Stable intronic sequence RNA" EXACT []
 synonym: "stable_intronic_sequence_RNA" EXACT []
@@ -22491,7 +22491,7 @@ creation_date: 2021-09-30T21:07:18Z
 [Term]
 id: SO:0002353
 name: sbRNA_gene
-def: "A gene encoding a stem-bulge RNA." [PMID:30666901, PMID:25908866]
+def: "A gene encoding a stem-bulge RNA." [PMID:25908866, PMID:30666901]
 comment: See GitHub Issue #516.
 synonym: "Stem-bulge RNA gene" EXACT []
 synonym: "stem_bulge_RNA_gene" EXACT []
@@ -22502,13 +22502,33 @@ creation_date: 2021-09-30T21:25:37Z
 [Term]
 id: SO:0002354
 name: sbRNA
-def: "A small non-coding stem-loop RNA present in nematodes and insects, functionally and structurally related to vertebrate Y RNA." [PMID:30666901, PMID:25908866]
+def: "A small non-coding stem-loop RNA present in nematodes and insects, functionally and structurally related to vertebrate Y RNA." [PMID:25908866, PMID:30666901]
 comment: See GitHub Issue #516.
 synonym: "Stem-bulge RNA" EXACT []
 synonym: "stem_bulge_RNA" EXACT []
 is_a: SO:0000655 ! ncRNA
 created_by: evan
 creation_date: 2021-09-30T21:29:19Z
+
+[Term]
+id: SO:0002355
+name: hpRNA_gene
+def: "A gene encoding a hpRNA." [PMID:18463630, PMID:18719707, PMID:25544562]
+comment: See GitHub Issue #518.
+synonym: "Hairpin RNA gene" EXACT []
+is_a: SO:0001263 ! ncRNA_gene
+created_by: evan
+creation_date: 2021-10-07T17:09:18Z
+
+[Term]
+id: SO:0002356
+name: hpRNA
+def: "An RNA comprising an extended inverted repeat, the stem of which is typically much longer than that of miRNA precursors and can be up to 400 base pairs in length. hpRNAs are processed by Dicer-2 to generate endogenous short interfering RNAs (siRNAs)." [PMID:18463630, PMID:18719707, PMID:25544562]
+comment: See GitHub Issue #518.
+synonym: "Hairpin RNA" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: evan
+creation_date: 2021-10-07T17:35:56Z
 
 [Term]
 id: SO:0005836

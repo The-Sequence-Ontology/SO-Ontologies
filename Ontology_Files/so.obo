@@ -22511,6 +22511,26 @@ created_by: evan
 creation_date: 2021-09-30T21:29:19Z
 
 [Term]
+id: SO:0002355
+name: hpRNA_gene
+def: "A gene encoding a hpRNA." [PMID:18463630, PMID:18719707, PMID:25544562]
+comment: See GitHub Issue #518.
+synonym: "Hairpin RNA gene" EXACT []
+is_a: SO:0001263 ! ncRNA_gene
+created_by: evan
+creation_date: 2021-10-07T17:09:18Z
+
+[Term]
+id: SO:0002356
+name: hpRNA
+def: "An RNA comprising an extended inverted repeat, the stem of which is typically much longer than that of miRNA precursors and can be up to 400 base pairs in length. hpRNAs are processed by Dicer-2 to generate endogenous short interfering RNAs (siRNAs)." [PMID:18463630, PMID:18719707, PMID:25544562]
+comment: See GitHub Issue #518.
+synonym: "Hairpin RNA" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: evan
+creation_date: 2021-10-07T17:35:56Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
