@@ -22126,6 +22126,16 @@ created_by: evan
 creation_date: 2021-10-07T17:35:56Z
 
 [Term]
+id: SO:0002357
+name: biosynthetic_gene_cluster
+def: "A physically clustered group of two or more genes in a particular genome that together encode a biosynthetic pathway for the production of a specialized metabolite (including its chemical variants)." [PMID:26284661]
+comment: See GitHub Issue #558.
+synonym: "Metabolic gene cluster" EXACT []
+is_a: SO:0001411 ! biological_region
+created_by: evan
+creation_date: 2021-10-07T18:20:34Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
