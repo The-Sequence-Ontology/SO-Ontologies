@@ -13824,7 +13824,7 @@ creation_date: 2010-03-22T11:30:25Z
 [Term]
 id: SO:0001537
 name: structural_variant
-def: "A sequence variant that changes one or more sequence features." [SO:ke]
+def: "A sequence variant that changes one or more structural features." [SO:ke]
 synonym: "Jannovar:structural_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "structural variant" RELATED []
 synonym: "VAT:svOverlap" EXACT VAR []
