@@ -22550,6 +22550,15 @@ created_by: evan
 creation_date: 2021-11-11T23:25:13Z
 
 [Term]
+id: SO:0002359
+name: Y_RNA_gene
+def: "A gene that encodes a Y RNA." [PMID:1698620, PMID:6187471, PMID:6816230, PMID:7520568, PMID:7539809, PMID:8836182]
+comment: There are four genes from HGNC that are annotated this way. HGNC IDs: 10242, 10243, 10244, and 10248.
+is_a: SO:0001263 ! ncRNA_gene
+created_by: evan
+creation_date: 2021-11-11T23:52:21Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
