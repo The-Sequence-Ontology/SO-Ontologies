@@ -22136,6 +22136,15 @@ created_by: evan
 creation_date: 2021-10-07T18:20:34Z
 
 [Term]
+id: SO:0002358
+name: vault_RNA_gene
+def: "A gene that encodes a vault RNA." [PMID:19298825, PMID:19491402, PMID:22058117, PMID:22926522, PMID:30773316, PMID:9535882]
+comment: As of 11 November 2021 the HNGC lists 4 genes as RNA, vault. These are HGNC IDs: 12654, 12655, 12656, 37054.
+is_a: SO:0001263 ! ncRNA_gene
+created_by: evan
+creation_date: 2021-11-11T23:25:13Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
