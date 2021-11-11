@@ -10945,7 +10945,7 @@ relationship: has_quality SO:0000656 ! stRNA_encoding
 [Term]
 id: SO:0001266
 name: scRNA_gene
-def: "A small noncoding RNA that is generally found only in the cytoplasm." []
+def: "A gene encoding a small noncoding RNA that is generally found only in the cytoplasm." []
 synonym: "scRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
 relationship: has_quality SO:0000575 ! scRNA_encoding
