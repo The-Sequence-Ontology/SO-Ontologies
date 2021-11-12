@@ -1,9 +1,9 @@
 ---
 name: New Term Request
 about: Adding a term to the SO
-title: ''
-labels: ''
-assignees: ''
+title: 'NTR: <your term name goes here>'
+labels: 'Term Tracker'
+assignees: 'egchr'
 
 ---
 
