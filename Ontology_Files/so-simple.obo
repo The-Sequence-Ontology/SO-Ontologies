@@ -14606,6 +14606,7 @@ creation_date: 2010-03-24T09:51:22Z
 id: SO:0001637
 name: rRNA_gene
 def: "A gene that encodes for ribosomal RNA." [SO:ke]
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "rDNA" EXACT []
 synonym: "rRNA gene" EXACT []
 is_a: SO:0001263 ! ncRNA_gene
@@ -20725,61 +20726,61 @@ creation_date: 2020-04-22T12:40:30Z
 
 [Term]
 id: SO:0002236
-name: rRNA_18S_gene
+name: cytosolic_rRNA_18S_gene
 def: "A gene which codes for 18S_rRNA, which functions as the small subunit of the ribosome in eukaryotes." []
-comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "18S rRNA gene" EXACT []
 synonym: "18S_rRNA_gene" EXACT []
-is_a: SO:0001637 ! rRNA_gene
+is_a: SO:0002362 ! cytosolic_SSU_rRNA_gene
 relationship: derives_from SO:0000407 ! cytosolic_18S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0002237
-name: rRNA_16S_gene
+name: cytosolic_rRNA_16S_gene
 def: "A gene which codes for 16S_rRNA, which functions as the small subunit of the ribosome in prokaryotes." []
-comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "16S rRNA gene" EXACT []
 synonym: "16S_rRNA_gene" EXACT []
-is_a: SO:0001637 ! rRNA_gene
+is_a: SO:0002362 ! cytosolic_SSU_rRNA_gene
 relationship: derives_from SO:0001000 ! cytosolic_16S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0002238
-name: rRNA_5S_gene
+name: cytosolic_rRNA_5S_gene
 def: "A gene which codes for 5S_rRNA, which is a portion of the large subunit of the ribosome in both eukaryotes and prokaryotes." []
-comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "5S rRNA gene" EXACT []
 synonym: "5S_rRNA_gene" EXACT []
-is_a: SO:0001637 ! rRNA_gene
+is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
 relationship: derives_from SO:0000652 ! cytosolic_5S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0002239
-name: rRNA_28S_gene
+name: cytosolic_rRNA_28S_gene
 def: "A gene which codes for 28S_rRNA, which functions as a component of the large subunit of the ribosome in eukaryotes." []
-comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "28S rRNA gene" EXACT []
 synonym: "28S_rRNA_gene" EXACT []
-is_a: SO:0001637 ! rRNA_gene
+is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
 relationship: derives_from SO:0000653 ! cytosolic_28S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0002240
-name: rRNA_5_8S_gene
+name: cytosolic_rRNA_5_8S_gene
 def: "A gene which codes for 5_8S_rRNA (5.8S rRNA), which functions as a component of the large subunit of the ribosome in eukaryotes." []
-comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "5.8S rRNA gene" EXACT []
 synonym: "5_8S rRNA gene" EXACT []
 synonym: "5_8S_rRNA_gene" EXACT []
-is_a: SO:0001637 ! rRNA_gene
+is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
 relationship: derives_from SO:0000375 ! cytosolic_5_8S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
@@ -20797,24 +20798,24 @@ creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0002242
-name: rRNA_25S_gene
+name: cytosolic_rRNA_25S_gene
 def: "A gene which codes for 25S_rRNA, which functions as a component of the large subunit of the ribosome in some eukaryotes." []
-comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "25S rRNA gene" EXACT []
 synonym: "25S_rRNA_gene" EXACT []
-is_a: SO:0001637 ! rRNA_gene
+is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
 relationship: derives_from SO:0001002 ! cytosolic_25S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0002243
-name: rRNA_23S_gene
+name: cytosolic_rRNA_23S_gene
 def: "A gene which codes for 23S_rRNA, which functions as a component of the large subunit of the ribosome in prokaryotes." []
-comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472)
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "23S rRNA gene" EXACT []
 synonym: "23S_rRNA_gene" EXACT []
-is_a: SO:0001637 ! rRNA_gene
+is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
 relationship: derives_from SO:0001001 ! cytosolic_23S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
@@ -21901,12 +21902,12 @@ creation_date: 2021-04-21T21:16:30Z
 
 [Term]
 id: SO:0002336
-name: rRNA_2S_gene
+name: cytosolic_rRNA_2S_gene
 def: "A gene that encodes for 2S ribosomal RNA, which functions as a component of the large subunit of the ribosome in Drosophila and at least some other Diptera." [PMID: 118436, PMID: 29474379, PMID: 3136294, PMID:10788608, PMID:407103, PMID:4847940, PMID:768488]
-comment: Added as a request from FlyBase. See GitHub Issue #507
+comment: Added as a request from FlyBase. See GitHub Issue #507. Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "2S rRNA gene" EXACT []
 synonym: "rRNA 2S gene" EXACT []
-is_a: SO:0001637 ! rRNA_gene
+is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
 created_by: david
 creation_date: 2021-04-23T22:59:30Z
 
@@ -22152,6 +22153,94 @@ comment: There are four genes from HGNC that are annotated this way. HGNC IDs: 1
 is_a: SO:0001263 ! ncRNA_gene
 created_by: evan
 creation_date: 2021-11-11T23:52:21Z
+
+[Term]
+id: SO:0002360
+name: cytosolic_rRNA_gene
+def: "A gene that codes for cytosolic rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+is_a: SO:0001637 ! rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T04:30:40Z
+
+[Term]
+id: SO:0002361
+name: cytosolic_LSU_rRNA_gene
+def: "A gene that codes for cytosolic LSU rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "cytosolic large subunit rRNA gene" EXACT []
+is_a: SO:0002360 ! cytosolic_rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T04:32:20Z
+
+[Term]
+id: SO:0002362
+name: cytosolic_SSU_rRNA_gene
+def: "A gene that codes for cytosolic SSU rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "cytosolic small subunit rRNA gene" EXACT []
+is_a: SO:0002360 ! cytosolic_rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T04:37:02Z
+
+[Term]
+id: SO:0002363
+name: mt_rRNA_gene
+def: "A gene that codes for mitochondrial rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "mitochondrial rRNA gene" EXACT []
+is_a: SO:0001637 ! rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T04:55:58Z
+
+[Term]
+id: SO:0002364
+name: mt_LSU_rRNA_gene
+def: "A gene that codes for mitochondrial LSU rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "mitochondrial large subunit rRNA gene" EXACT []
+is_a: SO:0002363 ! mt_rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T04:57:49Z
+
+[Term]
+id: SO:0002365
+name: mt_SSU_rRNA_gene
+def: "A gene that codes for mitochondrial SSU rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "mitochondrial small subunit rRNA gene" EXACT []
+is_a: SO:0002363 ! mt_rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T04:58:07Z
+
+[Term]
+id: SO:0002366
+name: plastid_rRNA_gene
+def: "A gene that codes for plastid rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+is_a: SO:0001637 ! rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:00:08Z
+
+[Term]
+id: SO:0002367
+name: plastid_LSU_rRNA_gene
+def: "A gene that codes for plastid LSU rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "plastid large subunit rRNA gene" EXACT []
+is_a: SO:0002366 ! plastid_rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:00:49Z
+
+[Term]
+id: SO:0002368
+name: plastid_SSU_rRNA_gene
+def: "A gene that codes for plastid SSU rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "plastid small subunit rRNA gene" EXACT []
+is_a: SO:0002366 ! plastid_rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:01:03Z
 
 [Term]
 id: SO:0005836
