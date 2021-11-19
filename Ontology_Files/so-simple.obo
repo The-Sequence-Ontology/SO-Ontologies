@@ -22075,7 +22075,7 @@ creation_date: 2021-09-30T19:34:13Z
 [Term]
 id: SO:0002352
 name: sisRNA
-def: "An intronic sequence derived from the coding strand of a cognate host gene, that is not rapidly degraded. It may contain exonic sequences, 5′ caps, and_or polyA tails." [PMID:27147469, PMID:29397203, PMID:30391089]
+def: "A non-coding RNA typically derived from intronic sequence of the sense strand of a cognate host gene, that is not rapidly degraded. It may contain exonic sequences, 5′ caps, and/or polyA tails." [PMID:27147469, PMID:29397203, PMID:30391089]
 comment: See GitHub Issue #515.
 synonym: "Stable intronic sequence RNA" EXACT []
 synonym: "stable_intronic_sequence_RNA" EXACT []
