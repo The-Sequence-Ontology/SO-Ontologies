@@ -4627,6 +4627,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001527"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000851"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0100011"/>
             </owl:Restriction>

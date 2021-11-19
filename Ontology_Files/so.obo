@@ -11310,7 +11310,7 @@ relationship: has_quality SO:0000575 ! scRNA_encoding
 id: SO:0001267
 name: snoRNA_gene
 def: "A gene encoding a small noncoding RNA that participates in the processing or chemical modifications of many RNAs, including ribosomal RNAs and spliceosomal RNAs." []
-comment: Moved from ncRNA_gene to sncRNA_gene 27 April 2021 to be more consistent with the organization of the ncRNA branch of SO. Requested by FlyBase, moved by Dave Sant. See GitHub Issue #514.
+comment: Moved from ncRNA_gene to sncRNA_gene 27 April 2021 to be more consistent with the organization of the ncRNA branch of SO. Requested by FlyBase, moved by Dave Sant. See GitHub Issue #514. Added additional children of snoRNA on 18 Nov 2021 at the request of Steven Marygold. See GitHub Issue #519.
 synonym: "snoRNA gene" EXACT []
 is_a: SO:0002342 ! sncRNA_gene
 intersection_of: SO:0002342 ! sncRNA_gene
@@ -22646,6 +22646,126 @@ synonym: "plastid small subunit rRNA gene" EXACT []
 is_a: SO:0002366 ! plastid_rRNA_gene
 created_by: evan
 creation_date: 2021-11-19T05:01:03Z
+
+[Term]
+id: SO:0002369
+name: C_D_box_scaRNA
+def: "A scaRNA possessing a box C/D sequence motif, guiding the methylation of snRNAs." [PMID:17099227, PMID:24659245]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "C/D scaRNA" EXACT []
+is_a: SO:0002095 ! scaRNA
+created_by: evan
+creation_date: 2021-11-19T05:34:44Z
+
+[Term]
+id: SO:0002370
+name: H_ACA_box_scaRNA
+def: "A scaRNA possessing a box H/ACA sequence motif, guiding the pseudouridylation of snRNAs." [PMID:17099227, PMID:24659245]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "H/ACA scaRNA" EXACT []
+is_a: SO:0002095 ! scaRNA
+created_by: evan
+creation_date: 2021-11-19T05:35:04Z
+
+[Term]
+id: SO:0002371
+name: C-D_H_ACA_box_scaRNA
+def: "A scaRNA possessing both box C/D and box H/ACA sequence motifs, guiding both the methylation and pseudouridylation of snRNAs." [PMID:17099227, PMID:24659245]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "C/D-H/ACA scaRNA" EXACT []
+is_a: SO:0002095 ! scaRNA
+created_by: evan
+creation_date: 2021-11-19T05:35:23Z
+
+[Term]
+id: SO:0002372
+name: C_D_box_scaRNA_gene
+def: "A gene that codes for scaRNA possessing a box C/D sequence motif, guiding the methylation of snRNAs." [PMID:17099227, PMID:24659245]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "C/D scaRNA gene" EXACT []
+is_a: SO:0002339 ! scaRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:40:46Z
+
+[Term]
+id: SO:0002373
+name: H_ACA_box_scaRNA_gene
+def: "A gene that codes for scaRNA possessing a box H/ACA sequence motif, guiding the pseudouridylation of snRNAs." [PMID:17099227, PMID:24659245]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "H/ACA scaRNA gene" EXACT []
+is_a: SO:0002339 ! scaRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:40:58Z
+
+[Term]
+id: SO:0002374
+name: C-D_H_ACA_box_scaRNA_gene
+def: "A gene that codes for scaRNA possessing both box C/D and box H/ACA sequence motifs, guiding both the methylation and pseudouridylation of snRNAs." [PMID:17099227, PMID:24659245]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "C/D-H/ACA scaRNA gene" EXACT []
+is_a: SO:0002339 ! scaRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:41:06Z
+
+[Term]
+id: SO:0002375
+name: C_D_box_snoRNA_gene
+def: "A gene that codes a C_D_box_snoRNA. Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." []
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "box C/D snoRNA gene, C D box snoRNA gene, C/D box snoRNA gene" EXACT []
+is_a: SO:0001267 ! snoRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:49:55Z
+
+[Term]
+id: SO:0002376
+name: H_ACA_box_snoRNA_gene
+def: "A gene that codes for H_ACA_box_snoRNA. Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3' end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains." []
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "box H/ACA snoRNA gene, H ACA box snoRNA gene, H/ACA box snoRNA gene" EXACT []
+is_a: SO:0001267 ! snoRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:50:14Z
+
+[Term]
+id: SO:0002377
+name: U14_snoRNA_gene
+def: "A gene that codes for U14_snoRNA. U14 small nucleolar RNA (U14 snoRNA) is required for early cleavages of eukaryotic precursor rRNAs. In yeasts, this molecule possess a stem-loop region (known as the Y-domain) which is essential for function. A similar structure, but with a different consensus sequence, is found in plants, but is absent in vertebrates." []
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "small nucleolar RNA U14 gene, snoRNA U14 gene, U14 small nucleolar RNA gene, U14 snoRNA gene" EXACT []
+is_a: SO:0002375 ! C_D_box_snoRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:50:43Z
+
+[Term]
+id: SO:0002378
+name: U3_snoRNA_gene
+def: "A gene that codes for U3_snoRNA. U3 snoRNA is a member of the box C/D class of small nucleolar RNAs. The U3 snoRNA secondary structure is characterised by a small 5' domain (with boxes A and A'), and a larger 3' domain (with boxes B, C, C', and D), the two domains being linked by a single-stranded hinge. Boxes B and C form the B/C motif, which appears to be exclusive to U3 snoRNAs, and boxes C' and D form the C'/D motif. The latter is functionally similar to the C/D motifs found in other snoRNAs. The 5' domain and the hinge region act as a pre-rRNA-binding domain. The 3' domain has conserved protein-binding sites. Both the box B/C and box C'/D motifs are sufficient for nuclear retention of U3 snoRNA. The box C'/D motif is also necessary for nucleolar localization, stability and hypermethylation of U3 snoRNA. Both box B/C and C'/D motifs are involved in specific protein interactions and are necessary for the rRNA processing functions of U3 snoRNA." []
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "small nucleolar RNA U3 gene, snoRNA U3 gene, U3 small nucleolar RNA gene, U3 snoRNA gene" EXACT []
+is_a: SO:0002375 ! C_D_box_snoRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:50:57Z
+
+[Term]
+id: SO:0002379
+name: methylation_guide_snoRNA_gene
+def: "A gene that codes for methylation_guide_snoRNA. A snoRNA that specifies the site of 2'-O-ribose methylation in an RNA molecule by base pairing with a short sequence around the target residue." [PMID:12457565]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "methylation guide snoRNA gene" EXACT []
+is_a: SO:0002375 ! C_D_box_snoRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:51:12Z
+
+[Term]
+id: SO:0002380
+name: pseudouridylation_guide_snoRNA_gene
+def: "A gene that codes for pseudouridylation_guide_snoRNA. A snoRNA that specifies the site of pseudouridylation in an RNA molecule by base pairing with a short sequence around the target residue." [PMID:12457565]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+synonym: "pseudouridylation guide snoRNA gene" EXACT []
+is_a: SO:0002376 ! H_ACA_box_snoRNA_gene
+created_by: evan
+creation_date: 2021-11-19T05:51:40Z
 
 [Term]
 id: SO:0005836
