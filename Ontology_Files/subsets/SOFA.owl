@@ -3807,13 +3807,13 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000372">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An RNA sequence that has catalytic activity with or without an associated ribonucleoprotein.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzymatic RNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000372</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was moved to be a child of transcript (SO:0000673) because some enzymatic RNA regions are part of primary transcripts and some are part of processed transcripts.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was moved to be a child of transcript (SO:0000673) because some enzymatic RNA regions are part of primary transcripts and some are part of processed transcripts. Moved under ncRNA on 18 Nov 2021. See GitHub Issue #533.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzymatic_RNA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3916,7 +3916,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000385">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000372"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The RNA molecule essential for the catalytic activity of RNase MRP, an enzymatically active ribonucleoprotein with two distinct roles in eukaryotes. In mitochondria it plays a direct role in the initiation of mitochondrial DNA replication. In the nucleus it is involved in precursor rRNA processing, where it cleaves the internal transcribed spacer 1 between 18S and 5.8S rRNAs.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:RNase_MRP_RNA</oboInOwl:hasExactSynonym>
@@ -3924,6 +3924,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000385</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moved under enzymatic_RNA on 18 Nov 2021. See GitHub Issue #533.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNase_MRP_RNA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3938,7 +3939,7 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000386 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000386">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000372"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The RNA component of Ribonuclease P (RNase P), a ubiquitous endoribonuclease, found in archaea, bacteria and eukarya as well as chloroplasts and mitochondria. Its best characterized activity is the generation of mature 5 prime ends of tRNAs by cleaving the 5 prime leader elements of precursor-tRNAs. Cellular RNase Ps are ribonucleoproteins. RNA from bacterial RNase Ps retains its catalytic activity in the absence of the protein subunit, i.e. it is a ribozyme. Isolated eukaryotic and archaeal RNase P RNA has not been shown to retain its catalytic function, but is still essential for the catalytic activity of the holoenzyme. Although the archaeal and eukaryotic holoenzymes have a much greater protein content than the bacterial ones, the RNA cores from all the three lineages are homologous. Helices corresponding to P1, P2, P3, P4, and P10/11 are common to all cellular RNase P RNAs. Yet, there is considerable sequence variation, particularly among the eukaryotic RNAs.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:RNase_P_RNA</oboInOwl:hasExactSynonym>
@@ -3946,6 +3947,7 @@ For example a variant transcript may have lost a stop codon present in the refer
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000386</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moved under enzymatic_RNA on 18 Nov 2021. See GitHub Issue #533.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNase_P_RNA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4625,6 +4627,12 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000418">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001527"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000851"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>

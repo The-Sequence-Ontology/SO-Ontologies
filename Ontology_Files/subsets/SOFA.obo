@@ -1118,10 +1118,10 @@ id: SO:0000372
 name: enzymatic_RNA
 namespace: sequence
 def: "An RNA sequence that has catalytic activity with or without an associated ribonucleoprotein." [RSC:cb]
-comment: This was moved to be a child of transcript (SO:0000673) because some enzymatic RNA regions are part of primary transcripts and some are part of processed transcripts.
+comment: This was moved to be a child of transcript (SO:0000673) because some enzymatic RNA regions are part of primary transcripts and some are part of processed transcripts. Moved under ncRNA on 18 Nov 2021. See GitHub Issue #533.
 subset: SOFA
 synonym: "enzymatic RNA" EXACT []
-is_a: SO:0000673 ! transcript
+is_a: SO:0000655 ! ncRNA
 
 [Term]
 id: SO:0000374
@@ -1165,22 +1165,24 @@ id: SO:0000385
 name: RNase_MRP_RNA
 namespace: sequence
 def: "The RNA molecule essential for the catalytic activity of RNase MRP, an enzymatically active ribonucleoprotein with two distinct roles in eukaryotes. In mitochondria it plays a direct role in the initiation of mitochondrial DNA replication. In the nucleus it is involved in precursor rRNA processing, where it cleaves the internal transcribed spacer 1 between 18S and 5.8S rRNAs." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00030]
+comment: Moved under enzymatic_RNA on 18 Nov 2021. See GitHub Issue #533.
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:RNase_MRP_RNA" EXACT []
 synonym: "RNase MRP RNA" EXACT []
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0000372 ! enzymatic_RNA
 
 [Term]
 id: SO:0000386
 name: RNase_P_RNA
 namespace: sequence
 def: "The RNA component of Ribonuclease P (RNase P), a ubiquitous endoribonuclease, found in archaea, bacteria and eukarya as well as chloroplasts and mitochondria. Its best characterized activity is the generation of mature 5 prime ends of tRNAs by cleaving the 5 prime leader elements of precursor-tRNAs. Cellular RNase Ps are ribonucleoproteins. RNA from bacterial RNase Ps retains its catalytic activity in the absence of the protein subunit, i.e. it is a ribozyme. Isolated eukaryotic and archaeal RNase P RNA has not been shown to retain its catalytic function, but is still essential for the catalytic activity of the holoenzyme. Although the archaeal and eukaryotic holoenzymes have a much greater protein content than the bacterial ones, the RNA cores from all the three lineages are homologous. Helices corresponding to P1, P2, P3, P4, and P10/11 are common to all cellular RNase P RNAs. Yet, there is considerable sequence variation, particularly among the eukaryotic RNAs." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00010]
+comment: Moved under enzymatic_RNA on 18 Nov 2021. See GitHub Issue #533.
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:RNase_P_RNA" EXACT []
 synonym: "RNase P RNA" EXACT []
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0000372 ! enzymatic_RNA
 
 [Term]
 id: SO:0000390
@@ -1421,6 +1423,7 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
