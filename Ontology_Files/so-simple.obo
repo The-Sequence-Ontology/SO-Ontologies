@@ -22305,8 +22305,8 @@ creation_date: 2021-11-19T05:41:06Z
 [Term]
 id: SO:0002375
 name: C_D_box_snoRNA_gene
-def: "A gene that codes a C_D_box_snoRNA. Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." []
-comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+def: "A gene that codes a C_D_box_snoRNA. Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." [PMID:12457565, PMID:22065625]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519). Added citations. See GitHub Issue #565.
 synonym: "box C/D snoRNA gene, C D box snoRNA gene, C/D box snoRNA gene" EXACT []
 is_a: SO:0001267 ! snoRNA_gene
 created_by: evan
@@ -22315,8 +22315,8 @@ creation_date: 2021-11-19T05:49:55Z
 [Term]
 id: SO:0002376
 name: H_ACA_box_snoRNA_gene
-def: "A gene that codes for H_ACA_box_snoRNA. Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3' end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains." []
-comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519).
+def: "A gene that codes for H_ACA_box_snoRNA. Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3' end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains." [PMID:12457565, PMID:22065625]
+comment: Added at the request of Steven Marygold. See GitHub Issue #519 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/519). Added citations. See GitHub Issue #565.
 synonym: "box H/ACA snoRNA gene, H ACA box snoRNA gene, H/ACA box snoRNA gene" EXACT []
 is_a: SO:0001267 ! snoRNA_gene
 created_by: evan
