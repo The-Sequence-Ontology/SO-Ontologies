@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: 2021-07-12
-date: 12:07:2021 19:12
-saved-by: David Sant
+data-version: 2021-11-22
+date: 22:11:2021 06:31
+saved-by: Evan Christensen
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
