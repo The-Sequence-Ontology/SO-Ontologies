@@ -3507,7 +3507,7 @@ is_a: SO:0000274 ! snRNA
 [Term]
 id: SO:0000394
 name: U4atac_snRNA
-def: "An snRNA required for the splicing of the minor U12-dependent class of eukaryotic nuclear introns. It forms a base paired complex with U6atac_snRNA (SO:0000397)." [PMID:=12409455]
+def: "An snRNA required for the splicing of the minor U12-dependent class of eukaryotic nuclear introns. It forms a base paired complex with U6atac_snRNA (SO:0000397)." [PMID:12409455]
 subset: SOFA
 synonym: "small nuclear RNA U4atac" EXACT [RSC:cb]
 synonym: "snRNA U4atac" EXACT [RSC:cb]
