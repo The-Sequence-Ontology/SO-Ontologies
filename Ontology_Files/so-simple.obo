@@ -3412,7 +3412,7 @@ is_a: SO:0000274 ! snRNA
 [Term]
 id: SO:0000394
 name: U4atac_snRNA
-def: "An snRNA required for the splicing of the minor U12-dependent class of eukaryotic nuclear introns. It forms a base paired complex with U6atac_snRNA (SO:0000397)." [PMID:=12409455]
+def: "An snRNA required for the splicing of the minor U12-dependent class of eukaryotic nuclear introns. It forms a base paired complex with U6atac_snRNA (SO:0000397)." [PMID:12409455]
 subset: SOFA
 synonym: "small nuclear RNA U4atac" EXACT [RSC:cb]
 synonym: "snRNA U4atac" EXACT [RSC:cb]
@@ -22193,6 +22193,7 @@ name: mt_rRNA_gene
 def: "A gene that codes for mitochondrial rRNA." []
 comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
 synonym: "mitochondrial rRNA gene" EXACT []
+is_a: SO:0000088 ! mt_gene
 is_a: SO:0001637 ! rRNA_gene
 created_by: evan
 creation_date: 2021-11-19T04:55:58Z
@@ -22222,6 +22223,7 @@ id: SO:0002366
 name: plastid_rRNA_gene
 def: "A gene that codes for plastid rRNA." []
 comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+is_a: SO:0000090 ! plastid_gene
 is_a: SO:0001637 ! rRNA_gene
 created_by: evan
 creation_date: 2021-11-19T05:00:08Z
