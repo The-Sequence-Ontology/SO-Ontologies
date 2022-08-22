@@ -3334,6 +3334,7 @@ synonym: "cytosolic 5.8S rRNA" EXACT []
 synonym: "cytosolic rRNA 5 8S" EXACT []
 xref: http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0002240 ! cytosolic_rRNA_5_8S_gene
 
 [Term]
 id: SO:0000376
@@ -3645,6 +3646,7 @@ synonym: "cytosolic 18S rRNA" EXACT []
 synonym: "cytosolic rRNA 18S" EXACT []
 xref: http://en.wikipedia.org/wiki/18S_ribosomal_RNA "wiki"
 is_a: SO:0000650 ! cytosolic_SSU_rRNA
+relationship: derives_from SO:0002236 ! cytosolic_rRNA_18S_gene
 
 [Term]
 id: SO:0000408
@@ -5845,6 +5847,7 @@ synonym: "cytosolic 5S rRNA" EXACT []
 synonym: "cytosolic rRNA 5S" EXACT []
 xref: http://en.wikipedia.org/wiki/5S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0002238 ! cytosolic_rRNA_5S_gene
 
 [Term]
 id: SO:0000653
@@ -5858,6 +5861,7 @@ synonym: "cytosolic 28S rRNA" EXACT []
 synonym: "cytosolic rRNA 28S" EXACT []
 xref: http://en.wikipedia.org/wiki/28S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0002239 ! cytosolic_rRNA_28S_gene
 
 [Term]
 id: SO:0000654
@@ -8780,6 +8784,7 @@ synonym: "cytosolic 16S SSU RNA" EXACT []
 synonym: "cytosolic rRNA 16S" EXACT []
 xref: http://en.wikipedia.org/wiki/16S_ribosomal_RNA "wiki"
 is_a: SO:0000650 ! cytosolic_SSU_rRNA
+relationship: derives_from SO:0002237 ! cytosolic_rRNA_16S_gene
 
 [Term]
 id: SO:0001001
@@ -8792,6 +8797,7 @@ synonym: "cytosolic 23S ribosomal RNA" RELATED []
 synonym: "cytosolic 23S rRNA" EXACT []
 synonym: "cytosolic rRNA 23S" EXACT []
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0002243 ! cytosolic_rRNA_23S_gene
 
 [Term]
 id: SO:0001002
@@ -8804,6 +8810,7 @@ synonym: "cytosolic 25S ribosomal RNA" EXACT []
 synonym: "cytosolic 25S rRNA" EXACT []
 synonym: "cytosolic rRNA 25S" EXACT []
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0002242 ! cytosolic_rRNA_25S_gene
 
 [Term]
 id: SO:0001003
@@ -21139,7 +21146,6 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "18S rRNA gene" EXACT []
 synonym: "18S_rRNA_gene" EXACT []
 is_a: SO:0002362 ! cytosolic_SSU_rRNA_gene
-relationship: derives_from SO:0000407 ! cytosolic_18S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21151,7 +21157,6 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "16S rRNA gene" EXACT []
 synonym: "16S_rRNA_gene" EXACT []
 is_a: SO:0002362 ! cytosolic_SSU_rRNA_gene
-relationship: derives_from SO:0001000 ! cytosolic_16S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21163,7 +21168,6 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "5S rRNA gene" EXACT []
 synonym: "5S_rRNA_gene" EXACT []
 is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
-relationship: derives_from SO:0000652 ! cytosolic_5S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21175,7 +21179,6 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "28S rRNA gene" EXACT []
 synonym: "28S_rRNA_gene" EXACT []
 is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
-relationship: derives_from SO:0000653 ! cytosolic_28S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21188,7 +21191,6 @@ synonym: "5.8S rRNA gene" EXACT []
 synonym: "5_8S rRNA gene" EXACT []
 synonym: "5_8S_rRNA_gene" EXACT []
 is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
-relationship: derives_from SO:0000375 ! cytosolic_5_8S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21211,7 +21213,6 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "25S rRNA gene" EXACT []
 synonym: "25S_rRNA_gene" EXACT []
 is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
-relationship: derives_from SO:0001002 ! cytosolic_25S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -21223,7 +21224,6 @@ comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.
 synonym: "23S rRNA gene" EXACT []
 synonym: "23S_rRNA_gene" EXACT []
 is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
-relationship: derives_from SO:0001001 ! cytosolic_23S_rRNA
 created_by: david
 creation_date: 2020-05-07T16:12:30Z
 
@@ -22326,6 +22326,7 @@ comment: Added as a request from FlyBase. See GitHub Issue #507. Renamed from rR
 synonym: "cytosolic 2S rRNA" EXACT []
 synonym: "cytosolic rRNA 2S" EXACT []
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0002336 ! cytosolic_rRNA_2S_gene
 created_by: david
 creation_date: 2021-04-23T22:59:30Z
 

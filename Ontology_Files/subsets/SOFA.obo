@@ -1147,6 +1147,7 @@ synonym: "cytosolic 5.8S rRNA" EXACT []
 synonym: "cytosolic rRNA 5 8S" EXACT []
 xref: http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0000704 ! gene
 
 [Term]
 id: SO:0000380
@@ -1360,6 +1361,7 @@ synonym: "cytosolic 18S rRNA" EXACT []
 synonym: "cytosolic rRNA 18S" EXACT []
 xref: http://en.wikipedia.org/wiki/18S_ribosomal_RNA "wiki"
 is_a: SO:0000650 ! cytosolic_SSU_rRNA
+relationship: derives_from SO:0000704 ! gene
 
 [Term]
 id: SO:0000409
@@ -1423,7 +1425,6 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
-relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
@@ -1890,6 +1891,7 @@ synonym: "cytosolic 5S rRNA" EXACT []
 synonym: "cytosolic rRNA 5S" EXACT []
 xref: http://en.wikipedia.org/wiki/5S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0000704 ! gene
 
 [Term]
 id: SO:0000653
@@ -1904,6 +1906,7 @@ synonym: "cytosolic 28S rRNA" EXACT []
 synonym: "cytosolic rRNA 28S" EXACT []
 xref: http://en.wikipedia.org/wiki/28S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0000704 ! gene
 
 [Term]
 id: SO:0000655
@@ -2426,6 +2429,7 @@ synonym: "cytosolic 16S SSU RNA" EXACT []
 synonym: "cytosolic rRNA 16S" EXACT []
 xref: http://en.wikipedia.org/wiki/16S_ribosomal_RNA "wiki"
 is_a: SO:0000650 ! cytosolic_SSU_rRNA
+relationship: derives_from SO:0000704 ! gene
 
 [Term]
 id: SO:0001001
@@ -2439,6 +2443,7 @@ synonym: "cytosolic 23S ribosomal RNA" RELATED []
 synonym: "cytosolic 23S rRNA" EXACT []
 synonym: "cytosolic rRNA 23S" EXACT []
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0000704 ! gene
 
 [Term]
 id: SO:0001002
@@ -2452,6 +2457,7 @@ synonym: "cytosolic 25S ribosomal RNA" EXACT []
 synonym: "cytosolic 25S rRNA" EXACT []
 synonym: "cytosolic rRNA 25S" EXACT []
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0000704 ! gene
 
 [Term]
 id: SO:0001019
