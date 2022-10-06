@@ -8425,7 +8425,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "coding-synon",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ]
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
@@ -44121,7 +44121,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "untranslated-3",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
           "synonymType" : "http://purl.obolibrary.org/obo/so#dbsnp"
         }, {
           "pred" : "hasExactSynonym",
@@ -44276,7 +44276,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "intron_",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
           "synonymType" : "http://purl.obolibrary.org/obo/so#dbsnp"
         } ],
         "basicPropertyValues" : [ {
@@ -44536,7 +44536,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "untranslated-5",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
           "synonymType" : "http://purl.obolibrary.org/obo/so#dbsnp"
         }, {
           "pred" : "hasExactSynonym",
@@ -45994,7 +45994,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "near-gene-5",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
           "synonymType" : "http://purl.obolibrary.org/obo/so#dbsnp"
         }, {
           "pred" : "hasExactSynonym",
@@ -46392,7 +46392,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "near-gene-3",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
           "synonymType" : "http://purl.obolibrary.org/obo/so#dbsnp"
         } ],
         "basicPropertyValues" : [ {
@@ -65979,7 +65979,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "nonsense",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
           "synonymType" : "http://purl.obolibrary.org/obo/so#dbsnp"
         }, {
           "pred" : "hasExactSynonym",
@@ -66198,7 +66198,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "frameshift_",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ],
           "synonymType" : "http://purl.obolibrary.org/obo/so#dbsnp"
         }, {
           "pred" : "hasExactSynonym",
@@ -66418,7 +66418,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "missense",
-          "xrefs" : [ "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ]
+          "xrefs" : [ "https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "ANNOVAR:nonsynonymous SNV",

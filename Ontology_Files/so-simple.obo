@@ -13964,7 +13964,7 @@ def: "A sequence variant, that changes one or more bases, resulting in a differe
 comment: EBI term: Non-synonymous SNPs. SNPs that are located in the coding sequence and result in an amino acid change in the encoded peptide sequence. A change that causes a non_synonymous_codon can be more than 3 bases - for example 4 base substitution.
 synonym: "ANNOVAR:nonsynonymous SNV" RELATED VAR [http://www.openbioinformatics.org/annovar/annovar_download.html]
 synonym: "Jannovar:missense_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
-synonym: "missense" EXACT [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "missense" EXACT [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 synonym: "missense codon" EXACT []
 synonym: "Seattleseq:missense" EXACT VAR []
 synonym: "Seattleseq:missense-near-splice" RELATED VAR []
@@ -14015,7 +14015,7 @@ def: "A sequence variant whereby at least one base of a codon is changed, result
 comment: EBI term: Stop gained - In coding sequence, resulting in the gain of a stop codon (i.e. leading to a shortened peptide sequence).
 synonym: "ANNOVAR:stopgain" EXACT VAR [http://www.openbioinformatics.org/annovar/annovar_download.html]
 synonym: "Jannovar:stop_gained" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
-synonym: "nonsense" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "nonsense" EXACT dbsnp [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 synonym: "nonsense codon" EXACT []
 synonym: "Seattleseq:stop-gained" EXACT VAR []
 synonym: "Seattleseq:stop-gained-near-splice" RELATED VAR []
@@ -14043,7 +14043,7 @@ comment: EBI term:Frameshift variations - In coding sequence, resulting in a fra
 synonym: "ANNOVAR:frameshift block substitution" RELATED VAR [http://www.openbioinformatics.org/annovar/annovar_download.html]
 synonym: "ANNOVAR:frameshift substitution" RELATED []
 synonym: "frameshift variant" EXACT []
-synonym: "frameshift_" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "frameshift_" EXACT dbsnp [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 synonym: "frameshift_coding" EXACT ebi_variants [http://ensembl.org/info/docs/variation/index.html]
 synonym: "Jannovar:frameshift_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "Seattleseq:frameshift" EXACT VAR []
@@ -14410,7 +14410,7 @@ synonym: "five prime UTR variant" EXACT []
 synonym: "Jannovar:5_prime_utr_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "Seattleseq:5-prime-UTR" EXACT VAR []
 synonym: "snpEff:UTR_5_PRIME" EXACT VAR []
-synonym: "untranslated-5" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "untranslated-5" EXACT dbsnp [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 synonym: "VAAST:5_prime_UTR_variant" EXACT VAR []
 synonym: "VAAST:five_prime_UTR_variant" EXACT VAR []
 synonym: "VEP:5_prime_UTR_variant" EXACT VAR []
@@ -14433,7 +14433,7 @@ synonym: "Jannovar:3_prime_utr_variant" EXACT VAR [http://doc-openbio.readthedoc
 synonym: "Seattleseq:3-prime-UTR" EXACT VAR []
 synonym: "snpEff:UTR_3_PRIME" EXACT VAR []
 synonym: "three prime UTR variant" EXACT []
-synonym: "untranslated-3" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "untranslated-3" EXACT dbsnp [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 synonym: "VAAST:3_prime_UTR_variant" EXACT VAR []
 synonym: "VAAST:three_prime_UTR_variant" EXACT VAR []
 synonym: "VEP:3_prime_UTR_variant" EXACT VAR []
@@ -14465,7 +14465,7 @@ def: "A transcript variant occurring within an intron." [SO:ke]
 comment: EBI term: Intronic variations - In intron.
 synonym: "ANNOVAR:intronic" RELATED VAR [http://www.openbioinformatics.org/annovar/annovar_download.html]
 synonym: "intron variant" EXACT []
-synonym: "intron_" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "intron_" EXACT dbsnp [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 synonym: "intronic" EXACT ebi_variants [http://ensembl.org/info/docs/variation/index.html]
 synonym: "Jannovar:intron_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "Seattleseq:intron" EXACT VAR []
@@ -14583,7 +14583,7 @@ id: SO:0001634
 name: 500B_downstream_variant
 def: "A sequence variant located within a half KB of the end of a gene." [SO:ke]
 synonym: "500B downstream variant" EXACT []
-synonym: "near-gene-3" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "near-gene-3" EXACT dbsnp [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 is_a: SO:0001632 ! downstream_gene_variant
 created_by: kareneilbeck
 creation_date: 2010-03-24T09:50:42Z
@@ -14606,7 +14606,7 @@ id: SO:0001636
 name: 2KB_upstream_variant
 def: "A sequence variant located within 2KB 5' of a gene." [SO:ke]
 synonym: "2KB upstream variant" EXACT []
-synonym: "near-gene-5" EXACT dbsnp [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "near-gene-5" EXACT dbsnp [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 is_a: SO:0001631 ! upstream_gene_variant
 created_by: kareneilbeck
 creation_date: 2010-03-24T09:51:22Z
@@ -16397,7 +16397,7 @@ alt_id: SO:0001588
 def: "A sequence variant where there is no resulting change to the encoded amino acid." [SO:ke]
 comment: EBI term: Synonymous SNPs - In coding sequence, not resulting in an amino acid change (i.e. silent mutation).\nThis term is sometimes used synonomously with the more general term 'silent mutation', although a silent mutation may occur in non coding sequence. The best practice is to annotate to the most specific term.
 synonym: "ANNOVAR:synonymous SNV" RELATED VAR [http://www.openbioinformatics.org/annovar/annovar_download.html]
-synonym: "coding-synon" EXACT [ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
+synonym: "coding-synon" EXACT [https://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd]
 synonym: "Jannovar:synonymous_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "Seattleseq:synonymous" EXACT VAR []
 synonym: "Seattleseq:synonymous-near-splice" RELATED VAR []
