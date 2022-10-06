@@ -19,6 +19,10 @@ synonymtypedef: RNAMOD "RNA modification" EXACT
 synonymtypedef: VAR "variant annotation term"
 default-namespace: sequence
 ontology: so
+property_value: IAO:0000700 SO_0000400
+property_value: IAO:0000700 SO_0001260
+property_value: IAO:0000700 SO_0000110
+property_value: IAO:0000700 SO_0001060
 
 [Term]
 id: SO:0000000
