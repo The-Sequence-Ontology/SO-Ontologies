@@ -20039,9 +20039,10 @@ creation_date: 2016-08-23T16:11:34Z
 
 [Term]
 id: SO:0002131
-name: sense_intronic_ncRNA
+name: sense_intronic_lncRNA
 alt_id: SO:0001903
 def: "A long non-coding transcript found within an intron of a coding or non-coding gene, with no overlap of exonic sequence." [GENECODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Updating the names of sense_intronic_ncRNA (SO:0002131), sense_overlap_ncRNA (SO:0002132), sense_overlap_ncRNA_gene (SO:0002183), and sense_intronic_ncRNA_gene (SO:0002184) to _lncRNA. See GitHub Issue #579.
 synonym: "sense intronic lncRNA" EXACT []
 synonym: "sense_intronic" EXACT []
 synonym: "sense_intronic_lncRNA" EXACT []
@@ -20052,8 +20053,9 @@ creation_date: 2016-08-23T16:15:02Z
 
 [Term]
 id: SO:0002132
-name: sense_overlap_ncRNA
+name: sense_overlap_lncRNA
 def: "A long non-coding transcript that contains a protein coding gene within its intronic sequence on the same strand, with no overlap of exonic sequence." [GENECODE:http\://www.gencodegenes.org/gencode_biotypes.html]
+comment: Updating the names of sense_intronic_ncRNA (SO:0002131), sense_overlap_ncRNA (SO:0002132), sense_overlap_ncRNA_gene (SO:0002183), and sense_intronic_ncRNA_gene (SO:0002184) to _lncRNA. See GitHub Issue #579.
 synonym: "sense overlap lncRNA" EXACT []
 synonym: "sense_overlap_lncRNA" EXACT []
 synonym: "sense_overlapping" EXACT []
@@ -20557,8 +20559,9 @@ creation_date: 2017-09-27T10:44:00Z
 
 [Term]
 id: SO:0002183
-name: sense_overlap_ncRNA_gene
+name: sense_overlap_lncRNA_gene
 def: "A gene that encodes a sense overlap long non-coding RNA." []
+comment: Updating the names of sense_intronic_ncRNA (SO:0002131), sense_overlap_ncRNA (SO:0002132), sense_overlap_ncRNA_gene (SO:0002183), and sense_intronic_ncRNA_gene (SO:0002184) to _lncRNA. See GitHub Issue #579.
 synonym: "sense overlap lncRNA gene" EXACT []
 synonym: "sense overlap ncRNA gene" EXACT []
 synonym: "sense_overlap_lncRNA_gene" EXACT []
@@ -20568,8 +20571,9 @@ creation_date: 2017-09-27T10:48:05Z
 
 [Term]
 id: SO:0002184
-name: sense_intronic_ncRNA_gene
+name: sense_intronic_lncRNA_gene
 def: "A gene that encodes a sense intronic long non-coding RNA." []
+comment: Updating the names of sense_intronic_ncRNA (SO:0002131), sense_overlap_ncRNA (SO:0002132), sense_overlap_ncRNA_gene (SO:0002183), and sense_intronic_ncRNA_gene (SO:0002184) to _lncRNA. See GitHub Issue #579.
 synonym: "sense intronic lncRNA gene" EXACT []
 synonym: "sense intronic ncRNA gene" EXACT []
 synonym: "sense_intronic_lncRNA_gene" EXACT []
