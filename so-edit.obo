@@ -20574,7 +20574,7 @@ creation_date: 2017-09-27T11:03:50Z
 
 [Term]
 id: SO:0002185
-name: bidirectional_promoter_lncRNA
+name: bidirectional_promoter_lncRNA_gene
 def: "A non-coding locus that originates from within the promoter region of a protein-coding gene, with transcription proceeding in the opposite direction on the other strand." [https://www.gencodegenes.org/pages/biotypes.html]
 comment: This is a gencode term. See GitHub Issue #408. Synonyms "bidirectional promoter lncRNA gene" and "bidirectional_promoter_lncRNA_gene" added 23 April 2021 by David Sant. See GitHub Issue #506.
 synonym: "bidirectional promoter lncRNA" EXACT []
@@ -21201,10 +21201,10 @@ def: "A gene which codes for 21S_rRNA, which functions as a component of the lar
 comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472) Removed relationship derives_from SO:0001171 on 10 June 2021 when SO:0001171 rRNA_21S was obsoleted into SO:0002345 mt_LSU_rRNA. See GitHub Issue #493. OBSOLETED on 12 September 2022, merged into SO:0002364 mt_LSU_rRNA_gene see GitHub Issue #513.
 synonym: "21S rRNA gene" EXACT []
 synonym: "21S_rRNA_gene" EXACT []
-created_by: david
-creation_date: 2020-05-07T16:12:30Z
 is_obsolete: true
 replaced_by: SO:0002364
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0002242

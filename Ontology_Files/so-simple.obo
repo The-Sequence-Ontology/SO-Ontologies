@@ -20173,7 +20173,7 @@ creation_date: 2017-09-27T11:03:50Z
 
 [Term]
 id: SO:0002185
-name: bidirectional_promoter_lncRNA
+name: bidirectional_promoter_lncRNA_gene
 def: "A non-coding locus that originates from within the promoter region of a protein-coding gene, with transcription proceeding in the opposite direction on the other strand." [https://www.gencodegenes.org/pages/biotypes.html]
 comment: This is a gencode term. See GitHub Issue #408. Synonyms "bidirectional promoter lncRNA gene" and "bidirectional_promoter_lncRNA_gene" added 23 April 2021 by David Sant. See GitHub Issue #506.
 synonym: "bidirectional promoter lncRNA" EXACT []
