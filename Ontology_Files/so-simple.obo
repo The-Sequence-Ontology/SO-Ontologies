@@ -17028,7 +17028,8 @@ creation_date: 2012-02-14T05:05:32Z
 [Term]
 id: SO:0001877
 name: lncRNA
-def: "A non-coding RNA over 200nucleotides in length." [HGNC:mw]
+def: "A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5' ends, polyadenylated at their 3' ends and may be spliced." [HGNC:mw] {comment="PMID:33353982"}
+comment: Updated the definition of lncRNA (SO:0001877) from "A non-coding RNA over 200nucleotides in length." to "A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5' ends, polyadenylated at their 3' ends and may be spliced." See GitHub Issue #575
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:lncRNA" EXACT []
 synonym: "lncRNA_transcript" EXACT []
