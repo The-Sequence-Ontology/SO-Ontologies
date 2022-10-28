@@ -22382,6 +22382,20 @@ created_by: evan
 creation_date: 2021-11-19T05:51:40Z
 
 [Term]
+id: SO:0002381
+name: bidirectional_promoter_lncRNA
+def: "A long non-coding RNA which is produced using the promoter of a protein-coding gene but with transcription occurring in the opposite direction." [PMID:30175284, PMID:34956340] {comment="PMID:26578749"}
+comment: Created new term "bidirectional_promoter_lncRNA" (SO:0002381). See GitHub Issue #579.
+synonym: "bidirectional lncRNA" EXACT []
+synonym: "bidirectional promoter lncRNA" EXACT []
+synonym: "bidirectional promoter long non-coding RNA" EXACT []
+synonym: "bidirectional_lncRNA" EXACT []
+synonym: "bidirectional_promoter_long_non-coding_RNA" EXACT []
+is_a: SO:0001877 ! lncRNA
+created_by: evan
+creation_date: 2022-10-28T19:05:35Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
