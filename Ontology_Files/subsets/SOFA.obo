@@ -1425,7 +1425,6 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
-relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
@@ -1682,10 +1681,12 @@ id: SO:0000593
 name: C_D_box_snoRNA
 namespace: sequence
 def: "Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
+comment: Added 'SNORD' as a synonym of C_D_box_snoRNA (SO:0000593) and 'SNORA' as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.
 subset: SOFA
 synonym: "box C/D snoRNA" EXACT []
 synonym: "C D box snoRNA" EXACT []
 synonym: "C/D box snoRNA" EXACT []
+synonym: "SNORD" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
 
 [Term]

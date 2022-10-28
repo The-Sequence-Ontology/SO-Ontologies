@@ -5227,10 +5227,12 @@ is_a: SO:0000591 ! pseudoknot
 id: SO:0000593
 name: C_D_box_snoRNA
 def: "Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
+comment: Added 'SNORD' as a synonym of C_D_box_snoRNA (SO:0000593) and 'SNORA' as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.
 subset: SOFA
 synonym: "box C/D snoRNA" EXACT []
 synonym: "C D box snoRNA" EXACT []
 synonym: "C/D box snoRNA" EXACT []
+synonym: "SNORD" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
 relationship: derives_from SO:0000595 ! C_D_box_snoRNA_primary_transcript
 
@@ -5238,9 +5240,11 @@ relationship: derives_from SO:0000595 ! C_D_box_snoRNA_primary_transcript
 id: SO:0000594
 name: H_ACA_box_snoRNA
 def: "Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3' end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
+comment: Added 'SNORD' as a synonym of C_D_box_snoRNA (SO:0000593) and 'SNORA' as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.
 synonym: "box H/ACA snoRNA" EXACT []
 synonym: "H ACA box snoRNA" EXACT []
 synonym: "H/ACA box snoRNA" EXACT []
+synonym: "SNORA" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
 relationship: derives_from SO:0000596 ! H_ACA_box_snoRNA_primary_transcript
 
