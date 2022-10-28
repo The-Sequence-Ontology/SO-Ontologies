@@ -1483,13 +1483,13 @@ is_a: SO:0000696 ! oligo
 id: SO:0000454
 name: rasiRNA
 namespace: sequence
-def: "A 17-28-nt, small interfering RNA derived from transcripts of repetitive elements." [http://www.developmentalcell.com/content/article/abstract?uid=PIIS1534580703002284]
+def: "A 17-28-nt, small interfering RNA derived from transcripts of repetitive elements." [http://www.developmentalcell.com/content/article/abstract?uid=PIIS1534580703002284, PMID:18032451]
+comment: Changed parent term from ncRNA (SO:0000655) to piRNA (SO:0001035). See GitHub Issue #573.
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:rasiRNA" EXACT []
 synonym: "repeat associated small interfering RNA" EXACT []
-xref: http://en.wikipedia.org/wiki/RasiRNA "wiki"
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0000370 ! small_regulatory_ncRNA
 
 [Term]
 id: SO:0000462
