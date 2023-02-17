@@ -1,7 +1,7 @@
 format-version: 1.2
 data-version: 2021-11-22
 date: 22:11:2021 06:31
-saved-by: Evan Christensen
+saved-by: David Sant
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -21661,8 +21661,8 @@ creation_date: 2020-08-12T14:01:30Z
 [Term]
 id: SO:0002314
 name: altered_gene_product_level
-def: "A sequence variant that alters the level of transcription of a gene." [GenCC:AR]
-comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+def: "A sequence variant that alters the level or amount of gene product produced. This high level term can be applied where the direction of level change (increased vs decreased gene product level) is unknown or not confirmed." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501). Updated definition 17 Feb 2023 along with updates from GenCC. See Issue Request #612.
 synonym: "altered gene product level" EXACT []
 synonym: "altered transcription level" EXACT []
 synonym: "altered_transcription_level" EXACT []
@@ -21673,8 +21673,8 @@ creation_date: 2020-12-18T22:35:30Z
 [Term]
 id: SO:0002315
 name: increased_gene_product_level
-def: "A sequence variant that increases the level of transcription of a gene." [GenCC:AR]
-comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+def: "A variant that increases the level or amount of gene product produced." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501). Updated definition 17 Feb 2023 along with updates from GenCC. See Issue Request #612.
 synonym: "increased gene product level" EXACT []
 synonym: "increased transcription level" EXACT []
 synonym: "increased_transcription_level" EXACT []
@@ -21685,8 +21685,8 @@ creation_date: 2020-12-18T22:35:30Z
 [Term]
 id: SO:0002316
 name: decreased_gene_product_level
-def: "A sequence variant that decreases the level of transcription of a gene." [GenCC:AR]
-comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+def: "A sequence variant that decreases the level or amount of gene product produced." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501). Updated definition 17 Feb 2023 along with updates from GenCC. See Issue Request #612.
 synonym: "decreased gene product level" EXACT []
 synonym: "decreased transcription level" EXACT []
 synonym: "decreased_transcription_level" EXACT []
@@ -21701,8 +21701,8 @@ creation_date: 2020-12-18T22:35:30Z
 [Term]
 id: SO:0002317
 name: absent_gene_product
-def: "A sequence variant that entirely stops the transcription of a gene." [GenCC:AR]
-comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
+def: "A sequence variant that results in no gene product." [GenCC:AR]
+comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501). Updated definition 17 Feb 2023 along with updates from GenCC. See Issue Request #612.
 synonym: "absent gene product" EXACT []
 is_a: SO:0002055 ! null_mutation
 is_a: SO:0002316 ! decreased_gene_product_level
