@@ -21005,7 +21005,7 @@ name: inert_DNA_spacer
 def: "Sequences that decrease interactions between biological regions, such as between a promoter, its 5' context and/or the translational unit(s) it regulates. Spacers can affect regulation of translation, transcription, and other biological processes." [PMID:20843779, PMID:24933158, PMID:27034378, PMID:28422998]
 comment: Updated by Evan Christensen on May 27, 2021 per github request https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/494
 synonym: "Inert DNA Spacer" RELATED []
-xref: BioRXiv:https\://doi.org/10.1101/584664 "https://www.biorxiv.org/content/10.1101/584664v1"
+xref: doi:10.1101/584664 "https://www.biorxiv.org/content/10.1101/584664v1"
 is_a: SO:0005836 ! regulatory_region
 created_by: david
 creation_date: 2019-09-06T19:05:52Z
