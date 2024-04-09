@@ -14145,7 +14145,6 @@ name: splicing_variant
 def: "A sequence variant that changes the process of splicing." [SO:ke]
 synonym: "Jannovar:splicing_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "splicing variant" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001576 ! transcript_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:29:22Z
@@ -14155,7 +14154,6 @@ id: SO:0001569
 name: cryptic_splice_site_variant
 def: "A sequence variant causing a new (functional) splice site." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
 synonym: "cryptic splice site activation" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001568 ! splicing_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:29:41Z
@@ -14196,7 +14194,6 @@ name: intron_gain_variant
 def: "A sequence variant whereby an intron is gained by the processed transcript; usually a result of an alteration of the donor or acceptor." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
 synonym: "intron gain" EXACT []
 synonym: "intron gain variant" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001568 ! splicing_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:31:25Z
@@ -14243,7 +14240,6 @@ synonym: "Jannovar:transcript_variant" EXACT VAR [http://doc-openbio.readthedocs
 synonym: "snpEff:TRANSCRIPT" EXACT VAR []
 synonym: "transcript variant" EXACT []
 synonym: "VAAST:transcript_variant" EXACT VAR []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
 is_a: SO:0001564 ! gene_variant
 created_by: kareneilbeck
@@ -14310,7 +14306,6 @@ synonym: "snpEff:CDS" EXACT VAR []
 synonym: "snpEff:CODON_CHANGE" RELATED VAR []
 synonym: "VAAST:coding_sequence_variant" EXACT VAR []
 synonym: "VEP:coding_sequence_variant" EXACT VAR []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 xref: http://snp.gs.washington.edu/SeattleSeqAnnotation137/HelpHowToUse.jsp "Seattleseq"
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
 xref: http:www.ensembl.org/info/genome/variation/predicted_data.html#consequences
@@ -14329,7 +14324,6 @@ synonym: "initiator codon change" EXACT []
 synonym: "Jannovar:initiator_codon_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
 synonym: "snpEff:NON_SYNONYMOUS_START" RELATED VAR []
 synonym: "VAT:startOverlap" EXACT VAR []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
 xref: http://vat.gersteinlab.org/formats.php "VAT"
 xref: loinc:LA6695-6 "Initiating Methionine"
@@ -14355,7 +14349,6 @@ synonym: "VAAST:missense_variant" EXACT VAR []
 synonym: "VAAST:non_synonymous_codon" RELATED VAR []
 synonym: "VAT:nonsynonymous" EXACT VAR []
 synonym: "VEP:missense_variant" EXACT VAR []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 xref: http://en.wikipedia.org/wiki/Missense_mutation
 xref: http://snp.gs.washington.edu/SeattleSeqAnnotation137/HelpHowToUse.jsp "Seattleseq"
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
@@ -14374,7 +14367,6 @@ synonym: "conservative missense codon" EXACT []
 synonym: "conservative missense variant" EXACT []
 synonym: "neutral missense codon" RELATED []
 synonym: "quiet missense codon" RELATED []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001583 ! missense_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:36:40Z
@@ -14385,7 +14377,6 @@ name: non_conservative_missense_variant
 def: "A sequence variant whereby at least one base of a codon is changed resulting in a codon that encodes for an amino acid with different biochemical properties." [SO:ke]
 synonym: "non conservative missense codon" EXACT []
 synonym: "non conservative missense variant" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001583 ! missense_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:37:16Z
@@ -14532,7 +14523,6 @@ id: SO:0001598
 name: translational_product_structure_variant
 def: "A sequence variant within the transcript that changes the structure of the translational product." [SO:ke]
 synonym: "translational product structure variant" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001564 ! gene_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:44:17Z
@@ -14587,7 +14577,6 @@ id: SO:0001604
 name: amino_acid_deletion
 def: "A sequence variant within a CDS resulting in the loss of an amino acid from the resulting polypeptide." [SO:ke]
 synonym: "amino acid deletion" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001603 ! polypeptide_sequence_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:47:36Z
@@ -14597,7 +14586,6 @@ id: SO:0001605
 name: amino_acid_insertion
 def: "A sequence variant within a CDS resulting in the gain of an amino acid to the resulting polypeptide." [SO:ke]
 synonym: "amino acid insertion" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001603 ! polypeptide_sequence_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:47:56Z
@@ -14608,7 +14596,6 @@ name: amino_acid_substitution
 def: "A sequence variant of a codon resulting in the substitution of one amino acid for another in the resulting polypeptide." [SO:ke]
 synonym: "amino acid substitution" EXACT []
 synonym: "VAAST:amino_acid_substitution" EXACT VAR []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001603 ! polypeptide_sequence_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:48:17Z
@@ -14636,7 +14623,6 @@ id: SO:0001609
 name: elongated_polypeptide
 def: "An elongation of a polypeptide sequence deriving from a sequence variant extending the CDS." [SO:ke]
 synonym: "elongated polypeptide" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001603 ! polypeptide_sequence_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:49:52Z
@@ -14711,7 +14697,6 @@ id: SO:0001617
 name: polypeptide_truncation
 def: "A sequence variant of the CD that causes a truncation of the resulting polypeptide." [SO:ke]
 synonym: "polypeptide truncation" EXACT []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 is_a: SO:0001603 ! polypeptide_sequence_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:53:07Z
@@ -14751,7 +14736,6 @@ synonym: "snpEff:MICRO_RNA" EXACT VAR []
 synonym: "VEP:mature_miRNA_variant" EXACT VAR []
 synonym: "within_mature_miRNA" EXACT ebi_variants [http://ensembl.org/info/docs/variation/index.html]
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
-xref: XX:www.ensembl.org/info/genome/variation/predicted_data.html#consequences
 is_a: SO:0001619 ! non_coding_transcript_variant
 created_by: kareneilbeck
 creation_date: 2010-03-23T11:16:58Z
@@ -16803,7 +16787,6 @@ synonym: "VAAST:synonymous_codon" EXACT VAR []
 synonym: "VAAST:synonymous_variant" EXACT VAR []
 synonym: "VAT:synonymous" EXACT VAR []
 synonym: "VEP:synonymous_variant" EXACT VAR []
-xref: EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html
 xref: http://en.wikipedia.org/wiki/Silent_mutation "wiki"
 xref: http://en.wikipedia.org/wiki/Synonymous_mutation
 xref: http://snp.gs.washington.edu/SeattleSeqAnnotation137/HelpHowToUse.jsp "Seattleseq"
@@ -18408,7 +18391,7 @@ id: SO:0001971
 name: zinc_finger_binding_site
 def: "A binding site to which a polypeptide will bind with a zinc finger motif, which is characterized by requiring one or more Zinc 2+ ions for stabilized folding." []
 synonym: "zinc finger binding site" EXACT []
-synonym: "zinc_fing" EXACT BS [unirot:features]
+synonym: "zinc_fing" EXACT BS []
 is_a: SO:0001429 ! DNA_binding_site
 created_by: kareneilbeck
 creation_date: 2013-07-29T04:41:53Z
@@ -19911,7 +19894,7 @@ id: SO:0002119
 name: allelic_frequency
 def: "A physical quality which inheres to the allele by virtue of the number instances of the allele within a population. This is the relative frequency of the allele at a given locus in a population." [SO:ke]
 comment: Requested by HL7 clinical genomics group.
-xref: WIKI:https\://en.wikipedia.org/wiki/Allele_frequency
+xref: wikipedia:Allele_frequency
 is_a: SO:0001763 ! variant_frequency
 created_by: kareneilbeck
 creation_date: 2016-07-21T11:58:55Z
@@ -22118,8 +22101,8 @@ creation_date: 2020-12-18T22:35:30Z
 
 [Term]
 id: SO:0002318
-name: altered_gene_product_structure
-def: "A sequence variant that alters the structure of a gene product." [GenCC:AR]
+name: altered_gene_product_sequence
+def: "A sequence variant that alters the sequence of a gene product." [GenCC:AR]
 comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
 synonym: "altered gene product structure" EXACT []
 is_a: SO:0001536 ! functional_effect_variant

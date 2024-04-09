@@ -19,10 +19,10 @@ synonymtypedef: RNAMOD "RNA modification" EXACT
 synonymtypedef: VAR "variant annotation term"
 default-namespace: sequence
 ontology: so
-property_value: IAO:0000700 SO:0000400
-property_value: IAO:0000700 SO:0001260
 property_value: IAO:0000700 SO:0000110
+property_value: IAO:0000700 SO:0000400
 property_value: IAO:0000700 SO:0001060
+property_value: IAO:0000700 SO:0001260
 
 [Term]
 id: SO:0000000
@@ -8871,7 +8871,7 @@ is_a: SO:0000313 ! stem_loop
 [Term]
 id: SO:0001009
 name: DNA_constraint_sequence
-def: "A double-stranded DNA used to control macromolecular structure and function." [http:/www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=pubmed&term=SILVERMAN+SK[au\]&dispmax=50]
+def: "A double-stranded DNA used to control macromolecular structure and function." [http:/www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=pubmed&term=SILVERMAN+SK\[au\]&dispmax=50]
 synonym: "DNA constraint" EXACT []
 synonym: "DNA constraint sequence" EXACT []
 is_a: SO:0000442 ! ds_oligo
@@ -22101,8 +22101,8 @@ creation_date: 2020-12-18T22:35:30Z
 
 [Term]
 id: SO:0002318
-name: altered_gene_product_structure
-def: "A sequence variant that alters the structure of a gene product." [GenCC:AR]
+name: altered_gene_product_sequence
+def: "A sequence variant that alters the sequence of a gene product." [GenCC:AR]
 comment: Added as per request from Ang Roberts as part of GenCC November 2020. See Issue Request #501 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/501)
 synonym: "altered gene product structure" EXACT []
 is_a: SO:0001536 ! functional_effect_variant
