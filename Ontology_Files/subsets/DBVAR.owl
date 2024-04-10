@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/so/subsets/DBVAR.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2021-11-22/subsets/DBVAR.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2024-04-10/subsets/DBVAR.owl"/>
     </owl:Ontology>
     
 
@@ -182,12 +182,6 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym_type_property</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
     
 
 
