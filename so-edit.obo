@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2024-04-10
-date: 10:04:2024 18:16
+data-version: 2024-06-05
+date: 05:06:2024 20:55
 saved-by: Evan Christensen
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -2498,7 +2498,7 @@ relationship: derives_from SO:0000232 ! snoRNA_primary_transcript
 id: SO:0000276
 name: miRNA
 alt_id: SO:0000649
-def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
+def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes). Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:miRNA" EXACT []
