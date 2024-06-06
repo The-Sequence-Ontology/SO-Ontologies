@@ -22843,6 +22843,15 @@ property_value: http://purl.org/dc/elements/1.1/date "2024-06-06T16:53:56Z" xsd:
 created_by: evan
 
 [Term]
+id: SO:0002383
+name: oncogenic_variant
+def: "A variant that has been found to be pathogenic in the context of a neoplastic disease." [PMID:35101336]
+comment: See GitHub Issue #643.
+is_a: SO:0001771 ! disease_associated_variant
+property_value: http://purl.org/dc/elements/1.1/date "2024-06-06T20:09:59Z" xsd:dateTime
+created_by: evan
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
