@@ -22833,6 +22833,16 @@ created_by: evan
 creation_date: 2022-10-28T19:05:35Z
 
 [Term]
+id: SO:0002382
+name: range_extender_element
+def: "A conserved cis-acting element that confers extreme-distance regulatory activity to an enhancer." [https://doi.org/10.1101/2024.05.26.595809] {comment="On its own, a range extender element is not a classical enhancer, but its addition can extend the range of action of a heterologous short-range enhancer by more than 10-fold compared to its native range. In extreme cases, extended ranges may span approximately 840 kilobases of genomic space. The evolutionarily conserved homeodomain motif [C/T]AATA, required for long-range enhancer activity, is present within the range extender element. Range extender elements are distinct from and do not share sequence similarity with other cis-regulatory elements like tethering and remote control elements in Drosophila; or CTCF sites, CpG islands, and enhancer booster elements in mammals. Rather than conferring robustness of remote enhancer activity, a range extender element is both required and sufficient for long-range enhancer-promoter activation."}
+comment: Added at the request of Chris Mungall (Berkeley Lab) on 6 June 2024. See GitHub Issue #649.
+synonym: "REX" EXACT []
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
+property_value: http://purl.org/dc/elements/1.1/date "2024-06-06T16:53:56Z" xsd:dateTime
+created_by: evan
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
