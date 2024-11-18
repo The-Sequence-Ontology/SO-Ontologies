@@ -97,6 +97,10 @@
       "type" : "PROPERTY",
       "lbl" : "synonym_type_property"
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "lbl" : "id"
+    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
       "type" : "PROPERTY",
       "lbl" : "in_subset"
@@ -270,6 +274,10 @@
       },
       "type" : "PROPERTY",
       "lbl" : "transcribed_to"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+      "type" : "PROPERTY",
+      "lbl" : "created by"
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#aa3",
       "lbl" : "amino acid 3 letter code"
@@ -571,6 +579,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/so#AGR",
       "lbl" : "Alliance of Genome Resources"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+      "type" : "PROPERTY",
+      "lbl" : "creation date"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_1000036",
       "meta" : {

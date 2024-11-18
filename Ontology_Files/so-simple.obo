@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2024-06-05
-date: 05:06:2024 20:55
+data-version: 2024-11-18
+date: 18:11:2024 23:05
 saved-by: Evan Christensen
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -30,15 +30,6 @@ subset: SOFA
 is_obsolete: true
 
 [Term]
-id: SO:00000000002382
-name: 5_prime_UTR_uORF_variant
-def: "A 5' UTR variant within an upstream open reading frame." [PMID:32461616, PMID:32926138]
-comment: Added 10 Apr 2024 at the request of Sarah Hunt (EBI). See GitHub Issue #647.
-is_a: SO:0001623 ! 5_prime_UTR_variant
-created_by: evan
-creation_date: 2024-04-10T17:49:03Z
-
-[Term]
 id: SO:0000001
 name: region
 def: "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids." [SO:ke]
@@ -47,31 +38,12 @@ synonym: "sequence" EXACT []
 is_a: SO:0000110 ! sequence_feature
 
 [Term]
-id: SO:00000010002382
-name: 5_prime_UTR_uORF_stop_codon_variant
-def: "A 5' UTR variant where a stop codon in an upstream open reading frame is introduced, moved or lost." [PMID:32461616, PMID:32926138]
-comment: Added 10 Apr 2024 at the request of Sarah Hunt (EBI). See GitHub Issue #622.
-is_a: SO:00000000002382 ! 5_prime_UTR_uORF_variant
-created_by: evan
-creation_date: 2024-04-10T17:56:17Z
-
-[Term]
 id: SO:0000002
 name: sequence_secondary_structure
 def: "A folded sequence." [SO:ke]
 synonym: "INSDC_feature:misc_structure" EXACT []
 synonym: "sequence secondary structure" EXACT []
 is_a: SO:0001411 ! biological_region
-
-[Term]
-id: SO:00000020002382
-name: 5_prime_UTR_uORF_frameshift_variant
-def: "A 5' UTR variant which disrupts the translation of an upstream open reading frame because the number of nucleotides inserted or deleted is not a multiple of three." [PMID:32461616, PMID:32926138]
-comment: Added 10 Apr 2024 at the request of Sarah Hunt (EBI). See GitHub Issue #621.
-synonym: "uFrameshift (UTRannotator)" EXACT []
-is_a: SO:00000000002382 ! 5_prime_UTR_uORF_variant
-created_by: evan
-creation_date: 2024-04-10T17:58:40Z
 
 [Term]
 id: SO:0000003
@@ -88,32 +60,12 @@ xref: http://en.wikipedia.org/wiki/G-quadruplex "wiki"
 is_a: SO:0000002 ! sequence_secondary_structure
 
 [Term]
-id: SO:00000030002382
-name: 5_prime_UTR_uORF_stop_codon_gain_variant
-def: "A 5' UTR variant where a premature stop codon is gained in an upstream open reading frame." [PMID:32461616, PMID:32926138]
-comment: Added 10 Apr 2024 at the request of Sarah Hunt (EBI). See GitHub Issue #624.
-synonym: "uSTOP_gained" EXACT [] {comment="UTRannotator"}
-is_a: SO:00000010002382 ! 5_prime_UTR_uORF_stop_codon_variant
-created_by: evan
-creation_date: 2024-04-10T18:01:42Z
-
-[Term]
 id: SO:0000004
 name: interior_coding_exon
 def: "A coding exon that is not the most 3-prime or the most 5-prime in a given transcript." []
 subset: SOFA
 synonym: "interior coding exon" EXACT []
 is_a: SO:0000195 ! coding_exon
-
-[Term]
-id: SO:00000040002382
-name: 5_prime_UTR_uORF_stop_codon_loss_variant
-def: "A 5' UTR variant where the stop codon of an upstream open reading frame is lost." [PMID:32461616, PMID:32926138]
-comment: Added 10 Apr 2024 at the request of Sarah Hunt (EBI). See GitHub Issue #623.
-synonym: "uSTOP_lost" EXACT [] {comment="UTRannotator"}
-is_a: SO:00000010002382 ! 5_prime_UTR_uORF_stop_codon_variant
-created_by: evan
-creation_date: 2024-04-10T18:05:50Z
 
 [Term]
 id: SO:0000005
@@ -8611,7 +8563,7 @@ is_a: SO:0000313 ! stem_loop
 [Term]
 id: SO:0001009
 name: DNA_constraint_sequence
-def: "A double-stranded DNA used to control macromolecular structure and function." [http:/www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=pubmed&term=SILVERMAN+SK[au\]&dispmax=50]
+def: "A double-stranded DNA used to control macromolecular structure and function." [http:/www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=pubmed&term=SILVERMAN+SK\[au\]&dispmax=50]
 synonym: "DNA constraint" EXACT []
 synonym: "DNA constraint sequence" EXACT []
 is_a: SO:0000442 ! ds_oligo
@@ -22436,7 +22388,7 @@ def: "A conserved cis-acting element that confers extreme-distance regulatory ac
 comment: Added at the request of Chris Mungall (Berkeley Lab) on 6 June 2024. See GitHub Issue #649.
 synonym: "REX" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
-property_value: http://purl.org/dc/elements/1.1/date 2024-06-06T16:53:56Z xsd:dateTime
+property_value: http://purl.org/dc/elements/1.1/date "2024-06-06T16:53:56Z" xsd:dateTime
 created_by: evan
 
 [Term]
@@ -22445,8 +22397,56 @@ name: oncogenic_variant
 def: "A variant that has been found to be pathogenic in the context of a neoplastic disease." [PMID:35101336]
 comment: See GitHub Issue #643.
 is_a: SO:0001771 ! disease_associated_variant
-property_value: http://purl.org/dc/elements/1.1/date 2024-06-06T20:09:59Z xsd:dateTime
+property_value: http://purl.org/dc/elements/1.1/date "2024-06-06T20:09:59Z" xsd:dateTime
 created_by: evan
+
+[Term]
+id: SO:0002385
+name: 5_prime_UTR_uORF_variant
+def: "A 5' UTR variant within an upstream open reading frame." [PMID:32461616, PMID:32926138]
+comment: Added at the request of Sarah Hunt (EBI). See GitHub Issue #647.
+is_a: SO:0001623 ! 5_prime_UTR_variant
+created_by: evan
+creation_date: 2024-11-18T22:30:12Z
+
+[Term]
+id: SO:0002386
+name: 5_prime_UTR_uORF_stop_codon_variant
+def: "A 5' UTR variant where a stop codon in an upstream open reading frame is introduced, moved or lost." [] {comment="PMID:32461616", comment="PMID:32926138"}
+comment: Added at the request of Sarah Hunt (EBI). See GitHub Issue #622.
+synonym: "uFrameshift" EXACT [] {comment="UTRannotator"}
+is_a: SO:0002385 ! 5_prime_UTR_uORF_variant
+created_by: evan
+creation_date: 2024-11-18T22:33:06Z
+
+[Term]
+id: SO:0002387
+name: 5_prime_UTR_uORF_frameshift_variant
+def: "A 5' UTR variant which disrupts the translation of an upstream open reading frame because the number of nucleotides inserted or deleted is not a multiple of three." [] {comment="PMID:32461616", comment="PMID:32926138"}
+comment: Added at the request of Sarah Hunt (EBI). See GitHub Issue #621.
+is_a: SO:0002385 ! 5_prime_UTR_uORF_variant
+created_by: evan
+creation_date: 2024-11-18T22:34:39Z
+
+[Term]
+id: SO:0002388
+name: 5_prime_UTR_uORF_stop_codon_gain_variant
+def: "A 5' UTR variant where a premature stop codon is gained in an upstream open reading frame." [PMID:32461616, PMID:32926138]
+comment: Added at the request of Sarah Hunt (EBI). See GitHub Issue #624.
+synonym: "uSTOP_gained" EXACT [] {comment="UTRannotator"}
+is_a: SO:0002386 ! 5_prime_UTR_uORF_stop_codon_variant
+created_by: evan
+creation_date: 2024-11-18T22:37:32Z
+
+[Term]
+id: SO:0002389
+name: 5_prime_UTR_uORF_stop_codon_loss_variant
+def: "A 5' UTR variant where the stop codon of an upstream open reading frame is lost." [PMID:32461616, PMID:32926138]
+comment: Added at the request of Sarah Hunt (EBI). See GitHub Issue #623.
+synonym: "uSTOP_lost" EXACT [] {comment="UTRannotator"}
+is_a: SO:0002386 ! 5_prime_UTR_uORF_stop_codon_variant
+created_by: evan
+creation_date: 2024-11-18T22:39:25Z
 
 [Term]
 id: SO:0005836

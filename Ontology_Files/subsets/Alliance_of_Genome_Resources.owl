@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/so/subsets/Alliance_of_Genome_Resources.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2024-06-05/subsets/Alliance_of_Genome_Resources.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/so/2024-11-18/subsets/Alliance_of_Genome_Resources.owl"/>
     </owl:Ontology>
     
 
@@ -29,7 +29,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -37,7 +37,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term replaced by</rdfs:label>
+        <rdfs:label>term replaced by</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -45,7 +45,7 @@
     <!-- http://purl.obolibrary.org/obo/so#AAMOD -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#AAMOD">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid modification</rdfs:label>
+        <rdfs:label>amino acid modification</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -54,7 +54,7 @@
     <!-- http://purl.obolibrary.org/obo/so#AGR -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#AGR">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance of Genome Resources</rdfs:label>
+        <rdfs:label>Alliance of Genome Resources</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -63,7 +63,7 @@
     <!-- http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance of Genome Resources Gene Biotype Slim</rdfs:comment>
+        <rdfs:comment>Alliance of Genome Resources Gene Biotype Slim</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -72,7 +72,7 @@
     <!-- http://purl.obolibrary.org/obo/so#BS -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#BS">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biosapiens</rdfs:label>
+        <rdfs:label>biosapiens</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -81,7 +81,7 @@
     <!-- http://purl.obolibrary.org/obo/so#DBVAR -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#DBVAR">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database of genomic structural variation</rdfs:comment>
+        <rdfs:comment>database of genomic structural variation</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -91,7 +91,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#RNAMOD">
         <oboInOwl:hasScope rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA modification</rdfs:label>
+        <rdfs:label>RNA modification</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -100,7 +100,7 @@
     <!-- http://purl.obolibrary.org/obo/so#SOFA -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#SOFA">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO feature annotation</rdfs:comment>
+        <rdfs:comment>SO feature annotation</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -109,7 +109,7 @@
     <!-- http://purl.obolibrary.org/obo/so#VAR -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#VAR">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant annotation term</rdfs:label>
+        <rdfs:label>variant annotation term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -118,7 +118,7 @@
     <!-- http://purl.obolibrary.org/obo/so#aa1 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#aa1">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid 1 letter code</rdfs:label>
+        <rdfs:label>amino acid 1 letter code</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -127,7 +127,7 @@
     <!-- http://purl.obolibrary.org/obo/so#aa3 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#aa3">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid 3 letter code</rdfs:label>
+        <rdfs:label>amino acid 3 letter code</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -136,7 +136,7 @@
     <!-- http://purl.obolibrary.org/obo/so#biosapiens -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#biosapiens">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biosapiens protein feature ontology</rdfs:comment>
+        <rdfs:comment>biosapiens protein feature ontology</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -145,7 +145,7 @@
     <!-- http://purl.obolibrary.org/obo/so#dbsnp -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#dbsnp">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dbsnp variant terms</rdfs:label>
+        <rdfs:label>dbsnp variant terms</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -154,7 +154,7 @@
     <!-- http://purl.obolibrary.org/obo/so#dbvar -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#dbvar">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBVAR</rdfs:label>
+        <rdfs:label>DBVAR</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -163,7 +163,7 @@
     <!-- http://purl.obolibrary.org/obo/so#ebi_variants -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/so#ebi_variants">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ensembl variant terms</rdfs:label>
+        <rdfs:label>ensembl variant terms</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
@@ -172,7 +172,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subset_property</rdfs:label>
+        <rdfs:label>subset_property</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -180,7 +180,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym_type_property</rdfs:label>
+        <rdfs:label>synonym_type_property</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -188,20 +188,24 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consider</rdfs:label>
+        <rdfs:label>consider</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
+        <rdfs:label>created by</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
+        <rdfs:label>creation date</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -220,7 +224,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+        <rdfs:label>has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -228,7 +232,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+        <rdfs:label>has_broad_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -236,7 +240,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+        <rdfs:label>database_cross_reference</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -244,7 +248,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+        <rdfs:label>has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -252,7 +256,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+        <rdfs:label>has_narrow_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -260,7 +264,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+        <rdfs:label>has_obo_format_version</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -268,7 +272,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+        <rdfs:label>has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -276,7 +280,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+        <rdfs:label>has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -284,7 +288,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasScope -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasScope">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_scope</rdfs:label>
+        <rdfs:label>has_scope</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -292,21 +296,23 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_synonym_type</rdfs:label>
+        <rdfs:label>has_synonym_type</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+        <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -349,18 +355,18 @@
     <!-- http://purl.obolibrary.org/obo/so#adjacent_to -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#adjacent_to">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A geometric operator, specified in Egenhofer 1989. Two features meet if they share a junction on the sequence. X adjacent_to Y iff X and Y share a boundary but do not overlap.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</oboInOwl:id>
+        <obo:IAO_0000115>A geometric operator, specified in Egenhofer 1989. Two features meet if they share a junction on the sequence. X adjacent_to Y iff X and Y share a boundary but do not overlap.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>adjacent_to</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</rdfs:label>
+        <rdfs:label>adjacent_to</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#adjacent_to"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A geometric operator, specified in Egenhofer 1989. Two features meet if they share a junction on the sequence. X adjacent_to Y iff X and Y share a boundary but do not overlap.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A geometric operator, specified in Egenhofer 1989. Two features meet if they share a junction on the sequence. X adjacent_to Y iff X and Y share a boundary but do not overlap.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -368,10 +374,10 @@
     <!-- http://purl.obolibrary.org/obo/so#associated_with -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#associated_with">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associated_with</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relationship is vague and up for discussion.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associated_with</rdfs:label>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>associated_with</oboInOwl:id>
+        <rdfs:comment>This relationship is vague and up for discussion.</rdfs:comment>
+        <rdfs:label>associated_with</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -381,17 +387,17 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#complete_evidence_for_feature">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#evidence_for_feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&apos; and 3&apos; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete_evidence_for_feature</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If A is a feature with multiple regions such as a multi exon transcript, the supporting EST evidence is complete if each of the regions is supported by an equivalent region in B. Also there must be no extra regions in B that are not represented in A. This relationship was requested by jeltje on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete_evidence_for_feature</rdfs:label>
+        <obo:IAO_0000115>B is complete_evidence_for_feature A if the extent (5&apos; and 3&apos; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>complete_evidence_for_feature</oboInOwl:id>
+        <rdfs:comment>If A is a feature with multiple regions such as a multi exon transcript, the supporting EST evidence is complete if each of the regions is supported by an equivalent region in B. Also there must be no extra regions in B that are not represented in A. This relationship was requested by jeltje on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222.</rdfs:comment>
+        <rdfs:label>complete_evidence_for_feature</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#complete_evidence_for_feature"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B is complete_evidence_for_feature A if the extent (5&apos; and 3&apos; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>B is complete_evidence_for_feature A if the extent (5&apos; and 3&apos; boundaries) and internal boundaries of B fully support the extent and internal boundaries of A.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -399,19 +405,19 @@
     <!-- http://purl.obolibrary.org/obo/so#connects_on -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#connects_on">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X connects_on Y, Z, R iff whenever Z is on a R, X is adjacent to a Y and adjacent to a Z.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:38:51Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connects_on</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: A splice_junction connects_on exon, exon, mature_transcript.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connects_on</rdfs:label>
+        <obo:IAO_0000115>X connects_on Y, Z, R iff whenever Z is on a R, X is adjacent to a Y and adjacent to a Z.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:38:51Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>connects_on</oboInOwl:id>
+        <rdfs:comment>Example: A splice_junction connects_on exon, exon, mature_transcript.</rdfs:comment>
+        <rdfs:label>connects_on</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#connects_on"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X connects_on Y, Z, R iff whenever Z is on a R, X is adjacent to a Y and adjacent to a Z.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X connects_on Y, Z, R iff whenever Z is on a R, X is adjacent to a Y and adjacent to a Z.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -420,19 +426,19 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#contained_by">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X contained_by Y iff X starts after start of Y and X ends before end of Y.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:26:16Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contained_by</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The inverse is contains. Example: intein contained_by immature_peptide_region.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contained_by</rdfs:label>
+        <obo:IAO_0000115>X contained_by Y iff X starts after start of Y and X ends before end of Y.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:26:16Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>contained_by</oboInOwl:id>
+        <rdfs:comment>The inverse is contains. Example: intein contained_by immature_peptide_region.</rdfs:comment>
+        <rdfs:label>contained_by</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#contained_by"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X contained_by Y iff X starts after start of Y and X ends before end of Y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X contained_by Y iff X starts after start of Y and X ends before end of Y.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -441,19 +447,19 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#contains">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The inverse of contained_by.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:32:15Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contains</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: pre_miRNA contains miRNA_loop.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contains</rdfs:label>
+        <obo:IAO_0000115>The inverse of contained_by.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:32:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>contains</oboInOwl:id>
+        <rdfs:comment>Example: pre_miRNA contains miRNA_loop.</rdfs:comment>
+        <rdfs:label>contains</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#contains"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The inverse of contained_by.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>The inverse of contained_by.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -462,10 +468,10 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#derives_from">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives_from</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>derives_from</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives_from</rdfs:label>
+        <rdfs:label>derives_from</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -473,18 +479,18 @@
     <!-- http://purl.obolibrary.org/obo/so#disconnected_from -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#disconnected_from">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is disconnected_from Y iff it is not the case that X overlaps Y.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:42:10Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disconnected_from</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disconnected_from</rdfs:label>
+        <obo:IAO_0000115>X is disconnected_from Y iff it is not the case that X overlaps Y.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:42:10Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>disconnected_from</oboInOwl:id>
+        <rdfs:label>disconnected_from</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#disconnected_from"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is disconnected_from Y iff it is not the case that X overlaps Y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X is disconnected_from Y iff it is not the case that X overlaps Y.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -492,11 +498,11 @@
     <!-- http://purl.obolibrary.org/obo/so#edited_from -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#edited_from">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:19:45Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edited_from</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edited_from</rdfs:label>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T02:19:45Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>edited_from</oboInOwl:id>
+        <rdfs:label>edited_from</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -504,11 +510,11 @@
     <!-- http://purl.obolibrary.org/obo/so#edited_to -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#edited_to">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:19:11Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edited_to</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edited_to</rdfs:label>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T02:19:11Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>edited_to</oboInOwl:id>
+        <rdfs:label>edited_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -517,17 +523,17 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#evidence_for_feature">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B is evidence_for_feature A, if an instance of B supports the existence of A.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evidence_for_feature</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relationship was requested by nlw on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evidence_for_feature</rdfs:label>
+        <obo:IAO_0000115>B is evidence_for_feature A, if an instance of B supports the existence of A.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>evidence_for_feature</oboInOwl:id>
+        <rdfs:comment>This relationship was requested by nlw on the SO term tracker. The thread for the discussion is available can be accessed via tracker ID:1917222.</rdfs:comment>
+        <rdfs:label>evidence_for_feature</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#evidence_for_feature"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B is evidence_for_feature A, if an instance of B supports the existence of A.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>B is evidence_for_feature A, if an instance of B supports the existence of A.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -535,17 +541,17 @@
     <!-- http://purl.obolibrary.org/obo/so#exemplar_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#exemplar_of">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is exemplar of Y if X is the best evidence for Y.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exemplar_of</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tracker id: 2594157.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exemplar_of</rdfs:label>
+        <obo:IAO_0000115>X is exemplar of Y if X is the best evidence for Y.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>exemplar_of</oboInOwl:id>
+        <rdfs:comment>Tracker id: 2594157.</rdfs:comment>
+        <rdfs:label>exemplar_of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#exemplar_of"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is exemplar of Y if X is the best evidence for Y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X is exemplar of Y if X is the best evidence for Y.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -553,19 +559,19 @@
     <!-- http://purl.obolibrary.org/obo/so#finished_by -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#finished_by">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&apos; boundary.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:45:45Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finished_by</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example CDS finished_by stop_codon.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finished_by</rdfs:label>
+        <obo:IAO_0000115>Xy is finished_by Y if Y part of X, and X and Y share a 3&apos; boundary.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:45:45Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>finished_by</oboInOwl:id>
+        <rdfs:comment>Example CDS finished_by stop_codon.</rdfs:comment>
+        <rdfs:label>finished_by</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#finished_by"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xy is finished_by Y if Y part of X, and X and Y share a 3&apos; boundary.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Xy is finished_by Y if Y part of X, and X and Y share a 3&apos; boundary.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -573,19 +579,19 @@
     <!-- http://purl.obolibrary.org/obo/so#finishes -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#finishes">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&apos; or C terminal boundary.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T02:17:53Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finishes</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: stop_codon finishes CDS.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finishes</rdfs:label>
+        <obo:IAO_0000115>X finishes Y if X is part_of Y and X and Y share a 3&apos; or C terminal boundary.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T02:17:53Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>finishes</oboInOwl:id>
+        <rdfs:comment>Example: stop_codon finishes CDS.</rdfs:comment>
+        <rdfs:label>finishes</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#finishes"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X finishes Y if X is part_of Y and X and Y share a 3&apos; or C terminal boundary.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X finishes Y if X is part_of Y and X and Y share a 3&apos; or C terminal boundary.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -593,20 +599,20 @@
     <!-- http://purl.obolibrary.org/obo/so#gained -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#gained">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&apos; and Y part of X but not X&apos;.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-28T12:51:10Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gained</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relation with which to annotate the changes in a variant sequence with respect to a reference.
+        <obo:IAO_0000115>X gained Y if X is a variant_of X&apos; and Y part of X but not X&apos;.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-28T12:51:10Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>gained</oboInOwl:id>
+        <rdfs:comment>A relation with which to annotate the changes in a variant sequence with respect to a reference.
 For example a variant transcript may gain a stop codon not present in the reference sequence.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gained</rdfs:label>
+        <rdfs:label>gained</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#gained"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X gained Y if X is a variant_of X&apos; and Y part of X but not X&apos;.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X gained Y if X is a variant_of X&apos; and Y part of X but not X&apos;.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -614,9 +620,9 @@ For example a variant transcript may gain a stop codon not present in the refere
     <!-- http://purl.obolibrary.org/obo/so#genome_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#genome_of">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genome_of</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genome_of</rdfs:label>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>genome_of</oboInOwl:id>
+        <rdfs:label>genome_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -624,11 +630,11 @@ For example a variant transcript may gain a stop codon not present in the refere
     <!-- http://purl.obolibrary.org/obo/so#guided_by -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#guided_by">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:27:04Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guided_by</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guided_by</rdfs:label>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T02:27:04Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>guided_by</oboInOwl:id>
+        <rdfs:label>guided_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -636,11 +642,11 @@ For example a variant transcript may gain a stop codon not present in the refere
     <!-- http://purl.obolibrary.org/obo/so#guides -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#guides">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:27:24Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guides</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guides</rdfs:label>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T02:27:24Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>guides</oboInOwl:id>
+        <rdfs:label>guides</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -649,19 +655,19 @@ For example a variant transcript may gain a stop codon not present in the refere
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#has_integral_part">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#has_part"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X has_integral_part Y if and only if: X has_part Y and Y part_of X.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:01:46Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_integral_part</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: mRNA has_integral_part CDS.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_integral_part</rdfs:label>
+        <obo:IAO_0000115>X has_integral_part Y if and only if: X has_part Y and Y part_of X.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T12:01:46Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>has_integral_part</oboInOwl:id>
+        <rdfs:comment>Example: mRNA has_integral_part CDS.</rdfs:comment>
+        <rdfs:label>has_integral_part</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#has_integral_part"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X has_integral_part Y if and only if: X has_part Y and Y part_of X.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X has_integral_part Y if and only if: X has_part Y and Y part_of X.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -669,9 +675,9 @@ For example a variant transcript may gain a stop codon not present in the refere
     <!-- http://purl.obolibrary.org/obo/so#has_origin -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#has_origin">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_origin</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_origin</rdfs:label>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>has_origin</oboInOwl:id>
+        <rdfs:label>has_origin</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -679,17 +685,17 @@ For example a variant transcript may gain a stop codon not present in the refere
     <!-- http://purl.obolibrary.org/obo/so#has_part -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#has_part">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of part_of.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: operon has_part gene.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</rdfs:label>
+        <obo:IAO_0000115>Inverse of part_of.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>has_part</oboInOwl:id>
+        <rdfs:comment>Example: operon has_part gene.</rdfs:comment>
+        <rdfs:label>has_part</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#has_part"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of part_of.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Inverse of part_of.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -697,10 +703,10 @@ For example a variant transcript may gain a stop codon not present in the refere
     <!-- http://purl.obolibrary.org/obo/so#has_quality -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#has_quality">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_quality</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relationship between a feature and an attribute.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_quality</rdfs:label>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>has_quality</oboInOwl:id>
+        <rdfs:comment>The relationship between a feature and an attribute.</rdfs:comment>
+        <rdfs:label>has_quality</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -710,10 +716,10 @@ For example a variant transcript may gain a stop codon not present in the refere
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#homologous_to">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#similar_to"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homologous_to</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>homologous_to</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homologous_to</rdfs:label>
+        <rdfs:label>homologous_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -722,19 +728,19 @@ For example a variant transcript may gain a stop codon not present in the refere
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#integral_part_of">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X integral_part_of Y if and only if: X part_of Y and Y has_part X.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:03:28Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integral_part_of</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: exon integral_part_of transcript.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integral_part_of</rdfs:label>
+        <obo:IAO_0000115>X integral_part_of Y if and only if: X part_of Y and Y has_part X.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T12:03:28Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>integral_part_of</oboInOwl:id>
+        <rdfs:comment>Example: exon integral_part_of transcript.</rdfs:comment>
+        <rdfs:label>integral_part_of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#integral_part_of"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X integral_part_of Y if and only if: X part_of Y and Y has_part X.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X integral_part_of Y if and only if: X part_of Y and Y has_part X.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -742,19 +748,19 @@ For example a variant transcript may gain a stop codon not present in the refere
     <!-- http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R is_consecutive_sequence_of R iff every instance of R is equivalent to a collection of instances of U:u1, u2, un, such that no pair of ux uy is overlapping and for all ux, it is adjacent to ux-1 and ux+1, with the exception of the initial and terminal u1,and un (which may be identical).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T02:19:48Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_consecutive_sequence_of</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: region is consecutive_sequence of base.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_consecutive_sequence_of</rdfs:label>
+        <obo:IAO_0000115>R is_consecutive_sequence_of R iff every instance of R is equivalent to a collection of instances of U:u1, u2, un, such that no pair of ux uy is overlapping and for all ux, it is adjacent to ux-1 and ux+1, with the exception of the initial and terminal u1,and un (which may be identical).</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T02:19:48Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>is_consecutive_sequence_of</oboInOwl:id>
+        <rdfs:comment>Example: region is consecutive_sequence of base.</rdfs:comment>
+        <rdfs:label>is_consecutive_sequence_of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#is_consecutive_sequence_of"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R is_consecutive_sequence_of R iff every instance of R is equivalent to a collection of instances of U:u1, u2, un, such that no pair of ux uy is overlapping and for all ux, it is adjacent to ux-1 and ux+1, with the exception of the initial and terminal u1,and un (which may be identical).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>R is_consecutive_sequence_of R iff every instance of R is equivalent to a collection of instances of U:u1, u2, un, such that no pair of ux uy is overlapping and for all ux, it is adjacent to ux-1 and ux+1, with the exception of the initial and terminal u1,and un (which may be identical).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -762,20 +768,20 @@ For example a variant transcript may gain a stop codon not present in the refere
     <!-- http://purl.obolibrary.org/obo/so#lost -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#lost">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&apos; and Y part of X&apos; but not X.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-28T12:53:16Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lost</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relation with which to annotate the changes in a variant sequence with respect to a reference.
+        <obo:IAO_0000115>X lost Y if X is a variant_of X&apos; and Y part of X&apos; but not X.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-28T12:53:16Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>lost</oboInOwl:id>
+        <rdfs:comment>A relation with which to annotate the changes in a variant sequence with respect to a reference.
 For example a variant transcript may have lost a stop codon present in the reference sequence.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lost</rdfs:label>
+        <rdfs:label>lost</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#lost"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X lost Y if X is a variant_of X&apos; and Y part of X&apos; but not X.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X lost Y if X is a variant_of X&apos; and Y part of X&apos; but not X.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -783,19 +789,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#maximally_overlaps -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#maximally_overlaps">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maximally_overlaps X iff all parts of A (including A itself) overlap both A and Y.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:34:48Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximally_overlaps</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: non_coding_region_of_exon maximally_overlaps the intersections of exon and UTR.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximally_overlaps</rdfs:label>
+        <obo:IAO_0000115>A maximally_overlaps X iff all parts of A (including A itself) overlap both A and Y.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:34:48Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>maximally_overlaps</oboInOwl:id>
+        <rdfs:comment>Example: non_coding_region_of_exon maximally_overlaps the intersections of exon and UTR.</rdfs:comment>
+        <rdfs:label>maximally_overlaps</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#maximally_overlaps"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maximally_overlaps X iff all parts of A (including A itself) overlap both A and Y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A maximally_overlaps X iff all parts of A (including A itself) overlap both A and Y.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -805,11 +811,11 @@ For example a variant transcript may have lost a stop codon present in the refer
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#member_of">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">member_of</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>member_of</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subtype of part_of. Inverse is collection_of. Winston, M, Chaffin, R, Herrmann: A taxonomy of part-whole relations. Cognitive Science 1987, 11:417-444.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">member_of</rdfs:label>
+        <rdfs:comment>A subtype of part_of. Inverse is collection_of. Winston, M, Chaffin, R, Herrmann: A taxonomy of part-whole relations. Cognitive Science 1987, 11:417-444.</rdfs:comment>
+        <rdfs:label>member_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -818,17 +824,17 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#non_functional_homolog_of">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#homologous_to"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a pseudogenic feature and its functional ancestor.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non_functional_homolog_of</oboInOwl:id>
+        <obo:IAO_0000115>A relationship between a pseudogenic feature and its functional ancestor.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>non_functional_homolog_of</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non_functional_homolog_of</rdfs:label>
+        <rdfs:label>non_functional_homolog_of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#non_functional_homolog_of"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a pseudogenic feature and its functional ancestor.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A relationship between a pseudogenic feature and its functional ancestor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -838,10 +844,10 @@ For example a variant transcript may have lost a stop codon present in the refer
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#orthologous_to">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#homologous_to"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orthologous_to</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>orthologous_to</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orthologous_to</rdfs:label>
+        <rdfs:label>orthologous_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -849,19 +855,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#overlaps -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#overlaps">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X overlaps Y iff there exists some Z such that Z contained_by X and Z contained_by Y.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:33:15Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overlaps</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: coding_exon overlaps CDS.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overlaps</rdfs:label>
+        <obo:IAO_0000115>X overlaps Y iff there exists some Z such that Z contained_by X and Z contained_by Y.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:33:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>overlaps</oboInOwl:id>
+        <rdfs:comment>Example: coding_exon overlaps CDS.</rdfs:comment>
+        <rdfs:label>overlaps</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#overlaps"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X overlaps Y iff there exists some Z such that Z contained_by X and Z contained_by Y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X overlaps Y iff there exists some Z such that Z contained_by X and Z contained_by Y.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -871,10 +877,10 @@ For example a variant transcript may have lost a stop codon present in the refer
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#paralogous_to">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#homologous_to"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paralogous_to</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>paralogous_to</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paralogous_to</rdfs:label>
+        <rdfs:label>paralogous_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -883,18 +889,18 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#part_of">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X part_of Y if X is a subregion of Y.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
+        <obo:IAO_0000115>X part_of Y if X is a subregion of Y.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>part_of</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: amino_acid part_of polypeptide.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</rdfs:label>
+        <rdfs:comment>Example: amino_acid part_of polypeptide.</rdfs:comment>
+        <rdfs:label>part_of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X part_of Y if X is a subregion of Y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X part_of Y if X is a subregion of Y.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -903,16 +909,16 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#partial_evidence_for_feature">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/so#evidence_for_feature"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B is partial_evidence_for_feature A if the extent of B supports part_of but not all of A.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial_evidence_for_feature</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial_evidence_for_feature</rdfs:label>
+        <obo:IAO_0000115>B is partial_evidence_for_feature A if the extent of B supports part_of but not all of A.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>partial_evidence_for_feature</oboInOwl:id>
+        <rdfs:label>partial_evidence_for_feature</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#partial_evidence_for_feature"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B is partial_evidence_for_feature A if the extent of B supports part_of but not all of A.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>B is partial_evidence_for_feature A if the extent of B supports part_of but not all of A.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -920,9 +926,9 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#position_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#position_of">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">position_of</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">position_of</rdfs:label>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>position_of</oboInOwl:id>
+        <rdfs:label>position_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -930,19 +936,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#processed_from -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#processed_from">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of processed_into.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:14:00Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">processed_from</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: miRNA processed_from miRNA_primary_transcript.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">processed_from</rdfs:label>
+        <obo:IAO_0000115>Inverse of processed_into.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T12:14:00Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>processed_from</oboInOwl:id>
+        <rdfs:comment>Example: miRNA processed_from miRNA_primary_transcript.</rdfs:comment>
+        <rdfs:label>processed_from</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#processed_from"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of processed_into.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Inverse of processed_into.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -950,19 +956,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#processed_into -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#processed_into">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is processed_into Y if a region X is modified to create Y.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:15:02Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">processed_into</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: miRNA_primary_transcript processed into miRNA.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">processed_into</rdfs:label>
+        <obo:IAO_0000115>X is processed_into Y if a region X is modified to create Y.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T12:15:02Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>processed_into</oboInOwl:id>
+        <rdfs:comment>Example: miRNA_primary_transcript processed into miRNA.</rdfs:comment>
+        <rdfs:label>processed_into</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#processed_into"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is processed_into Y if a region X is modified to create Y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X is processed_into Y if a region X is modified to create Y.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -970,11 +976,11 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#recombined_from -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#recombined_from">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:21:03Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recombined_from</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recombined_from</rdfs:label>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T02:21:03Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>recombined_from</oboInOwl:id>
+        <rdfs:label>recombined_from</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -982,11 +988,11 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#recombined_to -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#recombined_to">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:20:07Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recombined_to</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recombined_to</rdfs:label>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T02:20:07Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>recombined_to</oboInOwl:id>
+        <rdfs:label>recombined_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -994,9 +1000,9 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#sequence_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#sequence_of">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_of</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_of</rdfs:label>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>sequence_of</oboInOwl:id>
+        <rdfs:label>sequence_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1005,10 +1011,10 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#similar_to">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">similar_to</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>similar_to</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">similar_to</rdfs:label>
+        <rdfs:label>similar_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1016,19 +1022,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#started_by -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#started_by">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&apos; boundary.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:43:55Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">started_by</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: CDS started_by start_codon.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">started_by</rdfs:label>
+        <obo:IAO_0000115>X is strted_by Y if Y is part_of X and X and Y share a 5&apos; boundary.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:43:55Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>started_by</oboInOwl:id>
+        <rdfs:comment>Example: CDS started_by start_codon.</rdfs:comment>
+        <rdfs:label>started_by</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#started_by"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is strted_by Y if Y is part_of X and X and Y share a 5&apos; boundary.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X is strted_by Y if Y is part_of X and X and Y share a 5&apos; boundary.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1036,19 +1042,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#starts -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#starts">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&apos; or N-terminal boundary.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-14T01:47:53Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: start_codon starts CDS.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts</rdfs:label>
+        <obo:IAO_0000115>X starts Y if X is part of Y, and A and Y share a 5&apos; or N-terminal boundary.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-14T01:47:53Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>starts</oboInOwl:id>
+        <rdfs:comment>Example: start_codon starts CDS.</rdfs:comment>
+        <rdfs:label>starts</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#starts"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X starts Y if X is part of Y, and A and Y share a 5&apos; or N-terminal boundary.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20226267</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X starts Y if X is part of Y, and A and Y share a 5&apos; or N-terminal boundary.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20226267</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1056,11 +1062,11 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#trans_spliced_from -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#trans_spliced_from">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:22:14Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trans_spliced_from</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trans_spliced_from</rdfs:label>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T02:22:14Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>trans_spliced_from</oboInOwl:id>
+        <rdfs:label>trans_spliced_from</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1068,11 +1074,11 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#trans_spliced_to -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#trans_spliced_to">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T02:22:00Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trans_spliced_to</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trans_spliced_to</rdfs:label>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T02:22:00Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>trans_spliced_to</oboInOwl:id>
+        <rdfs:label>trans_spliced_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1080,19 +1086,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#transcribed_from -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#transcribed_from">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is transcribed_from Y if X is synthesized from template Y.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:05:39Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcribed_from</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: primary_transcript transcribed_from gene.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcribed_from</rdfs:label>
+        <obo:IAO_0000115>X is transcribed_from Y if X is synthesized from template Y.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T12:05:39Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>transcribed_from</oboInOwl:id>
+        <rdfs:comment>Example: primary_transcript transcribed_from gene.</rdfs:comment>
+        <rdfs:label>transcribed_from</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#transcribed_from"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is transcribed_from Y if X is synthesized from template Y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X is transcribed_from Y if X is synthesized from template Y.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1100,19 +1106,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#transcribed_to -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#transcribed_to">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of transcribed_from.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:08:24Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcribed_to</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: gene transcribed_to primary_transcript.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcribed_to</rdfs:label>
+        <obo:IAO_0000115>Inverse of transcribed_from.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T12:08:24Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>transcribed_to</oboInOwl:id>
+        <rdfs:comment>Example: gene transcribed_to primary_transcript.</rdfs:comment>
+        <rdfs:label>transcribed_to</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#transcribed_to"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of transcribed_from.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Inverse of transcribed_from.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1120,19 +1126,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#translates_to -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#translates_to">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of translation _of.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:11:53Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translates_to</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: codon translates_to amino_acid.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translates_to</rdfs:label>
+        <obo:IAO_0000115>Inverse of translation _of.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T12:11:53Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>translates_to</oboInOwl:id>
+        <rdfs:comment>Example: codon translates_to amino_acid.</rdfs:comment>
+        <rdfs:label>translates_to</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#translates_to"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of translation _of.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Inverse of translation _of.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1140,19 +1146,19 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#translation_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#translation_of">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is translation of Y if Y is translated by ribosome to create X.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-19T12:09:59Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translation_of</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: Polypeptide translation_of CDS.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translation_of</rdfs:label>
+        <obo:IAO_0000115>X is translation of Y if Y is translated by ribosome to create X.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-19T12:09:59Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>translation_of</oboInOwl:id>
+        <rdfs:comment>Example: Polypeptide translation_of CDS.</rdfs:comment>
+        <rdfs:label>translation_of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#translation_of"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is translation of Y if Y is translated by ribosome to create X.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>X is translation of Y if Y is translated by ribosome to create X.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://precedings.nature.com/documents/3495/version/1</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1160,17 +1166,17 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/so#variant_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#variant_of">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant_of</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Added to SO during the immunology workshop, June 2007. This relationship was approved by Barry Smith.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant_of</rdfs:label>
+        <obo:IAO_0000115>A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>variant_of</oboInOwl:id>
+        <rdfs:comment>Added to SO during the immunology workshop, June 2007. This relationship was approved by Barry Smith.</rdfs:comment>
+        <rdfs:label>variant_of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so#variant_of"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:immuno_workshop</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A&apos; is a variant (mutation) of A = definition every instance of A&apos; is either an immediate mutation of some instance of A, or there is a chain of immediate mutation processes linking A&apos; to some instance of A.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:immuno_workshop</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1189,28 +1195,28 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0000336 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000336">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog).</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:gene</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Pseudogene</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:pseudo</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:unknown</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000336</oboInOwl:id>
+        <obo:IAO_0000115>A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog).</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>INSDC_feature:gene</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Pseudogene</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>INSDC_qualifier:pseudo</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>INSDC_qualifier:unknown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000336</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudogene</rdfs:label>
+        <rdfs:label>pseudogene</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000336"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ucl.ac.uk/~ucbhjow/b241/glossary.html</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://www.ucl.ac.uk/~ucbhjow/b241/glossary.html</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000336"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Pseudogene</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/Pseudogene</owl:annotatedTarget>
+        <rdfs:label>wiki</rdfs:label>
     </owl:Axiom>
     
 
@@ -1218,12 +1224,12 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0001217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001217">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene that codes for an RNA that can be translated into a protein.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein coding gene</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0001217</oboInOwl:id>
+        <obo:IAO_0000115>A gene that codes for an RNA that can be translated into a protein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>protein coding gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001217</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein_coding_gene</rdfs:label>
+        <rdfs:label>protein_coding_gene</rdfs:label>
     </owl:Class>
     
 
@@ -1231,17 +1237,17 @@ For example a variant transcript may have lost a stop codon present in the refer
     <!-- http://purl.obolibrary.org/obo/SO_0001263 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001263">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene that encodes a non-coding RNA.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncRNA gene</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-coding RNA gene</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0001263</oboInOwl:id>
+        <obo:IAO_0000115>A gene that encodes a non-coding RNA.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ncRNA gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-coding RNA gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001263</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncRNA_gene</rdfs:label>
+        <rdfs:label>ncRNA_gene</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

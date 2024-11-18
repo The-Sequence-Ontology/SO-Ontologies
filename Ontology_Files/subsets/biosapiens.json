@@ -833,6 +833,10 @@
       "type" : "CLASS",
       "lbl" : "beta_turn_type_six_b"
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+      "type" : "PROPERTY",
+      "lbl" : "creation date"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001151",
       "meta" : {
         "definition" : {
@@ -1550,6 +1554,10 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
       "type" : "PROPERTY",
       "lbl" : "has_synonym_type"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "lbl" : "id"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
       "type" : "PROPERTY",
@@ -3769,6 +3777,10 @@
       "type" : "PROPERTY",
       "lbl" : "paralogous_to"
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+      "type" : "PROPERTY",
+      "lbl" : "created by"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/so#aa3",
       "lbl" : "amino acid 3 letter code"
     }, {
@@ -4557,13 +4569,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001110",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0001061",
       "pred" : "http://purl.obolibrary.org/obo/so#part_of",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001110",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001108"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SO_0000418",
       "pred" : "is_a",
