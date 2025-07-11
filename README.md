@@ -8,7 +8,7 @@ Suggestions from the sequence annotation community to improve SO are welcomed. F
 
 ## Contributing via Pull Request
 
-Pull requests (PRs) of less than 50 lines are welcomed. Please review the lesson on [contributing to OBO ontologies](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies/) and the [pull requests tutorial](https://oboacademy.github.io/obook/tutorial/pull-requests/) in the [OBO Academy's OBO Semantic Engineering Training](https://oboacademy.github.io/obook/) (a.k.a. the OBOOK). 
+Pull requests (PRs) welcomed. Please review the lesson on [contributing to OBO ontologies](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies/) and the [pull requests tutorial](https://oboacademy.github.io/obook/tutorial/pull-requests/) in the [OBO Academy's OBO Semantic Engineering Training](https://oboacademy.github.io/obook/) (a.k.a. the OBOOK). 
 
 While it is possible edit the text of an ontology file directly, it's recommended to use the [Prot&eacute;g&eacute;](https://protege.stanford.edu/) ontology editor to add, edit, and annotate ontology classes in SO. Please follow the [instructions for configuring Protégé](https://oboacademy.github.io/obook/howto/set-up-protege/) in the [OBO Academy's OBO Semantic Engineering Training](https://oboacademy.github.io/obook/) (a.k.a. the OBOOK).
 
@@ -23,8 +23,8 @@ If your group would like to regularly submit new terms to SO, please submit an i
 Please create a [GitHub issue](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues) if: 
 
 * You are not familiar with the file formats and software used to develop ontologies.
-* Your suggestions or edits would impact more than 50 lines of the ontology file. 
 * Your suggestion impacts more than one SO term.
+* You'd like to start a conversation on a topic related to SO's scope that could lead to new or edited terms.
 
 Once you submit an issue, we'll review your suggestions as we're available and edit the files from our end in collaboration with you.
 
@@ -34,7 +34,7 @@ There are templates for three types of requests that we commonly receive:
 * **Update Definition or Name:** if you'd like to suggest changes to a term definition or name
 * **Move Term:** if you'd like to suggest that a term be moved to a new location within SO
 
-If your request doesn't fit into any of those templates, you're welcome to start with a blank template and describe your suggestion from scratch.
+If your request doesn't fit into any of those templates, you're welcome to start from scratch with a blank template.
 
 ## Generating OWL, JSON, etc. from OBO
 
