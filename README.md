@@ -1,16 +1,48 @@
 # The Sequence Ontology
 
-Welcome to the Sequence Ontology (SO). SO is a collaborative ontology project for the definition of sequence features used in biological sequence annotation. SO was initially developed by the Gene Ontology Consortium. Contributors to SO include the GMOD community, model organism database groups such as WormBase, FlyBase, Mouse Genome Informatics group, and institutes such as the Sanger Institute and the EBI. Input to SO is welcomed from the sequence annotation community. SO is also part of the Open Biomedical Ontologies library. Our aim is to develop an ontology suitable for describing the features of biological sequences. Further information about SO can be found on the [SO home page](http://www.sequenceontology.org/).
+Welcome to the Sequence Ontology (SO). SO is a collaborative ontology project for the definition of sequence features used in biological sequence annotation. SO was initially developed by the Gene Ontology Consortium. Regular contributors include the GMOD community, model organism database groups such as WormBase, FlyBase, Mouse Genome Informatics group, and institutes such as the Sanger Institute, EMBL-EBI, and NCBI. SO is also a founding member of the Open Biomedical Ontologies (OBO) Foundry. 
 
-This directory contains the 'source' for the Sequence Ontology. You can view relationships and definitions in a browser format using the [Sequence Ontology browser](http://www.sequenceontology.org/browser/obob.cgi).
+This repository contains the 'source' for the Sequence Ontology. You can also view terms, definitions, and relationships in a web browser using the [the Sequence Ontology Browser "MISO"](http://www.sequenceontology.org/browser/obob.cgi) on SO's website, EMBL-EBI's [Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols4/), or sites like [Ontobee](https://ontobee.org/). Many different file types are present in this repository and may contain the same information either whole or in part (see [subsets](https://github.com/The-Sequence-Ontology/SO-Ontologies/tree/master/subsets) folder).
 
-Many different file types are present in this repository and will contain the same information represented in different formats or parts of the information related to source of the information (see [subsets](https://github.com/The-Sequence-Ontology/SO-Ontologies/tree/master/subsets) folder).
+Suggestions from the sequence annotation community to improve SO are welcomed. Further information about SO can be found on the [SO home page](http://www.sequenceontology.org/).
 
-## Contributing
+## Contributing via Pull Request
 
-The current method used for updating terms and relationships in SO involves editing the Web Ontology Language (OWL) format file (so.owl), but the Open Biomedical Ontologies (OBO) format file (so.obo) can also be used as both of these file formats are supported. The ontology editor [Prot&eacute;g&eacute;](https://protege.stanford.edu/) is recommended for editing SO files as the software for Prot&eacute;g&eacute; is currently supported and has many available online [tutorials](https://www.youtube.com/user/TheProtegeProject).
+Pull requests (PRs) of less than 50 lines are welcomed. Please review the lesson on [contributing to OBO ontologies](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies/) and the [pull requests tutorial](https://oboacademy.github.io/obook/tutorial/pull-requests/) in the [OBO Academy's OBO Semantic Engineering Training](https://oboacademy.github.io/obook/) (a.k.a. the OBOOK). 
 
-Once you have updated an ontology file, the other files in the repository can be updated using the provided Makefile, which utilizes OWLTools Ontology Release Tool. Instructions for installing OWLTools can be found on their [GitHub page](https://github.com/owlcollab/owltools). Once OWLTools is installed, the Ontology Release Tool (ontology-release-runner) that will be used by the Makefile can be found in owltools/OWLTools-Oort/bin/. It is not required to add this to your PATH variable as this can be specified as a command line variable with the Makefile.
+While it is possible edit the text of an ontology file directly, it's recommended to use the [Prot&eacute;g&eacute;](https://protege.stanford.edu/) ontology editor to add, edit, and annotate ontology classes in SO. Please follow the [instructions for configuring Protégé](https://oboacademy.github.io/obook/howto/set-up-protege/) in the [OBO Academy's OBO Semantic Engineering Training](https://oboacademy.github.io/obook/) (a.k.a. the OBOOK).
+
+The current method used for adding and updating terms and relationships in SO involves editing the ontology in Open Biomedical Ontologies (OBO) format ([so-edit.obo](https://github.com/The-Sequence-Ontology/SO-Ontologies/blob/master/so-edit.obo)). Please do not generate the other formats (OWL, JSON, etc.) as part of your PR. We will generate them after we review and merge your suggestions. 
+
+### ID Ranges
+
+If your group would like to regularly submit new terms to SO, please submit an issue requesting an ID range to prevent clashing of IDs. Currently assigned ranges can be viewed in the [ID_ranges.txt](https://github.com/The-Sequence-Ontology/SO-Ontologies/blob/master/ID_ranges.txt) file. Once you are assigned a range, please see the OBOOK's [tutorial for setting up your ID ranges](https://oboacademy.github.io/obook/howto/idrange/) in Protégé.
+
+## Contributing via GitHub's built-in issue tracker
+
+Please create a [GitHub issue](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues) if: 
+
+* You are not familiar with the file formats and software used to develop ontologies.
+* Your suggestions or edits would impact more than 50 lines of the ontology file. 
+* Your suggestion impacts more than one SO term.
+
+Once you submit an issue, we'll review your suggestions as we're available and edit the files from our end in collaboration with you.
+
+There are templates for three types of requests that we commonly receive:
+
+* **New Term Requests:** if you'd like to add a term to SO
+* **Update Definition or Name:** if you'd like to suggest changes to a term definition or name
+* **Move Term:** if you'd like to suggest that a term be moved to a new location within SO
+
+If your request doesn't fit into any of those templates, you're welcome to start with a blank template and describe your suggestion from scratch.
+
+## Generating OWL, JSON, etc. from OBO
+
+(July 11, 2025) We are working on migrating our workflow over to the [Ontonlogy Development Kit (ODK)](https://incatools.github.io/ontology-development-kit//). In the meantime, we are still using OWLTools' Ontology Release Tool (OORT) to generate OWL, JSON, etc. from so-edit.obo.
+
+**This detail is included here for reference. Please do not generate the other ontology files as part of a pull request.**
+
+Once you have updated an ontology file, the other files in the repository can be updated using the provided Makefile, which utilizes OORT. Instructions for installing OWLTools can be found on their [GitHub page](https://github.com/owlcollab/owltools). Once OWLTools is installed, the Ontology Release Tool (ontology-release-runner) that will be used by the Makefile can be found in owltools/OWLTools-Oort/bin/. It is not required to add this to your PATH variable as this can be specified as a command line variable with the Makefile.
 
 The Makefile allows the user to declare the updated file (INPUT) to use and the path to ontology-release-runner (OORT). Example usage: `make OORT=/Path/to/OWLTools/ontology-release-runner INPUT=../so-updated.owl`.
 
@@ -54,15 +86,11 @@ java.lang.IllegalStateException: Optional.get() cannot be called on an absent va
 2020-03-17 14:59:16,402 INFO  (OboOntologyReleaseRunner:21) deleting lock file
 ```
 
-### Naming Convention
+## Naming Conventions
 
 All rdfs:labels (names in OBO) must not contain spaces or special characters. Instead of spaces, underscores can be used. Most special characters can be spelled out. For example, "five_prime_UTR" is used rather than "5' UTR".
 
-### ID Ranges
-
-To prevent clashing of IDs when multiple users simultaneously edit SO, we have assigned ranges for groups to use. These ranges can be viewed in the tab-delimited text file ID_ranges.txt. All external users are currently assigned the range of SO:0004001 to SO:0005000. If your group would like to work on SO, please create an issue request and we will create a range of IDs specifically for your group.  
-
-### Logs  
+## Logs  
 
 The log files for the make process are stored in the "Logs" folder. This folder has been added to the .gitignore file so that users can view the log files for each make without the risk of accidentally committing them. If the build process worked correctly, the file 'so-reasoner-report.txt' should be present and empty and the ontology-release-runner output will be saved to the file 'OORT_logs_{date}_{time}.txt'.
 
