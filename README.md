@@ -38,7 +38,7 @@ If your request doesn't fit into any of those templates, you're welcome to start
 
 ## Generating OWL, JSON, etc. from OBO
 
-(July 11, 2025) We are working on migrating our workflow over to the [Ontonlogy Development Kit (ODK)](https://incatools.github.io/ontology-development-kit//). In the meantime, we are still using OWLTools' Ontology Release Tool (OORT) to generate OWL, JSON, etc. from so-edit.obo.
+(July 11, 2025) We are working on migrating our workflow over to the [Ontology Development Kit (ODK)](https://incatools.github.io/ontology-development-kit//). In the meantime, we are still using OWLTools' Ontology Release Tool (OORT) to generate OWL, JSON, etc. from so-edit.obo.
 
 **This detail is included here for reference. Please do not generate the other ontology files as part of a pull request.**
 
