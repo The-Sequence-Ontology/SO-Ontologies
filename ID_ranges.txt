@@ -1,3 +1,3 @@
-Group Range Minimum Range Maximum
-Eilbeck Lab SO:0000000  SO:00040000
-External Users  SO:00040001 SO:00050000
+Group Range_Minimum Range_Maximum
+Eilbeck_Lab SO:0000000  SO:00040000
+External_Users  SO:00040001 SO:00050000
