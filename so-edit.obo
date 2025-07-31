@@ -22890,6 +22890,17 @@ created_by: Evan Christensen
 creation_date: 2025-07-31T19:12:35Z
 
 [Term]
+id: SO:0002392
+name: increased_enzyme_activity_variant
+def: "An increase in the activity of an enzyme, as a result of a variant in the gene that encodes the enzyme or a regulatory region." [PMID:28007905]
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "increased enzyme activity" EXACT []
+synonym: "increased enzyme activity variant" EXACT []
+is_a: SO:0001554 ! polypeptide_function_variant
+created_by: Evan Christensen
+creation_date: 2025-07-31T19:43:38Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
