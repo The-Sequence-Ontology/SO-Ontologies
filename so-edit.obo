@@ -22863,6 +22863,16 @@ created_by: evan
 creation_date: 2024-11-18T22:39:25Z
 
 [Term]
+id: SO:0002390
+name: pseudoexon_variant
+def: "Inclusion of a non-conserved, unannotated exon in the spliced transcript, as a consequence of a variant in the gene." []
+synonym: "included pseudoexon" EXACT []
+synonym: "pseudoexon" EXACT []
+is_a: SO:0001568 ! splicing_variant
+created_by: Evan Christensen
+creation_date: 2025-07-31T18:52:18Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
