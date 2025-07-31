@@ -14179,8 +14179,10 @@ creation_date: 2010-03-22T02:30:35Z
 id: SO:0001572
 name: exon_loss_variant
 def: "A sequence variant whereby an exon is lost from the transcript." [SO:ke]
+comment: Added "skipped exon" as a synonym of exon_loss_variant at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
 synonym: "exon loss" EXACT []
 synonym: "Jannovar:exon_loss_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
+synonym: "skipped exon" EXACT [PMID:31275557] {comment="This synonym is written as \"exon skipping\" in the cited article (PMID:31275557) but this poses the concept as a process rather than a thing that lies on a sequence or between sequences so we've phrased it as \"skipped exon\" here to keep it in line with the semantics of this part of the Sequence Ontology."}
 synonym: "snpEff:EXON_DELETED" EXACT VAR []
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
 is_a: SO:0001568 ! splicing_variant
