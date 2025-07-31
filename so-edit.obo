@@ -13879,6 +13879,8 @@ id: SO:0001541
 name: decreased_transcript_level_variant
 def: "A sequence variant that decreases the level of mature, spliced and processed RNA with respect to a reference sequence." [SO:ke]
 synonym: "decreased transcript level" EXACT []
+synonym: "decreased transcript level variant" EXACT []
+synonym: "decreased transcription" EXACT [PMID:35775692] {comment="For an example, see \"NM_000939.4(POMC):c.-21+1G>A\" on Clinvar (Variation ID: 1706561, Accession: VCV001706561.3)."}
 is_a: SO:0001540 ! level_of_transcript_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T11:47:47Z
