@@ -14174,6 +14174,8 @@ creation_date: 2010-03-22T02:30:11Z
 id: SO:0001571
 name: cryptic_splice_donor
 def: "A sequence variant whereby a new splice site is created due to the activation of a new donor." [SO:ke]
+comment: Added "activated cryptic splice donor" as a synonym of cryptic_splice_donor at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "activated cryptic splice donor" EXACT [PMID:37260176] {comment="For an example, see \"NM_017950.4(CCDC40):c.2619+45G>A\" on ClinVar (Variation ID: 2505169, Accession: VCV002505169.3)."}
 synonym: "cryptic splice donor" EXACT []
 is_a: SO:0001569 ! cryptic_splice_site_variant
 created_by: kareneilbeck
