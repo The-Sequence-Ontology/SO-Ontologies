@@ -14193,8 +14193,11 @@ creation_date: 2010-03-22T02:31:09Z
 id: SO:0001573
 name: intron_gain_variant
 def: "A sequence variant whereby an intron is gained by the processed transcript; usually a result of an alteration of the donor or acceptor." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
+comment: Added "included intron" and "retained intron" as synonyms of intron_gain_variant at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "included intron" EXACT [PMID:31275557] {comment="The synonym is phrased as \"intron inclusion\" in the cited article (PMID:31275557) but this poses the concept as a process rather than a thing that lies on a sequence or between sequences so we've phrased it as \"included intron\" here to keep it in line with the semantics of this part of the Sequence Ontology."}
 synonym: "intron gain" EXACT []
 synonym: "intron gain variant" EXACT []
+synonym: "retained intron" EXACT []
 is_a: SO:0001568 ! splicing_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:31:25Z
