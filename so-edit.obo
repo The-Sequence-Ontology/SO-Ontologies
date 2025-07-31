@@ -14163,6 +14163,8 @@ creation_date: 2010-03-22T02:29:41Z
 id: SO:0001570
 name: cryptic_splice_acceptor
 def: "A sequence variant whereby a new splice site is created due to the activation of a new acceptor." [SO:ke]
+comment: Added "activated cryptic splice site acceptor" as a synonym of cryptic_splice_acceptor at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "activated cryptic splice acceptor" EXACT [] {comment="For an example, see \"NM_000489.6(ATRX):c.371-1201G>A\" on ClinVar (Variation ID: 3233402, Accession: VCV003233402.2)."}
 synonym: "cryptic splice acceptor" EXACT []
 is_a: SO:0001569 ! cryptic_splice_site_variant
 created_by: kareneilbeck
