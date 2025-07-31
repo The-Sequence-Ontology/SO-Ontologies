@@ -22865,12 +22865,25 @@ creation_date: 2024-11-18T22:39:25Z
 [Term]
 id: SO:0002390
 name: pseudoexon_variant
-def: "Inclusion of a non-conserved, unannotated exon in the spliced transcript, as a consequence of a variant in the gene." []
+def: "Inclusion of a non-conserved, unannotated exon in the spliced transcript, as a consequence of a variant in the gene." [PMID:38860315] {comment="For an example, see \"NM_007289.4(MME):c.1188+428A>G\" on ClinVar (Variation ID: 3769636, Accession: VCV003769636.1)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
 synonym: "included pseudoexon" EXACT []
 synonym: "pseudoexon" EXACT []
 is_a: SO:0001568 ! splicing_variant
 created_by: Evan Christensen
 creation_date: 2025-07-31T18:52:18Z
+
+[Term]
+id: SO:0002391
+name: abolished_transcription_level_variant
+def: "Complete lack of transcription of a gene, as a consequence of a variant in the gene or a regulatory region." [] {comment="For an example, see \"NM_001128227.3(GNE):c.51+10408_52-10008del\" in ClinVar (Variation ID: 438624, Accession: VCV000438624.4)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "abolished transcription" EXACT []
+synonym: "abolished transcription level" EXACT []
+synonym: "abolished transcription level variant" EXACT []
+is_a: SO:0001541 ! decreased_transcript_level_variant
+created_by: Evan Christensen
+creation_date: 2025-07-31T19:12:35Z
 
 [Term]
 id: SO:0005836
