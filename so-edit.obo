@@ -22916,7 +22916,7 @@ creation_date: 2025-07-31T19:52:09Z
 [Term]
 id: SO:0002395
 name: lost_polypeptide
-def: "A complete loss of polypeptide (i.e. protein) expression, as a consequence of a variant in the gene." []
+def: "A complete loss of polypeptide (i.e. protein) expression, as a consequence of a variant in the gene." [PMID:34413497] {comment="For an example, see \"NM_018117.12(WDR11):c.1255C>T (p.Gln419Ter)\" in ClinVar (Variation ID: 1098849, Accession: VCV001098849.3)."}
 comment: Added at the request of Melissa Landrum of the NCBI on 1 Aug 2025 (see GitHub issue #657).
 synonym: "absent polypeptide" EXACT []
 synonym: "absent protein" EXACT []
@@ -22925,6 +22925,18 @@ synonym: "lost protein" EXACT []
 is_a: SO:0002317 ! absent_gene_product
 created_by: Evan Christensen
 creation_date: 2025-07-31T20:00:31Z
+
+[Term]
+id: SO:0002396
+name: decreased_polypeptide_level
+def: "A decrease in polypeptide (i.e. protein) expression, as a consequence of a variant in the gene." [PMID:33473208] {comment="For an example, see \"NM_018359.5(UFSP2):c.344T>A (p.Val115Glu)\" in ClinVar (Variation ID: 932944, Accession: VCV000932944.71). See also \"NM_016098.4(MPC1):c.109C>T (p.Pro37Ser)\" in ClinVar (Variation ID: 1299296, Accession: VCV001299296.3)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "decreased popypeptide level" EXACT []
+synonym: "reduced protein expression" EXACT []
+synonym: "reduced protein level" EXACT []
+is_a: SO:0001555 ! decreased_translational_product_level
+created_by: Evan Christensen
+creation_date: 2025-08-01T16:54:14Z
 
 [Term]
 id: SO:0005836
