@@ -13879,6 +13879,8 @@ id: SO:0001541
 name: decreased_transcript_level_variant
 def: "A sequence variant that decreases the level of mature, spliced and processed RNA with respect to a reference sequence." [SO:ke]
 synonym: "decreased transcript level" EXACT []
+synonym: "decreased transcript level variant" EXACT []
+synonym: "decreased transcription" EXACT [PMID:35775692] {comment="For an example, see \"NM_000939.4(POMC):c.-21+1G>A\" on Clinvar (Variation ID: 1706561, Accession: VCV001706561.3)."}
 is_a: SO:0001540 ! level_of_transcript_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T11:47:47Z
@@ -14152,6 +14154,8 @@ creation_date: 2010-03-22T02:29:22Z
 id: SO:0001569
 name: cryptic_splice_site_variant
 def: "A sequence variant causing a new (functional) splice site." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
+comment: Added "cryptic splice site" as a synonym of cryptic_splice_site_variant at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "cryptic splice site" EXACT [PMID:31275557]
 synonym: "cryptic splice site activation" EXACT []
 is_a: SO:0001568 ! splicing_variant
 created_by: kareneilbeck
@@ -14161,6 +14165,8 @@ creation_date: 2010-03-22T02:29:41Z
 id: SO:0001570
 name: cryptic_splice_acceptor
 def: "A sequence variant whereby a new splice site is created due to the activation of a new acceptor." [SO:ke]
+comment: Added "activated cryptic splice site acceptor" as a synonym of cryptic_splice_acceptor at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "activated cryptic splice acceptor" EXACT [] {comment="For an example, see \"NM_000489.6(ATRX):c.371-1201G>A\" on ClinVar (Variation ID: 3233402, Accession: VCV003233402.2)."}
 synonym: "cryptic splice acceptor" EXACT []
 is_a: SO:0001569 ! cryptic_splice_site_variant
 created_by: kareneilbeck
@@ -14170,6 +14176,8 @@ creation_date: 2010-03-22T02:30:11Z
 id: SO:0001571
 name: cryptic_splice_donor
 def: "A sequence variant whereby a new splice site is created due to the activation of a new donor." [SO:ke]
+comment: Added "activated cryptic splice donor" as a synonym of cryptic_splice_donor at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "activated cryptic splice donor" EXACT [PMID:37260176] {comment="For an example, see \"NM_017950.4(CCDC40):c.2619+45G>A\" on ClinVar (Variation ID: 2505169, Accession: VCV002505169.3)."}
 synonym: "cryptic splice donor" EXACT []
 is_a: SO:0001569 ! cryptic_splice_site_variant
 created_by: kareneilbeck
@@ -14179,8 +14187,10 @@ creation_date: 2010-03-22T02:30:35Z
 id: SO:0001572
 name: exon_loss_variant
 def: "A sequence variant whereby an exon is lost from the transcript." [SO:ke]
+comment: Added "skipped exon" as a synonym of exon_loss_variant at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
 synonym: "exon loss" EXACT []
 synonym: "Jannovar:exon_loss_variant" EXACT VAR [http://doc-openbio.readthedocs.org/projects/jannovar/en/master/var_effects.html]
+synonym: "skipped exon" EXACT [PMID:31275557] {comment="This synonym is written as \"exon skipping\" in the cited article (PMID:31275557) but this poses the concept as a process rather than a thing that lies on a sequence or between sequences so we've phrased it as \"skipped exon\" here to keep it in line with the semantics of this part of the Sequence Ontology."}
 synonym: "snpEff:EXON_DELETED" EXACT VAR []
 xref: http://snpeff.sourceforge.net/SnpEff_manual.html
 is_a: SO:0001568 ! splicing_variant
@@ -14191,8 +14201,11 @@ creation_date: 2010-03-22T02:31:09Z
 id: SO:0001573
 name: intron_gain_variant
 def: "A sequence variant whereby an intron is gained by the processed transcript; usually a result of an alteration of the donor or acceptor." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
+comment: Added "included intron" and "retained intron" as synonyms of intron_gain_variant at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "included intron" EXACT [PMID:31275557] {comment="The synonym is phrased as \"intron inclusion\" in the cited article (PMID:31275557) but this poses the concept as a process rather than a thing that lies on a sequence or between sequences so we've phrased it as \"included intron\" here to keep it in line with the semantics of this part of the Sequence Ontology."}
 synonym: "intron gain" EXACT []
 synonym: "intron gain variant" EXACT []
+synonym: "retained intron" EXACT []
 is_a: SO:0001568 ! splicing_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:31:25Z
@@ -14695,7 +14708,9 @@ creation_date: 2010-03-22T02:52:43Z
 id: SO:0001617
 name: polypeptide_truncation
 def: "A sequence variant of the CD that causes a truncation of the resulting polypeptide." [SO:ke]
+comment: Added "protein truncation" as a synonym of polypeptide_truncation at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
 synonym: "polypeptide truncation" EXACT []
+synonym: "protein truncation" EXACT [PMID:27858739] {comment="For an example, see \"NM_032608.7(MYO18B):c.6768del (p.Leu2257fs)\" in ClinVar (Variation ID: 590292, Accession: VCV000590292.3)."}
 is_a: SO:0001603 ! polypeptide_sequence_variant
 created_by: kareneilbeck
 creation_date: 2010-03-22T02:53:07Z
@@ -22850,6 +22865,90 @@ synonym: "uSTOP_lost" EXACT [] {comment="UTRannotator"}
 is_a: SO:0002386 ! 5_prime_UTR_uORF_stop_codon_variant
 created_by: evan
 creation_date: 2024-11-18T22:39:25Z
+
+[Term]
+id: SO:0002390
+name: pseudoexon_variant
+def: "Inclusion of a non-conserved, unannotated exon in the spliced transcript, as a consequence of a variant in the gene." [PMID:38860315] {comment="For an example, see \"NM_007289.4(MME):c.1188+428A>G\" on ClinVar (Variation ID: 3769636, Accession: VCV003769636.1)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "included pseudoexon" EXACT []
+synonym: "pseudoexon" EXACT []
+is_a: SO:0001568 ! splicing_variant
+created_by: Evan Christensen
+creation_date: 2025-07-31T18:52:18Z
+
+[Term]
+id: SO:0002391
+name: abolished_transcription_level_variant
+def: "Complete lack of transcription of a gene, as a consequence of a variant in the gene or a regulatory region." [] {comment="For an example, see \"NM_001128227.3(GNE):c.51+10408_52-10008del\" in ClinVar (Variation ID: 438624, Accession: VCV000438624.4)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "abolished transcription" EXACT []
+synonym: "abolished transcription level" EXACT []
+synonym: "abolished transcription level variant" EXACT []
+is_a: SO:0001541 ! decreased_transcript_level_variant
+created_by: Evan Christensen
+creation_date: 2025-07-31T19:12:35Z
+
+[Term]
+id: SO:0002392
+name: increased_enzyme_activity_variant
+def: "An increase in the activity of an enzyme, as a result of a variant in the gene that encodes the enzyme or a regulatory region." [PMID:28007905]
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "increased enzyme activity" EXACT []
+synonym: "increased enzyme activity variant" EXACT []
+is_a: SO:0001554 ! polypeptide_function_variant
+created_by: Evan Christensen
+creation_date: 2025-07-31T19:43:38Z
+
+[Term]
+id: SO:0002394
+name: decreased_enzyme_activity_variant
+def: "A decrease in the activity of an enzyme, as a result of a variant in the gene that encodes the enzyme or a regulatory region." [] {comment="For an example, see \"NM_139027.6(ADAMTS13):c.2209T>C (p.Cys737Arg)\" on Clinvar (Variation ID: 559588, Accession: VCV000559588.2). See also \"NM_006721.4(ADK):c.953C>A (p.Ala318Glu)\" on ClinVar (Variation ID: 29603, Accession: VCV000029603.3)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "decreased enzyme activity" EXACT []
+synonym: "decreased enzyme activity variant" EXACT []
+synonym: "reduced enzyme activity" EXACT []
+synonym: "reduced enzyme activity variant" EXACT []
+is_a: SO:0001554 ! polypeptide_function_variant
+created_by: Evan Christensen
+creation_date: 2025-07-31T19:52:09Z
+
+[Term]
+id: SO:0002395
+name: lost_polypeptide
+def: "A complete loss of polypeptide (i.e. protein) expression, as a consequence of a variant in the gene." [PMID:34413497] {comment="For an example, see \"NM_018117.12(WDR11):c.1255C>T (p.Gln419Ter)\" in ClinVar (Variation ID: 1098849, Accession: VCV001098849.3)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 1 Aug 2025 (see GitHub issue #657).
+synonym: "absent polypeptide" EXACT []
+synonym: "absent protein" EXACT []
+synonym: "lost polypeptide" EXACT []
+synonym: "lost protein" EXACT []
+is_a: SO:0002317 ! absent_gene_product
+created_by: Evan Christensen
+creation_date: 2025-07-31T20:00:31Z
+
+[Term]
+id: SO:0002396
+name: decreased_polypeptide_level
+def: "A decrease in polypeptide (i.e. protein) expression, as a consequence of a variant in the gene." [PMID:33473208] {comment="For an example, see \"NM_018359.5(UFSP2):c.344T>A (p.Val115Glu)\" in ClinVar (Variation ID: 932944, Accession: VCV000932944.71). See also \"NM_016098.4(MPC1):c.109C>T (p.Pro37Ser)\" in ClinVar (Variation ID: 1299296, Accession: VCV001299296.3)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 31 July 2025 (see GitHub issue #657).
+synonym: "decreased popypeptide level" EXACT []
+synonym: "reduced protein expression" EXACT []
+synonym: "reduced protein level" EXACT []
+is_a: SO:0001555 ! decreased_translational_product_level
+created_by: Evan Christensen
+creation_date: 2025-08-01T16:54:14Z
+
+[Term]
+id: SO:0002397
+name: cellular_mislocalization_variant
+def: "Trafficking of a polypeptide (i.e. protein) sequence to the wrong cellular location, as a consequence of a variant in the gene." [PMID:29844444] {comment="For an example, see \"NM_181789.4(GLDN):c.1093C>T (p.Leu365Phe)\" in ClinVar (Variation ID: 813290, Accession: VCV000813290.5). See also \"NM_012448.4(STAT5B):c.530A>C (p.Gln177Pro)\" in ClinVar (Variation ID: 522611, Accession: VCV000522611.3)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 1 Aug 2025 (see GitHub issue #657).
+synonym: "cellular mislocalization" EXACT []
+synonym: "cellular mislocalization variant" EXACT []
+synonym: "defective subcellular localization" EXACT []
+is_a: SO:0001536 ! functional_effect_variant
+created_by: Evan Christensen
+creation_date: 2025-08-01T17:03:14Z
 
 [Term]
 id: SO:0005836
