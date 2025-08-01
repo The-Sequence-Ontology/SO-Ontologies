@@ -22914,6 +22914,19 @@ created_by: Evan Christensen
 creation_date: 2025-07-31T19:52:09Z
 
 [Term]
+id: SO:0002395
+name: lost_polypeptide
+def: "A complete loss of polypeptide (i.e. protein) expression, as a consequence of a variant in the gene." []
+comment: Added at the request of Melissa Landrum of the NCBI on 1 Aug 2025 (see GitHub issue #657).
+synonym: "absent polypeptide" EXACT []
+synonym: "absent protein" EXACT []
+synonym: "lost polypeptide" EXACT []
+synonym: "lost protein" EXACT []
+is_a: SO:0002317 ! absent_gene_product
+created_by: Evan Christensen
+creation_date: 2025-07-31T20:00:31Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
