@@ -22939,6 +22939,18 @@ created_by: Evan Christensen
 creation_date: 2025-08-01T16:54:14Z
 
 [Term]
+id: SO:0002397
+name: cellular_mislocalization_variant
+def: "Trafficking of a polypeptide (i.e. protein) sequence to the wrong cellular location, as a consequence of a variant in the gene." [PMID:29844444] {comment="For an example, see \"NM_181789.4(GLDN):c.1093C>T (p.Leu365Phe)\" in ClinVar (Variation ID: 813290, Accession: VCV000813290.5). See also \"NM_012448.4(STAT5B):c.530A>C (p.Gln177Pro)\" in ClinVar (Variation ID: 522611, Accession: VCV000522611.3)."}
+comment: Added at the request of Melissa Landrum of the NCBI on 1 Aug 2025 (see GitHub issue #657).
+synonym: "cellular mislocalization" EXACT []
+synonym: "cellular mislocalization variant" EXACT []
+synonym: "defective subcellular localization" EXACT []
+is_a: SO:0001536 ! functional_effect_variant
+created_by: Evan Christensen
+creation_date: 2025-08-01T17:03:14Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
