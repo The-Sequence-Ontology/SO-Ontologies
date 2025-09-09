@@ -2303,13 +2303,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
         <obo:IAO_0000115>A transcript that in its initial state requires modification to be functional.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Primary_transcript</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>INSDC_feature:precursor_RNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>INSDC_feature:prim_transcript</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>precursor RNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>primary transcript</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SO:0000185</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment>See &quot;precursor_RNA&quot; (SO:0002393) for RNA which may be the result of post-transcriptional processing. If the RNA in question is known not to have been processed, use this class (&quot;primary_transcript&quot;). On 9 Sep 2025, Removed &quot;has_exact_synonym : INSDC_feature:precursor_RNA&quot; and &quot;has_exact_synonym : precursor RNA&quot; from the annotation for this class at the request of Terence Murphy of NCBI. See GitHub Issue #655.</rdfs:comment>
         <rdfs:label>primary_transcript</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4635,6 +4634,12 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000418">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001527"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000851"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>

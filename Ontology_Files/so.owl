@@ -6656,13 +6656,12 @@ For example a variant transcript may have lost a stop codon present in the refer
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
         <obo:IAO_0000115>A transcript that in its initial state requires modification to be functional.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Primary_transcript</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>INSDC_feature:precursor_RNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>INSDC_feature:prim_transcript</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>precursor RNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>primary transcript</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SO:0000185</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment>See &quot;precursor_RNA&quot; (SO:0002393) for RNA which may be the result of post-transcriptional processing. If the RNA in question is known not to have been processed, use this class (&quot;primary_transcript&quot;). On 9 Sep 2025, Removed &quot;has_exact_synonym : INSDC_feature:precursor_RNA&quot; and &quot;has_exact_synonym : precursor RNA&quot; from the annotation for this class at the request of Terence Murphy of NCBI. See GitHub Issue #655.</rdfs:comment>
         <rdfs:label>primary_transcript</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -61574,6 +61573,29 @@ It is further clarified in the comments section as: ncRNA does NOT mean conventi
         <owl:annotatedTarget>An increase in the activity of an enzyme, as a result of a variant in the gene that encodes the enzyme or a regulatory region.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:28007905</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Any RNA species that is not yet the mature RNA product; may include ncRNA, rRNA, tRNA, 5&apos; untranslated region (5&apos;UTR), coding sequences (CDS, exon), intervening sequences (intron) and 3&apos; untranslated region (3&apos;UTR).</obo:IAO_0000115>
+        <oboInOwl:created_by>Evan Christensen</oboInOwl:created_by>
+        <oboInOwl:creation_date>2025-09-09T19:26:13Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>INSDC_feature:precursor_RNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>precursor RNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0002393</oboInOwl:id>
+        <rdfs:comment>This term should be used for RNA which may be the result of post-transcriptional processing; if the RNA in question is known not to have been processed, use primary_transcript (SO:0000185). At the time this SO term was created, the INSDC Feature Table has a specific term (i.e. precursor_RNA) for transcripts that may be in various stages of processing between primary_transcript (SO:0000185) and mature_transcript (SO:0000233). See the INSDC Feature Table Definition for the &quot;precursor_RNA&quot; feature key https://www.insdc.org/submitting-standards/feature-table/. Added 9 Sep 2025 at the request of Terence Murphy of NCBI to support transformation between the INSDC Feature Table and GFF3 formats. See GitHub Issue #655.</rdfs:comment>
+        <rdfs:label>precursor_RNA</rdfs:label>
+    </owl:Class>
     
 
 

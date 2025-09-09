@@ -1603,10 +1603,9 @@ is_a: SO:0000662 ! spliceosomal_intron
 id: SO:0000185
 name: primary_transcript
 def: "A transcript that in its initial state requires modification to be functional." [SO:ma]
+comment: See "precursor_RNA" (SO:0002393) for RNA which may be the result of post-transcriptional processing. If the RNA in question is known not to have been processed, use this class ("primary_transcript"). On 9 Sep 2025, Removed "has_exact_synonym : INSDC_feature:precursor_RNA" and "has_exact_synonym : precursor RNA" from the annotation for this class at the request of Terence Murphy of NCBI. See GitHub Issue #655.
 subset: SOFA
-synonym: "INSDC_feature:precursor_RNA" EXACT []
 synonym: "INSDC_feature:prim_transcript" EXACT []
-synonym: "precursor RNA" EXACT []
 synonym: "primary transcript" EXACT []
 xref: http://en.wikipedia.org/wiki/Primary_transcript "wiki"
 is_a: SO:0000673 ! transcript
@@ -22496,6 +22495,18 @@ synonym: "increased enzyme activity variant" EXACT []
 is_a: SO:0001554 ! polypeptide_function_variant
 created_by: Evan Christensen
 creation_date: 2025-07-31T19:43:38Z
+
+[Term]
+id: SO:0002393
+name: precursor_RNA
+def: "Any RNA species that is not yet the mature RNA product; may include ncRNA, rRNA, tRNA, 5' untranslated region (5'UTR), coding sequences (CDS, exon), intervening sequences (intron) and 3' untranslated region (3'UTR)." []
+comment: This term should be used for RNA which may be the result of post-transcriptional processing; if the RNA in question is known not to have been processed, use primary_transcript (SO:0000185). At the time this SO term was created, the INSDC Feature Table has a specific term (i.e. precursor_RNA) for transcripts that may be in various stages of processing between primary_transcript (SO:0000185) and mature_transcript (SO:0000233). See the INSDC Feature Table Definition for the "precursor_RNA" feature key https://www.insdc.org/submitting-standards/feature-table/. Added 9 Sep 2025 at the request of Terence Murphy of NCBI to support transformation between the INSDC Feature Table and GFF3 formats. See GitHub Issue #655.
+synonym: "INSDC_feature:precursor_RNA" EXACT []
+synonym: "precursor RNA" EXACT []
+is_a: SO:0000673 ! transcript
+relationship: derives_from SO:0000185 ! primary_transcript
+created_by: Evan Christensen
+creation_date: 2025-09-09T19:26:13Z
 
 [Term]
 id: SO:0002394

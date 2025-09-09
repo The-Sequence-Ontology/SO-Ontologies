@@ -491,10 +491,9 @@ id: SO:0000185
 name: primary_transcript
 namespace: sequence
 def: "A transcript that in its initial state requires modification to be functional." [SO:ma]
+comment: See "precursor_RNA" (SO:0002393) for RNA which may be the result of post-transcriptional processing. If the RNA in question is known not to have been processed, use this class ("primary_transcript"). On 9 Sep 2025, Removed "has_exact_synonym : INSDC_feature:precursor_RNA" and "has_exact_synonym : precursor RNA" from the annotation for this class at the request of Terence Murphy of NCBI. See GitHub Issue #655.
 subset: SOFA
-synonym: "INSDC_feature:precursor_RNA" EXACT []
 synonym: "INSDC_feature:prim_transcript" EXACT []
-synonym: "precursor RNA" EXACT []
 synonym: "primary transcript" EXACT []
 xref: http://en.wikipedia.org/wiki/Primary_transcript "wiki"
 is_a: SO:0000673 ! transcript
@@ -1425,6 +1424,7 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
+relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]
