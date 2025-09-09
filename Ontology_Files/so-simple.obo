@@ -24111,7 +24111,8 @@ name: inverted_intrachromosomal_transposition
 def: "An intrachromosomal transposition whereby the segment between the first two breaks listed is removed and inserted at the third break; the insertion is in cytologically inverted orientation with respect to its flanking segments." [FB:reference_manual]
 synonym: "(Drosophila)iTp" RELATED []
 synonym: "inverted intrachromosomal transposition" EXACT []
-is_a: SO:1000148 ! inversion_cum_translocation
+is_a: SO:1000030 ! chromosomal_inversion
+is_a: SO:1000041 ! intrachromosomal_transposition
 relationship: has_part SO:1000036 ! inversion
 
 [Term]

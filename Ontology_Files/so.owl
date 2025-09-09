@@ -65622,7 +65622,8 @@ Updated after discussion with Peter Taschner - Feb 09.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/SO_1000158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_1000148"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_1000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_1000041"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_part"/>
