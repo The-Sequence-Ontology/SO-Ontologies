@@ -2867,7 +2867,7 @@ is_a: SO:0000360 ! codon
 [Term]
 id: SO:0000319
 name: stop_codon
-def: "In mRNA, a set of three nucleotides that indicates the end of information for protein synthesis." [SO:ke]
+def: "In mRNA, a set of three nucleotides that indicates the end of information for protein synthesis. In genomic sequence, a stop codon may be only one or two nucleotides where the additional nucleotides are provided in the RNA via polyadenylation." [SO:ke] {comment="Added \"In genomic sequence, a stop codon may be only one or two nucleotides where the additional nucleotides are provided in the RNA via polyadenylation.\" to the definition on 9 Sep 2025 at the request of Terence Murphy of NCBI (See GitHub Issue #658)."}
 subset: SOFA
 synonym: "stop codon" EXACT []
 xref: http://en.wikipedia.org/wiki/Stop_codon "wiki"

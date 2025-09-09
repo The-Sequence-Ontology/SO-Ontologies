@@ -3264,7 +3264,7 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000360"/>
-        <obo:IAO_0000115>In mRNA, a set of three nucleotides that indicates the end of information for protein synthesis.</obo:IAO_0000115>
+        <obo:IAO_0000115>In mRNA, a set of three nucleotides that indicates the end of information for protein synthesis. In genomic sequence, a stop codon may be only one or two nucleotides where the additional nucleotides are provided in the RNA via polyadenylation.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Stop_codon</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>stop codon</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
@@ -3275,8 +3275,9 @@ For example a variant transcript may have lost a stop codon present in the refer
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000319"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>In mRNA, a set of three nucleotides that indicates the end of information for protein synthesis.</owl:annotatedTarget>
+        <owl:annotatedTarget>In mRNA, a set of three nucleotides that indicates the end of information for protein synthesis. In genomic sequence, a stop codon may be only one or two nucleotides where the additional nucleotides are provided in the RNA via polyadenylation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+        <rdfs:comment>Added &quot;In genomic sequence, a stop codon may be only one or two nucleotides where the additional nucleotides are provided in the RNA via polyadenylation.&quot; to the definition on 9 Sep 2025 at the request of Terence Murphy of NCBI (See GitHub Issue #658).</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000319"/>
@@ -4634,12 +4635,6 @@ For example a variant transcript may have lost a stop codon present in the refer
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000418">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001527"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000851"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
