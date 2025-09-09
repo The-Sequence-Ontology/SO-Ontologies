@@ -22962,6 +22962,15 @@ created_by: Evan Christensen
 creation_date: 2025-08-01T17:03:14Z
 
 [Term]
+id: SO:0002398
+name: selenocysteine_gain
+def: "A sequence variant whereby at least one base of a codon is changed, resulting in a selenocysteine." [PMID:23716634, PMID:25436585]
+comment: Added on 9 Sep 2025 at the request of Till Hartmann of the Berlin Institute of Health (BIH). See GitHub Issue #653.
+is_a: SO:0002008 ! rare_amino_acid_variant
+created_by: Evan Christensen
+creation_date: 2025-09-09T22:25:50Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
