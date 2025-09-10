@@ -61722,6 +61722,52 @@ It is further clarified in the comments section as: ncRNA does NOT mean conventi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0002399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002085"/>
+        <obo:IAO_0000115>A sequence variant whereby two genes, on the same strand have become joined without a disruption of the translational reading frame, because the number of nucleotides between the reading frames of the joined genes is a multiple of three.</obo:IAO_0000115>
+        <oboInOwl:created_by>Evan Christensen</oboInOwl:created_by>
+        <oboInOwl:creation_date>2025-09-10T19:34:06Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>inframe unidirectional gene fusion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0002399</oboInOwl:id>
+        <rdfs:comment>Added 10 Sep 2025. See GitHub Issue #664.</rdfs:comment>
+        <rdfs:label>inframe_unidirectional_gene_fusion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0002399"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sequence variant whereby two genes, on the same strand have become joined without a disruption of the translational reading frame, because the number of nucleotides between the reading frames of the joined genes is a multiple of three.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21247443</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:36002559</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002085"/>
+        <obo:IAO_0000115>A sequence variant whereby two genes, on the same strand have become joined with a disruption of the translational reading frame, because the number of nucleotides between the reading frames of the joined genes is not a multiple of three.</obo:IAO_0000115>
+        <oboInOwl:created_by>Evan Christensen</oboInOwl:created_by>
+        <oboInOwl:creation_date>2025-09-10T19:38:04Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>frameshift unidirectional gene fusion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0002400</oboInOwl:id>
+        <rdfs:comment>Added 10 Sep 2025. See GitHub Issue #664.</rdfs:comment>
+        <rdfs:label>frameshift_unidirectional_gene_fusion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0002400"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sequence variant whereby two genes, on the same strand have become joined with a disruption of the translational reading frame, because the number of nucleotides between the reading frames of the joined genes is not a multiple of three.</owl:annotatedTarget>
+        <rdfs:comment>PMID:21247443</rdfs:comment>
+        <rdfs:comment>PMID:36002559</rdfs:comment>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0005836 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0005836">

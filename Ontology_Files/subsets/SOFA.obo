@@ -1424,7 +1424,6 @@ synonym: "signal peptide" EXACT []
 synonym: "signal peptide coding sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Signal_peptide "wiki"
 is_a: SO:0001527 ! peptide_localization_signal
-relationship: derives_from SO:0000851 ! CDS_region
 relationship: part_of SO:0100011 ! cleaved_peptide_region
 
 [Term]

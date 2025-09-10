@@ -22971,6 +22971,26 @@ created_by: Evan Christensen
 creation_date: 2025-09-09T22:25:50Z
 
 [Term]
+id: SO:0002399
+name: inframe_unidirectional_gene_fusion
+def: "A sequence variant whereby two genes, on the same strand have become joined without a disruption of the translational reading frame, because the number of nucleotides between the reading frames of the joined genes is a multiple of three." [PMID:21247443, PMID:36002559]
+comment: Added 10 Sep 2025. See GitHub Issue #664.
+synonym: "inframe unidirectional gene fusion" EXACT []
+is_a: SO:0002085 ! unidirectional_gene_fusion
+created_by: Evan Christensen
+creation_date: 2025-09-10T19:34:06Z
+
+[Term]
+id: SO:0002400
+name: frameshift_unidirectional_gene_fusion
+def: "A sequence variant whereby two genes, on the same strand have become joined with a disruption of the translational reading frame, because the number of nucleotides between the reading frames of the joined genes is not a multiple of three." [] {comment="PMID:36002559", comment="PMID:21247443"}
+comment: Added 10 Sep 2025. See GitHub Issue #664.
+synonym: "frameshift unidirectional gene fusion" EXACT []
+is_a: SO:0002085 ! unidirectional_gene_fusion
+created_by: Evan Christensen
+creation_date: 2025-09-10T19:38:04Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
