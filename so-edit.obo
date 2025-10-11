@@ -22991,6 +22991,11 @@ created_by: Evan Christensen
 creation_date: 2025-09-10T19:38:04Z
 
 [Term]
+id: SO:0003002
+name: viral integration site
+is_a: SO:0000704 ! gene
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
