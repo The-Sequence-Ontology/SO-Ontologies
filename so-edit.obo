@@ -23137,7 +23137,7 @@ relationship: has_quality SO:0000860 ! syntenic
 
 [Term]
 id: SO:003001
-name: cluter_RNA_gene
+name: cluster_RNA_gene
 is_a: SO:0001263 ! ncRNA_gene
 
 [Term]
