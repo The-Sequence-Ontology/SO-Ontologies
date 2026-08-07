@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2024-11-18
-date: 18:11:2024 23:05
+data-version: 2026-08-07
+date: 08:07:2026 18:22
 saved-by: Evan Christensen
 subsetdef: Alliance_of_Genome_Resources "Alliance of Genome Resources Gene Biotype Slim"
 subsetdef: biosapiens "biosapiens protein feature ontology"
@@ -22989,6 +22989,54 @@ synonym: "frameshift unidirectional gene fusion" EXACT []
 is_a: SO:0002085 ! unidirectional_gene_fusion
 created_by: Evan Christensen
 creation_date: 2025-09-10T19:38:04Z
+
+[Term]
+id: SO:0002401
+name: upstream_intergenic_fusion
+def: "A sequence variant whereby two genomic features have become joined with one breakend proximally upstream of a gene." [PMID:34764425, PMID:39702242]
+comment: Added on 7 August 2026 at the request of Sam Ng at Illumina. See GitHub Issue #682.
+is_a: SO:0001628 ! intergenic_variant
+created_by: Evan Christensen
+creation_date: 2026-08-07T18:03:57Z
+
+[Term]
+id: SO:0002402
+name: downstream_intergenic_fusion
+def: "A sequence variant whereby two genomic features have become joined with one breakend proximally downstream of a gene." [PMID:34764425, PMID:39702242]
+comment: Added on 7 August 2026 at the request of Sam Ng at Illumina. See GitHub Issue #682.
+is_a: SO:0001628 ! intergenic_variant
+created_by: Evan Christensen
+creation_date: 2026-08-07T18:07:14Z
+
+[Term]
+id: SO:0002403
+name: unidirectional_intergenic_fusion
+def: "A sequence variant whereby two genes on the same strand have become joined such that the 5' breakend is intragenic and the 3' breakend lies proximally upstream of a gene such that it may potentially form a chimeric transcript." [PMID:36776527]
+comment: Added on 7 August 2026 at the request of Sam Ng at Illumina. See GitHub Issue #682.
+is_a: SO:0001564 ! gene_variant
+is_a: SO:0001882 ! feature_fusion
+created_by: Evan Christensen
+creation_date: 2026-08-07T18:10:38Z
+
+[Term]
+id: SO:0002404
+name: five_prime_gene_fusion
+def: "A sequence variant whereby two genomic features have become joined with one breakend within the 5' end of a gene." [] {comment="PMID:34764425", comment="PMID:39702242"}
+comment: Added on 7 August 2026 at the request of Sam Ng at Illumina. See GitHub Issue #682.
+is_a: SO:0001564 ! gene_variant
+is_a: SO:0001882 ! feature_fusion
+created_by: Evan Christensen
+creation_date: 2026-08-07T18:13:00Z
+
+[Term]
+id: SO:0002405
+name: three_prime_gene_fusion
+def: "A sequence variant whereby two genomic features have become joined with one breakend within the 3' end of a gene." [] {comment="PMID:34764425", comment="PMID:39702242"}
+comment: Added on 7 August 2026 at the request of Sam Ng at Illumina. See GitHub Issue #682.
+is_a: SO:0001564 ! gene_variant
+is_a: SO:0001882 ! feature_fusion
+created_by: Evan Christensen
+creation_date: 2026-08-07T18:15:31Z
 
 [Term]
 id: SO:0005836
