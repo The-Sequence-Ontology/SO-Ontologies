@@ -36,6 +36,8 @@ There are templates for three types of requests that we commonly receive:
 
 If your request doesn't fit into any of those templates, you're welcome to start from scratch with a blank template.
 
+If your request is particularly time sensitive, please email evan.christensen@utah.edu.
+
 ## Generating OWL, JSON, etc. from OBO
 
 (July 11, 2025) We are working on migrating our workflow over to the [Ontology Development Kit (ODK)](https://incatools.github.io/ontology-development-kit//). In the meantime, we are still using OWLTools' Ontology Release Tool (OORT) to generate OWL, JSON, etc. from so-edit.obo.
