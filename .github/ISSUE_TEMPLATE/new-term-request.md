@@ -8,19 +8,20 @@ assignees: 'egchristensen'
 ---
 
 **What is this request referring to?**
-A clear, full-length name of the term without abbreviations if possible. Ex. Ribosomal RNA gene
+Failure to recognize a constitutive splice site, currently it is called an "intron gain variant", which is too vague, since variant-derived activation of cryptic splice sites can produce the same result as well. With  abnormal splice sites, most of the prior literature describes either activation of adjacent cryptic sites, leaky or reduced spliced transcript levels (which -by the way- is not  defined in the Sequence Ontology), or exon skipping. Our work (PMID: 31275557), and a substantial number of the variants we have now reported in ClinVar also produced intronic retention/inclusion, that is the failure to recognize and define exons themselves. 
 
 **What is the name you would like SO to give the term?**
-The name of the term SO can use. Note, if you include spaces they will be replaced with underscores. Example: rRNA_gene
+intron inclusion
 
 **What is the definition that you would like for this term?**
-A clear and concise definition that you suggest to accompany this term. Example: A gene that encodes for ribosomal RNA.
+Intron inclusion resulting from mutations that abrogate recognition and definition of adjacent exons.
 
 **Synonyms**
-Please list any synonyms that you would like for this term. Example: rDNA
+Intron retention
 
 **Parent Term**
-Please list the parent term name and SO accession under which you think this term may belong. Example: Please put this under ncRNA-gene (SO:0001263) 
+Please put under Splicing variant (SO:0001568) 
 
 **Relevant Publications**
-Please list a number of relevant publications that support the name, definition, and ontological location of the term you are requesting. It is best if you can include a PubMed ID or the last name of the first author along with the publication year, journal-title and potentially the article title.
+PMID: 31275557 and a substantial number of the variants we have now reported in ClinVar produced intronic retention/inclusion, that is the failure to recognize and define exons themselves. Our other pertinent publications include PMID: 24741438 which describes the Method used to identify these mutations, and PMID: 25394353 which first described mutations that resulted in intron inclusion due to exon recognition failure.
+
